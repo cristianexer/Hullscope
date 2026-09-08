@@ -1,0 +1,48 @@
+name: Diagnose browser rendering
+
+on:
+  workflow_dispatch:
+    inputs:
+      test_title:
+        description: 'Playwright title filter for one failing case'
+        required: true
+        default: 'Ever Ace: exterior'
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - name: Record renderer and first-frame evidence
+        run: node scripts/diagnose-browser.mjs
+        timeout-minutes: 2
+      - name: Reproduce the isolated browser case
+        if: ${{ !cancelled() }}
+        run: npx playwright test --grep "$BROWSER_CASE" --max-failures=1 --trace=off
+        timeout-minutes: 4
+        env:
+          BROWSER_CASE: ${{ inputs.test_title }}
+          HULLSCOPE_PREVIEW: '1'
+      - name: Keep diagnostic evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-diagnostic
+          path: |
+            playwright-report/
+            test-results/
+            output/playwright/
+          retention-days: 7

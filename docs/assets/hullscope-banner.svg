@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" role="img" aria-labelledby="title description">
+  <title id="title">Hullscope — the world's ships, inside and out</title>
+  <desc id="description">An original maritime engineering illustration. A cyan cutaway vessel floats above a midnight-blue drawing grid, with a gently separated deck, bridge, exposed machinery and fine construction lines. Twenty-eight vessel families are available to explore. Motion is decorative and respects reduced-motion preferences.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#041724"/><stop offset="1" stop-color="#0a2942"/></linearGradient>
+    <linearGradient id="hull" x2="0" y2="1"><stop stop-color="#157196"/><stop offset="1" stop-color="#083347"/></linearGradient>
+    <linearGradient id="deck" x2="1" y2="1"><stop stop-color="#75d8e8"/><stop offset="1" stop-color="#2c728c"/></linearGradient>
+    <linearGradient id="fade"><stop stop-color="#5ce1f2" stop-opacity="0"/><stop offset=".5" stop-color="#5ce1f2" stop-opacity=".4"/><stop offset="1" stop-color="#5ce1f2" stop-opacity="0"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#7cc4e3" stroke-opacity=".07" stroke-width="1"/></pattern>
+    <pattern id="hatching" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 0V8" stroke="#80e4ee" stroke-opacity=".22"/></pattern>
+    <clipPath id="clip"><rect width="1400" height="520" rx="22"/></clipPath>
+    <style>
+      text{font-family:Arial,Helvetica,sans-serif} .mono{font-family:'Courier New',monospace}
+      .lift{animation:lift 10s ease-in-out infinite}.flow{animation:flow 12s linear infinite}
+      .beacon{animation:beacon 5s ease-in-out infinite}
+      @keyframes lift{0%,18%,100%{transform:translateY(0)}48%,70%{transform:translateY(-13px)}}
+      @keyframes flow{to{stroke-dashoffset:-120}}
+      @keyframes beacon{0%,100%{opacity:.45}50%{opacity:1}}
+      @media(prefers-reduced-motion:reduce){.lift,.flow,.beacon{animation:none}}
+    </style>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1400" height="520" fill="url(#background)"/>
+    <rect x="560" width="840" height="520" fill="url(#grid)"/>
+    <path d="M0 1H1400" stroke="#74d9ed" stroke-opacity=".3"/>
+    <path d="M52 58h25v23H52z M52 72l12 10 13-10 M64 49v17" fill="none" stroke="#59d6f1" stroke-width="2"/>
+    <text x="94" y="73" font-size="13" letter-spacing="3" fill="#a1cbdc" class="mono">A MARITIME ENGINEERING EXPLORER</text>
+    <text x="48" y="205" font-size="94" font-weight="800" letter-spacing="-5" fill="#f0f7fb">HULLSCOPE</text>
+    <path d="M53 235H113" stroke="#58dbf2" stroke-width="4"/>
+    <text x="52" y="285" font-size="31" font-weight="500" fill="#e4f2f8">The world's ships.</text>
+    <text x="52" y="325" font-size="31" font-weight="500" fill="#63d9f1">Inside and out.</text>
+    <text x="53" y="378" font-size="15" fill="#a0bdce">Orbit the hull. Unpack the systems. Take the helm.</text>
+    <g transform="translate(52 435)">
+      <rect width="178" height="32" rx="4" fill="#0c344c" stroke="#29627b"/>
+      <circle cx="16" cy="16" r="3" fill="#68e6ed"/>
+      <text x="29" y="21" font-size="11" letter-spacing="1" fill="#c4e8f5" class="mono">28 VESSEL FAMILIES</text>
+      <text x="198" y="21" font-size="11" letter-spacing="1.2" fill="#91b8cb" class="mono">3D · OPEN EXPLORATION</text>
+    </g>
+
+    <!-- Original cutaway schematic: deliberately illustrative, not a vessel plan. -->
+    <g stroke-linejoin="round" stroke-linecap="round">
+      <ellipse cx="998" cy="404" rx="324" ry="62" fill="#062334"/>
+      <path d="M609 404l358-148 432 177 M626 441l349-150 402 170 M716 479l316-136" fill="none" stroke="#6fb6d0" stroke-opacity=".1"/>
+      <path d="M612 419H1394" stroke="url(#fade)"/>
+
+      <!-- A continuous keel and curved bow, with the near shell cut away. -->
+      <path d="M682 308L772 276L1328 345Q1306 389 1240 415L748 357Q698 347 682 308Z" fill="url(#hull)" stroke="#50b7d6" stroke-width="1.5"/>
+      <path d="M748 357L1240 415L1221 427L760 371Q707 360 688 321" fill="#123546" stroke="#3999b8"/>
+      <path d="M703 317L782 294L1291 356L1237 390L761 335Z" fill="#0d2739" stroke="#79c5d9"/>
+      <path d="M762 335L1237 390V414L750 356Z" fill="url(#hatching)" stroke="#4fa4bc"/>
+      <path d="M790 304L790 358M822 308L822 362M854 312L854 366M886 316L886 370M918 320L918 374M950 324L950 378M982 328L982 382M1014 332L1014 386M1046 336L1046 390M1078 340L1078 394M1110 344L1110 398M1142 348L1142 402M1174 352L1174 406M1206 356L1206 410" fill="none" stroke="#74c5d9" stroke-opacity=".64"/>
+      <path d="M746 345L1230 401" fill="none" stroke="#8ee5ee" stroke-opacity=".6"/>
+
+      <!-- Reconstructed engine blocks, reservoirs, shaft and system route. -->
+      <g fill="#337f99" stroke="#98d8e5" stroke-width="1.1">
+        <path d="M797 297l26-10 47 6-25 11z M797 297v26l48 7v-26 M845 304l25-11v27l-25 10"/>
+        <path d="M819 291v-10l11-4 27 4v10 M825 280v-8M839 282v-8M852 284v-8"/>
+        <path d="M890 308l25-11 39 5-24 11z M890 308v25l40 5v-25 M930 313l24-11v25l-24 11"/>
+        <path d="M971 318l23-10 39 5-24 10z M971 318v25l38 5v-25 M1009 323l24-10v25l-24 10"/>
+      </g>
+      <g fill="#245d75" stroke="#8fd2e2">
+        <path d="M1061 330v23c0 10 31 14 31 4v-23"/><ellipse cx="1076.5" cy="332" rx="15.5" ry="6"/>
+        <path d="M1110 337v23c0 10 31 14 31 4v-23"/><ellipse cx="1125.5" cy="339" rx="15.5" ry="6"/>
+      </g>
+      <path d="M715 322L793 332L883 342L895 325L964 334L978 346L1168 368" fill="none" stroke="#50dded" stroke-width="2" stroke-dasharray="7 8" class="flow"/>
+      <path d="M721 322l-25 10M704 319l6 20M706 322l-7 13" stroke="#86dbeb" stroke-width="3"/>
+
+      <!-- Authored separation guides remain visible without animation. -->
+      <g fill="none" stroke="#5bbbd5" stroke-opacity=".4" stroke-dasharray="3 7">
+        <path d="M746 267V326M870 281V341M998 295V356M1132 311V371M1270 321V374"/>
+      </g>
+      <g class="lift">
+        <path d="M684 251L774 219L1332 288Q1320 305 1270 321L746 267Z" fill="url(#deck)" fill-opacity=".3" stroke="#87dfed" stroke-width="1.5"/>
+        <path d="M684 251v8l62 16 524 54v-8 M1270 329q50-16 62-33v-8" fill="none" stroke="#4fa3bc"/>
+        <path d="M730 248L790 228L1269 284L1220 304Z" fill="none" stroke="#8adee9" stroke-opacity=".55"/>
+        <path d="M902 242l-40 19M977 251l-39 18M1052 260l-39 18M1127 269l-40 18M1202 278l-40 18" stroke="#7ed7e6" stroke-opacity=".5"/>
+        <path d="M702 245v-13L780 204L1317 266v17 M724 237v-12M751 227v-12M791 206v15M838 211v15M885 217v15M932 222v15M979 228v15M1026 233v15M1073 239v15M1120 244v15M1167 250v15M1214 255v15M1261 261v15" fill="none" stroke="#8dccdf" stroke-width="1"/>
+
+        <!-- Bridge and accommodation: oblique volumes, glazing and mast. -->
+        <path d="M756 208v-67l42-16 71 9v68l-42 16Z" fill="#1b4864" stroke="#7dcfe4"/>
+        <path d="M756 141l71 9 42-16 M827 150v68 M756 176l71 10 42-17 M756 191l71 10 42-17" fill="none" stroke="#7dcfe4"/>
+        <path d="M750 144v-18l48-18 78 9v20l-48 18Z" fill="#0c2d46" stroke="#b2e9f3"/>
+        <path d="M750 126l78 11 48-20 M828 137v18 M766 129v17M782 131v17M798 133v17M814 135v17M843 132v17M859 125v18" fill="none" stroke="#7acfe7"/>
+        <path d="M750 126l48-18 78 9-48 20Z" fill="#32728e" stroke="#b2e9f3"/>
+        <path d="M807 114V78M789 87l40 5M800 78l19 3M809 97l24 3M796 110V97" fill="none" stroke="#a7e6ef" stroke-width="2"/>
+        <circle cx="807" cy="76" r="3" fill="#72ecf3" class="beacon"/>
+        <path d="M769 165l11 2M787 168l11 2M805 170l11 2M838 171l10-4M854 165l8-4M769 184l11 2M787 186l11 2M805 189l11 2" stroke="#9ee0ef" stroke-width="4"/>
+        <path d="M883 219v-31l22-8 27 3v32l-22 8Z M883 188l27 4 22-9 M910 192v31" fill="#286b83" stroke="#8bd7e6"/>
+        <path d="M887 185v-6l18-6 23 3v7" fill="#112f43" stroke="#67bfd7"/>
+        <path d="M1263 286l7-10 15 2 5 11M1255 287l39 5" fill="none" stroke="#b3e8ef" stroke-width="2"/>
+      </g>
+
+      <!-- Fine callouts frame the illustration without becoming UI clutter. -->
+      <path d="M985 132h107l25 99" fill="none" stroke="#4c96b3"/><circle cx="1117" cy="231" r="3" fill="#5bd9ee"/>
+      <text x="985" y="117" class="mono" font-size="10" letter-spacing="1.4" fill="#8ed7e8">01 / REVEAL THE DECKS</text>
+      <path d="M1090 459h-124l-50-85" fill="none" stroke="#4c96b3"/><circle cx="916" cy="374" r="3" fill="#5bd9ee"/>
+      <text x="980" y="479" class="mono" font-size="10" letter-spacing="1.4" fill="#8ed7e8">02 / TRACE THE SYSTEMS</text>
+      <path d="M663 374v-25M663 411v25M663 422h242" stroke="#397a97" fill="none"/>
+      <text x="664" y="455" class="mono" font-size="9" letter-spacing="1.1" fill="#759fb5">ILLUSTRATIVE CUTAWAY</text>
+    </g>
+    <path d="M1327 49v20M1317 59h20" stroke="#5fb5d2"/>
+    <text x="1277" y="489" font-size="9" letter-spacing="2" fill="#638fa8" class="mono">HS / 028</text>
+  </g>
+</svg>

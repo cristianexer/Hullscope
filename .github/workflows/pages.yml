@@ -1,0 +1,147 @@
+name: Validate and deploy Hullscope
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      release_ref:
+        description: 'main or a previously released commit on main'
+        required: false
+        default: main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: hullscope-checks-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  quality:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    permissions:
+      contents: read
+      pages: read
+    outputs:
+      release_sha: ${{ steps.revision.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ inputs.release_ref || github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Identify release revision
+        id: revision
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT_NAME" = workflow_dispatch ]; then
+            git merge-base --is-ancestor HEAD origin/main
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm test
+      - run: npm run validate:models
+      - run: npm run build
+      - name: Keep production build for browser checks
+        uses: actions/upload-artifact@v4
+        with:
+          name: hullscope-browser-build
+          path: dist/
+          retention-days: 1
+      - name: Read existing Pages configuration
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Stage the static release
+        run: npm run pages:stage
+        env:
+          PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          HULLSCOPE_RELEASE_SHA: ${{ steps.revision.outputs.sha }}
+      - name: Upload Pages artifact
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .pages
+
+  browser:
+    needs: quality
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [1, 2]
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ needs.quality.outputs.release_sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - uses: actions/download-artifact@v4
+        with:
+          name: hullscope-browser-build
+          path: dist/
+      - name: Browser smoke checks of the production build
+        run: npm run test:browser -- --grep @smoke --fully-parallel --shard=${{ matrix.shard }}/2
+        timeout-minutes: 25
+        env:
+          HULLSCOPE_PREVIEW: '1'
+      - name: Keep browser evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-evidence-${{ matrix.shard }}
+          path: |
+            playwright-report/
+            test-results/
+            output/playwright/
+          retention-days: 7
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: [quality, browser]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: github-pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy validated artifact
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ needs.quality.outputs.release_sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          package-manager-cache: false
+      - run: npm ci --ignore-scripts
+      - name: Verify the published revision and all vessel assets
+        run: npm run pages:verify
+        env:
+          HULLSCOPE_SITE_URL: ${{ steps.deployment.outputs.page_url }}
+          HULLSCOPE_RELEASE_SHA: ${{ needs.quality.outputs.release_sha }}
