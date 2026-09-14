@@ -1,0 +1,409 @@
+{
+  "models": [
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023",
+      "brand": "Sunseeker",
+      "name": "Superhawk 55",
+      "range": "Superhawk",
+      "type": "performance sports yacht",
+      "generation": "current Superhawk 55 generation; the Superhawk name returned with the 2023 model",
+      "productionStart": 2023,
+      "productionEnd": null,
+      "productionStatus": "current",
+      "aliases": ["Superhawk 55", "Superhawk55"],
+      "referenceConfiguration": "Current two-cabin Superhawk 55 with twin Volvo Penta IPS 950 pod drives, open aft cockpit/wet bar, hydraulic bathing platform and two en-suite cabins. Optional furniture and finish packages are excluded.",
+      "dimensions": {
+        "lengthM": 17.13,
+        "beamM": 4.93,
+        "draftM": 1.43
+      },
+      "facts": [
+        {"key": "modelYear", "label": "Independent model year", "value": 2023, "unit": "year", "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en-gb/reviews/sunseeker-superhawk-55-2022", "note": "YachtBuyer identifies the reviewed hull as model year 2023 and in production; this is used as the generation start rather than an undocumented factory order date."},
+        {"key": "lengthOverall", "label": "Length overall", "value": 17.13, "unit": "m", "status": "verified", "sourceUrl": "https://www.sunseeker.com/range/superhawk-55", "note": "Sunseeker technical specification gives 17.13 m / 56 ft 2 in."},
+        {"key": "beam", "label": "Beam", "value": 4.93, "unit": "m", "status": "verified", "sourceUrl": "https://www.sunseeker.com/range/superhawk-55", "note": "Sunseeker technical specification gives 4.93 m / 16 ft 2 in."},
+        {"key": "draft", "label": "Draft", "value": 1.43, "unit": "m", "status": "verified", "sourceUrl": "https://www.sunseeker.com/range/superhawk-55", "note": "Sunseeker technical specification gives 1.43 m / 4 ft 8 in."},
+        {"key": "accommodation", "label": "Cabins and heads", "value": "2 cabins; 2 en-suites/dayhead", "unit": null, "status": "verified", "sourceUrl": "https://www.sunseeker.com/range/superhawk-55", "note": "Official accommodation block; independent YachtBuyer review also describes two double cabins with en-suites."},
+        {"key": "performance", "label": "Maximum speed", "value": 38, "unit": "knots", "status": "verified", "sourceUrl": "https://www.sunseeker.com/range/superhawk-55", "note": "Official figure with twin Volvo Penta IPS 950 pods."},
+        {"key": "independentDimensionConflict", "label": "Independent dimension conflict", "value": "17.3 m LOA and 4.6 m beam", "unit": null, "status": "reported", "sourceUrl": "https://www.yachtworld.com/research/sunseeker-superhawk-55-new-legend-on-the-water/", "note": "YachtWorld's launch feature gives materially different rounded dimensions. The official 17.13 m / 4.93 m values are retained as canonical; the conflict is not normalized away."},
+        {"key": "interiorEvidence", "label": "Interior evidence", "value": "open-plan lobby and galley, forward VIP, aft master with sliding berths, both en-suite", "unit": null, "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en-gb/reviews/sunseeker-superhawk-55-2022", "note": "Independent walkthrough evidence complements the manufacturer's interior and lower-deck description."}
+      ],
+      "sources": [
+        {"url": "https://www.sunseeker.com/range/superhawk-55", "title": "Superhawk 55", "publisher": "Sunseeker", "accessed": "2026-09-14", "scope": "Official current dimensions, accommodation, propulsion, performance, deck profile and interior description."},
+        {"url": "https://uploads.sunseeker.com/uploads/e4ccda224055627bdbe1e1b3112bef1a/en/Sunseeker_Superhawk55_400x225_Web.pdf", "title": "Sunseeker Superhawk 55 brochure", "publisher": "Sunseeker", "accessed": "2026-09-14", "scope": "Official brochure with side elevation, exterior plan, main-deck and lower-deck general-arrangement evidence; its older technical block is retained as a documented dimensional conflict."},
+        {"url": "https://www.yachtbuyer.com/en-gb/reviews/sunseeker-superhawk-55-2022", "title": "Sunseeker Superhawk 55 Review (2023 Edition)", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent model year, production status, layout and onboard review evidence."},
+        {"url": "https://www.yachtworld.com/research/sunseeker-superhawk-55-new-legend-on-the-water/", "title": "Sunseeker Superhawk 55: Reimagining Open-Cruiser Luxury", "publisher": "YachtWorld", "accessed": "2026-09-14", "scope": "Independent launch-era cross-check; conflicting rounded dimensions retained as reported."}
+      ],
+      "layout": {
+        "decks": 2,
+        "cabins": 2,
+        "heads": 2,
+        "rooms": ["open aft cockpit", "central wet bar", "helm", "open-plan lower lobby and galley", "forward VIP cabin", "aft master cabin", "two en-suites", "hydraulic bathing platform and tender garage"],
+        "description": "A two-level open performance yacht: a social main deck with a movable cockpit/wet-bar arrangement and a lower accommodation deck containing a forward VIP and aft master. The master can use sliding berths for a double or twin arrangement.",
+        "evidenceUrls": ["https://www.sunseeker.com/range/superhawk-55", "https://uploads.sunseeker.com/uploads/e4ccda224055627bdbe1e1b3112bef1a/en/Sunseeker_Superhawk55_400x225_Web.pdf", "https://www.yachtbuyer.com/en-gb/reviews/sunseeker-superhawk-55-2022"]
+      },
+      "visual": {
+        "hullDescription": "Low, fast planing sports hull designed around Volvo Penta IPS pod propulsion, with a broad aft platform and open-cockpit stance.",
+        "superstructureDescription": "Low open-top performance superstructure with a continuous social cockpit rather than a flybridge.",
+        "glazingDescription": "Expansive forward screen and large saloon glazing above the lower lobby; official material emphasizes the open cockpit and screen-controlled light.",
+        "distinctiveFeatures": ["central cockpit wet bar", "sliding-beam master berths", "hydraulic bathing platform and tender garage", "open-plan lower lobby", "Superhawk name revival"],
+        "referenceUrls": ["https://www.sunseeker.com/range/superhawk-55", "https://uploads.sunseeker.com/uploads/e4ccda224055627bdbe1e1b3112bef1a/en/Sunseeker_Superhawk55_400x225_Web.pdf", "https://www.yachtbuyer.com/en-gb/reviews/sunseeker-superhawk-55-2022"]
+      },
+      "uncertainties": ["The official page is current as accessed, while the independent review supplies the 2023 model-year anchor; no factory production-start press release was found.", "YachtWorld reports conflicting rounded LOA and beam values; do not replace the official technical values with them."]
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018",
+      "brand": "Sunseeker",
+      "name": "Hawk 38",
+      "range": "Hawk",
+      "type": "dayboat / high-performance sportsboat",
+      "generation": "original Hawk 38 launch generation, world-premiere-era 2018 model",
+      "productionStart": 2018,
+      "productionEnd": null,
+      "productionStatus": "historical",
+      "aliases": ["Hawk 38", "Hawk38"],
+      "referenceConfiguration": "Open one-level Hawk 38 dayboat with twin Mercury outboards, central helm and one published head; cabin count is not published by Sunseeker and is not inferred.",
+      "dimensions": {
+        "lengthM": 11.85,
+        "beamM": 3.01,
+        "draftM": null
+      },
+      "facts": [
+        {"key": "launchYear", "label": "Launch-era year", "value": 2018, "unit": "year", "status": "reported", "sourceUrl": "https://www.youtube.com/watch?v=ZnFgI0dY9hs", "note": "Motor Boat & Yachting's independent first-look is dated to the 2018 launch period; the official current site now places the model under previous models."},
+        {"key": "lengthOverall", "label": "Length overall", "value": 11.85, "unit": "m", "status": "verified", "sourceUrl": "https://uploads.sunseeker.com/uploads/436ac2736ce5c504703c6e53d9f76c15/en/Sunseeker_Hawk38_400x225_wEB.pdf", "note": "Official Hawk 38 brochure gives 11.85 m / 38 ft 11 in."},
+        {"key": "beam", "label": "Beam", "value": 3.01, "unit": "m", "status": "verified", "sourceUrl": "https://uploads.sunseeker.com/uploads/436ac2736ce5c504703c6e53d9f76c15/en/Sunseeker_Hawk38_400x225_wEB.pdf", "note": "Official Hawk 38 brochure gives 3.01 m / 9 ft 9 in."},
+        {"key": "draft", "label": "Draft", "value": null, "unit": "m", "status": "unknown", "sourceUrl": "https://www.sunseeker.com/es/yachts-and-boats/previous-models/hawk-38", "note": "The accessible official technical block does not publish a draft; no independent source checked supplied a reliable comparable value."},
+        {"key": "cabins", "label": "Cabin count", "value": null, "unit": "cabins", "status": "unknown", "sourceUrl": "https://www.sunseeker.com/es/yachts-and-boats/previous-models/hawk-38", "note": "Sunseeker shows cabins as N/A. The dayboat/interior profile is clear, but no enclosed cabin count is asserted."},
+        {"key": "heads", "label": "Heads", "value": 1, "unit": "head", "status": "verified", "sourceUrl": "https://www.sunseeker.com/es/yachts-and-boats/previous-models/hawk-38", "note": "Official page lists one bathroom/head."},
+        {"key": "performance", "label": "Maximum speed", "value": 62, "unit": "knots", "status": "verified", "sourceUrl": "https://www.sunseeker.com/es/yachts-and-boats/previous-models/hawk-38", "note": "Official page quotes 62 knots with Mercury outboards."},
+        {"key": "independentDesignEvidence", "label": "Independent design evidence", "value": "racing-derived hull, center-console/dayboat layout and 62-knot target", "unit": null, "status": "reported", "sourceUrl": "https://www.yachtingmagazine.com/speedy-sunseeker/", "note": "Yachting describes the Hawk 38 as a return to Sunseeker performance roots and a high-speed dayboat; it is not used to fill missing cabin or draft fields."}
+      ],
+      "sources": [
+        {"url": "https://www.sunseeker.com/es/yachts-and-boats/previous-models/hawk-38", "title": "Hawk 38", "publisher": "Sunseeker", "accessed": "2026-09-14", "scope": "Official previous-model dimensions, head count, propulsion and performance."},
+        {"url": "https://uploads.sunseeker.com/uploads/436ac2736ce5c504703c6e53d9f76c15/en/Sunseeker_Hawk38_400x225_wEB.pdf", "title": "Hawk 38 brochure", "publisher": "Sunseeker", "accessed": "2026-09-14", "scope": "Original brochure evidence for LOA, beam, weight, tanks and performance."},
+        {"url": "https://www.yachtingmagazine.com/speedy-sunseeker/", "title": "The 62-knot Hawk 38", "publisher": "Yachting", "accessed": "2026-09-14", "scope": "Independent launch-era design and dayboat cross-check."},
+        {"url": "https://www.youtube.com/watch?v=ZnFgI0dY9hs", "title": "Sunseeker Hawk 38: Full throttle review", "publisher": "Motor Boat & Yachting", "accessed": "2026-09-14", "scope": "Independent 2018-era review/first-look evidence."}
+      ],
+      "layout": {
+        "decks": 1,
+        "cabins": null,
+        "heads": 1,
+        "rooms": ["open cockpit/dayboat deck", "central helm", "forward seating/sunpad", "one head"],
+        "description": "An open one-level high-performance dayboat. Sunseeker publishes one head but no cabin count; the evidence supports a dayboat deck and helm, not a modeled enclosed accommodation plan.",
+        "evidenceUrls": ["https://www.sunseeker.com/es/yachts-and-boats/previous-models/hawk-38", "https://www.yachtingmagazine.com/speedy-sunseeker/"]
+      },
+      "visual": {
+        "hullDescription": "Lightweight, racing-influenced deep-V performance hull developed with Fabio Buzzi Design and optimized for outboard propulsion.",
+        "superstructureDescription": "Low open center-console/dayboat arrangement with no flybridge and a very small visual profile above the hull.",
+        "glazingDescription": "Open helm/dayboat treatment rather than a glazed cruising cabin; reliable model-specific glazing dimensions were not found.",
+        "distinctiveFeatures": ["twin Mercury outboards", "central helm", "racing-derived hull", "62-knot published target", "one official head with cabins listed N/A"],
+        "referenceUrls": ["https://www.sunseeker.com/es/yachts-and-boats/previous-models/hawk-38", "https://www.yachtingmagazine.com/speedy-sunseeker/"]
+      },
+      "uncertainties": ["The 2018 start is a launch-era attribution from independent show coverage, not a factory production ledger.", "Sunseeker does not publish draft or cabin count on the accessible technical page; both remain null/unknown.", "No reliable production end year was found; the model is treated as historical because Sunseeker exposes it as a previous model."]
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021",
+      "brand": "Sunseeker",
+      "name": "Manhattan 55",
+      "range": "Manhattan",
+      "type": "flybridge motor yacht",
+      "generation": "Manhattan 55 Gen 2, 2021 model-year generation",
+      "productionStart": 2021,
+      "productionEnd": null,
+      "productionStatus": "current",
+      "aliases": ["Manhattan 55", "Manhattan55"],
+      "referenceConfiguration": "Current Gen 2 three-cabin Manhattan 55 with galley-aft main deck, flybridge, Beach Club transom and either twin MAN i6 shafts or Volvo Penta IPS 950 pods.",
+      "dimensions": {
+        "lengthM": 17.21,
+        "beamM": 4.87,
+        "draftM": 1.37
+      },
+      "facts": [
+        {"key": "modelYear", "label": "Model year / generation start", "value": 2021, "unit": "year", "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en-us/reviews/sunseeker-manhattan-55-2021-2", "note": "YachtBuyer labels the reviewed boat Manhattan 55 Gen 2, model year 2021, and in production."},
+        {"key": "lengthOverall", "label": "Length overall", "value": 17.21, "unit": "m", "status": "verified", "sourceUrl": "https://www.sunseeker.com/en/yachts-and-boats/yacht/manhattan-55", "note": "Sunseeker gives 17.21 m / 56 ft 6 in."},
+        {"key": "beam", "label": "Beam", "value": 4.87, "unit": "m", "status": "verified", "sourceUrl": "https://www.sunseeker.com/en/yachts-and-boats/yacht/manhattan-55", "note": "Sunseeker gives 4.87 m / 16 ft."},
+        {"key": "draft", "label": "Draft", "value": 1.37, "unit": "m", "status": "verified", "sourceUrl": "https://www.sunseeker.com/en/yachts-and-boats/yacht/manhattan-55", "note": "Sunseeker gives 1.37 m / 4 ft 6 in."},
+        {"key": "accommodation", "label": "Cabins and heads", "value": "3 cabins; 2 en-suites/dayhead", "unit": null, "status": "verified", "sourceUrl": "https://www.sunseeker.com/en/yachts-and-boats/yacht/manhattan-55", "note": "Official accommodation block; YachtBuyer independently confirms three cabins and a galley-aft layout."},
+        {"key": "performance", "label": "Maximum speed", "value": 32, "unit": "knots", "status": "verified", "sourceUrl": "https://www.sunseeker.com/en/yachts-and-boats/yacht/manhattan-55", "note": "Official maximum speed with shaft or pod drive options."},
+        {"key": "independentDraftConflict", "label": "Independent draft conflict", "value": 1.26, "unit": "m", "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en-us/reviews/sunseeker-manhattan-55-2021-aquaholic", "note": "YachtBuyer/Aquaholic lists 1.26 m full-load draft; Sunseeker lists 1.37 m. Load condition and configuration are not interchangeable."},
+        {"key": "rangeConflict", "label": "Range configuration difference", "value": "230 nm at 21 knots official versus approximately 250 nm in independent review", "unit": null, "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en-us/reviews/sunseeker-manhattan-55-2021-2", "note": "Retained as a configuration/test-condition difference rather than normalized."}
+      ],
+      "sources": [
+        {"url": "https://www.sunseeker.com/en/yachts-and-boats/yacht/manhattan-55", "title": "Manhattan 55", "publisher": "Sunseeker", "accessed": "2026-09-14", "scope": "Official current dimensions, accommodation, performance, propulsion and layout description."},
+        {"url": "https://www.yachtbuyer.com/en-us/reviews/sunseeker-manhattan-55-2021-2", "title": "Sunseeker Manhattan 55 Review (2021 Edition)", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent Gen 2/model-year/status, layout and review evidence."},
+        {"url": "https://www.yachtbuyer.com/en-us/reviews/sunseeker-manhattan-55-2021-aquaholic", "title": "All-New Sunseeker Manhattan 55 Review (2021 Edition)", "publisher": "YachtBuyer / Aquaholic", "accessed": "2026-09-14", "scope": "Independent interior, propulsion and draft cross-check."},
+        {"url": "https://www.mby.com/video/sunseeker-manhattan-55-review-114823", "title": "Sunseeker Manhattan 55 review", "publisher": "Motor Boat & Yachting", "accessed": "2026-09-14", "scope": "Independent 2021 launch/show timing cross-check."}
+      ],
+      "layout": {
+        "decks": 3,
+        "cabins": 3,
+        "heads": 2,
+        "rooms": ["flybridge helm and lounge", "main-deck cockpit", "galley-aft saloon", "helm", "full-beam owner cabin", "forward guest cabin", "third cabin", "two en-suites/dayhead", "Beach Club transom"],
+        "description": "A three-level flybridge yacht with a galley-aft social main deck, three lower-deck cabins and a full-beam owner cabin. The flybridge and Beach Club create the main outdoor identity.",
+        "evidenceUrls": ["https://www.sunseeker.com/en/yachts-and-boats/yacht/manhattan-55", "https://www.yachtbuyer.com/en-us/reviews/sunseeker-manhattan-55-2021-2"]
+      },
+      "visual": {
+        "hullDescription": "Planing flybridge hull with a broad lower-deck accommodation volume and bathing platform/Beach Club at the stern.",
+        "superstructureDescription": "Muscular flybridge silhouette with a tall upper deck and a clean galley-aft main-deck profile.",
+        "glazingDescription": "Sweeping glass panels and broad saloon glazing; independent review emphasizes oversized glass in the topsides and panoramic flybridge presence.",
+        "distinctiveFeatures": ["galley-aft layout", "class-leading flybridge", "Beach Club transom", "three-cabin lower deck", "optional shaft or IPS propulsion"],
+        "referenceUrls": ["https://www.sunseeker.com/en/yachts-and-boats/yacht/manhattan-55", "https://www.yachtbuyer.com/en-us/reviews/sunseeker-manhattan-55-2021-2"]
+      },
+      "uncertainties": ["A previous Manhattan 55 page in Sunseeker's previous-model archive carries different dimensions; this profile is explicitly the Gen 2 2021 model and must not be merged with the older generation.", "Independent draft and range values differ from the official page because loading/configuration/test conditions are not identical."]
+    },
+    {
+      "id": "sunseeker-manhattan-68-gen2-2025",
+      "brand": "Sunseeker",
+      "name": "Manhattan 68",
+      "range": "Manhattan",
+      "type": "flybridge motor yacht",
+      "generation": "next-generation Manhattan 68, 2025 world-premiere generation",
+      "productionStart": 2025,
+      "productionEnd": null,
+      "productionStatus": "current",
+      "aliases": ["Manhattan 68", "Manhattan68"],
+      "referenceConfiguration": "Current 2025 Manhattan 68 with four-cabin/three-ensuite reference layout, full-beam amidships owner cabin, flybridge, shaft propulsion and MAN V8 engine options; three-cabin/private-office alternative remains an explicit option.",
+      "dimensions": {
+        "lengthM": 21.21,
+        "beamM": 5.26,
+        "draftM": 1.6
+      },
+      "facts": [
+        {"key": "worldPremiere", "label": "World-premiere generation", "value": 2025, "unit": "year", "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en-gb/news/sunseeker-manhattan-68-to-premiere-at-genoa-international-boat-show-2025", "note": "YachtBuyer says the 2025-delivered boat received its show premiere in Genoa 2025; the official current page also labels the next generation Manhattan 68 (2025)."},
+        {"key": "lengthOverall", "label": "Length overall", "value": 21.21, "unit": "m", "status": "verified", "sourceUrl": "https://www.sunseeker.com/range/manhattan-68", "note": "Sunseeker gives 21.21 m / 69 ft 7 in."},
+        {"key": "beam", "label": "Beam", "value": 5.26, "unit": "m", "status": "verified", "sourceUrl": "https://www.sunseeker.com/range/manhattan-68", "note": "Sunseeker gives 5.26 m / 17 ft 3 in."},
+        {"key": "draft", "label": "Draft", "value": 1.6, "unit": "m", "status": "verified", "sourceUrl": "https://www.sunseeker.com/range/manhattan-68", "note": "Sunseeker gives 1.60 m / 5 ft 4 in."},
+        {"key": "accommodation", "label": "Cabins and heads", "value": "4 cabins; 3 en-suites/dayhead; optional 3-cabin/private-office layout", "unit": null, "status": "verified", "sourceUrl": "https://www.sunseeker.com/range/manhattan-68", "note": "Official current page explicitly describes both the four-cabin reference and the flexible three-cabin/private-office alternative."},
+        {"key": "performance", "label": "Maximum speed / range", "value": "up to 32 knots; up to 550 nm at 10 knots", "unit": null, "status": "verified", "sourceUrl": "https://www.sunseeker.com/range/manhattan-68", "note": "Official current specification."},
+        {"key": "olderBrochureConflict", "label": "Older published specification conflict", "value": "37,400 kg, MAN or Volvo Penta IPS up to 2,400 PS, shafts or pods", "unit": null, "status": "reported", "sourceUrl": "https://uploads.sunseeker.com/uploads/70b2a9ae973cc90459c0f7de57a23062/en/Sunseeker_Manhattan68_400x225_Web.pdf", "note": "An older official brochure carries different displacement and drive wording. It is retained as a historical/variant conflict; current 2025 page values are canonical for this profile."}
+      ],
+      "sources": [
+        {"url": "https://www.sunseeker.com/range/manhattan-68", "title": "Manhattan 68", "publisher": "Sunseeker", "accessed": "2026-09-14", "scope": "Official current 2025 generation, dimensions, flexible layout, technical specification and visual description."},
+        {"url": "https://www.yachtbuyer.com/en-gb/news/sunseeker-manhattan-68-to-premiere-at-genoa-international-boat-show-2025", "title": "Sunseeker Manhattan 68 Yacht Makes Show Premiere at Genoa 2025", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent 2025 delivery/premiere and performance cross-check."},
+        {"url": "https://uploads.sunseeker.com/uploads/b4e80b0d3dbda5df2431ab12f658a4d4/en/Sunseeker_Manhattan68%282025%29_WEB.pdf", "title": "Manhattan 68 (2025) brochure", "publisher": "Sunseeker", "accessed": "2026-09-14", "scope": "2025 brochure/design evidence."},
+        {"url": "https://uploads.sunseeker.com/uploads/70b2a9ae973cc90459c0f7de57a23062/en/Sunseeker_Manhattan68_400x225_Web.pdf", "title": "Manhattan 68 brochure", "publisher": "Sunseeker", "accessed": "2026-09-14", "scope": "Earlier official technical publication retained for conflict/generation comparison."}
+      ],
+      "layout": {
+        "decks": 3,
+        "cabins": 4,
+        "heads": 3,
+        "rooms": ["flybridge lounge and helm", "main-deck cockpit", "main saloon", "galley", "full-beam amidships owner cabin", "forward VIP/guest cabins", "optional private office", "three en-suites/dayhead"],
+        "description": "A three-level flybridge yacht with a four-cabin reference arrangement and a flexible three-cabin alternative that enlarges the owner suite with an office. The official layout evidence is unusually clear and should drive later interior blocking.",
+        "evidenceUrls": ["https://www.sunseeker.com/range/manhattan-68", "https://uploads.sunseeker.com/uploads/b4e80b0d3dbda5df2431ab12f658a4d4/en/Sunseeker_Manhattan68%282025%29_WEB.pdf"]
+      },
+      "visual": {
+        "hullDescription": "Large planing flybridge hull with a full-beam lower accommodation volume and shaft-drive architecture.",
+        "superstructureDescription": "Tall, apartment-like flybridge superstructure with a strong upper deck and generous aft social zones.",
+        "glazingDescription": "Abundant panoramic saloon glazing and broad hull-side windows; Sunseeker describes the interior as flooded with natural light.",
+        "distinctiveFeatures": ["2025 next-generation styling", "four-cabin or three-cabin/private-office flexibility", "full-beam owner suite", "large flybridge", "seamless indoor-outdoor connection"],
+        "referenceUrls": ["https://www.sunseeker.com/range/manhattan-68", "https://www.yachtbuyer.com/en-gb/news/sunseeker-manhattan-68-to-premiere-at-genoa-international-boat-show-2025"]
+      },
+      "uncertainties": ["The name Manhattan 68 also appears in older official brochure material with a different technical block; this profile is restricted to the distinct 2025 next generation.", "The official current page says four cabins but also supports a three-cabin/private-office option; the JSON reference configuration uses the four-cabin standard evidence and retains the option in layout/facts."]
+    },
+    {
+      "id": "sunseeker-predator-65-gen1-2021",
+      "brand": "Sunseeker",
+      "name": "Predator 65",
+      "range": "Predator",
+      "type": "sportscruiser",
+      "generation": "current Predator 65 generation introduced for the 2021 model year",
+      "productionStart": 2021,
+      "productionEnd": null,
+      "productionStatus": "current",
+      "aliases": ["Predator 65", "Predator65"],
+      "referenceConfiguration": "Current three-cabin Predator 65 with no upper deck, retractable glass sunroof, full-beam owner suite, Volvo Penta IPS 1200 or 1350 pods and the optional four-cabin layout excluded from the reference block.",
+      "dimensions": {
+        "lengthM": 20.5,
+        "beamM": 5.1,
+        "draftM": 1.6
+      },
+      "facts": [
+        {"key": "modelYear", "label": "Model year / generation start", "value": 2021, "unit": "year", "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en/reviews/sunseeker-predator-65-2021", "note": "YachtBuyer identifies the reviewed Predator 65 as model year 2021 and in production; the official page confirms it remains in the range."},
+        {"key": "lengthOverall", "label": "Length overall", "value": 20.5, "unit": "m", "status": "verified", "sourceUrl": "https://www.sunseeker.com/range/predator-65", "note": "Sunseeker gives 20.50 m / 67 ft 2 in."},
+        {"key": "beam", "label": "Beam", "value": 5.1, "unit": "m", "status": "verified", "sourceUrl": "https://www.sunseeker.com/range/predator-65", "note": "Sunseeker gives 5.10 m / 16 ft 8 in."},
+        {"key": "draft", "label": "Draft", "value": 1.6, "unit": "m", "status": "verified", "sourceUrl": "https://www.sunseeker.com/range/predator-65", "note": "Sunseeker gives 1.60 m / 5 ft 3 in."},
+        {"key": "accommodation", "label": "Cabins and heads", "value": "3 cabins, 4 optional; 4 en-suites/dayhead", "unit": null, "status": "verified", "sourceUrl": "https://www.sunseeker.com/range/predator-65", "note": "Official accommodation block."},
+        {"key": "performance", "label": "Maximum speed / range", "value": "up to 35 knots; 750 nm at 10 knots", "unit": null, "status": "verified", "sourceUrl": "https://www.sunseeker.com/range/predator-65", "note": "Official current specification."},
+        {"key": "generationRelationship", "label": "Relationship to 65 Sport Yacht", "value": "Predator 65 followed the 65 Sport Yacht by approximately 18 months and shares its basic platform, while omitting the sportsbridge", "unit": null, "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en/reviews/sunseeker-predator-65-2021", "note": "Independent review evidence; the two models remain separate profiles in this batch because the user requested Predator 65 specifically."},
+        {"key": "interiorEvidence", "label": "Interior evidence", "value": "three lower-deck cabins including full-beam owner suite, retractable sunroof over saloon, configurable deck/interior options", "unit": null, "status": "verified", "sourceUrl": "https://www.yachtingmagazine.com/yachts/sunseeker-predator-65-reviewed/", "note": "Independent review confirms the sportscruiser/sunroof distinction and the interior arrangement."}
+      ],
+      "sources": [
+        {"url": "https://www.sunseeker.com/range/predator-65", "title": "Predator 65", "publisher": "Sunseeker", "accessed": "2026-09-14", "scope": "Official current dimensions, accommodation, technical data, deck and interior description."},
+        {"url": "https://www.yachtbuyer.com/en/reviews/sunseeker-predator-65-2021", "title": "Sunseeker Predator 65 Review (2021 Edition)", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent model year/status, generation relationship, layout and review evidence."},
+        {"url": "https://www.yachtingmagazine.com/yachts/sunseeker-predator-65-reviewed/", "title": "Sunseeker Predator 65 Reviewed", "publisher": "Yachting", "accessed": "2026-09-14", "scope": "Independent design, sunroof, propulsion and layout cross-check."}
+      ],
+      "layout": {
+        "decks": 2,
+        "cabins": 3,
+        "heads": 4,
+        "rooms": ["main-deck cockpit", "helm", "saloon under retractable sunroof", "galley", "full-beam owner cabin", "forward VIP cabin", "third guest cabin", "four en-suites/dayhead", "Beach Club/bathing platform"],
+        "description": "A two-level sportscruiser: the main deck is organized around the retractable glass sunroof, helm and cockpit, while the lower deck has three cabins including a full-beam owner suite. A fourth cabin is an explicit option.",
+        "evidenceUrls": ["https://www.sunseeker.com/range/predator-65", "https://www.yachtbuyer.com/en/reviews/sunseeker-predator-65-2021", "https://www.yachtingmagazine.com/yachts/sunseeker-predator-65-reviewed/"]
+      },
+      "visual": {
+        "hullDescription": "Low planing sportscruiser hull with Volvo Penta IPS pod drives, full-beam accommodation and a large hydraulic aft platform.",
+        "superstructureDescription": "Low hardtop sportscruiser silhouette with no flybridge/sportsbridge; the profile is defined by a retractable roof opening.",
+        "glazingDescription": "Large retractable glass sunroof and broad saloon glazing; Yachting describes the carbon-fiber-and-glass sunroof as the defining change from the Sport Yacht.",
+        "distinctiveFeatures": ["retractable glass sunroof", "no upper deck", "full-beam owner suite", "Volvo IPS 1200/1350 pods", "configurable three/four-cabin layout"],
+        "referenceUrls": ["https://www.sunseeker.com/range/predator-65", "https://www.yachtingmagazine.com/yachts/sunseeker-predator-65-reviewed/"]
+      },
+      "uncertainties": ["The 2021 generation start is based on independent model-year evidence rather than a separate factory launch-date record.", "Predator 65 and 65 Sport Yacht share a platform and dimensions but are distinct products; they are not merged here."]
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018",
+      "brand": "Sunseeker",
+      "name": "Predator 74",
+      "range": "Predator",
+      "type": "sportsboat / sportscruiser",
+      "generation": "Predator 74 Gen 2, launched at Boot Düsseldorf in January 2018",
+      "productionStart": 2018,
+      "productionEnd": 2023,
+      "productionStatus": "historical",
+      "aliases": ["Predator 74", "Predator 74 Mk2"],
+      "referenceConfiguration": "Gen 2 three-cabin Predator 74 with shaft drives, large carbon/glass sliding roof, full-beam master, forward VIP, twin guest cabin and two-berth crew cabin; four-cabin option and XPS package are excluded from the reference configuration.",
+      "dimensions": {
+        "lengthM": 22.82,
+        "beamM": 5.38,
+        "draftM": 1.83
+      },
+      "facts": [
+        {"key": "launchYear", "label": "Launch year", "value": 2018, "unit": "year", "status": "verified", "sourceUrl": "https://www.sunseekerbrokerage.com/2018/01/28/boat-show-another-successful-year-at-boot-dusseldorf/", "note": "Sunseeker Brokerage's official dealership news says the Predator 74 was one of two new model launches at Boot Düsseldorf in January 2018."},
+        {"key": "productionEnd", "label": "Independent production window", "value": "2018-2023", "unit": "year range", "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en-us/sunseeker/new/predator-74", "note": "YachtBuyer labels this exact generation Gen 2, 2018-2023, and discontinued. The end year is reported rather than a factory archive date."},
+        {"key": "lengthOverall", "label": "Length overall", "value": 22.82, "unit": "m", "status": "verified", "sourceUrl": "https://www.sunseeker.com/uploads/150ea3de88828eaafd9c67fdba59df29/en/Sunseeker_Predator74_400x225_Web.pdf", "note": "Official Predator 74 brochure gives 22.82 m / 74 ft 10 in."},
+        {"key": "beam", "label": "Beam", "value": 5.38, "unit": "m", "status": "verified", "sourceUrl": "https://www.sunseeker.com/uploads/150ea3de88828eaafd9c67fdba59df29/en/Sunseeker_Predator74_400x225_Web.pdf", "note": "Official brochure gives 5.38 m / 17 ft 8 in."},
+        {"key": "draft", "label": "Draft", "value": 1.83, "unit": "m", "status": "verified", "sourceUrl": "https://www.sunseeker.com/yachts-and-boats/previous-models/predator-74", "note": "Official previous-model technical block gives 1.83 m / 6 ft."},
+        {"key": "accommodation", "label": "Cabins and heads", "value": "3 cabins, 4 optional; 3 en-suites/dayhead; 2-berth crew cabin", "unit": null, "status": "verified", "sourceUrl": "https://www.sunseeker.com/yachts-and-boats/previous-models/predator-74", "note": "Official previous-model page and independent model page agree on the three/four-cabin range and three heads."},
+        {"key": "performanceConflict", "label": "Published performance conflict", "value": "40 knots official maximum; 34 knots standard in YachtBuyer model data; 35 knots in an independent 2018 brochure/listing", "unit": null, "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en-us/sunseeker/new/predator-74", "note": "Engine option, load and test conditions differ. The official 40-knot figure is retained but the standard/independent figures are explicitly preserved."},
+        {"key": "interiorEvidence", "label": "Interior evidence", "value": "galley-down, full-beam master, forward VIP, twin guest cabin, sliding roof and tender garage", "unit": null, "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en-us/sunseeker/new/predator-74", "note": "Independent model page and review provide clear layout evidence."}
+      ],
+      "sources": [
+        {"url": "https://www.sunseeker.com/yachts-and-boats/previous-models/predator-74", "title": "Predator 74", "publisher": "Sunseeker", "accessed": "2026-09-14", "scope": "Official previous-model dimensions, accommodation, performance and visual/interior description; page now redirects in some locales."},
+        {"url": "https://www.sunseeker.com/uploads/150ea3de88828eaafd9c67fdba59df29/en/Sunseeker_Predator74_400x225_Web.pdf", "title": "Predator 74 brochure", "publisher": "Sunseeker", "accessed": "2026-09-14", "scope": "Official brochure evidence for LOA, beam and reference technical configuration."},
+        {"url": "https://www.sunseekerbrokerage.com/2018/01/28/boat-show-another-successful-year-at-boot-dusseldorf/", "title": "Boat Show: Another successful year at Boot Düsseldorf", "publisher": "Sunseeker Brokerage", "accessed": "2026-09-14", "scope": "Official dealership launch timing for the 2018 model."},
+        {"url": "https://www.yachtbuyer.com/en-us/sunseeker/new/predator-74", "title": "Sunseeker Predator 74 Yacht Gen 2, 2018-2023", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent generation window, discontinued status, layout, dimensions and engine/performance cross-check."},
+        {"url": "https://www.powerboating.com/sunseeker-predator-74/", "title": "Sunseeker Predator 74", "publisher": "Power Boating", "accessed": "2026-09-14", "scope": "Independent 2018 reintroduction, hull styling, accommodation and performance context."}
+      ],
+      "layout": {
+        "decks": 2,
+        "cabins": 3,
+        "heads": 3,
+        "rooms": ["open aft cockpit", "main-deck saloon", "interior helm", "galley down", "full-beam master", "forward VIP", "twin guest cabin", "three guest heads", "two-berth crew cabin", "tender garage"],
+        "description": "A two-level hardtop sportscruiser with the main social deck opening into the cockpit and a lower deck organized around three guest cabins. The full-beam master, galley-down arrangement, large sliding roof and tender garage are strongly evidenced; a fourth cabin is optional.",
+        "evidenceUrls": ["https://www.sunseeker.com/yachts-and-boats/previous-models/predator-74", "https://www.yachtbuyer.com/en-us/sunseeker/new/predator-74", "https://www.powerboating.com/sunseeker-predator-74/"]
+      },
+      "visual": {
+        "hullDescription": "Fast planing GRP sportscruiser hull with shaft propulsion, broad aft garage/platform and a high-performance profile.",
+        "superstructureDescription": "Low coupé hardtop with an oversized sliding roof and minimal upper silhouette; no flybridge.",
+        "glazingDescription": "Large pillarless side glazing and carbon/glass sliding roof flood the saloon with daylight; this is a signature Gen 2 cue.",
+        "distinctiveFeatures": ["large carbon/glass sliding roof", "pillarless side windows", "hydraulic tender platform and garage", "full-beam master", "Predator 74 XPS limited-edition variant"],
+        "referenceUrls": ["https://www.sunseeker.com/yachts-and-boats/previous-models/predator-74", "https://www.yachtbuyer.com/en-us/sunseeker/new/predator-74"]
+      },
+      "uncertainties": ["Predator 74 is a repeated name across older Sunseeker generations; this profile is specifically Gen 2, launched in 2018, and must not be merged with the earlier 2009-2012 model.", "YachtBuyer reports an end year of 2023; no official factory end-of-production notice was located.", "Performance varies materially by MAN engine option and test/load condition; all reported values are preserved rather than collapsed into one universal speed."]
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020",
+      "brand": "Sunseeker",
+      "name": "90 Ocean",
+      "range": "Ocean",
+      "type": "Ocean flybridge motor yacht",
+      "generation": "first 90 Ocean generation; Ocean range introduced in 2020 and first launch/model year commonly reported as 2021",
+      "productionStart": 2020,
+      "productionEnd": null,
+      "productionStatus": "current",
+      "aliases": ["90 Ocean", "Ocean 90"],
+      "referenceConfiguration": "Current open-flybridge 90 Ocean with four-cabin/four-ensuite reference layout, full-beam owner suite, X-TEND transom/Beach Club and twin MAN V12 shaft options. The separately listed Enclosed variant is treated as a configuration sibling, not another profile.",
+      "dimensions": {
+        "lengthM": 27.1,
+        "beamM": 7.16,
+        "draftM": 1.94
+      },
+      "facts": [
+        {"key": "rangeIntroduction", "label": "Ocean range introduction", "value": 2020, "unit": "year", "status": "verified", "sourceUrl": "https://www.sunseeker.de/news/news/sunseeker-introduces-a-new-range-to-its-growing-family-of-luxury-performance-motor-yachts-1", "note": "Sunseeker's news page says the first Ocean model, the 90 Ocean, was introduced in 2020."},
+        {"key": "modelYear", "label": "Independent model-year anchor", "value": 2021, "unit": "year", "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en/reviews/sunseeker-90-ocean-2021", "note": "YachtBuyer labels the reviewed model year 2021 and in production; a separate independent report describes a January 2021 launch."},
+        {"key": "lengthOverall", "label": "Length overall", "value": 27.1, "unit": "m", "status": "verified", "sourceUrl": "https://www.sunseeker.com/range/90-ocean", "note": "Sunseeker gives 27.10 m / 88 ft 11 in."},
+        {"key": "beam", "label": "Beam", "value": 7.16, "unit": "m", "status": "verified", "sourceUrl": "https://www.sunseeker.com/range/90-ocean", "note": "Sunseeker gives 7.16 m / 23 ft 6 in."},
+        {"key": "draft", "label": "Draft", "value": 1.94, "unit": "m", "status": "verified", "sourceUrl": "https://www.sunseeker.com/range/90-ocean", "note": "Sunseeker gives 1.94 m / 6 ft 4 in."},
+        {"key": "accommodation", "label": "Cabins and heads", "value": "4 cabins; 4 en-suites/dayhead", "unit": null, "status": "verified", "sourceUrl": "https://www.sunseeker.com/range/90-ocean", "note": "Official current accommodation block; layout options exist for main-deck saloon and upper-deck configuration."},
+        {"key": "performance", "label": "Maximum speed / range", "value": "up to 27 knots; 1,100 nm at 12 knots", "unit": null, "status": "verified", "sourceUrl": "https://www.sunseeker.com/range/90-ocean", "note": "Official current specification."},
+        {"key": "independentDraftConflict", "label": "Independent draft conflict", "value": 1.86, "unit": "m", "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en/reviews/sunseeker-90-ocean-2021", "note": "YachtBuyer lists 1.86 m; Sunseeker current page lists 1.94 m. Treat as a published configuration/load discrepancy."},
+        {"key": "independentFreshWaterConflict", "label": "Independent fresh-water conflict", "value": "1,570 L independent versus 1,500 L official", "unit": null, "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en/reviews/sunseeker-90-ocean-2021", "note": "The official current value is retained; independent review value remains visible for auditability."},
+        {"key": "designFeature", "label": "Signature deck feature", "value": "X-TEND multi-function transom and two-tier waterside terrace", "unit": null, "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en/reviews/sunseeker-90-ocean-2021", "note": "Independent review gives clear evidence of the transom transformation and terrace arrangement."}
+      ],
+      "sources": [
+        {"url": "https://www.sunseeker.com/range/90-ocean", "title": "90 Ocean", "publisher": "Sunseeker", "accessed": "2026-09-14", "scope": "Official current dimensions, accommodation, range, propulsion and layout/visual description."},
+        {"url": "https://www.sunseeker.de/news/news/sunseeker-introduces-a-new-range-to-its-growing-family-of-luxury-performance-motor-yachts-1", "title": "Sunseeker introduces a new range", "publisher": "Sunseeker", "accessed": "2026-09-14", "scope": "Official 2020 Ocean range introduction timing."},
+        {"url": "https://www.yachtbuyer.com/en/reviews/sunseeker-90-ocean-2021", "title": "Sunseeker 90 Ocean Review (2021 Edition)", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent model-year/status, dimensions, layout, X-TEND terrace and configuration conflicts."},
+        {"url": "https://www.mby.com/news/sunseeker-90-yacht-superyacht-series-107229", "title": "Sunseeker 90 Ocean review", "publisher": "Motor Boat & Yachting", "accessed": "2026-09-14", "scope": "Independent design and beach-club review."},
+        {"url": "https://boattest.com/boats/sunseeker/90-ocean-2021", "title": "Sunseeker 90 Ocean (2021-)", "publisher": "BoatTEST", "accessed": "2026-09-14", "scope": "Independent model-year listing cross-check."}
+      ],
+      "layout": {
+        "decks": 3,
+        "cabins": 4,
+        "heads": 4,
+        "rooms": ["open flybridge helm", "flybridge lounge/bar", "main-deck saloon", "main-deck galley", "full-beam owner suite", "VIP and guest cabins", "four en-suites/dayhead", "X-TEND transom terrace", "hydraulic bathing/tender platform"],
+        "description": "A high-volume three-level Ocean yacht organized around a broad open flybridge, flexible main deck and four-cabin lower deck. The two-tier aft terrace and X-TEND transom are central to the spatial identity; an Enclosed upper-deck variant is a sibling configuration.",
+        "evidenceUrls": ["https://www.sunseeker.com/range/90-ocean", "https://www.yachtbuyer.com/en/reviews/sunseeker-90-ocean-2021", "https://www.mby.com/news/sunseeker-90-yacht-superyacht-series-107229"]
+      },
+      "visual": {
+        "hullDescription": "Broad-beam, high-volume planing hull with an upright bow and large stern platform; official and independent sources emphasize volume over the older fast-yacht silhouette.",
+        "superstructureDescription": "Large open flybridge with a hardtop and optional enclosed upper-deck sibling; the aft terraces make the boat read as a compact superyacht.",
+        "glazingDescription": "Large saloon and upper-deck glazing with glass screens around the aft terraces; the enclosed option shifts the upper deck toward an interior lounge.",
+        "distinctiveFeatures": ["X-TEND transom", "two-tier waterside terrace", "broad 7.16 m beam", "open or enclosed upper deck", "full-beam owner suite"],
+        "referenceUrls": ["https://www.sunseeker.com/range/90-ocean", "https://www.yachtbuyer.com/en/reviews/sunseeker-90-ocean-2021"]
+      },
+      "uncertainties": ["The official introduction is dated 2020, while independent model-year and launch coverage centers on 2021; productionStart uses the first official range-introduction year and keeps the model-year evidence separate.", "Official and independent draft/fresh-water values differ; use the official current technical page for canonical dimensions and preserve independent values as reported.", "90 Ocean and 90 Ocean Enclosed are treated as open/enclosed configurations of the same requested model family, not separate generation profiles."]
+    },
+    {
+      "id": "sunseeker-131-yacht-gen1-2016",
+      "brand": "Sunseeker",
+      "name": "131 Yacht",
+      "range": "Superyacht",
+      "type": "tri-deck superyacht",
+      "generation": "original 131 Yacht tri-deck generation; public world debut in 2016",
+      "productionStart": 2016,
+      "productionEnd": 2024,
+      "productionStatus": "historical",
+      "aliases": ["131 Yacht", "Sunseeker 131", "131"],
+      "referenceConfiguration": "Historical 131 Yacht reference based on the official tri-deck brochure and YachtBuyer model page: five en-suite guest cabins/12 guests maximum, main-deck owner suite, sky lounge, pilothouse and crew quarters. A 2016 review reports a six-cabin variant, so the semi-custom layout is not treated as universal.",
+      "dimensions": {
+        "lengthM": 40.05,
+        "beamM": 8.09,
+        "draftM": 2.85
+      },
+      "facts": [
+        {"key": "worldDebut", "label": "Public world debut", "value": 2016, "unit": "year", "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en-gb/sunseeker/for-sale/131-yacht", "note": "YachtBuyer reports the 131 was unveiled at the 2016 London Yacht Show and made its world debut there."},
+        {"key": "productionEnd", "label": "Independent production window", "value": "2016-2024", "unit": "year range", "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en/sunseeker/new/131-yacht", "note": "YachtBuyer labels the discontinued model 2016-2024. This is retained as an independent end date, not presented as a factory archive fact."},
+        {"key": "lengthOverall", "label": "Length overall", "value": 40.05, "unit": "m", "status": "verified", "sourceUrl": "https://uploads.sunseeker.com/uploads/18b22a2751695f2b335ea589b20abceb/en/Sunseeker_131Yacht_400x225_Web.pdf", "note": "Official brochure gives 40.05 m / 131 ft 5 in."},
+        {"key": "beam", "label": "Beam", "value": 8.09, "unit": "m", "status": "verified", "sourceUrl": "https://uploads.sunseeker.com/uploads/18b22a2751695f2b335ea589b20abceb/en/Sunseeker_131Yacht_400x225_Web.pdf", "note": "Official brochure gives 8.09 m / 26 ft 7 in."},
+        {"key": "draft", "label": "Draft", "value": 2.85, "unit": "m", "status": "verified", "sourceUrl": "https://uploads.sunseeker.com/uploads/18b22a2751695f2b335ea589b20abceb/en/Sunseeker_131Yacht_400x225_Web.pdf", "note": "Official brochure gives 2.85 m / 9 ft 4 in."},
+        {"key": "accommodationOfficial", "label": "Official guest/crew capacity", "value": "up to 12 guests and up to 9 crew", "unit": null, "status": "verified", "sourceUrl": "https://uploads.sunseeker.com/uploads/18b22a2751695f2b335ea589b20abceb/en/Sunseeker_131Yacht_400x225_Web.pdf", "note": "Official brochure gives capacity but not one fixed cabin count because layout is semi-custom."},
+        {"key": "cabinsModelPage", "label": "Independent model-page cabin count", "value": 5, "unit": "guest cabins", "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en/sunseeker/new/131-yacht", "note": "YachtBuyer feature list says five en-suite cabins and its model summary says five maximum cabins."},
+        {"key": "cabinsReviewConflict", "label": "Independent review cabin conflict", "value": 6, "unit": "cabins", "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en-us/reviews/sunseeker-131-yacht-2016-aquaholic", "note": "The 2016 review header reports six cabins and seven crew; this is consistent with semi-custom variation but conflicts with the five-cabin model-page summary."},
+        {"key": "beamIndependentCrossCheck", "label": "Independent beam cross-check", "value": 8.09, "unit": "m", "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en/sunseeker/new/131-yacht", "note": "YachtBuyer FAQ gives 8.09 m beam and 40.06 m LOA; the official brochure's 40.05 m is retained as canonical."},
+        {"key": "performance", "label": "Maximum speed / range", "value": "up to 25 knots; up to 1,600 nm at 12 knots", "unit": null, "status": "verified", "sourceUrl": "https://uploads.sunseeker.com/uploads/18b22a2751695f2b335ea589b20abceb/en/Sunseeker_131Yacht_400x225_Web.pdf", "note": "Official brochure with MTU options and shaft drives."}
+      ],
+      "sources": [
+        {"url": "https://uploads.sunseeker.com/uploads/18b22a2751695f2b335ea589b20abceb/en/Sunseeker_131Yacht_400x225_Web.pdf", "title": "131 Yacht brochure", "publisher": "Sunseeker", "accessed": "2026-09-14", "scope": "Official dimensions, capacities, performance, tri-deck description and general-arrangement evidence."},
+        {"url": "https://www.yachtbuyer.com/en/sunseeker/new/131-yacht", "title": "Sunseeker 131 Yacht (2016-2024)", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent production window, five-cabin model-page summary, dimensions and layout narrative."},
+        {"url": "https://www.yachtbuyer.com/en-us/reviews/sunseeker-131-yacht-2016-aquaholic", "title": "All-New Sunseeker 131 Yacht Review (2016 Edition)", "publisher": "YachtBuyer / Aquaholic", "accessed": "2026-09-14", "scope": "Independent 2016 review, six-cabin report, deck-by-deck interior and exterior evidence."},
+        {"url": "https://www.yachtworld.com/research/sunseeker-131-yacht/", "title": "Sunseeker 131 Yacht", "publisher": "YachtWorld", "accessed": "2026-09-14", "scope": "Independent order-book/launch-era context for the 2016 model."},
+        {"url": "https://www.yachtbuyer.com/en-gb/sunseeker/for-sale/131-yacht", "title": "Sunseeker 131 Yachts For Sale", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent world-debut timing and used-market history."}
+      ],
+      "layout": {
+        "decks": 4,
+        "cabins": 5,
+        "heads": 5,
+        "rooms": ["sundeck/jacuzzi and bar", "upper-deck sky lounge", "upper-deck pilothouse", "captain cabin and office", "main-deck saloon and dining", "main-deck owner suite with dressing/walk-in", "four lower guest cabins in the five-cabin reference", "five en-suites", "forward crew quarters and mess", "tender garage and hydraulic bathing platform"],
+        "description": "A four-level tri-deck superyacht when counting lower, main, upper and sky/sundeck levels. The reference model-page arrangement has a main-deck owner suite, four lower guest cabins, sky lounge, pilothouse and crew area; semi-custom layouts and a 2016 review's six-cabin report make the cabin count hull-specific.",
+        "evidenceUrls": ["https://uploads.sunseeker.com/uploads/18b22a2751695f2b335ea589b20abceb/en/Sunseeker_131Yacht_400x225_Web.pdf", "https://www.yachtbuyer.com/en/sunseeker/new/131-yacht", "https://www.yachtbuyer.com/en-us/reviews/sunseeker-131-yacht-2016-aquaholic"]
+      },
+      "visual": {
+        "hullDescription": "Large GRP planing superyacht hull with shaft drives, full-beam accommodation and a hydraulic bathing platform/tender garage.",
+        "superstructureDescription": "Distinctive four-level tri-deck profile with raised pilothouse, sky lounge and large sundeck; proportions read as a compact fast superyacht rather than a flybridge cruiser.",
+        "glazingDescription": "Floor-to-ceiling main-deck windows and large upper/sky-lounge glazing are repeatedly evidenced by the official brochure and independent review.",
+        "distinctiveFeatures": ["tri-deck arrangement", "main-deck owner suite", "raised pilothouse and sky lounge", "large sundeck/jacuzzi", "semi-custom cabin layout", "tender garage and bathing platform"],
+        "referenceUrls": ["https://uploads.sunseeker.com/uploads/18b22a2751695f2b335ea589b20abceb/en/Sunseeker_131Yacht_400x225_Web.pdf", "https://www.yachtbuyer.com/en-us/reviews/sunseeker-131-yacht-2016-aquaholic"]
+      },
+      "uncertainties": ["The official brochure states capacity and general arrangements but not one universal cabin count; YachtBuyer model-page material says five en-suite cabins while the 2016 review reports six cabins. Treat the layout as semi-custom and hull-specific.", "The 2016-2024 production window is reported by YachtBuyer; the official brochure is dated 2021 and does not state an end date.", "Official LOA is 40.05 m while YachtBuyer reports 40.06 m; the 0.01 m difference is retained as a rounding/source discrepancy."]
+    }
+  ]
+}

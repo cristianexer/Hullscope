@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "auditId": "collection-audit-07",
+  "auditedAt": "2026-09-14",
+  "reviewType": "independent-qa",
+  "scope": {
+    "selectionFile": "research/yachts/release-selection.json",
+    "selectionStatus": "draft-scope",
+    "selectedCount": 20,
+    "brands": {"Princess": 10, "Sunseeker": 10},
+    "ids": [
+      "princess-r35-gen1-2018",
+      "princess-v40-gen2-2017",
+      "princess-v55-gen2-2019",
+      "princess-f45-gen1-2019",
+      "princess-f55-gen1-2017",
+      "princess-f65-gen1-2022",
+      "princess-y85-gen1-2019",
+      "princess-x95-gen1-2020",
+      "princess-s65-gen1-2015",
+      "princess-s72-gen1-2014",
+      "sunseeker-hawk-38-gen1-2018",
+      "sunseeker-superhawk-55-gen1-2023",
+      "sunseeker-portofino-48-gen1-2010",
+      "sunseeker-predator-57-gen2-2017",
+      "sunseeker-predator-74-gen2-2018",
+      "sunseeker-predator-84-gen1-2008",
+      "sunseeker-manhattan-55-gen2-2021",
+      "sunseeker-manhattan-63-gen1-2010",
+      "sunseeker-manhattan-73-gen1-2012",
+      "sunseeker-90-ocean-gen1-2020"
+    ]
+  },
+  "method": {
+    "freshness": "The current generated render batch is the set of PNGs newer than collection-audit-06.json. This avoids using older legacy filenames as current visual evidence.",
+    "technical": [
+      "Verified current authoring-to-technical master hashes, v2 manifests, manifest asset bytes/SHA checks, parsed GLB declarations, dimensions, source IDs and fidelity labels.",
+      "Parsed all 84 current GLBs and compared declared and parsed triangles, materials, textures and images, including exterior and interior LOD pairs.",
+      "Compared the current render batch with metrics, scene reports and draft quality screenshot records without modifying any of those records."
+    ],
+    "visual": [
+      "Inspected all 391 current-batch renders: 161 exterior, 111 room, 59 deck and 60 exploded frames.",
+      "Reviewed collection-scale current-batch contact sheets and targeted current frames for Princess V55, Superhawk, Predator 57 and Manhattan 63.",
+      "Computed normalized mean luminance on every current-batch frame; room, deck and exploded batches were checked separately for unusable darkness."
+    ],
+    "independence": "No draft quality record is accepted as independent approval. All 20 remain independent-qa-pending and changes-required."
+  },
+  "summary": {
+    "status": "changes-required",
+    "releaseDisposition": "hold",
+    "publicationAllowed": false,
+    "publicationReadyCount": 0,
+    "independentApprovalCount": 0,
+    "changesRequiredCount": 20,
+    "sourceStatus": {
+      "selectionStatus": "draft-scope",
+      "authoringTechnicalMasterHashMatches": 20,
+      "components": 459,
+      "componentsWithSourceIds": 459,
+      "componentFidelityCounts": {"reference-informed": 343, "reconstructed": 116}
+    },
+    "manifestV2Records": 20,
+    "manifestAssetChecksPass": 84,
+    "technicalAssetDeclarationChecksPass": 84,
+    "dimensionChecksWithinOnePercent": 20,
+    "manifestComponents": 459,
+    "shapeCounts": {"box": 268, "cylinder": 48, "deck": 78, "chamferedBox": 44, "hull": 21},
+    "glbFiles": 84,
+    "glbFilesWithTextures": 84,
+    "glbFilesWithImages": 84,
+    "embeddedMaterialRecords": 782,
+    "embeddedTextureRecords": 626,
+    "embeddedImageRecords": 626,
+    "embeddedImageDimensions": {"32x32": 626},
+    "currentRenderBatch": {
+      "basis": "PNG files newer than research/yachts/qa/collection-audit-06.json",
+      "totalFiles": 391,
+      "exteriorFiles": 161,
+      "roomFiles": 111,
+      "deckFiles": 59,
+      "explodedFiles": 60,
+      "sceneReportPathCoverage": 391,
+      "metricsPathCoverage": 42
+    },
+    "sceneReportRenderViewRecords": 842,
+    "metricsRecords": 20,
+    "metricsWithNonemptyRenderedViews": 2,
+    "metricsWithEmptyRenderedViews": 18,
+    "qualityScreenshotRecords": 370,
+    "qualityScreenshotReferencedPathHashesPass": 370,
+    "qualityRecordsReferencingCurrentBatch": 130,
+    "qualityRecordsReferencingOlderBatch": 240,
+    "qualityManifestHashMatches": 2,
+    "qualityMasterHashMatches": 2,
+    "qualityStatusCounts": {"changes-required": 20},
+    "technicalVisualReviewCounts": {"pending": 20},
+    "technicalPublicationReadyCounts": {"false": 20},
+    "metricsSelfReviewCounts": {"not QA-approved": 20},
+    "roomRecords": 111,
+    "currentRoomFiles": 111,
+    "currentRoomCameraClippingCasesConfirmed": 0,
+    "deckRecords": 59,
+    "currentDeckFiles": 59,
+    "explodedStateRecords": 60,
+    "currentExplodedFiles": 60,
+    "draftQualityFailChecksPresentOnAll20": [
+      "distinctive-features",
+      "furnished-rooms",
+      "no-intersections",
+      "no-floating-fittings",
+      "closed-seams",
+      "textures",
+      "camera-clipping",
+      "physical-supports",
+      "materials-in-all-views"
+    ],
+    "lODComparison": {
+      "exteriorPairs": 20,
+      "exteriorLod1LowerTriangleCount": 19,
+      "exteriorLod1SameTriangleCount": 1,
+      "exteriorLod1HigherTriangleCount": 0,
+      "interiorPairs": 22,
+      "interiorTriangleReducedPairs": 0,
+      "interiorSameTriangleCountPairs": 22,
+      "interiorByteIdenticalPairs": 16,
+      "interiorByteDifferentPairs": 6
+    },
+    "currentVisualGateCounts": {
+      "currentRoomCameraClippingCasesConfirmed": 0,
+      "currentRoomFramesBelowEightPercentMeanLuminance": 0,
+      "currentDeckFramesBelowEightPercentMeanLuminance": 0,
+      "currentExteriorFramesBelowEightPercentMeanLuminance": 3,
+      "currentSparseOrBlockoutRoomSets": 20,
+      "princessV55BlankRoomFrames": 10,
+      "princessV55BlankDeckFrames": 2
+    }
+  },
+  "collectionBlockers": [
+    {
+      "id": "EVID-001",
+      "severity": "release-blocking",
+      "title": "Current render batch is not fully indexed by review metadata",
+      "finding": "The current post-audit-06 batch contains 391 renders and is fully represented in scene reports, but only 42 current paths appear in metrics files. Draft quality records contain 370 screenshot records, but only 130 reference current-batch paths; 240 still reference older legacy renders. Only V55 and Superhawk quality records match current manifest/master hashes (2/20). The referenced-file hashes pass, but that does not certify the new renders.",
+      "requiredAction": "Regenerate metrics and quality records from the current batch, replace legacy paths, recompute manifest/master/screenshot hashes, and rerun QA without changing production assets during the audit."
+    },
+    {
+      "id": "VIS-001",
+      "severity": "release-blocking",
+      "title": "Reference-faithful geometry remains unproven",
+      "finding": "The current manifests preserve varied primitives: 268 boxes, 48 cylinders, 78 decks, 44 chamfered boxes and 21 hull components. The visual fleet is still a simplified repeated hull/superstructure vocabulary, and the current quality records fail distinctive-features for all 20. Primitive diversity alone does not establish model-specific reference fidelity.",
+      "requiredAction": "Refine each hull, glazing, roofline, deck and model-specific feature against its reference dossier, then review the current batch after metadata is regenerated."
+    },
+    {
+      "id": "VIS-002",
+      "severity": "release-blocking",
+      "title": "Rooms remain blockouts and V55 current rooms are blank",
+      "finding": "All 111 current room files exist and the room-camera clipping seen in audit 06 is not confirmed in the new batch. The rooms are still mostly furniture/partition primitives without complete shells, joinery, fixtures, machinery or supported fittings. Princess V55 is worse: all 10 current room renders are uniform blue/empty frames, so its room evidence is unusable.",
+      "requiredAction": "Complete the room assemblies and regenerate V55 room/deck renders with visible geometry; then verify support, intersection, seam and furnishing checks on the new paths."
+    },
+    {
+      "id": "VIS-003",
+      "severity": "release-blocking",
+      "title": "Material payloads are present but visually insufficient",
+      "finding": "All 84 GLBs contain texture/image payloads, but all 626 embedded images are 32x32 PNGs and the current renders remain largely flat color-block treatments. The synchronized draft records fail textures and materials-in-all-views on all 20.",
+      "requiredAction": "Use sufficiently resolved, model-appropriate materials and demonstrate consistent, legible material treatment in every current canonical view."
+    },
+    {
+      "id": "VIS-004",
+      "severity": "release-blocking",
+      "title": "Residual exterior evidence is still too dark",
+      "finding": "The camera/lighting pass fixed the room and deck luminance gate in the current batch: all 111 room and 59 deck frames are above the 8% mean-luminance threshold, and no current room camera clipping is confirmed. Three exterior frames remain below threshold: Princess V55 below-hull and port-profile, plus Superhawk port-three-quarter.",
+      "requiredAction": "Relight or reframe those three current exterior views and repeat the visual gate."
+    },
+    {
+      "id": "TECH-001",
+      "severity": "release-blocking",
+      "title": "Interior LODs are unchanged",
+      "finding": "Exterior LOD1 is lighter for 19/20 pairs, but Superhawk remains 13200 -> 13200 triangles. All 22 interior pairs retain the same triangle count; 16 are byte-identical and six differ in bytes without reducing triangles.",
+      "requiredAction": "Produce genuinely lighter, visually acceptable interior LODs and a lighter Superhawk exterior LOD, then rerun parsed triangle checks."
+    },
+    {
+      "id": "APP-001",
+      "severity": "release-blocking",
+      "title": "No independent approval exists",
+      "finding": "All 20 quality records remain changes-required with reviewer independent-qa-pending. All technical visual reviews remain pending, all publicationReady flags are false, and all metrics self-review statuses remain not QA-approved.",
+      "requiredAction": "After the current-batch evidence and model blockers are fixed, run a new independent QA pass and record explicit approval per selected ID."
+    }
+  ],
+  "perYacht": [
+    {"id":"princess-r35-gen1-2018","brand":"Princess","disposition":"changes-required","dimensions":{"lengthM":10.873,"beamM":3.284,"lengthErrorPct":0.160,"beamErrorPct":0.419,"withinOnePercent":true},"inventory":{"components":21,"meaningfulComponents":19,"rooms":4,"decks":3,"glbFiles":4,"currentRenderFiles":18,"metricsRenderedViews":0,"qualityScreenshots":17,"qualityCurrentPathRefs":6,"shapeCounts":{"box":12,"chamferedBox":2,"cylinder":3,"deck":3,"hull":1},"glbMaterials":30,"glbTextures":30,"glbImages":30},"lod":{"exterior":"4736->4350","interiorPairs":1,"interiorTriangleReductionPairs":0,"interiorByteIdenticalPairs":1},"currentVisualFindings":"Current room cameras are not confirmed clipped and room/deck/exploded luminance passes, but rooms remain sparse furniture boards; current below-hull/exterior views are simplified and the review metadata does not index the current batch.","blockers":["EVID-001","VIS-001","VIS-002","VIS-003","VIS-004","TECH-001","APP-001"]},
+    {"id":"princess-v40-gen2-2017","brand":"Princess","disposition":"changes-required","dimensions":{"lengthM":12.959,"beamM":3.832,"lengthErrorPct":0.160,"beamErrorPct":0.571,"withinOnePercent":true},"inventory":{"components":23,"meaningfulComponents":21,"rooms":6,"decks":3,"glbFiles":4,"currentRenderFiles":20,"metricsRenderedViews":0,"qualityScreenshots":19,"qualityCurrentPathRefs":6,"shapeCounts":{"box":14,"chamferedBox":3,"cylinder":2,"deck":3,"hull":1},"glbMaterials":30,"glbTextures":30,"glbImages":30},"lod":{"exterior":"4960->4556","interiorPairs":1,"interiorTriangleReductionPairs":0,"interiorByteIdenticalPairs":0},"currentVisualFindings":"Current room cameras are not confirmed clipped and luminance passes, but the F/V-family exterior and rooms remain generic/sparse; metrics are empty and quality records point mostly to the older batch.","blockers":["EVID-001","VIS-001","VIS-002","VIS-003","VIS-004","TECH-001","APP-001"]},
+    {"id":"princess-v55-gen2-2019","brand":"Princess","disposition":"changes-required","dimensions":{"lengthM":17.892,"beamM":4.640,"lengthErrorPct":0.459,"beamErrorPct":0.214,"withinOnePercent":true},"inventory":{"components":34,"meaningfulComponents":25,"rooms":10,"decks":3,"glbFiles":6,"currentRenderFiles":25,"metricsRenderedViews":71,"qualityScreenshots":23,"qualityCurrentPathRefs":8,"shapeCounts":{"box":18,"cylinder":6,"deck":8,"hull":2},"glbMaterials":50,"glbTextures":50,"glbImages":50},"lod":{"exterior":"17794->17748","interiorPairs":2,"interiorTriangleReductionPairs":0,"interiorByteIdenticalPairs":1},"currentVisualFindings":"Current exterior has two dark frames, and all 10 current room frames plus two current deck frames are uniform blue/empty. The populated current exterior/deck frames still use broad hardtop/glazing/blockout geometry.","blockers":["EVID-001","VIS-001","VIS-002","VIS-003","VIS-004","TECH-001","APP-001"]},
+    {"id":"princess-f45-gen1-2019","brand":"Princess","disposition":"changes-required","dimensions":{"lengthM":14.327,"beamM":4.283,"lengthErrorPct":0.160,"beamErrorPct":0.536,"withinOnePercent":true},"inventory":{"components":22,"meaningfulComponents":20,"rooms":5,"decks":3,"glbFiles":4,"currentRenderFiles":19,"metricsRenderedViews":0,"qualityScreenshots":18,"qualityCurrentPathRefs":6,"shapeCounts":{"box":13,"chamferedBox":2,"cylinder":2,"deck":4,"hull":1},"glbMaterials":30,"glbTextures":30,"glbImages":30},"lod":{"exterior":"5936->5168","interiorPairs":1,"interiorTriangleReductionPairs":0,"interiorByteIdenticalPairs":1},"currentVisualFindings":"Current room/deck cameras are reviewable without confirmed clipping, but the F/V-family blockout remains generic and rooms lack complete shells and supported fittings.","blockers":["EVID-001","VIS-001","VIS-002","VIS-003","VIS-004","TECH-001","APP-001"]},
+    {"id":"princess-f55-gen1-2017","brand":"Princess","disposition":"changes-required","dimensions":{"lengthM":17.572,"beamM":4.903,"lengthErrorPct":0.160,"beamErrorPct":0.672,"withinOnePercent":true},"inventory":{"components":23,"meaningfulComponents":21,"rooms":6,"decks":3,"glbFiles":4,"currentRenderFiles":20,"metricsRenderedViews":0,"qualityScreenshots":19,"qualityCurrentPathRefs":6,"shapeCounts":{"box":14,"chamferedBox":2,"cylinder":2,"deck":4,"hull":1},"glbMaterials":28,"glbTextures":28,"glbImages":28},"lod":{"exterior":"5952->5126","interiorPairs":1,"interiorTriangleReductionPairs":0,"interiorByteIdenticalPairs":1},"currentVisualFindings":"Current rooms are visible without confirmed hull clipping, but remain beds/partitions and sparse equipment; the exterior still reads as a scaled family template.","blockers":["EVID-001","VIS-001","VIS-002","VIS-003","VIS-004","TECH-001","APP-001"]},
+    {"id":"princess-f65-gen1-2022","brand":"Princess","disposition":"changes-required","dimensions":{"lengthM":20.267,"beamM":5.127,"lengthErrorPct":0.160,"beamErrorPct":0.733,"withinOnePercent":true},"inventory":{"components":23,"meaningfulComponents":21,"rooms":6,"decks":3,"glbFiles":4,"currentRenderFiles":20,"metricsRenderedViews":0,"qualityScreenshots":19,"qualityCurrentPathRefs":6,"shapeCounts":{"box":14,"chamferedBox":2,"cylinder":2,"deck":4,"hull":1},"glbMaterials":28,"glbTextures":28,"glbImages":28},"lod":{"exterior":"5952->5058","interiorPairs":1,"interiorTriangleReductionPairs":0,"interiorByteIdenticalPairs":1},"currentVisualFindings":"Current room/deck frames are legible without confirmed clipping, but cabins remain open-plane blockouts and the engine room is sparse; metrics are empty.","blockers":["EVID-001","VIS-001","VIS-002","VIS-003","VIS-004","TECH-001","APP-001"]},
+    {"id":"princess-y85-gen1-2019","brand":"Princess","disposition":"changes-required","dimensions":{"lengthM":26.158,"beamM":6.339,"lengthErrorPct":0.160,"beamErrorPct":0.617,"withinOnePercent":true},"inventory":{"components":23,"meaningfulComponents":21,"rooms":6,"decks":3,"glbFiles":4,"currentRenderFiles":20,"metricsRenderedViews":0,"qualityScreenshots":19,"qualityCurrentPathRefs":6,"shapeCounts":{"box":14,"chamferedBox":2,"cylinder":2,"deck":4,"hull":1},"glbMaterials":30,"glbTextures":30,"glbImages":30},"lod":{"exterior":"5936->5010","interiorPairs":1,"interiorTriangleReductionPairs":0,"interiorByteIdenticalPairs":0},"currentVisualFindings":"Current rooms are legible without confirmed clipping, but Y85-specific glazing/deck identity and room enclosure remain weak; metrics are empty.","blockers":["EVID-001","VIS-001","VIS-002","VIS-003","VIS-004","TECH-001","APP-001"]},
+    {"id":"princess-x95-gen1-2020","brand":"Princess","disposition":"changes-required","dimensions":{"lengthM":29.063,"beamM":6.815,"lengthErrorPct":0.160,"beamErrorPct":0.667,"withinOnePercent":true},"inventory":{"components":22,"meaningfulComponents":20,"rooms":4,"decks":3,"glbFiles":4,"currentRenderFiles":18,"metricsRenderedViews":0,"qualityScreenshots":17,"qualityCurrentPathRefs":6,"shapeCounts":{"box":12,"chamferedBox":3,"cylinder":2,"deck":4,"hull":1},"glbMaterials":26,"glbTextures":26,"glbImages":26},"lod":{"exterior":"6376->5432","interiorPairs":1,"interiorTriangleReductionPairs":0,"interiorByteIdenticalPairs":1},"currentVisualFindings":"Current four-room set is visible without confirmed clipping but remains sparse; the large yacht still reads as a scaled generic hull and metrics are empty.","blockers":["EVID-001","VIS-001","VIS-002","VIS-003","VIS-004","TECH-001","APP-001"]},
+    {"id":"princess-s65-gen1-2015","brand":"Princess","disposition":"changes-required","dimensions":{"lengthM":20.088,"beamM":5.112,"lengthErrorPct":0.160,"beamErrorPct":0.639,"withinOnePercent":true},"inventory":{"components":23,"meaningfulComponents":21,"rooms":6,"decks":3,"glbFiles":4,"currentRenderFiles":20,"metricsRenderedViews":0,"qualityScreenshots":19,"qualityCurrentPathRefs":6,"shapeCounts":{"box":14,"chamferedBox":2,"cylinder":2,"deck":4,"hull":1},"glbMaterials":28,"glbTextures":28,"glbImages":28},"lod":{"exterior":"5944->5084","interiorPairs":1,"interiorTriangleReductionPairs":0,"interiorByteIdenticalPairs":1},"currentVisualFindings":"Current room/deck luminance and camera framing pass visually, but S65-specific exterior identity and complete room architecture remain unproven; metrics are empty.","blockers":["EVID-001","VIS-001","VIS-002","VIS-003","VIS-004","TECH-001","APP-001"]},
+    {"id":"princess-s72-gen1-2014","brand":"Princess","disposition":"changes-required","dimensions":{"lengthM":22.534,"beamM":5.412,"lengthErrorPct":0.160,"beamErrorPct":0.601,"withinOnePercent":true},"inventory":{"components":23,"meaningfulComponents":21,"rooms":6,"decks":3,"glbFiles":4,"currentRenderFiles":20,"metricsRenderedViews":0,"qualityScreenshots":19,"qualityCurrentPathRefs":6,"shapeCounts":{"box":14,"chamferedBox":2,"cylinder":2,"deck":4,"hull":1},"glbMaterials":30,"glbTextures":30,"glbImages":30},"lod":{"exterior":"5944->5032","interiorPairs":1,"interiorTriangleReductionPairs":0,"interiorByteIdenticalPairs":0},"currentVisualFindings":"Current rooms are visible without confirmed clipping, but architecture remains incomplete and the scaled exterior lacks strong S72-specific identity; metrics are empty.","blockers":["EVID-001","VIS-001","VIS-002","VIS-003","VIS-004","TECH-001","APP-001"]},
+    {"id":"sunseeker-hawk-38-gen1-2018","brand":"Sunseeker","disposition":"changes-required","dimensions":{"lengthM":11.831,"beamM":3.027,"lengthErrorPct":0.160,"beamErrorPct":0.555,"withinOnePercent":true},"inventory":{"components":20,"meaningfulComponents":18,"rooms":2,"decks":3,"glbFiles":4,"currentRenderFiles":16,"metricsRenderedViews":0,"qualityScreenshots":15,"qualityCurrentPathRefs":6,"shapeCounts":{"box":10,"chamferedBox":2,"cylinder":3,"deck":4,"hull":1},"glbMaterials":28,"glbTextures":28,"glbImages":28},"lod":{"exterior":"5948->5104","interiorPairs":1,"interiorTriangleReductionPairs":0,"interiorByteIdenticalPairs":1},"currentVisualFindings":"Current two-room set is visible without confirmed clipping, but the habitable-room coverage is sparse and the sports-yacht exterior remains generic; metrics are empty.","blockers":["EVID-001","VIS-001","VIS-002","VIS-003","VIS-004","TECH-001","APP-001"]},
+    {"id":"sunseeker-superhawk-55-gen1-2023","brand":"Sunseeker","disposition":"changes-required","dimensions":{"lengthM":17.100,"beamM":4.943,"lengthErrorPct":0.175,"beamErrorPct":0.266,"withinOnePercent":true},"inventory":{"components":18,"meaningfulComponents":18,"rooms":4,"decks":2,"glbFiles":6,"currentRenderFiles":17,"metricsRenderedViews":28,"qualityScreenshots":16,"qualityCurrentPathRefs":14,"shapeCounts":{"box":9,"chamferedBox":2,"cylinder":4,"deck":2,"hull":1},"glbMaterials":208,"glbTextures":52,"glbImages":52},"lod":{"exterior":"13200->13200","interiorPairs":2,"interiorTriangleReductionPairs":0,"interiorByteIdenticalPairs":1},"currentVisualFindings":"Corrected current room cameras are visible and not confirmed clipped; rooms remain coarse primitive assemblies, the exterior port-three-quarter frame is too dark, and the exterior LOD does not reduce triangles.","blockers":["EVID-001","VIS-001","VIS-002","VIS-003","VIS-004","TECH-001","APP-001"]},
+    {"id":"sunseeker-portofino-48-gen1-2010","brand":"Sunseeker","disposition":"changes-required","dimensions":{"lengthM":16.144,"beamM":4.329,"lengthErrorPct":0.160,"beamErrorPct":0.676,"withinOnePercent":true},"inventory":{"components":22,"meaningfulComponents":20,"rooms":5,"decks":3,"glbFiles":4,"currentRenderFiles":19,"metricsRenderedViews":0,"qualityScreenshots":18,"qualityCurrentPathRefs":6,"shapeCounts":{"box":13,"chamferedBox":3,"cylinder":2,"deck":3,"hull":1},"glbMaterials":30,"glbTextures":30,"glbImages":30},"lod":{"exterior":"4968->4528","interiorPairs":1,"interiorTriangleReductionPairs":0,"interiorByteIdenticalPairs":1},"currentVisualFindings":"Current room/deck frames pass luminance and show no confirmed clipping, but rooms remain sparse and the Portofino exterior is a generic slab/superstructure composition; metrics are empty.","blockers":["EVID-001","VIS-001","VIS-002","VIS-003","VIS-004","TECH-001","APP-001"]},
+    {"id":"sunseeker-predator-57-gen2-2017","brand":"Sunseeker","disposition":"changes-required","dimensions":{"lengthM":18.211,"beamM":4.728,"lengthErrorPct":0.160,"beamErrorPct":0.602,"withinOnePercent":true},"inventory":{"components":23,"meaningfulComponents":21,"rooms":6,"decks":3,"glbFiles":4,"currentRenderFiles":20,"metricsRenderedViews":0,"qualityScreenshots":19,"qualityCurrentPathRefs":6,"shapeCounts":{"box":14,"chamferedBox":3,"cylinder":2,"deck":3,"hull":1},"glbMaterials":30,"glbTextures":30,"glbImages":30},"lod":{"exterior":"4960->4518","interiorPairs":1,"interiorTriangleReductionPairs":0,"interiorByteIdenticalPairs":0},"currentVisualFindings":"The new current room frames no longer show the prior hull/sidewall camera clipping, but the room assemblies remain sparse and Predator identity is generic; metrics are empty.","blockers":["EVID-001","VIS-001","VIS-002","VIS-003","VIS-004","TECH-001","APP-001"]},
+    {"id":"sunseeker-predator-74-gen2-2018","brand":"Sunseeker","disposition":"changes-required","dimensions":{"lengthM":22.784,"beamM":5.422,"lengthErrorPct":0.160,"beamErrorPct":0.783,"withinOnePercent":true},"inventory":{"components":24,"meaningfulComponents":22,"rooms":6,"decks":3,"glbFiles":4,"currentRenderFiles":20,"metricsRenderedViews":0,"qualityScreenshots":19,"qualityCurrentPathRefs":6,"shapeCounts":{"box":14,"chamferedBox":3,"cylinder":2,"deck":4,"hull":1},"glbMaterials":30,"glbTextures":30,"glbImages":30},"lod":{"exterior":"6268->5348","interiorPairs":1,"interiorTriangleReductionPairs":0,"interiorByteIdenticalPairs":1},"currentVisualFindings":"Current room cameras are not confirmed clipped and luminance passes, but room blocks lack enclosure/machinery and the exterior remains a scaled generic Predator composition; metrics are empty.","blockers":["EVID-001","VIS-001","VIS-002","VIS-003","VIS-004","TECH-001","APP-001"]},
+    {"id":"sunseeker-predator-84-gen1-2008","brand":"Sunseeker","disposition":"changes-required","dimensions":{"lengthM":26.438,"beamM":6.389,"lengthErrorPct":0.160,"beamErrorPct":0.769,"withinOnePercent":true},"inventory":{"components":24,"meaningfulComponents":22,"rooms":6,"decks":3,"glbFiles":4,"currentRenderFiles":20,"metricsRenderedViews":0,"qualityScreenshots":19,"qualityCurrentPathRefs":6,"shapeCounts":{"box":14,"chamferedBox":3,"cylinder":2,"deck":4,"hull":1},"glbMaterials":30,"glbTextures":30,"glbImages":30},"lod":{"exterior":"6268->5342","interiorPairs":1,"interiorTriangleReductionPairs":0,"interiorByteIdenticalPairs":1},"currentVisualFindings":"Current room cameras are not confirmed clipped and luminance passes, but slab guest rooms/day head and generic Predator identity remain; metrics are empty.","blockers":["EVID-001","VIS-001","VIS-002","VIS-003","VIS-004","TECH-001","APP-001"]},
+    {"id":"sunseeker-manhattan-55-gen2-2021","brand":"Sunseeker","disposition":"changes-required","dimensions":{"lengthM":17.182,"beamM":4.900,"lengthErrorPct":0.160,"beamErrorPct":0.615,"withinOnePercent":true},"inventory":{"components":23,"meaningfulComponents":21,"rooms":6,"decks":3,"glbFiles":4,"currentRenderFiles":20,"metricsRenderedViews":0,"qualityScreenshots":19,"qualityCurrentPathRefs":6,"shapeCounts":{"box":14,"chamferedBox":2,"cylinder":2,"deck":4,"hull":1},"glbMaterials":30,"glbTextures":30,"glbImages":30},"lod":{"exterior":"5944->5144","interiorPairs":1,"interiorTriangleReductionPairs":0,"interiorByteIdenticalPairs":1},"currentVisualFindings":"Current rooms are legible without confirmed clipping, but they remain sparse and Manhattan-specific detail is weak; metrics are empty.","blockers":["EVID-001","VIS-001","VIS-002","VIS-003","VIS-004","TECH-001","APP-001"]},
+    {"id":"sunseeker-manhattan-63-gen1-2010","brand":"Sunseeker","disposition":"changes-required","dimensions":{"lengthM":21.036,"beamM":5.166,"lengthErrorPct":0.160,"beamErrorPct":0.706,"withinOnePercent":true},"inventory":{"components":23,"meaningfulComponents":21,"rooms":6,"decks":3,"glbFiles":4,"currentRenderFiles":20,"metricsRenderedViews":0,"qualityScreenshots":19,"qualityCurrentPathRefs":6,"shapeCounts":{"box":14,"chamferedBox":2,"cylinder":2,"deck":4,"hull":1},"glbMaterials":28,"glbTextures":28,"glbImages":28},"lod":{"exterior":"5944->5060","interiorPairs":1,"interiorTriangleReductionPairs":0,"interiorByteIdenticalPairs":1},"currentVisualFindings":"The new current room frames no longer show the prior hull/sidewall clipping, but rooms remain sparse and the Manhattan 63 exterior is a generic scaled template; metrics are empty.","blockers":["EVID-001","VIS-001","VIS-002","VIS-003","VIS-004","TECH-001","APP-001"]},
+    {"id":"sunseeker-manhattan-73-gen1-2012","brand":"Sunseeker","disposition":"changes-required","dimensions":{"lengthM":22.564,"beamM":5.766,"lengthErrorPct":0.160,"beamErrorPct":0.625,"withinOnePercent":true},"inventory":{"components":23,"meaningfulComponents":21,"rooms":6,"decks":3,"glbFiles":4,"currentRenderFiles":20,"metricsRenderedViews":0,"qualityScreenshots":19,"qualityCurrentPathRefs":6,"shapeCounts":{"box":14,"chamferedBox":2,"cylinder":2,"deck":4,"hull":1},"glbMaterials":28,"glbTextures":28,"glbImages":28},"lod":{"exterior":"5936->5084","interiorPairs":1,"interiorTriangleReductionPairs":0,"interiorByteIdenticalPairs":1},"currentVisualFindings":"Current room/deck frames are visible without confirmed clipping, but Manhattan 73-specific treatment and room architecture remain weak; metrics are empty.","blockers":["EVID-001","VIS-001","VIS-002","VIS-003","VIS-004","TECH-001","APP-001"]},
+    {"id":"sunseeker-90-ocean-gen1-2020","brand":"Sunseeker","disposition":"changes-required","dimensions":{"lengthM":27.057,"beamM":7.207,"lengthErrorPct":0.160,"beamErrorPct":0.654,"withinOnePercent":true},"inventory":{"components":22,"meaningfulComponents":20,"rooms":5,"decks":3,"glbFiles":4,"currentRenderFiles":19,"metricsRenderedViews":0,"qualityScreenshots":18,"qualityCurrentPathRefs":6,"shapeCounts":{"box":13,"chamferedBox":2,"cylinder":2,"deck":4,"hull":1},"glbMaterials":30,"glbTextures":30,"glbImages":30},"lod":{"exterior":"5936->5022","interiorPairs":1,"interiorTriangleReductionPairs":0,"interiorByteIdenticalPairs":1},"currentVisualFindings":"Current room/deck frames pass luminance with no confirmed clipping, but enclosed-ocean identity and complete room assemblies remain underrepresented; metrics are empty.","blockers":["EVID-001","VIS-001","VIS-002","VIS-003","VIS-004","TECH-001","APP-001"]}
+  ],
+  "releaseDecision": {
+    "publicationAllowed": false,
+    "decision": "Hold the entire 20-yacht selection.",
+    "reason": "The new render pass improves room camera framing and lighting for the current batch, but the batch is not fully indexed by metrics/quality metadata, Princess V55 has blank current room/deck evidence, three current exterior frames remain too dark, room and exterior geometry remain coarse, interior LODs are unchanged, and no independent approval exists.",
+    "nextGate": "Regenerate metrics and quality records from the current batch, fix Princess V55 blank room/deck renders and the three dark exterior frames, complete model-specific rooms/materials/geometry, produce genuinely lighter interior LODs, and repeat independent QA."
+  }
+}

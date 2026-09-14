@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "auditId": "collection-audit-13",
+  "auditedAt": "2026-09-14",
+  "reviewType": "independent-qa",
+  "scope": {
+    "selectionFile": "research/yachts/release-selection.json",
+    "selectionStatus": "draft-scope",
+    "selectedCount": 20,
+    "brands": {"Princess": 10, "Sunseeker": 10},
+    "ids": [
+      "princess-r35-gen1-2018", "princess-v40-gen2-2017", "princess-v55-gen2-2019", "princess-f45-gen1-2019", "princess-f55-gen1-2017",
+      "princess-f65-gen1-2022", "princess-y85-gen1-2019", "princess-x95-gen1-2020", "princess-s65-gen1-2015", "princess-s72-gen1-2014",
+      "sunseeker-hawk-38-gen1-2018", "sunseeker-superhawk-55-gen1-2023", "sunseeker-portofino-48-gen1-2010", "sunseeker-predator-57-gen2-2017", "sunseeker-predator-74-gen2-2018",
+      "sunseeker-predator-84-gen1-2008", "sunseeker-manhattan-55-gen2-2021", "sunseeker-manhattan-63-gen1-2010", "sunseeker-manhattan-73-gen1-2012", "sunseeker-90-ocean-gen1-2020"
+    ]
+  },
+  "method": {
+    "freshness": "Audited the settled canonical current filename families emitted by the latest render-qa-states.py run; all 391 current output files are newer than the updated renderer. Legacy full-00 and room_N files were excluded from current visual counts.",
+    "technical": [
+      "Recomputed authoring-master hashes, manifest asset byte/SHA checks, parsed GLB declarations, dimensions, source IDs, fidelity, shapes, embedded materials/textures/images and LOD pairs.",
+      "Compared current render paths with metrics, scene reports and quality records, and rechecked first-vessel preservation without modifying production assets or quality records."
+    ],
+    "visual": [
+      "Inspected all 391 current-batch renders at collection scale, all 111 current room frames across the 20 selected room sets, a one-room-per-yacht sheet, and targeted current Princess, Sunseeker, V55, Superhawk, Predator 57 and Manhattan 63 views.",
+      "Reassessed the shared two-side-wall cutaway rule, room completeness, framing, residual occlusion, exterior identity/material fidelity, luminance, and literal camera-clipping evidence."
+    ],
+    "independence": "Draft quality records are evidence inputs only. All 20 remain changes-required and independent-qa-pending."
+  },
+  "summary": {
+    "status": "changes-required",
+    "releaseDisposition": "hold",
+    "publicationAllowed": false,
+    "publicationReadyCount": 0,
+    "independentApprovalCount": 0,
+    "changesRequiredCount": 20,
+    "sourceStatus": {
+      "selectionStatus": "draft-scope",
+      "authoringTechnicalMasterHashMatches": 20,
+      "components": 476,
+      "componentsWithSourceIds": 476,
+      "componentFidelityCounts": {"reference-informed": 360, "reconstructed": 116}
+    },
+    "manifestV2Records": 20,
+    "manifestAssetChecksPass": 84,
+    "technicalAssetDeclarationChecksPass": 84,
+    "dimensionChecksWithinOnePercent": 20,
+    "maximumDimensionErrorPercent": {"length": 0.45916, "beam": 0.78334},
+    "manifestComponents": 476,
+    "shapeCounts": {"box": 285, "cylinder": 48, "deck": 78, "chamferedBox": 44, "hull": 21},
+    "glbFiles": 84,
+    "glbFilesWithTextures": 84,
+    "glbFilesWithImages": 84,
+    "embeddedMaterialRecords": 702,
+    "embeddedTextureRecords": 702,
+    "embeddedImageRecords": 702,
+    "embeddedImageDimensions": {"128x128": 702},
+    "currentRenderBatch": {
+      "basis": "Canonical current filename families under .tools/yachts/review/*/renders; Superhawk uses its full-exterior/full-room-view family.",
+      "totalFiles": 391,
+      "exteriorFiles": 161,
+      "roomFiles": 111,
+      "deckFiles": 59,
+      "explodedFiles": 60,
+      "allCurrentFilesAtOrAfterRendererMtime": 391,
+      "sceneReportPathCoverage": 391,
+      "metricsPathCoverage": 391
+    },
+    "sceneReportRenderViewRecords": 842,
+    "metricsRecords": 20,
+    "metricsRenderedViewRecords": 842,
+    "metricsWithNonemptyRenderedViews": 20,
+    "metricsWithEmptyRenderedViews": 0,
+    "qualityScreenshotRecords": 370,
+    "qualityScreenshotReferencedPathHashesPass": 370,
+    "qualityRecordsReferencingCurrentBatch": 370,
+    "qualityRecordsReferencingOlderBatch": 0,
+    "qualityManifestHashMatches": 20,
+    "qualityMasterHashMatches": 20,
+    "qualityMasterHashMismatchIds": [],
+    "qualityStatusCounts": {"changes-required": 20},
+    "technicalVisualReviewCounts": {"pending": 20},
+    "technicalPublicationReadyCounts": {"false": 20},
+    "metricsSelfReviewCounts": {"not QA-approved": 20},
+    "roomRecords": 111,
+    "currentRoomFiles": 111,
+    "currentRoomSets": 20,
+    "currentRoomFilesAtOrAfterRendererMtime": 111,
+    "sharedTwoSideWallCutawayRule": {
+      "renderer": "scripts/yachts/render-qa-states.py:101-115",
+      "roomCameraInvocation": "scripts/yachts/render-qa-states.py:159-161",
+      "rule": "Hide selected-room objects marked roomCutaway or named as port/starboard walls; hide wall/partition/bulkhead context on the shared lower shell.",
+      "roomSetCoverage": "20/20",
+      "roomFrameCoverage": "111/111",
+      "sourceAndOutputCoverageVerified": true,
+      "visualResult": "rule-applied-but-visually-insufficient"
+    },
+    "currentRoomCameraClippingCasesConfirmed": 0,
+    "deckRecords": 59,
+    "currentDeckFiles": 59,
+    "explodedStateRecords": 60,
+    "currentExplodedFiles": 60,
+    "draftQualityFailChecksPresentOnAll20": ["distinctive-features", "furnished-rooms", "no-intersections", "no-floating-fittings", "closed-seams", "textures", "camera-clipping", "physical-supports", "materials-in-all-views"],
+    "lODComparison": {
+      "exteriorPairs": 20,
+      "exteriorLod1LowerTriangleCount": 20,
+      "exteriorLod1SameTriangleCount": 0,
+      "exteriorLod1HigherTriangleCount": 0,
+      "interiorPairs": 22,
+      "interiorTriangleReducedPairs": 22,
+      "interiorSameTriangleCountPairs": 0,
+      "interiorByteIdenticalPairs": 0,
+      "interiorByteDifferentPairs": 22
+    },
+    "superhawkLod": {
+      "interiorMain": "1300->976 triangles",
+      "interiorMainRenderMeshes": "8->5",
+      "interiorMainByteIdentical": false
+    },
+    "firstVesselPreservation": {
+      "id": "princess-r35-gen1-2018",
+      "selectedIndex": 1,
+      "selectionContains": true,
+      "masterExists": true,
+      "manifestVesselIdMatches": true,
+      "technicalReviewIdMatches": true,
+      "currentRenderFiles": 18,
+      "metricsRenderedViews": 38,
+      "qualityScreenshotRecords": 17,
+      "qualityScreenshotHashPass": 17,
+      "qualityMasterHashMatches": true
+    },
+    "latestInteriorReview": {
+      "sharedTwoSideWallCutawayRule": "verified-in-source-and-current-output-coverage",
+      "roomSpecificProportionalSizing": "improved-but-incomplete",
+      "bothSideWallCutawayHandling": "rule-applied-but-residual-opaque-bulkhead-roof-occlusion-remains",
+      "backedOutDiagonalRoomFraming": "improved-but-still-tight-in-several-views",
+      "currentSparseOrBlockoutRoomSets": 20
+    },
+    "currentVisualGateCounts": {
+      "currentRoomCameraClippingCasesConfirmed": 0,
+      "currentRoomFramesBelowEightPercentMeanLuminance": 0,
+      "currentDeckFramesBelowEightPercentMeanLuminance": 0,
+      "currentExplodedFramesBelowEightPercentMeanLuminance": 0,
+      "currentExteriorFramesBelowEightPercentMeanLuminance": 0,
+      "currentSparseOrBlockoutRoomSets": 20,
+      "princessV55BlankRoomFrames": 0,
+      "princessV55BlankDeckFrames": 0
+    },
+    "luminanceSummary": {
+      "exterior": {"count": 161, "meanNormalized": 0.23951, "belowEightPercent": 0},
+      "room": {"count": 111, "meanNormalized": 0.26774, "belowEightPercent": 0},
+      "deck": {"count": 59, "meanNormalized": 0.21720, "belowEightPercent": 0},
+      "exploded": {"count": 60, "meanNormalized": 0.20364, "belowEightPercent": 0}
+    }
+  },
+  "collectionBlockers": [
+    {
+      "id": "VIS-001",
+      "severity": "release-blocking",
+      "title": "Reference-faithful geometry remains unproven",
+      "finding": "The fleet has varied primitives but still reads as a repeated simplified slab-hull/superstructure vocabulary in the collection sheet; all 20 draft distinctive-features checks fail.",
+      "requiredAction": "Refine hulls, glazing, rooflines, decks and model-specific features against each reference dossier, then re-review canonical views."
+    },
+    {
+      "id": "VIS-002",
+      "severity": "release-blocking",
+      "title": "Room cutaway rule is applied, but interiors remain blockout-level",
+      "finding": "The shared two-side-wall cutaway rule is verified for all 111 current room frames across all 20 room sets. The resulting images are still not publication-ready: most rooms remain simplified bed/sofa/partition assemblies in shallow or open shells, with residual opaque forward/roof/bulkhead occlusion and tight diagonal framing in several views. V55 saloon remains furniture-like rather than a convincing deck-specific interior. All 20 furnished-room, intersection, floating-fitting, seam, camera and physical-support checks remain draft failures.",
+      "requiredAction": "Keep the shared rule, then complete each room shell, bulkhead, joinery, fixtures, machinery and physical supports; tune camera distance and aim per room until every cutaway is readable without residual occlusion. Repeat the independent furnished-room, intersection, seam, support and camera checks."
+    },
+    {
+      "id": "VIS-003",
+      "severity": "release-blocking",
+      "title": "Material payloads remain visually insufficient",
+      "finding": "All 84 GLBs contain authored 128x128 texture/image payloads, but the current exterior and room sheets still read largely as flat color-block treatments with weak model-specific material differentiation. The synchronized draft records fail textures and materials-in-all-views for all 20.",
+      "requiredAction": "Apply model-appropriate, sufficiently resolved materials and demonstrate consistent legibility across every canonical exterior, room, deck and exploded view."
+    },
+    {
+      "id": "APP-001",
+      "severity": "release-blocking",
+      "title": "No independent approval exists",
+      "finding": "All 20 quality records remain changes-required with reviewer independent-qa-pending. Technical visual reviews are pending, publicationReady is false for all 20, metrics self-review is not QA-approved for all 20, and the same nine draft fail checks remain on every record even though current paths, hashes, luminance and LOD evidence are complete.",
+      "requiredAction": "After the visual blockers are fixed, run a new independent QA pass and record explicit approval per selected ID."
+    }
+  ],
+  "perYacht": [
+    {"id":"princess-r35-gen1-2018","brand":"Princess","components":22,"meaningfulComponents":20,"rooms":4,"decks":3,"currentRenderFiles":18,"roomFrames":4,"sharedTwoSideWallRuleVerified":true,"metricsRenderedViews":38,"qualityScreenshots":17,"qualityCurrentPathRefs":17,"qualityScreenshotHashPass":17,"qualityMasterHashMatches":true,"blockers":["VIS-001","VIS-002","VIS-003","APP-001"]},
+    {"id":"princess-v40-gen2-2017","brand":"Princess","components":24,"meaningfulComponents":22,"rooms":6,"decks":3,"currentRenderFiles":20,"roomFrames":6,"sharedTwoSideWallRuleVerified":true,"metricsRenderedViews":43,"qualityScreenshots":19,"qualityCurrentPathRefs":19,"qualityScreenshotHashPass":19,"qualityMasterHashMatches":true,"blockers":["VIS-001","VIS-002","VIS-003","APP-001"]},
+    {"id":"princess-v55-gen2-2019","brand":"Princess","components":34,"meaningfulComponents":25,"rooms":10,"decks":3,"currentRenderFiles":25,"roomFrames":10,"sharedTwoSideWallRuleVerified":true,"metricsRenderedViews":71,"qualityScreenshots":23,"qualityCurrentPathRefs":23,"qualityScreenshotHashPass":23,"qualityMasterHashMatches":true,"blockers":["VIS-001","VIS-002","VIS-003","APP-001"]},
+    {"id":"princess-f45-gen1-2019","brand":"Princess","components":23,"meaningfulComponents":21,"rooms":5,"decks":3,"currentRenderFiles":19,"roomFrames":5,"sharedTwoSideWallRuleVerified":true,"metricsRenderedViews":55,"qualityScreenshots":18,"qualityCurrentPathRefs":18,"qualityScreenshotHashPass":18,"qualityMasterHashMatches":true,"blockers":["VIS-001","VIS-002","VIS-003","APP-001"]},
+    {"id":"princess-f55-gen1-2017","brand":"Princess","components":24,"meaningfulComponents":22,"rooms":6,"decks":3,"currentRenderFiles":20,"roomFrames":6,"sharedTwoSideWallRuleVerified":true,"metricsRenderedViews":43,"qualityScreenshots":19,"qualityCurrentPathRefs":19,"qualityScreenshotHashPass":19,"qualityMasterHashMatches":true,"blockers":["VIS-001","VIS-002","VIS-003","APP-001"]},
+    {"id":"princess-f65-gen1-2022","brand":"Princess","components":24,"meaningfulComponents":22,"rooms":6,"decks":3,"currentRenderFiles":20,"roomFrames":6,"sharedTwoSideWallRuleVerified":true,"metricsRenderedViews":43,"qualityScreenshots":19,"qualityCurrentPathRefs":19,"qualityScreenshotHashPass":19,"qualityMasterHashMatches":true,"blockers":["VIS-001","VIS-002","VIS-003","APP-001"]},
+    {"id":"princess-y85-gen1-2019","brand":"Princess","components":24,"meaningfulComponents":22,"rooms":6,"decks":3,"currentRenderFiles":20,"roomFrames":6,"sharedTwoSideWallRuleVerified":true,"metricsRenderedViews":43,"qualityScreenshots":19,"qualityCurrentPathRefs":19,"qualityScreenshotHashPass":19,"qualityMasterHashMatches":true,"blockers":["VIS-001","VIS-002","VIS-003","APP-001"]},
+    {"id":"princess-x95-gen1-2020","brand":"Princess","components":23,"meaningfulComponents":21,"rooms":4,"decks":3,"currentRenderFiles":18,"roomFrames":4,"sharedTwoSideWallRuleVerified":true,"metricsRenderedViews":38,"qualityScreenshots":17,"qualityCurrentPathRefs":17,"qualityScreenshotHashPass":17,"qualityMasterHashMatches":true,"blockers":["VIS-001","VIS-002","VIS-003","APP-001"]},
+    {"id":"princess-s65-gen1-2015","brand":"Princess","components":24,"meaningfulComponents":22,"rooms":6,"decks":3,"currentRenderFiles":20,"roomFrames":6,"sharedTwoSideWallRuleVerified":true,"metricsRenderedViews":43,"qualityScreenshots":19,"qualityCurrentPathRefs":19,"qualityScreenshotHashPass":19,"qualityMasterHashMatches":true,"blockers":["VIS-001","VIS-002","VIS-003","APP-001"]},
+    {"id":"princess-s72-gen1-2014","brand":"Princess","components":24,"meaningfulComponents":22,"rooms":6,"decks":3,"currentRenderFiles":20,"roomFrames":6,"sharedTwoSideWallRuleVerified":true,"metricsRenderedViews":43,"qualityScreenshots":19,"qualityCurrentPathRefs":19,"qualityScreenshotHashPass":19,"qualityMasterHashMatches":true,"blockers":["VIS-001","VIS-002","VIS-003","APP-001"]},
+    {"id":"sunseeker-hawk-38-gen1-2018","brand":"Sunseeker","components":20,"meaningfulComponents":18,"rooms":2,"decks":3,"currentRenderFiles":16,"roomFrames":2,"sharedTwoSideWallRuleVerified":true,"metricsRenderedViews":32,"qualityScreenshots":15,"qualityCurrentPathRefs":15,"qualityScreenshotHashPass":15,"qualityMasterHashMatches":true,"blockers":["VIS-001","VIS-002","VIS-003","APP-001"]},
+    {"id":"sunseeker-superhawk-55-gen1-2023","brand":"Sunseeker","components":18,"meaningfulComponents":18,"rooms":4,"decks":2,"currentRenderFiles":17,"roomFrames":4,"sharedTwoSideWallRuleVerified":true,"metricsRenderedViews":28,"qualityScreenshots":16,"qualityCurrentPathRefs":16,"qualityScreenshotHashPass":16,"qualityMasterHashMatches":true,"superhawkInteriorMainLod":"1300->976 triangles; 8->5 render meshes","blockers":["VIS-001","VIS-002","VIS-003","APP-001"]},
+    {"id":"sunseeker-portofino-48-gen1-2010","brand":"Sunseeker","components":23,"meaningfulComponents":21,"rooms":5,"decks":3,"currentRenderFiles":19,"roomFrames":5,"sharedTwoSideWallRuleVerified":true,"metricsRenderedViews":41,"qualityScreenshots":18,"qualityCurrentPathRefs":18,"qualityScreenshotHashPass":18,"qualityMasterHashMatches":true,"blockers":["VIS-001","VIS-002","VIS-003","APP-001"]},
+    {"id":"sunseeker-predator-57-gen2-2017","brand":"Sunseeker","components":24,"meaningfulComponents":22,"rooms":6,"decks":3,"currentRenderFiles":20,"roomFrames":6,"sharedTwoSideWallRuleVerified":true,"metricsRenderedViews":34,"qualityScreenshots":19,"qualityCurrentPathRefs":19,"qualityScreenshotHashPass":19,"qualityMasterHashMatches":true,"blockers":["VIS-001","VIS-002","VIS-003","APP-001"]},
+    {"id":"sunseeker-predator-74-gen2-2018","brand":"Sunseeker","components":25,"meaningfulComponents":23,"rooms":6,"decks":3,"currentRenderFiles":20,"roomFrames":6,"sharedTwoSideWallRuleVerified":true,"metricsRenderedViews":43,"qualityScreenshots":19,"qualityCurrentPathRefs":19,"qualityScreenshotHashPass":19,"qualityMasterHashMatches":true,"blockers":["VIS-001","VIS-002","VIS-003","APP-001"]},
+    {"id":"sunseeker-predator-84-gen1-2008","brand":"Sunseeker","components":25,"meaningfulComponents":23,"rooms":6,"decks":3,"currentRenderFiles":20,"roomFrames":6,"sharedTwoSideWallRuleVerified":true,"metricsRenderedViews":43,"qualityScreenshots":19,"qualityCurrentPathRefs":19,"qualityScreenshotHashPass":19,"qualityMasterHashMatches":true,"blockers":["VIS-001","VIS-002","VIS-003","APP-001"]},
+    {"id":"sunseeker-manhattan-55-gen2-2021","brand":"Sunseeker","components":24,"meaningfulComponents":22,"rooms":6,"decks":3,"currentRenderFiles":20,"roomFrames":6,"sharedTwoSideWallRuleVerified":true,"metricsRenderedViews":43,"qualityScreenshots":19,"qualityCurrentPathRefs":19,"qualityScreenshotHashPass":19,"qualityMasterHashMatches":true,"blockers":["VIS-001","VIS-002","VIS-003","APP-001"]},
+    {"id":"sunseeker-manhattan-63-gen1-2010","brand":"Sunseeker","components":24,"meaningfulComponents":22,"rooms":6,"decks":3,"currentRenderFiles":20,"roomFrames":6,"sharedTwoSideWallRuleVerified":true,"metricsRenderedViews":34,"qualityScreenshots":19,"qualityCurrentPathRefs":19,"qualityScreenshotHashPass":19,"qualityMasterHashMatches":true,"blockers":["VIS-001","VIS-002","VIS-003","APP-001"]},
+    {"id":"sunseeker-manhattan-73-gen1-2012","brand":"Sunseeker","components":24,"meaningfulComponents":22,"rooms":6,"decks":3,"currentRenderFiles":20,"roomFrames":6,"sharedTwoSideWallRuleVerified":true,"metricsRenderedViews":43,"qualityScreenshots":19,"qualityCurrentPathRefs":19,"qualityScreenshotHashPass":19,"qualityMasterHashMatches":true,"blockers":["VIS-001","VIS-002","VIS-003","APP-001"]},
+    {"id":"sunseeker-90-ocean-gen1-2020","brand":"Sunseeker","components":23,"meaningfulComponents":21,"rooms":5,"decks":3,"currentRenderFiles":19,"roomFrames":5,"sharedTwoSideWallRuleVerified":true,"metricsRenderedViews":41,"qualityScreenshots":18,"qualityCurrentPathRefs":18,"qualityScreenshotHashPass":18,"qualityMasterHashMatches":true,"blockers":["VIS-001","VIS-002","VIS-003","APP-001"]}
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-09-14",
+  "scope": "Filesystem-only catalog, manifest, release-wiring, and authored-artifact QA. No Blender or visual approval.",
+  "visualApproval": "not-performed",
+  "summary": {
+    "researchModels": 16,
+    "uniqueResearchIds": 16,
+    "seedRows": 172,
+    "currentSeedDispositionCounts": {
+      "canonical": 6,
+      "unresolved": 166
+    },
+    "releaseVessels": 0,
+    "publicYachtAssetRootPresent": false,
+    "focusedTestsPassed": 19
+  },
+  "findings": [
+    {
+      "id": "QA-001",
+      "severity": "blocker",
+      "status": "open",
+      "subject": "Runtime release snapshot is empty",
+      "evidence": [
+        "src/data/yachts/release.json has null repository and revision and an empty vessels array.",
+        "src/assets/yachts.ts imports only release.vessels for authored yacht admission.",
+        "No public/yacht-assets tree was found; output/yachts/catalog is not runtime admission."
+      ]
+    },
+    {
+      "id": "QA-002",
+      "severity": "blocker",
+      "status": "open",
+      "subject": "Seed/catalog publication gate remains incomplete",
+      "evidence": [
+        "The 172-row seed evaluates to 6 canonical and 166 unresolved rows under current dispositions.",
+        "The current disposition file is Princess-only; no Sunseeker disposition file exists.",
+        "scripts/yachts/quality.ts treats every unresolved seed row as a collection failure."
+      ]
+    },
+    {
+      "id": "QA-003",
+      "severity": "blocker",
+      "status": "open",
+      "subject": "Hawk 38 canonical has no raw seed row",
+      "evidence": [
+        "Seven Sunseeker batch targets have raw rows 18, 20, 26, 28, 37, 71, and 85.",
+        "No Hawk 38 row exists in research/sunseeker-princess-yacht-range.md.",
+        "Potential namesakes and other generations remain unassigned rather than forced."
+      ]
+    },
+    {
+      "id": "QA-004",
+      "severity": "blocker",
+      "status": "open",
+      "subject": "Princess V55 lacks independent quality approval",
+      "evidence": [
+        "The exported V55 manifest parses with 34 components, 25 meaningful components, 6 assets, 3 decks, 10 rooms, and 12 cameras.",
+        "All 6 manifest asset byte counts and SHA-256 values match filesystem bytes.",
+        "technical-review.json reports visualReview=pending and publicationReady=false.",
+        "No .tools/yachts/review/princess-v55-gen2-2019/quality.json exists."
+      ]
+    },
+    {
+      "id": "QA-005",
+      "severity": "blocker",
+      "status": "open",
+      "subject": "Sunseeker exchange is stale",
+      "evidence": [
+        "The three exchange GLBs are readable and their declared assembly owners are inspectable.",
+        "The current Sunseeker master SHA-256 does not match exchange/authoring.json.masterSha256.",
+        "scripts/yachts/export.ts rejects stale exchanges before optimization.",
+        "The Sunseeker scene report has an empty assets array and inspection-required status."
+      ]
+    },
+    {
+      "id": "QA-006",
+      "severity": "blocker",
+      "status": "open",
+      "subject": "Sunseeker has no exported manifest, technical review, or quality review",
+      "evidence": [
+        "No assets/models/sunseeker-superhawk-55-gen1-2023/manifest.json exists.",
+        "No assets/models/sunseeker-superhawk-55-gen1-2023/technical-review.json exists.",
+        "No review quality.json exists for Sunseeker or V55."
+      ]
+    },
+    {
+      "id": "QA-007",
+      "severity": "hold",
+      "status": "open",
+      "subject": "Visual quality is not approved",
+      "evidence": [
+        "Metadata establishes export structure and dimensional checks only.",
+        "The prior Sunseeker render review rejected flat-box roof, open-hull, protruding-room, and cropped-view results; producer revision remains required.",
+        "No independent quality review artifact is present."
+      ]
+    }
+  ],
+  "postMcpChecks": [
+    "Regenerate the exchange from the current master and require matching master SHA-256.",
+    "Run the exporter and require version-2 manifest, both exterior LODs, complete component coverage, embedded GLBs, safe paths, and matching bytes/SHA-256.",
+    "Compare exported V55 and Superhawk length/beam/draft against research targets within the project tolerance.",
+    "Create independent quality.json files and require reviewFailures(manifest, review) to return an empty array.",
+    "Recheck Sunseeker silhouette, hull closure, room containment, and camera framing in fresh renders.",
+    "Keep release.json empty until catalog, dispositions, approved reviews, and pinned repository/revision are complete."
+  ],
+  "testResult": {
+    "command": "npx vitest run tests/yacht-seed-audit.test.ts tests/yacht-manifest.test.ts tests/yacht-export.test.ts tests/yacht-publication.test.ts tests/yacht-readiness.test.ts",
+    "testFiles": 5,
+    "tests": 19,
+    "status": "passed"
+  }
+}

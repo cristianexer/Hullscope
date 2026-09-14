@@ -13,7 +13,7 @@ const assets=[...html.matchAll(/(?:src|href)="(\/Hullscope\/assets\/[^"]+)"/g)].
 if(!assets.some(path=>path.endsWith('.js')))throw new Error('No production JavaScript in the released HTML.');
 await Promise.all(assets.map(async path=>{await(await get(path)).arrayBuffer();}));
 // Read every deployed manifest and verify both exported LODs are real GLBs.
-const {fleet}=await import('../src/data/fleet.ts');
+const {legacyFleet:fleet}=await import('../src/data/fleet.ts');
 for(let start=0;start<fleet.length;start+=4){
  await Promise.all(fleet.slice(start,start+4).map(async vessel=>{
   const manifest=await(await get(`models/${vessel.id}.json`)).json();

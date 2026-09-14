@@ -1,5 +1,6 @@
 import type { VesselRecord, Fact, Source } from './schema';
 import { blackPearl } from './blackPearl';
+import { releasedYachts } from '../assets/yachts';
 // Geometry dimensions are authoring inputs. Only explicitly verified fields become verified facts.
 type Row = [string,string,string,string,string,number,number,number,number,string,string,string,string,string,string,string,string];
 const rows:Row[] = [
@@ -61,5 +62,9 @@ if(id==='christophe-de-margerie')for(const fact of facts){if(fact.sourceId===sou
 return {id,name,family:{id:kind,name:family,group,description:purpose,subtypes:[subtitle]},subtitle,purpose,length,beam,depth,year,hullColor,deckColor:id==='berge-olympus'?'#ae645d':id==='sparky'?'#56836d':'#7b8270',kind,configuration:id==='bourbon-orca'?'2006 anchor-handling configuration, before conversion to Kommandor Orca':id==='berge-olympus'?'2023 WindWings refit':id==='ocean-drover'?'November 2022 exterior reference; published Wellard technical-sheet particulars, before the 2025 sale':id==='abeille-bourbon'?'2021 technical-sheet configuration, before later renaming':`${year} reference-era reconstruction; not a current-condition survey`,dimensionStatus:verified?'verified':'inferred',facts,sources:id==='ocean-drover'?[source,{id:'ocean-drover-2022-photo',publisher:'Photographer via Wikimedia Commons',title:'Ocean Drover at Fremantle, November 2022 — exterior photograph',url:'https://commons.wikimedia.org/wiki/File:Livestock_Carrier_Ocean_Drover_in_Fremantle_Harbour,_November_2022_01.jpg',accessed:'2026-09-08',published:'2022-11',scope:'Dated exterior evidence for grey hull, white ventilated livestock decks, forward bridge and roof equipment. Does not verify exact component counts or interior layouts.'}]:id==='hms-defender'?[source,{id:'type45-class-reference',publisher:'Royal Navy',title:'Daring Class — Type 45 exterior and systems',url:'https://www.royalnavy.mod.uk/equipment/ships/daring-class',accessed:'2026-09-08',published:null,scope:'Class-level reference for enclosed deck equipment, SAMPSON radome, aft flight deck and hangar. Does not verify internal layouts or schematic equipment counts.'}]:[source],signature,operation,efficiency,risk,modelNote:'Original educational reconstruction. Public references inform the overall form and visible equipment. Hull offsets, internal arrangements, equipment counts and individual component positions are not survey-verified. Reconstructed geometry must not be used for engineering or navigation.'};
 });
 fleet.push(blackPearl);
+// Keep Octopus and its assets unchanged; only its discovery group moves.
+fleet.find(vessel=>vessel.id==='octopus')!.family.group='Yachts';
+export const legacyFleet = [...fleet];
+fleet.push(...releasedYachts);
 export const getVessel=(id:string)=>fleet.find(v=>v.id===id)??fleet[0];
 export const groups=[...new Set(fleet.map(v=>v.family.group))];

@@ -1,0 +1,103 @@
+{
+  "dispositions": [
+    {
+      "rowId": "seed-row-135",
+      "disposition": {
+        "type": "canonical",
+        "canonicalId": "princess-r35-gen1-2018",
+        "evidence": [
+          "Seed row 135 is Princess R35, marked historical with a 2018 launch.",
+          "Official launch notice: https://www.princess.co.uk/news/the-all-new-princess-r35",
+          "Official R Class brochure supplies the R35 dimensions and Volvo Petrol V8/duo-prop stern-drive configuration: https://www.princess.fr/media-file/2399/r-class-brochure-2019-20-book-1.pdf",
+          "Independent Soundings coverage identifies the same carbon-fibre R35, twin 430-hp Volvo Penta gasoline inboards and 50-knot claim: https://soundingsonline.com/boats/princess-yachts-r35/",
+          "The seed's twin-petrol-outboards wording and incomplete beam/draft fields are spec defects, not evidence of a different R35 generation."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-67",
+      "disposition": {
+        "type": "canonical",
+        "canonicalId": "princess-v40-gen2-2017",
+        "evidence": [
+          "Seed row 67 is Princess V40 with dimensions, tanks, engines and 34–36-knot performance matching the official V40 specification.",
+          "Official Princess announcement dates the V40 worldwide debut to January 2017 and describes it as the V39 update: https://www.princess.co.uk/news/princess-v40-show-debut-dusseldorf-2017",
+          "Current official V40 page still identifies the 2017 launch and publishes the same 12.98 m, 3.81 m, 0.56/1.02 m, 9,592 kg, 730 L and D6-380 values: https://www.princessyachts.com/our-yachts/v-class/v40/",
+          "Independent YachtBuyer identifies this as V40 Gen 2, 2017–2025: https://www.yachtbuyer.com/en-us/yachts/compare/princess-v40-vs-jeanneau-leader-40-gen2-188d985"
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-130",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-64",
+      "disposition": {
+        "type": "canonical",
+        "canonicalId": "princess-v55-gen2-2019",
+        "evidence": [
+          "Seed row 64's 17.81 m / 4.65 m / 1.44 m dimensions, 28,589 kg displacement, 2,500/466/300 L tanks, D13-1000 engines and 33–35-knot band match the official current V55 page.",
+          "Official 2019 release describes the all-new V55, three cabins for six and the drop-down patio door: https://www.princess.co.uk/news/the-new-princess-v55-the-heart-and-soul-of-the-v-class",
+          "Official current specification: https://www.princessyachts.com/our-yachts/v-class/v55/",
+          "Independent YachtBuyer review identifies the 2019 platform as V55 Gen 2 and confirms 17.81 m LOA, 4.65 m beam, three cabins and six berths: https://www.yachtbuyer.com/en-us/reviews/princess-v55-2019",
+          "The independent draft is approximately 1.40 m and the launch claim reached 37 knots; these are recorded conflicts, not substitutions for the official 1.44 m and current 33–35-knot fields."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-57",
+      "disposition": {
+        "type": "canonical",
+        "canonicalId": "princess-f45-gen1-2019",
+        "evidence": [
+          "Seed row 57 matches the official F45 dimensions, displacement, tanks, IPS650 engines and 29–31-knot performance.",
+          "Official launch notice dates the all-new F45 to Boot Düsseldorf 2019: https://www.princess.co.uk/news/introducing-the-all-new-princess-f45",
+          "Official current specification and two-cabin layout: https://www.princessyachts.com/our-yachts/f-class/f45/",
+          "Independent YachtBuyer review confirms the 2019 F45 identity, full-beam owner cabin and two-cabin layout; its 4.25 m beam and 1.09 m draft are small alternate values: https://www.yachtbuyer.com/en-gb/reviews/princess-f45-2019-2"
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-52",
+      "disposition": {
+        "type": "canonical",
+        "canonicalId": "princess-f65-gen1-2022",
+        "evidence": [
+          "Seed row 52 matches the official F65 dimensions, 37,253 kg displacement, 4,100/802/272 L tanks, V8-1200 engines and 31–33-knot band.",
+          "Official launch notice dates the world premiere to Southampton in September 2022 and confirms the four-cabin/eight-guest layout: https://www.princess.co.uk/news/princess-f65-will-launch-at-southampton-international-boat-show",
+          "Official current specification: https://www.princessyachts.com/our-yachts/f-class/f65/",
+          "Independent YachtBuyer review confirms the 2022 F65, four cabins, eight guests and current in-production status: https://www.yachtbuyer.com/en/reviews/princess-f65-2022-aquaholic",
+          "Motor Boat & Yachting reports a 5.10 m beam and 1.48 m draft in show-tour metadata; the draft conflict is retained rather than used to remap the model: https://www.mby.com/boat-shows-and-events/southampton-boat-show/2022-princess-f65-122771"
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-70",
+      "disposition": {
+        "type": "canonical",
+        "canonicalId": "princess-y85-gen2-2022",
+        "evidence": [
+          "Seed row 70 is the current-range Y85 reconciliation row and deliberately has all six technical spec fields missing; its identity is supported by the independent current-range source, not by the absent seed specs.",
+          "Independent YachtBuyer separates Y85 Mk1 (2019–2021) from Mk2 (2022–present), and its 2022 review identifies the changed elongated glazing and infinity-view cockpit: https://www.yachtbuyer.com/en/princess/for-sale/princess-y85 and https://www.yachtbuyer.com/en-us/reviews/princess-y85-2022",
+          "Current Princess regional material publishes the 26.20 m / 6.29 m / 1.89 m Gen2-style set: https://princessadriatic.com/princess/y85/",
+          "The original official Y85 launch is separately dated 2019, so the current-range row is mapped to the batch Gen2/current canonical rather than to the 2019 Gen1: https://www.princess.co.uk/news/the-all-new-contemporary-princess-y85"
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-45",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    }
+  ]
+}

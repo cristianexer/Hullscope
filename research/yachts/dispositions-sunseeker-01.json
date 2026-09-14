@@ -1,0 +1,823 @@
+{
+  "dispositions": [
+    {
+      "rowId": "seed-row-18",
+      "disposition": {
+        "type": "canonical",
+        "evidence": [
+          "https://www.sunseeker.com/range/superhawk-55",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-superhawk-55-gen1-2023"
+      }
+    },
+    {
+      "rowId": "seed-row-19",
+      "disposition": {
+        "type": "canonical",
+        "evidence": [
+          "https://www.sunseeker.com/range/predator-55",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-predator-55-gen2-2024"
+      }
+    },
+    {
+      "rowId": "seed-row-20",
+      "disposition": {
+        "type": "canonical",
+        "evidence": [
+          "https://www.sunseeker.com/range/predator-65",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-predator-65-gen1-2021"
+      }
+    },
+    {
+      "rowId": "seed-row-21",
+      "disposition": {
+        "type": "variant",
+        "evidence": [
+          "https://www.sunseeker.com/range/predator-65-sportfly",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-predator-65-gen1-2021"
+      }
+    },
+    {
+      "rowId": "seed-row-22",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-23",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-24",
+      "disposition": {
+        "type": "variant",
+        "evidence": [
+          "https://www.sunseeker.com/news/news/sunseeker-line-up-announced-for-salone-nautico-genova",
+          "https://uploads.sunseeker.com/uploads/20e5cbe527ec071f11f0831f4fbdd737/en/Sunseeker%20Range%20E-Brochure%202025.pdf",
+          "https://www.sunseekerbrokerage.com/yachts-for-sale/directory/sunseeker/performance/65-sport-yacht",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-predator-65-gen1-2021"
+      }
+    },
+    {
+      "rowId": "seed-row-25",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-26",
+      "disposition": {
+        "type": "canonical",
+        "evidence": [
+          "https://www.sunseeker.com/en/yachts-and-boats/yacht/manhattan-55",
+          "https://www.sunseekerusa.com/yachts-and-boats/yacht/manhattan-56",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-manhattan-55-gen2-2021"
+      }
+    },
+    {
+      "rowId": "seed-row-27",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-28",
+      "disposition": {
+        "type": "canonical",
+        "evidence": [
+          "https://www.sunseeker.com/range/manhattan-68",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-manhattan-68-gen2-2025"
+      }
+    },
+    {
+      "rowId": "seed-row-29",
+      "disposition": {
+        "type": "canonical",
+        "evidence": [
+          "https://www.sunseeker.com/range/76-yacht",
+          "https://uploads.sunseeker.com/uploads/efc11d415a45c3edb199e16db6b3ec88/en/Sunseeker%20Range%20E-Brochure%202025.pdf",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-76-yacht-gen1-2017"
+      }
+    },
+    {
+      "rowId": "seed-row-30",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-31",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-32",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-33",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-34",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-35",
+      "disposition": {
+        "type": "canonical",
+        "evidence": [
+          "https://www.sunseeker.com/range/82-ocean-enclosed",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-82-ocean-enclosed-gen1-2024"
+      }
+    },
+    {
+      "rowId": "seed-row-36",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-37",
+      "disposition": {
+        "type": "canonical",
+        "evidence": [
+          "https://www.sunseeker.com/range/90-ocean",
+          "https://www.yachtworld.com/yacht/2024-sunseeker-90-ocean-10049855/",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-90-ocean-gen1-2020"
+      }
+    },
+    {
+      "rowId": "seed-row-38",
+      "disposition": {
+        "type": "variant",
+        "evidence": [
+          "https://www.sunseeker.com/range/90-ocean-enclosed",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-90-ocean-gen1-2020"
+      }
+    },
+    {
+      "rowId": "seed-row-39",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-40",
+      "disposition": {
+        "type": "announced",
+        "evidence": [
+          "https://www.sunseeker.com/zh/news/news/sunseeker-introduces-standardised-global-model-naming-convention-1",
+          "https://www.yachtbuyer.com/en-us/sunseeker/heritage",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-41",
+      "disposition": {
+        "type": "announced",
+        "evidence": [
+          "https://www.sunseeker.com/zh/news/news/sunseeker-introduces-standardised-global-model-naming-convention-1",
+          "https://www.yachtbuyer.com/en-us/sunseeker/heritage",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-42",
+      "disposition": {
+        "type": "announced",
+        "evidence": [
+          "https://www.yachtbuyer.com/en-us/sunseeker/heritage",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-43",
+      "disposition": {
+        "type": "announced",
+        "evidence": [
+          "https://www.sunseeker.com/news-and-events/layer-by-layer-a-legacy-begins-hull-no-1-of-the-sunseeker-40m-sovereign",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-44",
+      "disposition": {
+        "type": "announced",
+        "evidence": [
+          "https://www.sunseeker.com/fr/news-and-events/sunseeker-reveals-first-images-of-the-45m-superyacht",
+          "https://www.yachtbuyer.com/en-us/sunseeker/heritage",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-71",
+      "disposition": {
+        "type": "canonical",
+        "evidence": [
+          "https://www.yachtbuyer.com/en-us/sunseeker/heritage",
+          "https://www.sunseeker.com/en/yachts-and-boats",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-131-yacht-gen1-2016"
+      }
+    },
+    {
+      "rowId": "seed-row-72",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-73",
+      "disposition": {
+        "type": "variant",
+        "evidence": [
+          "https://www.yachtbuyer.com/en-us/sunseeker/heritage",
+          "https://www.sunseeker.com/en/yachts-and-boats",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-predator-74-gen2-2018"
+      }
+    },
+    {
+      "rowId": "seed-row-74",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-75",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-76",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-77",
+      "disposition": {
+        "type": "canonical",
+        "evidence": [
+          "https://www.yachtbuyer.com/en-us/sunseeker/heritage",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-manhattan-66-gen2-2017"
+      }
+    },
+    {
+      "rowId": "seed-row-78",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-79",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-81",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-82",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-83",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-84",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-85",
+      "disposition": {
+        "type": "alias",
+        "evidence": [
+          "https://www.yachtbuyer.com/en-us/sunseeker/heritage",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-predator-74-gen2-2018"
+      }
+    },
+    {
+      "rowId": "seed-row-86",
+      "disposition": {
+        "type": "variant",
+        "evidence": [
+          "https://www.yachtbuyer.com/en-us/sunseeker/heritage",
+          "https://www.sunseeker.com/en/yachts-and-boats",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-predator-74-gen2-2018"
+      }
+    },
+    {
+      "rowId": "seed-row-87",
+      "disposition": {
+        "type": "variant",
+        "evidence": [
+          "https://www.yachtbuyer.com/en-us/sunseeker/heritage",
+          "https://www.sunseeker.com/en/yachts-and-boats",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-predator-74-gen2-2018"
+      }
+    },
+    {
+      "rowId": "seed-row-88",
+      "disposition": {
+        "type": "canonical",
+        "evidence": [
+          "https://www.yachtbuyer.com/en-us/sunseeker/heritage",
+          "https://www.sunseeker.com/en/yachts-and-boats",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-predator-60-evo-gen1-2019"
+      }
+    },
+    {
+      "rowId": "seed-row-89",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-90",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-91",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-92",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-93",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-94",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-96",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-97",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-98",
+      "disposition": {
+        "type": "canonical",
+        "evidence": [
+          "https://www.yachtbuyer.com/en-us/sunseeker/heritage",
+          "https://www.sunseeker.com/en/yachts-and-boats",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-predator-84-gen1-2008"
+      }
+    },
+    {
+      "rowId": "seed-row-99",
+      "disposition": {
+        "type": "canonical",
+        "evidence": [
+          "https://www.yachtbuyer.com/en-us/sunseeker/heritage",
+          "https://www.sunseeker.com/en/yachts-and-boats",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-manhattan-73-gen1-2012"
+      }
+    },
+    {
+      "rowId": "seed-row-100",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-101",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-102",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-103",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-104",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-105",
+      "disposition": {
+        "type": "canonical",
+        "evidence": [
+          "https://www.yachtbuyer.com/en-us/sunseeker/heritage",
+          "https://www.sunseeker.com/en/yachts-and-boats",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "sunseeker-portofino-48-gen1-2010"
+      }
+    },
+    {
+      "rowId": "seed-row-106",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-107",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-108",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-109",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-110",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-111",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-112",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-113",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-114",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-115",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-116",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-117",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-118",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-119",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-120",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-121",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-122",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-123",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-124",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-125",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-126",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-127",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-128",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-129",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    }
+  ]
+}

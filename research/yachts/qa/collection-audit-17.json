@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "auditId": "collection-audit-17",
+  "auditedAt": "2026-09-14",
+  "reviewType": "independent-visual-technical",
+  "scope": {
+    "selectionFile": "research/yachts/release-selection.json",
+    "selectionStatus": "draft-scope",
+    "selectedCount": 20,
+    "brands": {"Princess": 10, "Sunseeker": 10},
+    "sourceAudit": "research/yachts/qa/collection-audit-16.json",
+    "ids": [
+      "princess-r35-gen1-2018", "princess-v40-gen2-2017", "princess-v55-gen2-2019", "princess-f45-gen1-2019", "princess-f55-gen1-2017",
+      "princess-f65-gen1-2022", "princess-y85-gen1-2019", "princess-x95-gen1-2020", "princess-s65-gen1-2015", "princess-s72-gen1-2014",
+      "sunseeker-hawk-38-gen1-2018", "sunseeker-superhawk-55-gen1-2023", "sunseeker-portofino-48-gen1-2010", "sunseeker-predator-57-gen2-2017", "sunseeker-predator-74-gen2-2018",
+      "sunseeker-predator-84-gen1-2008", "sunseeker-manhattan-55-gen2-2021", "sunseeker-manhattan-63-gen1-2010", "sunseeker-manhattan-73-gen1-2012", "sunseeker-90-ocean-gen1-2020"
+    ]
+  },
+  "method": {
+    "promotionVerification": "Compared the 18-id .tools/yachts/validation/beam-compensated masters and exchange files against canonical masters/exchange, then checked canonical master-to-exchange and master-to-technical-review hashes for all 20 selected ids. V55 and Superhawk are recorded as inherited current sets because they are not in the beam-compensated validation reference set.",
+    "technical": "Recomputed research-dimension error from the current technical-review dimensions, manifest asset byte/SHA checks, GLB declarations and embedded GLB JSON, component/source coverage, LOD pairs, current render-path coverage, thumbnail presence and quality screenshot hashes.",
+    "visual": "Inspected current canonical exterior and room render pairs for R35, F65, X95, Predator 74, Manhattan 73, Ocean 90 and Superhawk 55. Review focused on hull curvature, glazing, roofline, deck assembly, model identity, room enclosure, joinery, supports, camera framing and material legibility.",
+    "routes": "Ran the preview discovery flow and direct hash-route checks for all seven visual representatives. The coordinator browser suite independently passed 3 tests with 1 explicitly skipped network test, including desktop data-loaded-lod=0 verification.",
+    "independence": "No production quality record was edited. Existing quality and technical-review records remain evidence inputs; this audit does not convert them to approval."
+  },
+  "summary": {
+    "status": "changes-required",
+    "releaseDisposition": "hold",
+    "publicationAllowed": false,
+    "publicationReadyCount": 0,
+    "independentApprovalCount": 0,
+    "changesRequiredCount": 20,
+    "promotion": {
+      "validatedBeamCompensatedIds": 18,
+      "validatedMasterHashMatches": "18/18",
+      "validatedExchangeFileHashMatches": "54/54",
+      "inheritedCurrentSets": ["princess-v55-gen2-2019", "sunseeker-superhawk-55-gen1-2023"],
+      "canonicalMasterHashToExchange": "20/20",
+      "canonicalMasterHashToTechnicalReview": "20/20",
+      "canonicalOutputNote": "18 promoted sets have current master, optimized asset, review and thumbnail mtimes at the promotion pass; V55 and Superhawk retain their existing current artifacts."
+    },
+    "currentRenderBatch": {
+      "totalFiles": 391,
+      "exteriorFiles": 161,
+      "roomFiles": 111,
+      "deckFiles": 59,
+      "explodedFiles": 60,
+      "metricsRecords": 20,
+      "metricsRenderedViewRecords": 842,
+      "sceneReportRecords": 20,
+      "sceneReportRenderedViewRecords": 842,
+      "metricsPathCoverage": 391,
+      "sceneReportPathCoverage": 391,
+      "currentRoomSets": 20,
+      "currentRoomFrames": 111
+    },
+    "technical": {
+      "masters": 20,
+      "manifests": 20,
+      "technicalReviews": 20,
+      "glbFiles": 84,
+      "manifestAssetRecords": 84,
+      "manifestAssetShaByteChecks": "84/84",
+      "technicalAssetRecords": 84,
+      "technicalAssetByteChecks": "84/84",
+      "components": 476,
+      "meaningfulComponents": 431,
+      "componentsWithSourceIds": 476,
+      "componentFidelityCounts": {"reference-informed": 360, "reconstructed": 116},
+      "shapeCounts": {"box": 285, "cylinder": 48, "deck": 78, "chamferedBox": 44, "hull": 21},
+      "embeddedGlbJson": {
+        "filesParsed": 84,
+        "materials": 738,
+        "textures": 738,
+        "images": 738,
+        "embeddedImages": 738,
+        "embeddedBuffers": 168,
+        "malformedFiles": 0,
+        "filesWithoutMaterials": 0,
+        "filesWithoutImages": 0
+      },
+      "dimensions": {
+        "researchRecords": 20,
+        "withinOnePercent": "20/20",
+        "maximumRecomputedLengthErrorPercent": 0.45915543444885465,
+        "maximumRecomputedBeamErrorPercent": 0.41721982061547764
+      },
+      "lod": {
+        "pairs": 42,
+        "exteriorPairs": 20,
+        "interiorPairs": 22,
+        "reducedPairs": 42,
+        "byteIdenticalPairs": 0
+      },
+      "thumbnails": {"selected": 20, "present": 20, "nonEmpty": 20}
+    },
+    "qualityEvidence": {
+      "qualityRecords": 20,
+      "qualityStatusCounts": {"changes-required": 20},
+      "qualityReviewerCounts": {"independent-qa-pending": 20},
+      "qualityScreenshotRecords": 370,
+      "qualityCurrentPathRefs": 370,
+      "qualityScreenshotHashPass": 370,
+      "technicalVisualReviewCounts": {"pending": 20},
+      "technicalPublicationReadyCounts": {"false": 20},
+      "metricsSelfReviewCounts": {"not QA-approved": 20}
+    },
+    "desktopLod": {
+      "source": "src/viewer/AuthoredShip.tsx:73-78",
+      "selectionRule": "Desktop selects authored LOD0; low-detail compatibility/mobile selects LOD1.",
+      "browserVerification": "passed; data-loaded-lod=0 in the desktop representative-asset smoke check"
+    },
+    "previewRoutes": {
+      "environment": "HULLSCOPE_YACHT_PREVIEW=1",
+      "previewCatalogVessels": 20,
+      "previewCatalogUniqueIds": true,
+      "previewBrandCounts": {"Princess": 10, "Sunseeker": 10},
+      "browserDiscovery": "passed",
+      "browserSuite": "3 passed, 1 explicitly skipped network test",
+      "browserFleetCards": 21,
+      "octopusRoutePreserved": true,
+      "directRepresentativeRoutes": "7/7 loaded the expected vessel id",
+      "checkedIds": [
+        "princess-r35-gen1-2018",
+        "princess-f65-gen1-2022",
+        "princess-x95-gen1-2020",
+        "sunseeker-predator-74-gen2-2018",
+        "sunseeker-manhattan-73-gen1-2012",
+        "sunseeker-90-ocean-gen1-2020",
+        "sunseeker-superhawk-55-gen1-2023"
+      ],
+      "productionRelease": {"path": "src/data/yachts/release.json", "vesselCount": 0, "repository": null, "revision": null}
+    }
+  },
+  "representativeVisualReview": [
+    {
+      "id": "princess-r35-gen1-2018",
+      "exteriorRender": ".tools/yachts/review/princess-r35-gen1-2018/renders/full-review-starboard-three-quarter.png",
+      "roomRender": ".tools/yachts/review/princess-r35-gen1-2018/renders/full-room-galley-living-area.png",
+      "exteriorFinding": "The hull has a smoother entry and a clearer low sportsboat profile, but the deck remains mostly layered plates, rails and box-like fittings; glazing and the R35 sportsbridge do not yet read as a resolved model-specific exterior.",
+      "roomFinding": "The camera is dominated by a brown wall/floor slab and a large white furniture block. The galley/living arrangement lacks readable shell boundaries, joinery, fixtures and physical supports.",
+      "disposition": "changes-required"
+    },
+    {
+      "id": "princess-f65-gen1-2022",
+      "exteriorRender": ".tools/yachts/review/princess-f65-gen1-2022/renders/full-review-starboard-three-quarter.png",
+      "roomRender": ".tools/yachts/review/princess-f65-gen1-2022/renders/full-room-main-saloon.png",
+      "exteriorFinding": "The raised flybridge and long F-family proportion are visible, but the cabin, glazing and roofline remain hard-edged horizontal slabs with little model-specific surface articulation.",
+      "roomFinding": "The saloon is a narrow cutaway of a large white box/bench form, brown partitions and thin slabs; the room reads as a layout blockout rather than finished joinery and furnishing.",
+      "disposition": "changes-required"
+    },
+    {
+      "id": "princess-x95-gen1-2020",
+      "exteriorRender": ".tools/yachts/review/princess-x95-gen1-2020/renders/full-review-starboard-three-quarter.png",
+      "roomRender": ".tools/yachts/review/princess-x95-gen1-2020/renders/full-room-main-deck-saloon.png",
+      "exteriorFinding": "The long multi-deck X-family arrangement is present, but the profile is still a stack of broad plates and dark rectangles with insufficient hull, window-band and transition detail for X95 fidelity.",
+      "roomFinding": "The main-deck saloon is dominated by a large blue/white rectangular volume under a slab roof and partition; room enclosure, joinery, supports and fixtures remain unresolved.",
+      "disposition": "changes-required"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018",
+      "exteriorRender": ".tools/yachts/review/sunseeker-predator-74-gen2-2018/renders/full-review-starboard-three-quarter.png",
+      "roomRender": ".tools/yachts/review/sunseeker-predator-74-gen2-2018/renders/full-room-main-deck-saloon.png",
+      "exteriorFinding": "The sportsbridge, brow and aft cushion cues are visible, but the exterior still reads as a shallow dark/white plate stack over a simplified hull with generic glazing boundaries.",
+      "roomFinding": "The saloon is a large blue furniture block behind a brown partition and thin roof slab; the room shell, joinery, equipment and support logic are not complete.",
+      "disposition": "changes-required"
+    },
+    {
+      "id": "sunseeker-manhattan-73-gen1-2012",
+      "exteriorRender": ".tools/yachts/review/sunseeker-manhattan-73-gen1-2012/renders/full-review-starboard-three-quarter.png",
+      "roomRender": ".tools/yachts/review/sunseeker-manhattan-73-gen1-2012/renders/full-room-main-saloon.png",
+      "exteriorFinding": "The tall Manhattan roofline and aft deck arrangement are recognizable at family level, but the silhouette remains stepped plates and black bands without convincing hull curvature, glazing transitions or fittings.",
+      "roomFinding": "The main saloon repeats the blockout language: blue rectangular furniture, brown partition, thin slab ceiling and sparse supports, with no resolved interior architecture.",
+      "disposition": "changes-required"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020",
+      "exteriorRender": ".tools/yachts/review/sunseeker-90-ocean-gen1-2020/renders/full-review-starboard-three-quarter.png",
+      "roomRender": ".tools/yachts/review/sunseeker-90-ocean-gen1-2020/renders/full-room-main-deck-saloon.png",
+      "exteriorFinding": "The Ocean-family enclosed multi-deck intent is visible, but the long hull, roof and glazing remain broad layered slabs with limited enclosed-ocean identity or model-specific detailing.",
+      "roomFinding": "The main saloon cutaway is mostly a blue rectangular volume under a roof slab and partition; joinery, furnishings, supports and complete room enclosure are missing.",
+      "disposition": "changes-required"
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023",
+      "exteriorRender": ".tools/yachts/review/sunseeker-superhawk-55-gen1-2023/renders/full-exterior-starboard-three-quarter.png",
+      "roomRender": ".tools/yachts/review/sunseeker-superhawk-55-gen1-2023/renders/full-room-view-owner-master.png",
+      "exteriorFinding": "This remains the strongest differentiated exterior: a low sportscruiser hull, dark hardtop, brown side, cockpit and aft seating are legible. It is still coarse, with flat side strips, simplified rail/glazing treatment and limited fitting detail.",
+      "roomFinding": "The owner room is a bed surrounded by isolated rounded furniture blocks with no enclosing shell, joinery, service detail or convincing support relationship.",
+      "disposition": "changes-required"
+    }
+  ],
+  "collectionBlockers": [
+    {
+      "id": "VIS-001",
+      "severity": "release-blocking",
+      "title": "Beam compensation passes dimensions but not exterior fidelity",
+      "finding": "All 20 current technical dimensions are within one percent and the 18 beam-compensated reference masters are materialized in canonical outputs. The seven inspected exterior pairs nevertheless remain dominated by hard-edged plate/box assemblies, simplified hulls, generic glazing bands and insufficient model-specific fittings. The distinctive-features gate is not passed.",
+      "requiredAction": "Continue from the dimension-corrected masters by refining hull curvature, sheer/chines, glazing boundaries, roofline transitions, deck geometry and distinctive fittings, then repeat an independent exterior review."
+    },
+    {
+      "id": "VIS-002",
+      "severity": "release-blocking",
+      "title": "Rooms remain sparse cutaway blockouts",
+      "finding": "Room coverage is complete at 111/111 frames across 20 sets, but the inspected rooms still show large furniture/slab volumes, weak shell boundaries, sparse joinery and missing physical supports. Several cameras are tight enough that the space reads as a component close-up rather than a convincing room.",
+      "requiredAction": "Complete room shells, bulkheads, joinery, fixtures, machinery and supports; widen or retarget room cameras where needed; repeat furnished-room, intersection, seam, support and camera checks."
+    },
+    {
+      "id": "VIS-003",
+      "severity": "release-blocking",
+      "title": "Material payloads pass but material response remains flat",
+      "finding": "All 84 GLBs contain embedded material, texture and image records, but the renders still read largely as white/black/brown/blue color blocks with limited gelcoat, glazing, teak and interior response. Technical payload presence is not sufficient for visual material approval.",
+      "requiredAction": "Add materially legible roughness, normal, glazing and teak variation and demonstrate that response across exterior, room, deck and exploded views."
+    },
+    {
+      "id": "APP-001",
+      "severity": "release-blocking",
+      "title": "Independent visual approval remains absent",
+      "finding": "All 20 existing quality records remain changes-required with independent-qa-pending; all technical visual reviews remain pending and publicationReady is false. This audit confirms the same disposition and does not edit those records.",
+      "requiredAction": "After the visual blockers are fixed, run a new independent QA pass and record explicit approval per selected id."
+    }
+  ],
+  "verdict": {
+    "technicalIntegrity": "pass",
+    "beamPromotionMaterialization": "pass for 18 validated beam-compensated ids; V55 and Superhawk remain inherited current sets",
+    "previewIntegration": "pass",
+    "desktopLodSelection": "pass",
+    "visualQuality": "changes-required",
+    "releasePromotion": "not-promoted",
+    "publicationAllowed": false,
+    "summary": "The beam-compensated promotion is technically materialized and dimensionally correct, and current canonical assets, routes and desktop LOD selection pass their checks. Visual blockers remain: the inspected exteriors are still simplified plate/box constructions, rooms remain blockout-level, materials read flat, and no independent quality record is approved."
+  }
+}

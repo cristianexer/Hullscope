@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "auditId": "collection-audit-16",
+  "auditedAt": "2026-09-14",
+  "reviewType": "independent-visual-technical",
+  "scope": {
+    "selectionFile": "research/yachts/release-selection.json",
+    "selectionStatus": "draft-scope",
+    "selectedCount": 20,
+    "brands": {"Princess": 10, "Sunseeker": 10},
+    "sourceAudit": "research/yachts/qa/collection-audit-15.json",
+    "ids": [
+      "princess-r35-gen1-2018", "princess-v40-gen2-2017", "princess-v55-gen2-2019", "princess-f45-gen1-2019", "princess-f55-gen1-2017",
+      "princess-f65-gen1-2022", "princess-y85-gen1-2019", "princess-x95-gen1-2020", "princess-s65-gen1-2015", "princess-s72-gen1-2014",
+      "sunseeker-hawk-38-gen1-2018", "sunseeker-superhawk-55-gen1-2023", "sunseeker-portofino-48-gen1-2010", "sunseeker-predator-57-gen2-2017", "sunseeker-predator-74-gen2-2018",
+      "sunseeker-predator-84-gen1-2008", "sunseeker-manhattan-55-gen2-2021", "sunseeker-manhattan-63-gen1-2010", "sunseeker-manhattan-73-gen1-2012", "sunseeker-90-ocean-gen1-2020"
+    ]
+  },
+  "method": {
+    "freshness": "Rechecked the settled current canonical artifact families under .tools/yachts/masters, .tools/yachts/assets/models, .tools/yachts/review/*/renders and .tools/yachts/assets/thumbnails. All current files were present, but none were newer than the latest generator source edit.",
+    "visual": "Inspected one current exterior and one current room render for Princess R35, Princess F65, Sunseeker Predator 74, Sunseeker Manhattan 73 and the existing custom Superhawk 55. The review assessed silhouette, glazing, roofline, deck assemblies, materials, room architecture, supports, cutaway readability and blockout residue.",
+    "technical": "Rechecked the current batch counts, manifest/master/technical-review presence, hash and asset declarations, LOD evidence, render path coverage, quality status and thumbnail presence without changing production assets or quality records.",
+    "integration": "Re-ran the local preview discovery test and directly loaded the five representative preview routes with HULLSCOPE_YACHT_PREVIEW=1.",
+    "independence": "Draft quality records are evidence inputs only. No record was upgraded and no visual approval was granted."
+  },
+  "summary": {
+    "status": "changes-required",
+    "releaseDisposition": "hold",
+    "publicationAllowed": false,
+    "publicationReadyCount": 0,
+    "independentApprovalCount": 0,
+    "changesRequiredCount": 20,
+    "currentRenderBatch": {
+      "totalFiles": 391,
+      "exteriorFiles": 161,
+      "roomFiles": 111,
+      "deckFiles": 59,
+      "explodedFiles": 60,
+      "metricsRenderedViewRecords": 842,
+      "sceneReportRenderViewRecords": 842,
+      "metricsPathCoverage": 391,
+      "sceneReportPathCoverage": 391
+    },
+    "sourceStatus": {
+      "authoringTechnicalMasterHashMatches": 20,
+      "manifestAssetChecksPass": 84,
+      "technicalAssetDeclarationChecksPass": 84,
+      "components": 476,
+      "componentsWithSourceIds": 476,
+      "componentFidelityCounts": {"reference-informed": 360, "reconstructed": 116},
+      "shapeCounts": {"box": 285, "cylinder": 48, "deck": 78, "chamferedBox": 44, "hull": 21},
+      "glbFiles": 84,
+      "glbFilesWithTextures": 84,
+      "glbFilesWithImages": 84,
+      "embeddedMaterialRecords": 702,
+      "embeddedTextureRecords": 702,
+      "embeddedImageRecords": 702,
+      "embeddedImageDimensions": {"128x128": 702},
+      "dimensionChecksWithinOnePercent": 20,
+      "maximumDimensionErrorPercent": {"length": 0.45916, "beam": 0.78334},
+      "lodComparison": {
+        "pairs": 42,
+        "reducedPairs": 42,
+        "sameTriangleCountPairs": 0,
+        "byteIdenticalPairs": 0
+      }
+    },
+    "qualityStatus": {
+      "qualityRecords": 20,
+      "qualityStatusCounts": {"changes-required": 20},
+      "qualityReviewerCounts": {"independent-qa-pending": 20},
+      "qualityScreenshotRecords": 370,
+      "qualityCurrentPathRefs": 370,
+      "qualityScreenshotHashPass": 370,
+      "qualityMasterHashMatches": 20,
+      "technicalVisualReviewCounts": {"pending": 20},
+      "technicalPublicationReadyCounts": {"false": 20},
+      "metricsSelfReviewCounts": {"not QA-approved": 20}
+    },
+    "rooms": {
+      "roomRecords": 111,
+      "currentRoomFiles": 111,
+      "currentRoomSets": 20,
+      "sharedTwoSideWallCutawayRule": "verified in source and current output coverage",
+      "currentRoomCameraClippingCasesConfirmed": 0,
+      "currentSparseOrBlockoutRoomSets": 20
+    },
+    "thumbnails": {
+      "selectedCount": 20,
+      "presentCount": 20,
+      "nonEmptyCount": 20
+    },
+    "latestSourceMaterialization": {
+      "generatorPath": "scripts/yachts/models/generate-generation.py",
+      "generatorMtimeLocal": "2026-09-14T18:16:31",
+      "timezone": "Europe/London",
+      "mastersAtOrAfterGenerator": "0/20",
+      "manifestsAtOrAfterGenerator": "0/20",
+      "glbsAtOrAfterGenerator": "0/84",
+      "rendersAtOrAfterGenerator": "0/391",
+      "thumbnailsAtOrAfterGenerator": "0/20",
+      "status": "unmaterialized",
+      "releaseImpact": "The latest generator edits are not credited as present in any current master, export, render or thumbnail. A fresh Blender MCP rebuild/export/render/thumbnail pass is required before those edits can support a release decision."
+    },
+    "previewRoutes": {
+      "environment": "HULLSCOPE_YACHT_PREVIEW=1",
+      "browserDiscoveryTest": "passed",
+      "browserFleetCards": 21,
+      "previewVesselsExcludingOctopus": 20,
+      "browserBrandCounts": {"Princess": 10, "Sunseeker": 10},
+      "octopusRoutePreserved": true,
+      "directRepresentativeRouteChecks": "5/5 loaded the expected vessel id",
+      "checkedIds": [
+        "princess-r35-gen1-2018",
+        "princess-f65-gen1-2022",
+        "sunseeker-predator-74-gen2-2018",
+        "sunseeker-manhattan-73-gen1-2012",
+        "sunseeker-superhawk-55-gen1-2023"
+      ]
+    }
+  },
+  "representativeVisualReview": [
+    {
+      "id": "princess-r35-gen1-2018",
+      "exteriorRender": ".tools/yachts/review/princess-r35-gen1-2018/renders/full-review-starboard-three-quarter.png",
+      "roomRender": ".tools/yachts/review/princess-r35-gen1-2018/renders/full-room-galley-living-area.png",
+      "exteriorFinding": "Smoother hull entry and raised sheer are visible, but the deck and superstructure remain stacked plate assemblies with box-like glazing and simple cushion/teak slabs.",
+      "roomFinding": "The cutaway is readable but remains an open teak floor with an opaque brown wall slab and sparse white furniture volumes; galley joinery, fixtures and physical supports are unresolved.",
+      "disposition": "changes-required"
+    },
+    {
+      "id": "princess-f65-gen1-2022",
+      "exteriorRender": ".tools/yachts/review/princess-f65-gen1-2022/renders/full-review-starboard-three-quarter.png",
+      "roomRender": ".tools/yachts/review/princess-f65-gen1-2022/renders/full-room-main-saloon.png",
+      "exteriorFinding": "The tall flybridge and brow provide a family cue, but the result is still a generic slab arrangement with box glazing and no convincing curved cabin/window transitions.",
+      "roomFinding": "The room is dominated by low-poly white bed/bench-like volumes and a dark wall panel inside a narrow cutaway; complete saloon architecture and joinery are absent.",
+      "disposition": "changes-required"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018",
+      "exteriorRender": ".tools/yachts/review/sunseeker-predator-74-gen2-2018/renders/full-review-starboard-three-quarter.png",
+      "roomRender": ".tools/yachts/review/sunseeker-predator-74-gen2-2018/renders/full-room-main-deck-saloon.png",
+      "exteriorFinding": "The sportsbridge, brow and cushion cues are visible, but hull, glazing and deck assemblies still read as generic plates and blocks rather than a resolved Predator silhouette.",
+      "roomFinding": "The saloon is a sparse white furniture volume against brown wall and roof slabs, without complete room shell, joinery, supports or convincing fixture detail.",
+      "disposition": "changes-required"
+    },
+    {
+      "id": "sunseeker-manhattan-73-gen1-2012",
+      "exteriorRender": ".tools/yachts/review/sunseeker-manhattan-73-gen1-2012/renders/full-review-starboard-three-quarter.png",
+      "roomRender": ".tools/yachts/review/sunseeker-manhattan-73-gen1-2012/renders/full-room-main-saloon.png",
+      "exteriorFinding": "The tall roof/flybridge, mast, rails and teak cues differentiate the family, but the silhouette is still built from stepped plates and dark box glazing with low assembly resolution.",
+      "roomFinding": "The main saloon remains a sparse cutaway of bed/partition-like blocks with no resolved joinery, shell transitions or physical supports.",
+      "disposition": "changes-required"
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023",
+      "exteriorRender": ".tools/yachts/review/sunseeker-superhawk-55-gen1-2023/renders/full-exterior-starboard-three-quarter.png",
+      "roomRender": ".tools/yachts/review/sunseeker-superhawk-55-gen1-2023/renders/full-room-view-owner-master.png",
+      "exteriorFinding": "This is the strongest differentiated exterior: low open sportscruiser profile, dark hardtop, brown hull, cockpit/wet-bar and white cushions. It is still simplified and does not reach reference-faithful detail.",
+      "roomFinding": "The owner room shows a bed and isolated vertical furniture blocks floating in an open cutaway, without a resolved shell, joinery or support logic.",
+      "disposition": "changes-required"
+    }
+  ],
+  "collectionBlockers": [
+    {
+      "id": "VIS-001",
+      "severity": "release-blocking",
+      "title": "Rebuilt exteriors remain visibly plate-and-block constructions",
+      "finding": "Curved hull entries, family cues and palette changes are visible in the reviewed representatives, but hull curvature, glazing boundaries, roofline transitions, deck geometry and model-specific fittings remain too simplified for reference-faithful approval. The exterior distinctive-features gate remains failed for all 20.",
+      "requiredAction": "Refine the hull, sheer/chines, glazing, roofline, deck assemblies and model-specific fittings against each reference dossier, then repeat independent visual review."
+    },
+    {
+      "id": "VIS-002",
+      "severity": "release-blocking",
+      "title": "Room interiors remain blockout-level",
+      "finding": "The shared two-side-wall cutaway rule covers 111/111 current room frames, but all 20 room sets still read as sparse furniture/slab cutaways. Shells, bulkheads, joinery, fixtures, machinery, supports and room-specific framing remain insufficient.",
+      "requiredAction": "Complete the room shells and physical support logic, remove residual opaque occlusion, add room-specific joinery and fixtures, and repeat the furnished-room, intersection, seam, support and camera checks."
+    },
+    {
+      "id": "VIS-003",
+      "severity": "release-blocking",
+      "title": "Materials remain visually flat",
+      "finding": "Brand palette separation and 84 embedded texture/image payloads are present, but rendered gelcoat, glazing, teak and interior materials still read as low-detail color blocks in the reviewed views.",
+      "requiredAction": "Increase material response and variation and demonstrate legible gelcoat, glazing, teak and interior material behavior across every canonical view."
+    },
+    {
+      "id": "SOURCE-001",
+      "severity": "release-blocking",
+      "title": "Latest generator edits are not materialized in current artifacts",
+      "finding": "scripts/yachts/models/generate-generation.py has a settled latest mtime of 2026-09-14T18:16:31 Europe/London, while 0/20 masters, 0/20 manifests, 0/84 GLBs, 0/391 canonical renders and 0/20 thumbnails are at or after that edit. This audit therefore makes no claim that the latest curved-cabin, hull-profile or material-source edits are present in the current masters or exports.",
+      "requiredAction": "Run the pending Blender MCP rebuild/export/render/thumbnail synchronization, then verify file hashes, manifests, canonical render coverage and visual quality from the newly materialized outputs."
+    },
+    {
+      "id": "APP-001",
+      "severity": "release-blocking",
+      "title": "No independent approval exists",
+      "finding": "All 20 quality records remain changes-required with independent-qa-pending; technical visual review is pending and publicationReady is false for all 20.",
+      "requiredAction": "After SOURCE-001 and the visual blockers are resolved, run a fresh independent QA pass and record explicit approval per selected id."
+    }
+  ],
+  "verdict": {
+    "technicalIntegrity": "current files and declarations pass the recorded filesystem checks",
+    "previewIntegration": "pass",
+    "visualQuality": "changes-required",
+    "sourceMaterialization": "not verified; latest source edits are newer than all selected artifacts",
+    "releasePromotion": "not-promoted",
+    "publicationAllowed": false,
+    "summary": "The 20-vessel preview path and current technical artifact set are present and routeable, but the rebuilt collection remains visibly blockout-like in the inspected exteriors and rooms. The latest generator edits are not materialized in the current artifacts, so no release credit is given for them. Visual approval and publication remain blocked by VIS-001, VIS-002, VIS-003, SOURCE-001 and APP-001."
+  }
+}

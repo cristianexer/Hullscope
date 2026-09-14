@@ -4,7 +4,7 @@ import { ALL_EXTENSIONS } from '@gltf-transform/extensions';
 import { MeshoptDecoder } from 'meshoptimizer';
 import { Euler, Quaternion } from 'three';
 import assert from 'node:assert/strict';
-import { fleet } from '../src/data/fleet';
+import { legacyFleet as fleet } from '../src/data/fleet';
 import { commonSources } from '../src/data/systems';
 import { manifestSchema, factSchema, sourceSchema, systemIds } from '../src/data/schema';
 

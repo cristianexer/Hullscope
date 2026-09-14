@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "auditId": "collection-audit-15",
+  "auditedAt": "2026-09-14",
+  "reviewType": "independent-integration-release",
+  "scope": {
+    "selectionFile": "research/yachts/release-selection.json",
+    "selectionStatus": "draft-scope",
+    "selectedCount": 20,
+    "brands": {"Princess": 10, "Sunseeker": 10},
+    "visualQualityAudit": "research/yachts/qa/collection-audit-14.json"
+  },
+  "method": {
+    "integration": [
+      "Read the explicit HULLSCOPE_YACHT_PREVIEW=1 Vite plugin path, generated preview release, production release snapshot and stage.ts release writer.",
+      "Started the local Vite server with HULLSCOPE_YACHT_PREVIEW=1, verified a local yacht manifest response, and ran the existing browser discovery flow against that server.",
+      "Recomputed seed dispositions read-only from the source seed table and disposition files, then checked the generated seed-audit artifact and selected release scope."
+    ],
+    "validation": [
+      "Browser integration test passed: tests/browser/yachts.spec.ts yacht discovery, including 21 yacht cards (20 preview vessels plus preserved Octopus) and 10 Princess / 10 Sunseeker preview cards.",
+      "Yacht release unit tests passed: 3/3.",
+      "TypeScript project check passed."
+    ],
+    "visualBoundary": "This is an integration/release audit only. It does not approve geometry, materials, room quality or publication; those remain the explicit VIS-001/VIS-002/VIS-003 hold from audit 14.",
+    "pendingBlenderRebuild": "No pending Blender MCP rebuild was treated as complete. This audit makes no claim that unverified geometry edits are present in masters."
+  },
+  "integrationGates": {
+    "previewCatalog": {
+      "path": ".tools/yachts/preview/release.json",
+      "previewFlag": true,
+      "repository": null,
+      "revision": null,
+      "vesselCount": 20,
+      "uniqueIds": true,
+      "brandCounts": {"Princess": 10, "Sunseeker": 10},
+      "selectionCount": 20,
+      "selectionStatus": "draft-scope"
+    },
+    "localDevPath": {
+      "environment": "HULLSCOPE_YACHT_PREVIEW=1",
+      "vitePlugin": "scripts/yachts/devPlugin.ts:9-17",
+      "releaseSwap": "Preview mode replaces src/data/yachts/release.json with .tools/yachts/preview/release.json only for the local serve path.",
+      "serverBase": "http://127.0.0.1:5178/Hullscope/",
+      "appServed": true,
+      "browserDiscoveryTest": "passed",
+      "browserFleetCards": 21,
+      "browserPreviewVesselsExcludingOctopus": 20,
+      "browserBrandCounts": {"Princess": 10, "Sunseeker": 10},
+      "octopusRoutePreserved": true,
+      "servedManifestProbe": {"path": "/Hullscope/yacht-assets/models/princess-v40-gen2-2017/manifest.json", "status": 200, "contentType": "application/json"}
+    },
+    "productionRelease": {
+      "path": "src/data/yachts/release.json",
+      "vesselCount": 0,
+      "repository": null,
+      "revision": null,
+      "previewFlag": false,
+      "emptyAndUnpromoted": true,
+      "stagedReleaseDirectoryExists": false,
+      "publicationAttempted": false,
+      "note": ".pages/Hullscope/release.json is only the existing site build marker; it is not a yacht dataset release marker."
+    },
+    "catalogReconciliation": {
+      "sourceSeedRows": 172,
+      "assignedRows": 172,
+      "unresolvedSeedRows": 0,
+      "generatedArtifactUnresolvedRows": 0,
+      "byDisposition": {"canonical": 27, "variant": 6, "deferred": 130, "announced": 6, "alias": 3},
+      "selectedGenerations": 20,
+      "availableResearchedGenerations": 32,
+      "artifact": "output/yachts/seed-audit.json"
+    },
+    "stageReleaseWriter": {
+      "path": "scripts/yachts/stage.ts",
+      "unresolvedSeedRowsCarried": true,
+      "fieldLocation": "scripts/yachts/stage.ts:97",
+      "stagingStatus": "validated-only-after-gates",
+      "resultPublicationFlag": false,
+      "stagingGateAlsoRequires": ["status=validated", "unresolvedSeedRows=0", "non-empty models", "quality and asset integrity checks"]
+    },
+    "sourceAndSchemaChecks": {
+      "previewDraftRejectedOutsideLocalDev": true,
+      "releaseUnitTestsPassed": "3/3",
+      "typecheckPassed": true,
+      "currentSelectionHas20Ids": true,
+      "currentSelectionHas10PerBrand": true
+    }
+  },
+  "visualHold": {
+    "sourceAudit": "collection-audit-14",
+    "publicationAllowed": false,
+    "independentApprovalCount": 0,
+    "selectedQualityStatusCounts": {"changes-required": 20},
+    "selectedQualityReviewerCounts": {"independent-qa-pending": 20},
+    "selectedTechnicalVisualReviewCounts": {"pending": 20},
+    "selectedTechnicalPublicationReadyCounts": {"false": 20},
+    "selectedMetricsSelfReviewCounts": {"not QA-approved": 20},
+    "blockers": [
+      {"id":"VIS-001","title":"Reference-faithful exterior geometry remains unproven","status":"release-blocking","note":"Audit 14 found visible model signatures in refreshed sets, but simplified procedural hull, glazing, roofline and deck geometry still fails the distinctive-features gate."},
+      {"id":"VIS-002","title":"Room interiors remain blockout-level","status":"release-blocking","note":"The shared two-side-wall cutaway rule is covered, but room shells, joinery, fixtures, supports, occlusion and framing remain insufficient."},
+      {"id":"VIS-003","title":"Materials remain visually insufficient","status":"release-blocking","note":"Brand palette separation and texture payloads exist, but rendered gelcoat, glazing, teak and interiors still read as low-detail color blocks."}
+    ],
+    "visualApproval": "not-performed-by-this-audit"
+  },
+  "regressions": [],
+  "verdict": {
+    "integrationGates": "pass",
+    "releasePromotion": "not-promoted",
+    "visualQuality": "hold-inherited",
+    "publicationAllowed": false,
+    "summary": "The explicit local preview path is correctly isolated and serves exactly the 20-vessel preview catalog, reconciliation is resolved, and staging now carries unresolvedSeedRows. The production yacht release remains empty and unpromoted. Visual approval remains blocked by VIS-001, VIS-002 and VIS-003."
+  }
+}

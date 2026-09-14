@@ -25,6 +25,16 @@ export function CameraRig({ vessel, manifest, compare }: { vessel: VesselRecord;
     // Disassembly changes geometry without moving the camera. Fit/presets remain explicit.
     const state=useApp.getState();
     if(state.drive){animate.current=false;return;}
+    if(manifest.version===2&&!compare){
+      const interior=manifest.cameras.find(c=>state.preset===`interior:${c.id}`)||manifest.cameras.find(c=>state.roomId?c.roomId===state.roomId:state.deckId&&c.deckId===state.deckId&&!c.roomId);
+      if(interior){
+        const scale=100/vessel.length;
+        destination.current.set(...interior.position).multiplyScalar(scale);
+        target.current.set(...interior.target).multiplyScalar(scale);
+        animate.current=true;
+        return;
+      }
+    }
     const selected = manifest.components.find(c => c.id === state.selected);
     const framingKey = [state.cameraTick, state.preset, state.isolated].join('/');
     if (framingState.current !== framingKey || !selected) focusedId.current = null;
@@ -64,7 +74,7 @@ export function CameraRig({ vessel, manifest, compare }: { vessel: VesselRecord;
     }
     destination.current.copy(target.current).addScaledVector(direction, distance);
     animate.current = true;
-  }, [vessel, manifest, compare, state.drive, state.cameraTick, state.focusTick, state.preset, state.isolated, state.hidden, size.width, size.height, camera]);
+  }, [vessel, manifest, compare, state.drive, state.cameraTick, state.focusTick, state.preset, state.isolated, state.hidden, state.roomId, state.deckId, size.width, size.height, camera]);
 
   useFrame((_, dt) => {
     if(!state.drive && animate.current && controls.current){
@@ -90,5 +100,5 @@ export function CameraRig({ vessel, manifest, compare }: { vessel: VesselRecord;
     gl.domElement.addEventListener('hullscope-zoom', zoom);
     return () => gl.domElement.removeEventListener('hullscope-zoom', zoom);
   }, [camera, gl]);
-  return <OrbitControls ref={controls} enabled={!state.drive} makeDefault enableDamping dampingFactor={.08} minDistance={3} maxDistance={1200} maxPolarAngle={Math.PI * .88} autoRotate={state.autoRotate && !reduced} autoRotateSpeed={.45} onStart={() => { animate.current = false; }} />;
+  return <OrbitControls ref={controls} enabled={!state.drive} makeDefault enableDamping dampingFactor={.08} minDistance={state.roomId ? .15 : 3} maxDistance={1200} maxPolarAngle={Math.PI * .88} autoRotate={state.autoRotate && !reduced&&!state.roomId} autoRotateSpeed={.45} onStart={() => { animate.current = false; }} />;
 }

@@ -1,0 +1,703 @@
+{
+  "dispositions": [
+    {
+      "rowId": "seed-row-46",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-47",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-48",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-49",
+      "disposition": {
+        "type": "announced",
+        "evidence": [
+          "https://www.princess.co.uk/new-yachts/",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-50",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-51",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-53",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-55",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-56",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-58",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-59",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-60",
+      "disposition": {
+        "type": "canonical",
+        "evidence": [
+          "https://www.princessyachts.com/our-yachts/s-class/s65/",
+          "https://www.princess.co.uk/new-yachts/",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "princess-s65-gen2-2024"
+      }
+    },
+    {
+      "rowId": "seed-row-61",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-62",
+      "disposition": {
+        "type": "canonical",
+        "evidence": [
+          "https://www.yachtbuyer.com/en/princess/new",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "princess-s72-gen1-2014"
+      }
+    },
+    {
+      "rowId": "seed-row-63",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-65",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-66",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-68",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-69",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-131",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-132",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-133",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-136",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-137",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-138",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-139",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-140",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-141",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-142",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-143",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-144",
+      "disposition": {
+        "type": "alias",
+        "evidence": [
+          "https://www.princess.co.uk/princess-heritage",
+          "https://www.yachtbuyer.com/en-us/princess/heritage",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "princess-f55-gen1-2017"
+      }
+    },
+    {
+      "rowId": "seed-row-145",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-146",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-147",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-148",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-149",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-150",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-151",
+      "disposition": {
+        "type": "alias",
+        "evidence": [
+          "https://pt.princessyachts.com/pt/nossas-embarcacoes/s-class/s72/",
+          "https://www.princess.co.uk/princess-heritage",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "princess-s72-gen1-2014"
+      }
+    },
+    {
+      "rowId": "seed-row-152",
+      "disposition": {
+        "type": "canonical",
+        "evidence": [
+          "https://www.princessyachts.com/our-yachts/s-class/s65/",
+          "https://www.princess.co.uk/princess-heritage",
+          "Canonical identity reconciled against the generation research batch and the seed-row source set."
+        ],
+        "canonicalId": "princess-s65-gen1-2015"
+      }
+    },
+    {
+      "rowId": "seed-row-153",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-154",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-155",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-156",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-157",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-158",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-159",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-160",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-161",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-162",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-163",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-164",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-165",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-166",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-167",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-168",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-169",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-170",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-171",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-172",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-173",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-174",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-175",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-176",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-177",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-178",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-179",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-180",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-181",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-182",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-183",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-184",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-185",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-186",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-187",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-188",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-189",
+      "disposition": {
+        "type": "deferred",
+        "evidence": [
+          "Explicitly deferred from the capped 20-yacht milestone; retain for a future research/reconciliation pass."
+        ]
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { Euler, Quaternion, Vector3 } from 'three';
 import { makeGeometry } from '../src/model/geometry';
-import { fleet } from '../src/data/fleet';
+import { legacyFleet as fleet } from '../src/data/fleet';
 import { buildModel } from '../src/model/build';
 import { componentSchema, systemIds } from '../src/data/schema';
 import { parseRoute, serializeRoute } from '../src/state';

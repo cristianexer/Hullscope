@@ -1,0 +1,48 @@
+{
+  "dispositions": [
+    {
+      "rowId": "seed-row-54",
+      "disposition": {
+        "type": "canonical",
+        "canonicalId": "princess-f55-gen1-2017",
+        "evidence": [
+          "https://www.princess.co.uk/news/new-princess-55",
+          "https://www.yachtbuyer.com/en/princess/for-sale/princess-f55"
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-80",
+      "disposition": {
+        "type": "canonical",
+        "canonicalId": "sunseeker-predator-57-gen2-2017",
+        "evidence": [
+          "https://www.sunseeker.com/zh/yachts-and-boats/previous-models/predator-57-mkii",
+          "https://www.yachtbuyer.com/en-us/sunseeker/new/predator-57-gen2"
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-95",
+      "disposition": {
+        "type": "canonical",
+        "canonicalId": "sunseeker-manhattan-63-gen1-2010",
+        "evidence": [
+          "https://www.yachtbuyer.com/en-gb/sunseeker/for-sale/manhattan-63",
+          "https://www.hmy.com/yachting/powerboat-guide/sunseeker/manhattan-63-2011-14"
+        ]
+      }
+    },
+    {
+      "rowId": "seed-row-134",
+      "disposition": {
+        "type": "canonical",
+        "canonicalId": "princess-y85-gen1-2019",
+        "evidence": [
+          "https://www.princess.co.uk/news/the-all-new-contemporary-princess-y85",
+          "https://www.yachtbuyer.com/en/princess/for-sale/princess-y85"
+        ]
+      }
+    }
+  ]
+}

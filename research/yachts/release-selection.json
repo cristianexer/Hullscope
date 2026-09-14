@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "status": "draft-scope",
+  "description": "Capped working release set for the current yacht-fleet milestone. Additional researched generations remain archived and deferred.",
+  "maxPerBrand": 10,
+  "ids": [
+    "princess-r35-gen1-2018",
+    "princess-v40-gen2-2017",
+    "princess-v55-gen2-2019",
+    "princess-f45-gen1-2019",
+    "princess-f55-gen1-2017",
+    "princess-f65-gen1-2022",
+    "princess-y85-gen1-2019",
+    "princess-x95-gen1-2020",
+    "princess-s65-gen1-2015",
+    "princess-s72-gen1-2014",
+    "sunseeker-hawk-38-gen1-2018",
+    "sunseeker-superhawk-55-gen1-2023",
+    "sunseeker-portofino-48-gen1-2010",
+    "sunseeker-predator-57-gen2-2017",
+    "sunseeker-predator-74-gen2-2018",
+    "sunseeker-predator-84-gen1-2008",
+    "sunseeker-manhattan-55-gen2-2021",
+    "sunseeker-manhattan-63-gen1-2010",
+    "sunseeker-manhattan-73-gen1-2012",
+    "sunseeker-90-ocean-gen1-2020"
+  ]
+}

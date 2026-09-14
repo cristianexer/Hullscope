@@ -1,0 +1,78 @@
+{
+  "models": [
+    {
+      "id": "sunseeker-predator-57-gen2-2017",
+      "brand": "Sunseeker",
+      "name": "Predator 57 Mk II",
+      "range": "Predator",
+      "type": "sports yacht",
+      "generation": "Gen 2 / Mk II introduced 2017",
+      "productionStart": 2017,
+      "productionEnd": 2019,
+      "productionStatus": "historical",
+      "aliases": ["Sunseeker Predator 57", "Predator 57 Mk II", "Predator 57 Gen 2"],
+      "referenceConfiguration": "Predator 57 Mk II with hardtop, three guest cabins for six, full-beam owner suite, lower saloon, tender garage and single crew cabin; engine choice and owner finishes are recorded as options rather than modeled as separate generations.",
+      "dimensions": {"lengthM": 18.24, "beamM": 4.70, "draftM": 1.30},
+      "facts": [
+        {"key":"generationBoundary","label":"Generation boundary","value":"Mk II production 2017–2019; predecessor Mk I 2015–2017","unit":"","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en/sunseeker/for-sale/predator-57","note":"Independent model-history tracking separates two generations and dates the Mk II production window."},
+        {"key":"lengthOverall","label":"Length overall","value":18.24,"unit":"m","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en-us/sunseeker/new/predator-57-gen2","note":"YachtBuyer principal characteristics list 59 ft 10 in / 18.24 m."},
+        {"key":"beam","label":"Beam","value":4.70,"unit":"m","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en/sunseeker/for-sale/v-0c15ef31","note":"Independent delivered-vessel listing reports 4.70 m beam for the Mk II."},
+        {"key":"draft","label":"Draft","value":1.30,"unit":"m","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en/sunseeker/for-sale/v-0c15ef31","note":"Independent delivered-vessel listing reports 1.30 m draft."},
+        {"key":"fuelCapacity","label":"Fuel capacity","value":2200,"unit":"L","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en-us/sunseeker/new/predator-57-gen2","note":"The principal characteristics give 581 US gallons, represented here as the rounded 2,200 L catalogue value."},
+        {"key":"freshWaterCapacity","label":"Fresh-water capacity","value":600,"unit":"L","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en-us/sunseeker/new/predator-57-gen2","note":"The principal characteristics give 158 US gallons, represented here as the rounded 600 L catalogue value."},
+        {"key":"blackWaterCapacity","label":"Black-water capacity","value":150,"unit":"L","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en-us/sunseeker/new/predator-57-gen2","note":"The principal characteristics give 39 US gallons, represented here as the rounded 150 L catalogue value."},
+        {"key":"accommodation","label":"Guest accommodation","value":"6 guests in 3 cabins; full-beam master, double cabin and twin/bunk cabin","unit":"","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en-us/sunseeker/new/predator-57-gen2","note":"The independent specification identifies three cabins and six guests with the stated berth arrangement."},
+        {"key":"guestHeads","label":"Guest and day heads","value":"2 guest heads plus 1 shared day head","unit":"heads","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en-us/sunseeker/new/predator-57-gen2","note":"The independent accommodation section lists two guest heads and one shared day head."},
+        {"key":"engineOptions","label":"Engine options","value":"Twin Volvo Penta D13-800, D13-900 or D11 IPS950","unit":"engines","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en-us/sunseeker/new/predator-57-gen2","note":"The manufacturer options reproduced by YachtBuyer show the three available twin-engine configurations."},
+        {"key":"maximumSpeed","label":"Maximum speed","value":33,"unit":"knots","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en-us/sunseeker/new/predator-57-gen2","note":"The Mk II principal characteristics quote 33 knots; the page also notes up to 40 knots depending on selected option, so the catalog keeps the principal value and records the conflict as an uncertainty."},
+        {"key":"range","label":"Maximum range","value":325,"unit":"nautical miles","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en-us/sunseeker/new/predator-57-gen2","note":"YachtBuyer lists a 325 nm maximum range for the reference configuration."},
+        {"key":"hullMaterial","label":"Hull and superstructure","value":"GRP hull and GRP superstructure","unit":"","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en-us/sunseeker/new/predator-57-gen2","note":"The principal characteristics identify GRP for both hull and superstructure."}
+      ],
+      "sources": [
+        {"url":"https://www.yachtbuyer.com/en-us/sunseeker/new/predator-57-gen2","title":"Sunseeker Predator 57 Yacht Gen 2","publisher":"YachtBuyer","accessed":"2026-09-14","scope":"Independent generation identity, dimensions, capacities, accommodation, engine options and performance."},
+        {"url":"https://www.yachtbuyer.com/en/sunseeker/for-sale/predator-57","title":"Sunseeker Predator 57 yachts for sale and generation timeline","publisher":"YachtBuyer","accessed":"2026-09-14","scope":"Independent Mk I/Mk II production boundary and introduction timeline."},
+        {"url":"https://www.sunseeker.com/zh/yachts-and-boats/previous-models/predator-57-mkii","title":"Predator 57 MkII","publisher":"Sunseeker","accessed":"2026-09-14","scope":"Manufacturer previous-model identity and reference styling."},
+        {"url":"https://braun-yachtservice.com/wp-content/uploads/2021/09/BROCHURE-2019-SUNSEEKER-PREDATOR-57-1.pdf","title":"Sunseeker Predator 57 Mk II brochure","publisher":"Sunseeker / Braun Yachtservice archive","accessed":"2026-09-14","scope":"Period brochure cross-check for the Mk II configuration and deck arrangement."},
+        {"url":"https://www.yachtbuyer.com/en/sunseeker/for-sale/v-0c15ef31","title":"Sunseeker Predator 57 Mk2 delivered-vessel listing","publisher":"YachtBuyer","accessed":"2026-09-14","scope":"Independent delivered-vessel dimensions, displacement and real-world configuration cross-check."}
+      ],
+      "layout": {"decks":2,"cabins":3,"heads":3,"rooms":["lower saloon","full-beam owner cabin","forward double cabin","twin/bunk guest cabin","owner ensuite","guest head","shared day head","galley","helm","cockpit","tender garage","crew cabin","engine room"],"description":"A two-level hardtop sports yacht with an opening roof and saloon opening to the cockpit. The reference arrangement uses three guest cabins, a full-beam amidships owner suite, two guest heads, a shared day head and a separate single crew cabin.","evidenceUrls":["https://www.yachtbuyer.com/en-us/sunseeker/new/predator-57-gen2","https://braun-yachtservice.com/wp-content/uploads/2021/09/BROCHURE-2019-SUNSEEKER-PREDATOR-57-1.pdf"]},
+      "visual": {"hullDescription":"GRP deep-V planing hull with a long sportscruiser sheer and broad aft platform.","superstructureDescription":"Low hardtop sportsboat profile with opening roof, lowering patio door and a compact tender-garage transom.","glazingDescription":"Oversized pillarless side glazing and restyled saloon windows are the Mk II visual cue, paired with a forward windscreen and opening roof.","distinctiveFeatures":["restyled pillarless saloon windows","opening hardtop roof","lowering patio door","full-beam master suite","hydraulic tender platform and garage","mini beach-club transom"],"referenceUrls":["https://www.sunseeker.com/zh/yachts-and-boats/previous-models/predator-57-mkii","https://www.yachtbuyer.com/en-us/sunseeker/new/predator-57-gen2"]},
+      "uncertainties":["YachtBuyer presents a headline capability of up to 40 knots depending on option while its principal characteristics give 33 knots; the catalog uses 33 knots for the reference configuration.","Exact production quantity and factory completion dates are not published; the 2017–2019 boundary is independent model-history evidence.","Owner-specific four-cabin and engine layouts are excluded from the modeled reference configuration."]
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010",
+      "brand": "Sunseeker",
+      "name": "Manhattan 63",
+      "range": "Manhattan",
+      "type": "flybridge motor yacht",
+      "generation": "Gen 1 / introduced 2010",
+      "productionStart": 2010,
+      "productionEnd": 2015,
+      "productionStatus": "historical",
+      "aliases": ["Sunseeker Manhattan 63", "63 Manhattan", "Sunseeker 63"],
+      "referenceConfiguration": "Manhattan 63 flybridge motor yacht with four guest cabins for up to eight, main-deck saloon, aft galley, flybridge helm and separate crew/service spaces; optional owner layouts excluded.",
+      "dimensions": {"lengthM": 21.07,"beamM": 5.13,"draftM": 1.60},
+      "facts": [
+        {"key":"productionWindow","label":"Production window","value":"2010–2015","unit":"","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en-gb/sunseeker/for-sale/manhattan-63","note":"Independent model timeline dates development and production from 2010 through 2015."},
+        {"key":"lengthOverall","label":"Length overall","value":21.07,"unit":"m","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en-gb/sunseeker/for-sale/manhattan-63","note":"YachtBuyer lists 21.07 m / 69 ft 2 in LOA."},
+        {"key":"beam","label":"Beam","value":5.13,"unit":"m","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en/yachts/compare/sunseeker-manhattan-63-vs-sunseeker-manhattan-65-cc9996d","note":"Independent comparison lists 5.13 m maximum beam."},
+        {"key":"draft","label":"Draft at full load","value":1.60,"unit":"m","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en/yachts/compare/sunseeker-manhattan-63-vs-sunseeker-manhattan-65-cc9996d","note":"Independent comparison lists 1.60 m full-load draft."},
+        {"key":"accommodation","label":"Guest accommodation","value":"Up to 8 guests in 4 cabins","unit":"","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en-gb/sunseeker/for-sale/manhattan-63","note":"YachtBuyer identifies up to eight guests and four cabins."},
+        {"key":"maximumSpeed","label":"Maximum speed","value":33,"unit":"knots","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en-gb/sunseeker/for-sale/manhattan-63","note":"Independent model overview quotes 33 knots maximum speed."},
+        {"key":"cruisingSpeed","label":"Cruising speed","value":22,"unit":"knots","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en-gb/sunseeker/for-sale/manhattan-63","note":"Independent overview describes a comfortable 22-knot cruise with MAN V8-1000 engines."},
+        {"key":"range","label":"Standard range","value":809,"unit":"nautical miles","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en-gb/sunseeker/for-sale/manhattan-63","note":"Independent overview quotes 809 nm standard range."},
+        {"key":"hullMaterial","label":"Hull material","value":"GRP","unit":"","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en-gb/sunseeker/for-sale/manhattan-63","note":"The model is described as a GRP flybridge yacht."},
+        {"key":"award","label":"Model award","value":"Motor Boat Awards 2012, Flybridge over 55 ft","unit":"","status":"verified","sourceUrl":"https://www.yachtbuyer.com/en-gb/sunseeker/for-sale/manhattan-63","note":"YachtBuyer records the 2012 Flybridge over 55 ft award."}
+      ],
+      "sources": [
+        {"url":"https://www.yachtbuyer.com/en-gb/sunseeker/for-sale/manhattan-63","title":"Sunseeker Manhattan 63 yachts for sale and model overview","publisher":"YachtBuyer","accessed":"2026-09-14","scope":"Independent production timeline, accommodation, performance, range and model history."},
+        {"url":"https://www.yachtbuyer.com/en/yachts/compare/sunseeker-manhattan-63-vs-sunseeker-manhattan-65-cc9996d","title":"Sunseeker Manhattan 63 vs Manhattan 65","publisher":"YachtBuyer","accessed":"2026-09-14","scope":"Independent principal-dimension comparison."},
+        {"url":"https://www.sunseeker.com/de/yachts-and-boats/previous-models/manhattan-73","title":"Sunseeker previous-model archive","publisher":"Sunseeker","accessed":"2026-09-14","scope":"Manufacturer archive context for the Manhattan heritage range."},
+        {"url":"https://www.hmy.com/yachting/powerboat-guide/sunseeker/manhattan-63-2011-14","title":"Sunseeker Manhattan 63 powerboat guide","publisher":"HMY Yachts","accessed":"2026-09-14","scope":"Independent brokerage and model-history cross-check."}
+      ],
+      "layout": {"decks":3,"cabins":4,"heads":5,"rooms":["flybridge helm","flybridge aft dining","flybridge wet bar","foredeck sunpads","cockpit","lower helm","main saloon","aft galley","owner suite","forward VIP","port guest cabin","starboard guest cabin","crew cabin","crew mess","engine room"],"description":"Three logical levels comprise the open flybridge, main-deck saloon/galley and lower guest accommodation. The standard reference arrangement is four guest cabins for up to eight with a separate crew/service zone.","evidenceUrls":["https://www.yachtbuyer.com/en-gb/sunseeker/for-sale/manhattan-63","https://www.hmy.com/yachting/powerboat-guide/sunseeker/manhattan-63-2011-14"]},
+      "visual": {"hullDescription":"Long GRP planing flybridge hull with broad aft quarters and a high-volume cruising form.","superstructureDescription":"Raised main-deck saloon with a full flybridge, aft dining zone and forward helm arrangement typical of the Manhattan family.","glazingDescription":"Panoramic main-deck saloon glazing and large lower-deck hull windows emphasize the light-filled four-cabin interior.","distinctiveFeatures":["full flybridge with aft dining","four-cabin guest arrangement","large main-deck saloon","foredeck sunpads","Manhattan cruising profile","broad bathing platform"],"referenceUrls":["https://www.yachtbuyer.com/en-gb/sunseeker/for-sale/manhattan-63","https://www.hmy.com/yachting/powerboat-guide/sunseeker/manhattan-63-2011-14"]},
+      "uncertainties":["Exact engine option and tank capacities were not consistently exposed in the independent pages used for this batch and remain null rather than inferred.","YachtBuyer reports development beginning in 2010 and first production later that year; no factory build ledger was located.","Owner-specific cabin and crew layouts are excluded from the reference configuration."]
+    }
+  ]
+}

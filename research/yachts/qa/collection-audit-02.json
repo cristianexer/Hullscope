@@ -1,0 +1,50 @@
+{
+  "auditId": "collection-audit-02",
+  "auditedAt": "2026-09-14",
+  "scope": "Current Sunseeker and Princess yacht expansion after the Blender MCP regeneration and visual-evidence pass.",
+  "counts": {
+    "seedRows": 172,
+    "researchedGenerations": 30,
+    "sunseekerGenerations": 16,
+    "princessGenerations": 14,
+    "masters": 30,
+    "optimizedAssetDirectories": 30,
+    "technicalDimensionPasses": 30,
+    "roomCameraCoverageFailures": 0,
+    "draftQualityReviews": 30,
+    "independentlyApprovedReviews": 0,
+    "unresolvedSeedRows": 134,
+    "catalogUnresolvedBlockers": 134,
+    "collectionBlockersBeforeModelApproval": 164
+  },
+  "dispositionCounts": {
+    "canonical": 23,
+    "variant": 6,
+    "alias": 3,
+    "announced": 6,
+    "unresolved": 134
+  },
+  "technicalChecks": {
+    "masterHashesStableDuringMcpExport": true,
+    "allModelsWithinOnePercentLengthAndBeam": true,
+    "allManifestsHaveCameraForEachRoom": true,
+    "allDraftQualityFilesParse": true,
+    "pagesArtifactUnder800MB": true,
+    "releaseRevisionPinned": false,
+    "datasetPublished": false
+  },
+  "visualDecision": "changes-required",
+  "blockers": [
+    "134 seed rows remain unresolved and must receive a source-backed disposition before collection release.",
+    "No generation has an independent approved quality review; all 30 review files are explicitly changes-required drafts.",
+    "Generic reconstructions need another visual refinement pass for recognizable hull, glazing, roofline, deck arrangement and interior joinery.",
+    "Dedicated deck-state and exploded-state screenshot evidence is not complete.",
+    "The application release manifest remains intentionally empty because no complete dataset revision is publishable yet."
+  ],
+  "evidence": [
+    "All 30 authoritative masters were regenerated or preserved through Blender MCP; Blender CLI/open-mainfile was not used.",
+    "All 30 optimized exchanges pass the existing embedded-GLB, semantic ownership and dimensional validation.",
+    "All 30 manifests now provide room camera coverage.",
+    "Rendered evidence is under .tools/yachts/review/<generation>/renders/; it is not yet a release claim."
+  ]
+}

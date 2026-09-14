@@ -23,6 +23,7 @@ import type { LabelElements } from './Labels';
 import { componentCorners, getExplodeSelection, modelPosition } from './positions';
 import { canPickComponent, enclosureClass } from './visibility';
 import './viewer.css';
+import { AuthoredShip } from './AuthoredShip';
 export { modelPosition } from './positions';
 const modelUsers=new Map<string,{count:number;timer?:ReturnType<typeof setTimeout>}>();
 const temp=new THREE.Object3D();const col=new THREE.Color();
@@ -43,7 +44,10 @@ function MeshBatch({parts,geometry,scale,manifest,eligibleIds,offset,interactive
  const pick=(event:ThreeEvent<MouseEvent>)=>{const p=event.instanceId===undefined?undefined:parts[event.instanceId];if(!p)return;if(!interactive||!visible||!canPickComponent(p,state.view,event.point.z,offset)||(state.isolated&&state.isolated!==p.systemId))return;event.stopPropagation();useApp.getState().set({selected:p.id,system:p.systemId});};
  return <instancedMesh ref={ref} userData={{componentIds:parts.map(c=>c.id)}} args={[geometry,undefined,parts.length]} visible={visible} castShadow={!ghost&&visible} receiveShadow={!ghost} frustumCulled={false} onClick={pick} onPointerOver={e=>{const p=e.instanceId===undefined?undefined:parts[e.instanceId];if(!p)return;if(!interactive||!visible||!canPickComponent(p,state.view,e.point.z,offset)||(state.isolated&&state.isolated!==p.systemId))return;e.stopPropagation();document.body.style.cursor='pointer';}} onPointerOut={()=>document.body.style.cursor='auto'}><meshStandardMaterial ref={mat} {...surfaceProfiles[surface]} clipShadows side={THREE.DoubleSide}/></instancedMesh>;
 }
-function Ship({vessel,manifest,offset=0,comparison=false,primary=true,lowDetail=false}:{vessel:VesselRecord;manifest:ModelManifest;offset?:number;comparison?:boolean;primary?:boolean;lowDetail?:boolean}){
+function Ship(props:{vessel:VesselRecord;manifest:ModelManifest;offset?:number;comparison?:boolean;primary?:boolean;lowDetail?:boolean}){
+ return props.manifest.version===2?<AuthoredShip {...props} manifest={props.manifest}/>:<LegacyShip {...props}/>;
+}
+function LegacyShip({vessel,manifest,offset=0,comparison=false,primary=true,lowDetail=false}:{vessel:VesselRecord;manifest:ModelManifest;offset?:number;comparison?:boolean;primary?:boolean;lowDetail?:boolean}){
  const {invalidate}=useThree();
  const url=import.meta.env.BASE_URL+manifest.lods[lowDetail?0:1].url;
  const gltf=useLoader(GLTFLoader,url,l=>l.setMeshoptDecoder(MeshoptDecoder));const scale=comparison?.25:100/vessel.length;const state=useApp();

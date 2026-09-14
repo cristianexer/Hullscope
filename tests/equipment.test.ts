@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { fleet } from '../src/data/fleet';
+import { legacyFleet as fleet } from '../src/data/fleet';
 import { buildModel } from '../src/model/build';
 import type { Component } from '../src/data/schema';
 import { componentBounds, modelPosition } from '../src/viewer/positions';

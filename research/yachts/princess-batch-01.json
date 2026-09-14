@@ -1,0 +1,452 @@
+{
+  "models": [
+    {
+      "id": "princess-r35-gen1-2018",
+      "brand": "Princess",
+      "name": "R35",
+      "range": "R Class",
+      "type": "performance sports yacht",
+      "generation": "Gen 1 / first R Class R35",
+      "productionStart": 2018,
+      "productionEnd": 2024,
+      "productionStatus": "historical",
+      "aliases": ["Princess R35", "R 35", "R35 Gen 1"],
+      "referenceConfiguration": "Standard R35 with twin Volvo V8 petrol engines, one lower-deck convertible berth cabin, enclosed head and galley/living area; optional equipment and owner-specific finishes excluded.",
+      "dimensions": {
+        "lengthM": 10.89,
+        "beamM": 3.27,
+        "draftM": 0.76
+      },
+      "facts": [
+        {"key": "launchYear", "label": "First announced / introduced", "value": 2018, "unit": "year", "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/the-all-new-princess-r35", "note": "Princess Motor Yacht Sales announced the R35 on 27 June 2018 and stated that its world premiere would be at Cannes in September 2018."},
+        {"key": "worldPremiere", "label": "World premiere", "value": "Cannes Yachting Festival, 11–16 September 2018", "unit": null, "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/the-all-new-princess-r35", "note": "The official launch notice gives the 2018 Cannes dates."},
+        {"key": "productionRun", "label": "Reported production run", "value": "2018–2024", "unit": null, "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en-gb/princess/for-sale/princess-r35", "note": "YachtBuyer lists the model as discontinued and 2018–2024; Princess does not publish a factory build ledger in the sources reviewed."},
+        {"key": "hullMaterial", "label": "Hull material", "value": "carbon fibre", "unit": null, "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en-gb/princess/for-sale/princess-r35", "note": "Independent brokerage profile describes the R35 as a carbon-fibre sportsboat; the official launch material also describes advanced technology and the Princess Active Foil System."},
+        {"key": "lengthOverall", "label": "Length overall", "value": 10.89, "unit": "m", "status": "verified", "sourceUrl": "https://www.princess.fr/media-file/2399/r-class-brochure-2019-20-book-1.pdf", "note": "Official R Class brochure: 35 ft 9 in / 10.89 m."},
+        {"key": "beam", "label": "Beam", "value": 3.27, "unit": "m", "status": "verified", "sourceUrl": "https://www.princess.fr/media-file/2399/r-class-brochure-2019-20-book-1.pdf", "note": "Official R Class brochure: 10 ft 8 in / 3.27 m."},
+        {"key": "draft", "label": "Draft at full load", "value": 0.76, "unit": "m", "status": "verified", "sourceUrl": "https://www.princess.fr/media-file/2399/r-class-brochure-2019-20-book-1.pdf", "note": "Official R Class brochure: approximately 2 ft 6 in / 0.76 m."},
+        {"key": "maximumSpeed", "label": "Maximum speed range", "value": "45–50", "unit": "knots", "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/the-all-new-princess-r35", "note": "Official launch material states a 45–50 knot speed range; independent testing reported roughly 24 knots in difficult conditions, so this is a quoted capability rather than a measured result here."},
+        {"key": "guestAccommodation", "label": "Guest accommodation", "value": "up to 2 guests in 1 cabin", "unit": null, "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en-gb/princess/for-sale/princess-r35", "note": "YachtBuyer identifies one cabin and up to two guests; the official brochure deck plan shows the lower accommodation."},
+        {"key": "interiorEvidence", "label": "Interior evidence", "value": "lower cabin with convertible berth, enclosed head, galley and living area", "unit": null, "status": "verified", "sourceUrl": "https://soundingsonline.com/boats/princess-yachts-r35/", "note": "Soundings independently describes the convertible cabin, enclosed head and galley; this is also consistent with the official R Class brochure deck plan."},
+        {"key": "distinctiveTechnology", "label": "Distinctive technology", "value": "Princess Active Foil System with BAR Technologies and Pininfarina collaboration", "unit": null, "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/the-all-new-princess-r35", "note": "The official launch material names BAR Technologies, Pininfarina and the Active Foil System."},
+        {"key": "dateConflict", "label": "Launch-date interpretation", "value": "2018 Cannes launch vs 2019 Southampton public-show reference", "unit": null, "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en-gb/princess/for-sale/princess-r35", "note": "YachtBuyer says the model was announced in 2018 and unveiled to the general public at Southampton in 2019, while the official launch notice and Soundings describe the Cannes 2018 launch. This is a show/publicity distinction, not a separate generation."}
+      ],
+      "sources": [
+        {"url": "https://www.princess.co.uk/news/the-all-new-princess-r35", "title": "The all-new Princess R35", "publisher": "Princess Motor Yacht Sales", "accessed": "2026-09-14", "scope": "Official announcement, launch timing, design partners and quoted performance."},
+        {"url": "https://www.princess.fr/media-file/2399/r-class-brochure-2019-20-book-1.pdf", "title": "R35 R Class brochure", "publisher": "Princess Yachts", "accessed": "2026-09-14", "scope": "Original dimensions, deck plan and equipment evidence."},
+        {"url": "https://www.yachtbuyer.com/en-gb/princess/for-sale/princess-r35", "title": "Princess R35 Yachts For Sale & model timeline", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent brokerage timeline, carbon-fibre description, accommodation and status."},
+        {"url": "https://soundingsonline.com/boats/princess-yachts-r35/", "title": "Princess Yachts R35", "publisher": "Soundings", "accessed": "2026-09-14", "scope": "Independent launch-era review of foil system and interior arrangement."}
+      ],
+      "layout": {
+        "decks": 2,
+        "cabins": 1,
+        "heads": 1,
+        "rooms": ["lower convertible berth cabin", "enclosed head", "galley/living area", "helm", "cockpit"],
+        "description": "A compact two-level performance boat: open cockpit and helm above, with one lower convertible berth cabin, enclosed head and compact galley/living space. The brochure shows a single lower-deck accommodation plan; no separate guest/day-head arrangement was found.",
+        "evidenceUrls": ["https://www.princess.fr/media-file/2399/r-class-brochure-2019-20-book-1.pdf", "https://soundingsonline.com/boats/princess-yachts-r35/", "https://www.yachtbuyer.com/en-gb/princess/for-sale/princess-r35"]
+      },
+      "visual": {
+        "hullDescription": "Low, lightweight carbon-fibre deep-V performance hull with a sharply raked, aerodynamic bow and integrated active-foil technology.",
+        "superstructureDescription": "Low-profile open sportsboat superstructure with a compact hardtop/windscreen over the helm and a broad aft cockpit.",
+        "glazingDescription": "Swept curved windscreen with deployable side wind deflectors; wrap-around lower-deck glazing and a forward-facing lower accommodation view.",
+        "distinctiveFeatures": ["Princess Active Foil System", "Pininfarina exterior styling", "BAR Technologies collaboration", "curved windscreen and deployable side wind deflectors", "aft sunpad and swim platform"],
+        "referenceUrls": ["https://www.princess.co.uk/news/the-all-new-princess-r35", "https://www.princess.fr/media-file/2399/r-class-brochure-2019-20-book-1.pdf", "https://powerandmotoryacht.com/boats/tested-princess-r35-and-fairline-f-line-33/"]
+      },
+      "uncertainties": ["The 2018–2024 production window is a reported independent-brokerage timeline, not a Princess factory production record.", "The official 2018 Cannes premiere and independent 2019 Southampton public-show reference describe different milestones; no separate R35 generation is evidenced.", "The quoted 45–50 knot range is not a measured speed result in the reviewed independent test."]
+    },
+    {
+      "id": "princess-v40-gen2-2017",
+      "brand": "Princess",
+      "name": "V40",
+      "range": "V Class",
+      "type": "sportscruiser / sports yacht",
+      "generation": "Gen 2 / Mk2 introduced 2017",
+      "productionStart": 2017,
+      "productionEnd": 2025,
+      "productionStatus": "historical",
+      "aliases": ["Princess V40", "V 40", "V40 Mk2", "V40 Gen 2"],
+      "referenceConfiguration": "2017 Gen2 V40 with twin Volvo D6 sterndrives, two guest cabins and the aft twin berth/sliding double conversion; later 60th Anniversary and 2025 Gen3 variants excluded.",
+      "dimensions": {
+        "lengthM": 12.98,
+        "beamM": 3.81,
+        "draftM": 1.02
+      },
+      "facts": [
+        {"key": "launchYear", "label": "World debut", "value": 2017, "unit": "year", "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/princess-v40-show-debut-dusseldorf-2017", "note": "Princess Motor Yacht Sales announced the worldwide debut at Boot Düsseldorf from 21–29 January 2017."},
+        {"key": "generationTimeline", "label": "Independent generation timeline", "value": "Gen 2: 2017–2025", "unit": null, "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en-us/princess/for-sale/princess-v40", "note": "YachtBuyer distinguishes the 2017–2025 Gen2 from a later Gen3 with a 2025 Düsseldorf debut; this profile is limited to the requested 2017 generation."},
+        {"key": "modelRelationship", "label": "Relationship to predecessor", "value": "update on V39 using the same hull, sterndrive setup and engines", "unit": null, "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/princess-v40-show-debut-dusseldorf-2017", "note": "Official launch copy explicitly describes the V40 as an update on the V39."},
+        {"key": "lengthOverall", "label": "Length overall", "value": 12.98, "unit": "m", "status": "verified", "sourceUrl": "https://www.princess.co.uk/wp-content/uploads/2017/03/v40-brochure.pdf", "note": "Official V40 brochure: 42 ft 6 in / 12.98 m including pulpit."},
+        {"key": "beam", "label": "Beam", "value": 3.81, "unit": "m", "status": "verified", "sourceUrl": "https://www.princess.co.uk/wp-content/uploads/2017/03/v40-brochure.pdf", "note": "Official V40 brochure: 12 ft 5 in / 3.81 m."},
+        {"key": "draft", "label": "Draft with drives lowered", "value": 1.02, "unit": "m", "status": "verified", "sourceUrl": "https://www.princess.co.uk/wp-content/uploads/2017/03/v40-brochure.pdf", "note": "Official V40 brochure: 3 ft 4 in / 1.02 m with drives lowered; drives-raised draft is 0.56 m."},
+        {"key": "maximumSpeed", "label": "Quoted maximum speed", "value": "36–38", "unit": "knots", "status": "verified", "sourceUrl": "https://www.princess.co.uk/wp-content/uploads/2017/03/v40-brochure.pdf", "note": "The original Gen2 brochure quotes 36–38 knots with twin Volvo D6-330 DP engines; later engine options and the 2025 anniversary page quote different figures."},
+        {"key": "guestAccommodation", "label": "Guest accommodation", "value": "2 cabins / up to 4 guests", "unit": null, "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/princess-v40-show-debut-dusseldorf-2017", "note": "Official launch copy describes a forward cabin and an aft cabin with optional sliding berth conversion."},
+        {"key": "heads", "label": "Guest heads", "value": 1, "unit": "head", "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en/princess/new/princess-v40", "note": "Independent brokerage specification lists one guest/shared day head; the forward ensuite has secondary access to the saloon."},
+        {"key": "independentDimensions", "label": "Independent dimension check", "value": "12.98 m LOA, 3.81 m beam, 1.02 m draft", "unit": null, "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en-us/reviews/princess-v40-2019-aquaholic", "note": "YachtBuyer/Aquaholic independently repeats the original Gen2 dimensions."},
+        {"key": "currentPageConflict", "label": "Current-page generation caution", "value": "current Princess page includes a 2025 60th Anniversary edition and says a Gen3 exists", "unit": null, "status": "reported", "sourceUrl": "https://www.princessyachts.com/our-yachts/v-class/v40/", "note": "The live factory page is not used to identify the requested 2017 generation beyond confirming the V40 name and baseline dimensions."}
+      ],
+      "sources": [
+        {"url": "https://www.princess.co.uk/news/princess-v40-show-debut-dusseldorf-2017", "title": "Princess V40 To Make Debut in Dusseldorf", "publisher": "Princess Motor Yacht Sales", "accessed": "2026-09-14", "scope": "Official 2017 launch timing, V39 relationship, layout and styling."},
+        {"url": "https://www.princess.co.uk/wp-content/uploads/2017/03/v40-brochure.pdf", "title": "V40 official brochure", "publisher": "Princess Yachts", "accessed": "2026-09-14", "scope": "Original Gen2 LOA, beam, draft, engines and deck plan."},
+        {"url": "https://www.yachtbuyer.com/en-us/princess/for-sale/princess-v40", "title": "Princess V40 Yachts For Sale & model timeline", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent brokerage generation boundary and production status."},
+        {"url": "https://www.yachtbuyer.com/en-us/reviews/princess-v40-2019-aquaholic", "title": "Princess V40 Review (2019 Edition)", "publisher": "YachtBuyer / Aquaholic", "accessed": "2026-09-14", "scope": "Independent walkthrough of cabins, head, layout and dimensions."},
+        {"url": "https://www.yachtbuyer.com/en/princess/new/princess-v40", "title": "Princess V40 Yacht", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent guest-head and current model specification."},
+        {"url": "https://www.princessyachts.com/our-yachts/v-class/v40/", "title": "V40 Luxury Sports Yacht", "publisher": "Princess Yachts", "accessed": "2026-09-14", "scope": "Current official page retained as a generation-boundary caution because it includes later V40 material."},
+        {"url": "https://www.barchemagazine.com/en/princess-v40-who-gets-off-to-a-good-start/", "title": "Princess V40, who gets off to a good start…", "publisher": "Barche Magazine", "accessed": "2026-09-14", "scope": "Independent review cross-check of dimensions and single-head layout."}
+      ],
+      "layout": {
+        "decks": 2,
+        "cabins": 2,
+        "heads": 1,
+        "rooms": ["forward owner cabin", "aft twin cabin with optional sliding double conversion", "saloon with convertible berth", "galley", "shared ensuite/day head", "helm", "cockpit wet bar"],
+        "description": "Two-level sportscruiser with a main-deck cockpit/helm and lower saloon, galley, forward owner cabin and aft twin cabin. The forward bathroom is ensuite but has secondary saloon access; the independent specification lists one guest/shared day head.",
+        "evidenceUrls": ["https://www.princess.co.uk/wp-content/uploads/2017/03/v40-brochure.pdf", "https://www.princess.co.uk/news/princess-v40-show-debut-dusseldorf-2017", "https://www.yachtbuyer.com/en-us/reviews/princess-v40-2019-aquaholic"]
+      },
+      "visual": {
+        "hullDescription": "Deep-V resin-infused sportscruiser hull with sterndrives and long port-light windows along the hull sides.",
+        "superstructureDescription": "Sleek hardtop over the helm and cockpit, with a large opening sunroof and open aft cockpit seating.",
+        "glazingDescription": "Long cascading hull windows light the lower saloon and cabins; one-piece windscreen and opening helm windows provide a clean forward sightline.",
+        "distinctiveFeatures": ["large opening hardtop sunroof", "long hull-side portlights", "aft wet bar and optional convertible sunpad", "deep-V sterndrive sportscruiser profile", "teak cockpit table"],
+        "referenceUrls": ["https://www.princess.co.uk/wp-content/uploads/2017/03/v40-brochure.pdf", "https://www.princess.co.uk/news/princess-v40-show-debut-dusseldorf-2017", "https://www.yachtbuyer.com/en-us/reviews/princess-v40-2019-aquaholic"]
+      },
+      "uncertainties": ["YachtBuyer identifies a later V40 Gen3 with a 2025 debut; the requested profile remains the 2017 Gen2 and does not merge the two generations.", "The production end year 2025 comes from independent model tracking, not a Princess factory notice.", "The original Gen2 brochure quotes 36–38 knots, while later V40 engine/page variants quote 34–39 knots; speed depends on engine and configuration."]
+    },
+    {
+      "id": "princess-v55-gen2-2019",
+      "brand": "Princess",
+      "name": "V55",
+      "range": "V Class",
+      "type": "sports yacht / sportscruiser",
+      "generation": "Gen 2 / Mk2 introduced 2019",
+      "productionStart": 2019,
+      "productionEnd": null,
+      "productionStatus": "current",
+      "aliases": ["Princess V55", "V 55", "V55 Mk2", "V55 Gen 2"],
+      "referenceConfiguration": "Current Gen2 V55 with twin Volvo D13 shaft drives, three guest cabins for six, two guest en-suites and an optional single aft crew cabin.",
+      "dimensions": {
+        "lengthM": 17.81,
+        "beamM": 4.65,
+        "draftM": 1.44
+      },
+      "facts": [
+        {"key": "launchYear", "label": "Global launch", "value": 2019, "unit": "year", "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/see-new-princess-v55-southampton-boat-show", "note": "Princess Motor Yacht Sales announced the global launch at Southampton Boat Show, 13–22 September 2019."},
+        {"key": "generationTimeline", "label": "Independent generation timeline", "value": "Gen 2 from 2019; Gen 1 ran 1997–2001", "unit": null, "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en-us/princess/for-sale/princess-v55", "note": "YachtBuyer distinguishes the historic first V55 generation from the all-new 2019 model."},
+        {"key": "lengthOverall", "label": "Length overall", "value": 17.81, "unit": "m", "status": "verified", "sourceUrl": "https://www.princessyachts.com/our-yachts/v-class/v55/", "note": "Current Princess page: 58 ft 5 in / 17.81 m including pulpit."},
+        {"key": "beam", "label": "Beam", "value": 4.65, "unit": "m", "status": "verified", "sourceUrl": "https://www.princessyachts.com/our-yachts/v-class/v55/", "note": "Current Princess page: 15 ft 3 in / 4.65 m."},
+        {"key": "draft", "label": "Draft", "value": 1.44, "unit": "m", "status": "verified", "sourceUrl": "https://www.princessyachts.com/our-yachts/v-class/v55/", "note": "Current Princess page: 4 ft 9 in / 1.44 m."},
+        {"key": "independentDraft", "label": "Independent draft report", "value": 1.4, "unit": "m", "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en-us/reviews/princess-v55-2019", "note": "YachtBuyer’s model data rounds/reports the draft as approximately 1.40 m; this is retained as a source conflict against the official 1.44 m."},
+        {"key": "maximumSpeed", "label": "Maximum speed", "value": "33–37", "unit": "knots", "status": "reported", "sourceUrl": "https://www.princess.co.uk/news/the-new-princess-v55-the-heart-and-soul-of-the-v-class", "note": "Launch material quoted up to 37 knots; the current Princess page quotes a 33–35 knot range, so engine and specification differences are material."},
+        {"key": "guestAccommodation", "label": "Guest accommodation", "value": "3 cabins / 6 guests", "unit": null, "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/the-princess-v55-the-heart-of-the-v-class", "note": "Official dealer article describes three guest cabins and a practical aft crew cabin option."},
+        {"key": "heads", "label": "Guest heads", "value": 2, "unit": "heads", "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/the-princess-v55-the-heart-of-the-v-class", "note": "The official article states three cabins and two en-suites; the forward cabin is flexible and the aft cabin is optional crew/storage."},
+        {"key": "interiorLayout", "label": "Interior layout", "value": "full-beam amidships master, forward VIP/twin cabin, third bunk cabin, saloon and galley", "unit": null, "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en-us/reviews/princess-v55-2019", "note": "Independent review confirms the three-cabin arrangement and full-beam master."},
+        {"key": "distinctiveDesign", "label": "Distinctive design", "value": "drop-down sliding patio door linking open cockpit and saloon", "unit": null, "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/the-new-princess-v55-the-heart-and-soul-of-the-v-class", "note": "Official launch material identifies this as a first for Princess yacht design."}
+      ],
+      "sources": [
+        {"url": "https://www.princess.co.uk/news/see-new-princess-v55-southampton-boat-show", "title": "See the all-new Princess V55 at Southampton Boat Show", "publisher": "Princess Motor Yacht Sales", "accessed": "2026-09-14", "scope": "Official global-launch date and show evidence."},
+        {"url": "https://www.princessyachts.com/our-yachts/v-class/v55/", "title": "V55 Luxury Sports Yacht", "publisher": "Princess Yachts", "accessed": "2026-09-14", "scope": "Current official dimensions, accommodation, visual/design and current quoted performance."},
+        {"url": "https://www.princessyachts.com/media/atud4pbe/v55-main-deck.png?v=1da1ddb46550030", "title": "V55 main-deck plan", "publisher": "Princess Yachts", "accessed": "2026-09-14", "scope": "Official main-deck plan used for the reconstructed cockpit, saloon, galley and helm arrangement."},
+        {"url": "https://www.princessyachts.com/media/414ndr0h/v55-lower-deck.png?v=1da185958e2de70", "title": "V55 lower-deck plan", "publisher": "Princess Yachts", "accessed": "2026-09-14", "scope": "Official lower-deck plan used for the reconstructed cabins, heads and machinery arrangement."},
+        {"url": "https://www.princessyachts.com/media/gp1ohiew/v55-exterior-carosuel_0000s_0002_v55016-es0a1963-rt.jpg?v=1d9dbf2a04b5380", "title": "V55 exterior reference image", "publisher": "Princess Yachts", "accessed": "2026-09-14", "scope": "Official exterior image used for the hull, glazing, hardtop, deck and equipment silhouette."},
+        {"url": "https://www.princess.co.uk/news/the-new-princess-v55-the-heart-and-soul-of-the-v-class", "title": "The new Princess V55: the heart and soul of the V Class", "publisher": "Princess Motor Yacht Sales", "accessed": "2026-09-14", "scope": "Official pre-launch design, layout and 2019 release evidence."},
+        {"url": "https://www.princess.co.uk/news/the-princess-v55-the-heart-of-the-v-class", "title": "The Princess V55: the heart and soul of the V Class", "publisher": "Princess Motor Yacht Sales", "accessed": "2026-09-14", "scope": "Official three-cabin, two-ensuite and optional aft crew-cabin evidence."},
+        {"url": "https://www.yachtbuyer.com/en-us/princess/for-sale/princess-v55", "title": "Princess V55 Yachts For Sale & model timeline", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent generation/status timeline and brokerage specifications."},
+        {"url": "https://www.yachtbuyer.com/en-us/reviews/princess-v55-2019", "title": "Princess V55 Review (2019 Edition)", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent review of the three-cabin layout, full-beam master and dimensions."}
+      ],
+      "layout": {
+        "decks": 2,
+        "cabins": 3,
+        "heads": 2,
+        "rooms": ["main-deck cockpit", "saloon with opening roof", "galley", "full-beam amidships owner cabin", "forward VIP/twin cabin", "third bunk cabin", "two guest en-suites", "helm", "tender garage"],
+        "description": "A two-level open sports yacht whose drop-down patio door makes the cockpit and saloon read as one social space. The lower deck has three guest cabins: full-beam owner amidships, forward VIP/twin, and a compact third bunk cabin; an aft crew cabin is optional.",
+        "evidenceUrls": ["https://www.princessyachts.com/our-yachts/v-class/v55/", "https://www.princess.co.uk/news/the-new-princess-v55-the-heart-and-soul-of-the-v-class", "https://www.yachtbuyer.com/en-us/reviews/princess-v55-2019"]
+      },
+      "visual": {
+        "hullDescription": "Sleek deep-V resin-infused sports hull with a dynamic open-boat profile, long knife-shaped hull windows and tender garage.",
+        "superstructureDescription": "Low, coupe-like sports superstructure with a long electric sunroof and open aft cockpit; designed for a strong connection to the water.",
+        "glazingDescription": "Panoramic saloon glazing and long angular hull-side windows; aft drop-down glass/patio door opens the saloon to the cockpit.",
+        "distinctiveFeatures": ["drop-down sliding patio door", "long knife-shaped hull windows", "electric-opening saloon roof", "full-beam amidships owner cabin", "tender garage", "open cockpit/waterline social layout"],
+        "referenceUrls": ["https://www.princessyachts.com/our-yachts/v-class/v55/", "https://www.princess.co.uk/news/the-new-princess-v55-the-heart-and-soul-of-the-v-class", "https://www.yachtbuyer.com/en-us/reviews/princess-v55-2019"]
+      },
+      "uncertainties": ["The official page and independent sources differ slightly on draft (1.44 m official vs approximately 1.40 m in YachtBuyer data).", "Quoted top speed varies from 33–35 knots on the current official page to up to 37 knots in launch material; engine and load configuration are not interchangeable.", "The current production status is supported by the live Princess product page and YachtBuyer brokerage profile, but the factory has not published a model end date."]
+    },
+    {
+      "id": "princess-f45-gen1-2019",
+      "brand": "Princess",
+      "name": "F45",
+      "range": "F Class",
+      "type": "flybridge motor yacht",
+      "generation": "current F45 generation introduced 2019",
+      "productionStart": 2019,
+      "productionEnd": null,
+      "productionStatus": "current",
+      "aliases": ["Princess F45", "F 45", "F45 Flybridge"],
+      "referenceConfiguration": "Current F45 with twin Volvo IPS600 pod drives, two guest cabins for four and the standard full-beam owner cabin plus forward guest cabin; optional extended cockpit seating and berth conversions excluded.",
+      "dimensions": {
+        "lengthM": 14.35,
+        "beamM": 4.26,
+        "draftM": 1.1
+      },
+      "facts": [
+        {"key": "launchYear", "label": "Introduction / launch year", "value": 2019, "unit": "year", "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/introducing-the-all-new-princess-f45", "note": "The official dealer article is dated 20 August 2019 and says the F45 launched at Boot Düsseldorf 2019; that publication date is not being conflated with the boat-show date."},
+        {"key": "launchEventTiming", "label": "Launch event timing", "value": "Boot Düsseldorf, 19–27 January 2019", "unit": "date range", "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/dusseldorf-boat-show-2019", "note": "A separate official show notice dates the 2019 Düsseldorf event 19–27 January and lists the F45 among the global launches. The August article is a later introduction/reporting page."},
+        {"key": "productionStatusEvidence", "label": "Current status", "value": "in production", "unit": null, "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en/reviews/princess-f45-2019-2", "note": "YachtBuyer lists the F45 as in production, and Princess continues to maintain a live F45 product page."},
+        {"key": "lengthOverall", "label": "Length overall", "value": 14.35, "unit": "m", "status": "verified", "sourceUrl": "https://www.princessyachts.com/our-yachts/f-class/f45/", "note": "Current Princess page: 47 ft 1 in / 14.35 m including pulpit."},
+        {"key": "beam", "label": "Beam", "value": 4.26, "unit": "m", "status": "verified", "sourceUrl": "https://www.princessyachts.com/our-yachts/f-class/f45/", "note": "Current Princess page: 14 ft / 4.26 m."},
+        {"key": "draft", "label": "Draft", "value": 1.1, "unit": "m", "status": "verified", "sourceUrl": "https://www.princessyachts.com/our-yachts/f-class/f45/", "note": "Current Princess page: 3 ft 7 in / 1.10 m."},
+        {"key": "independentDimensions", "label": "Independent dimension check", "value": "14.35 m LOA, 4.25 m beam, 1.09 m draft", "unit": null, "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en/reviews/princess-f45-2019-2", "note": "YachtBuyer reports 4.25 m beam and 1.09 m draft; the small difference is retained rather than normalized away."},
+        {"key": "guestAccommodation", "label": "Guest accommodation", "value": "2 cabins / 4 guests", "unit": null, "status": "verified", "sourceUrl": "https://www.princessyachts.com/our-yachts/f-class/f45/", "note": "Official page states a full-beam owner cabin plus a forward en-suite cabin; YachtBuyer independently confirms two cabins."},
+        {"key": "heads", "label": "Guest heads", "value": 2, "unit": "heads", "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en/reviews/princess-f45-2019-2", "note": "Independent layout lists the full-beam master en-suite and forward guest/day head."},
+        {"key": "maximumSpeed", "label": "Maximum speed", "value": "29–31", "unit": "knots", "status": "verified", "sourceUrl": "https://www.princessyachts.com/our-yachts/f-class/f45/", "note": "Current official page quotes a 29–31 knot range."},
+        {"key": "interiorEvidence", "label": "Interior evidence", "value": "full-beam amidships owner cabin, forward guest cabin with scissor berths, galley-aft main deck saloon", "unit": null, "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en/reviews/princess-f45-2019-2", "note": "Independent review describes the full-beam master, forward convertible guest cabin and galley-aft saloon arrangement."}
+      ],
+      "sources": [
+        {"url": "https://www.princess.co.uk/news/introducing-the-all-new-princess-f45", "title": "Introducing the all-new Princess F45", "publisher": "Princess Motor Yacht Sales", "accessed": "2026-09-14", "scope": "Official 20 August 2019 introduction/reporting page, launch claim, layout and pod-drive evidence."},
+        {"url": "https://www.princess.co.uk/news/dusseldorf-boat-show-2019", "title": "Dusseldorf Boat Show 2019", "publisher": "Princess Motor Yacht Sales", "accessed": "2026-09-14", "scope": "Official pre-show notice dated 6 November 2018; event dates 19–27 January 2019 and F45 global-launch listing."},
+        {"url": "https://www.princessyachts.com/our-yachts/f-class/f45/", "title": "F45 Luxury Flybridge Yacht", "publisher": "Princess Yachts", "accessed": "2026-09-14", "scope": "Current official dimensions, performance and accommodation."},
+        {"url": "https://www.princess.fr/media-file/2396/f45-brochure-2019-20-book-1.pdf", "title": "F45 brochure", "publisher": "Princess Yachts", "accessed": "2026-09-14", "scope": "Original specification and deck-plan evidence."},
+        {"url": "https://www.yachtbuyer.com/en/reviews/princess-f45-2019-2", "title": "Princess F45 Review (2019 Edition)", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent review, dimensions, cabin/head layout and current status."},
+        {"url": "https://www.hmy.com/yachting/powerboat-guide/princess/f45-2019-current", "title": "F45 (2019–Current) — Specs, Photos & Review", "publisher": "HMY Yachts", "accessed": "2026-09-14", "scope": "Independent brokerage/current-model cross-check."}
+      ],
+      "layout": {
+        "decks": 3,
+        "cabins": 2,
+        "heads": 2,
+        "rooms": ["flybridge dining/lounge", "main-deck cockpit", "galley-aft saloon", "helm", "full-beam owner cabin", "forward guest cabin with scissor berths", "owner ensuite", "guest/day head"],
+        "description": "Three usable levels (lower accommodation, main deck and flybridge) with a galley-aft saloon opening to the cockpit. Below, the headline feature is a full-beam owner cabin with a forward guest cabin whose scissor berths can convert between twin and double; two guest-facing heads are evidenced.",
+        "evidenceUrls": ["https://www.princessyachts.com/our-yachts/f-class/f45/", "https://www.yachtbuyer.com/en/reviews/princess-f45-2019-2", "https://www.princess.fr/media-file/2396/f45-brochure-2019-20-book-1.pdf"]
+      },
+      "visual": {
+        "hullDescription": "Planing deep-V resin-infused hull shaped around aft Volvo IPS pods, with a broad full-beam accommodation volume for its length.",
+        "superstructureDescription": "Contemporary flybridge with an extended upper deck, clean geometric surfaces and an extended cockpit/transom seating system.",
+        "glazingDescription": "Full-height aft patio connection, broad saloon windows, panoramic forward screens and hull windows around the lower-deck cabins.",
+        "distinctiveFeatures": ["full-beam owner cabin under 15 m", "galley-aft layout", "extended electrically sliding transom seating", "flybridge dining and sunpad conversion", "full-height patio connection"],
+        "referenceUrls": ["https://www.princessyachts.com/our-yachts/f-class/f45/", "https://www.princess.co.uk/news/introducing-the-all-new-princess-f45", "https://www.yachtbuyer.com/en/reviews/princess-f45-2019-2"]
+      },
+      "uncertainties": ["Official and independent sources differ by 0.01 m on beam and draft (4.26/1.10 m official versus 4.25/1.09 m independent).", "The model is treated as current because the live Princess page and YachtBuyer indicate ongoing production; no public end date was found."]
+    },
+    {
+      "id": "princess-f55-gen2-2022",
+      "brand": "Princess",
+      "name": "F55",
+      "range": "F Class",
+      "type": "flybridge motor yacht",
+      "generation": "current Gen 2 / Mk2 restyle introduced 2022",
+      "productionStart": 2022,
+      "productionEnd": null,
+      "productionStatus": "current",
+      "aliases": ["Princess F55", "F 55", "F55 Mk2", "F55 Gen 2"],
+      "referenceConfiguration": "Current 2022 F55 restyle with twin Volvo D13 shaft drives, three guest cabins for six and optional single aft crew cabin; the current official product-page dimensions conflict with the 2022 launch/test dimensions and are recorded below.",
+      "dimensions": {
+        "lengthM": 17.68,
+        "beamM": 4.87,
+        "draftM": 1.41
+      },
+      "facts": [
+        {"key": "launchYear", "label": "Current-generation introduction", "value": 2022, "unit": "year", "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/a-truly-tranquil-environment-the-new-princess-f55", "note": "Princess Motor Yacht Sales announced the new/restyled F55 in April 2022; its November 2022 article gives the current-generation dimensions and layout."},
+        {"key": "productionStatusEvidence", "label": "Current status", "value": "in production", "unit": null, "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en-us/princess/for-sale/princess-f55", "note": "YachtBuyer states that the current generation has been in production since 2022; Princess maintains a live F55 page."},
+        {"key": "lengthOverall", "label": "Length overall", "value": 17.68, "unit": "m", "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/a-truly-tranquil-environment-the-new-princess-f55", "note": "The official 2022 specification at a glance states 58 ft / 17.68 m including pulpit."},
+        {"key": "beam", "label": "Beam", "value": 4.87, "unit": "m", "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/a-truly-tranquil-environment-the-new-princess-f55", "note": "The official 2022 specification at a glance states 16 ft / 4.87 m."},
+        {"key": "draft", "label": "Draft", "value": 1.41, "unit": "m", "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/a-truly-tranquil-environment-the-new-princess-f55", "note": "The official 2022 specification at a glance states 4 ft 7 in / 1.41 m."},
+        {"key": "officialCurrentPageConflict", "label": "Conflicting live official page dimensions", "value": "16.56 m LOA, 4.52 m beam, 1.42 m draft", "unit": null, "status": "reported", "sourceUrl": "https://www.princessyachts.com/our-yachts/f-class/f55/", "note": "The live Princess product page currently lists a shorter/narrower set of dimensions. Because the 2022 official launch article and independent 2022 boat test agree on 17.68/4.87/1.41, the canonical dimensions here follow the 2022 current restyle and preserve the live-page conflict explicitly."},
+        {"key": "independentDimensions", "label": "Independent dimension check", "value": "17.68 m LOA, 4.87 m beam, 1.41 m draft", "unit": null, "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en/reviews/princess-f55-2022", "note": "YachtBuyer’s 2022 boat test matches the official 2022 launch article for length, beam and draft."},
+        {"key": "guestAccommodation", "label": "Guest accommodation", "value": "3 cabins / 6 guests", "unit": null, "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/a-truly-tranquil-environment-the-new-princess-f55", "note": "Official release specifies three cabins for six guests and an optional single aft crew cabin."},
+        {"key": "heads", "label": "Guest heads", "value": 2, "unit": "heads", "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en/reviews/princess-f55-2022", "note": "Independent test describes two bathrooms: owner ensuite plus a forward/VIP bathroom shared with the twin cabin and accessible as a day head."},
+        {"key": "maximumSpeed", "label": "Quoted maximum speed", "value": "32–34", "unit": "knots", "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/a-truly-tranquil-environment-the-new-princess-f55", "note": "Official 2022 article quotes up to 32–34 knots; YachtBuyer measured 29.4 knots on its test boat with D13-900 engines."},
+        {"key": "interiorEvidence", "label": "Interior evidence", "value": "aft galley, separate dining area, full-beam owner cabin, forward double, starboard twin with powered double conversion", "unit": null, "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en/reviews/princess-f55-2022", "note": "Independent review provides direct cabin-by-cabin evidence and identifies the optional aft crew cabin."},
+        {"key": "visualUpdate", "label": "Current-generation visual update", "value": "new hull-window graphic and canopy styling blade", "unit": null, "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/a-truly-tranquil-environment-the-new-princess-f55", "note": "Official 2022 release identifies these as the restyled exterior cues."}
+      ],
+      "sources": [
+        {"url": "https://www.princess.co.uk/news/a-truly-tranquil-environment-the-new-princess-f55", "title": "A Truly Tranquil Environment – the New Princess F55", "publisher": "Princess Motor Yacht Sales", "accessed": "2026-09-14", "scope": "Official 2022 generation/restyle announcement, dimensions and accommodation."},
+        {"url": "https://www.princessyachts.com/our-yachts/f-class/f55/", "title": "F55 Luxury Flybridge Yacht", "publisher": "Princess Yachts", "accessed": "2026-09-14", "scope": "Live official product page; retained as an explicit conflicting dimension source."},
+        {"url": "https://www.princess.fr/media-file/3012/f55-brochure.pdf", "title": "F55 brochure", "publisher": "Princess Yachts", "accessed": "2026-09-14", "scope": "Official brochure version updated April 2021, useful for predecessor/current-page context but not used to override the 2022 restyle."},
+        {"url": "https://www.yachtbuyer.com/en/reviews/princess-f55-2022", "title": "Princess F55 Review (2022 Edition)", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent 2022 boat test, dimensions, layout, heads and measured performance."},
+        {"url": "https://www.yachtbuyer.com/en-us/princess/for-sale/princess-f55", "title": "Princess F55 Yachts For Sale & model timeline", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent current-generation status and production timeline."}
+      ],
+      "layout": {
+        "decks": 3,
+        "cabins": 3,
+        "heads": 2,
+        "rooms": ["flybridge dining/lounge", "main-deck cockpit", "aft galley", "saloon and separate dining area", "full-beam owner cabin", "forward double cabin", "starboard twin cabin with optional double conversion", "owner ensuite", "shared VIP/day head", "optional single aft crew cabin"],
+        "description": "Three-level flybridge yacht with a walkaround-style transom and aft galley that serves both the cockpit and saloon. The lower deck has three guest cabins for six: full-beam owner amidships, forward double/VIP, and starboard twin; the single aft crew cabin is optional.",
+        "evidenceUrls": ["https://www.princess.co.uk/news/a-truly-tranquil-environment-the-new-princess-f55", "https://www.yachtbuyer.com/en/reviews/princess-f55-2022", "https://www.princessyachts.com/our-yachts/f-class/f55/"]
+      },
+      "visual": {
+        "hullDescription": "Deep-V resin-infused flybridge hull with restyled hull-window graphic and a refined planing profile.",
+        "superstructureDescription": "Contemporary flybridge superstructure with a new canopy styling blade, walkaround-style transom and large social upper deck.",
+        "glazingDescription": "Vast saloon windows and expansive hull windows wash the three cabins with light; top-hinged aft galley window links to the cockpit servery.",
+        "distinctiveFeatures": ["new hull-window graphic", "canopy styling blade", "walkaround-style transom", "aft galley/servery connection", "full-beam owner cabin", "sliding twin berth conversion"],
+        "referenceUrls": ["https://www.princessyachts.com/our-yachts/f-class/f55/", "https://www.princess.co.uk/news/a-truly-tranquil-environment-the-new-princess-f55", "https://www.yachtbuyer.com/en/reviews/princess-f55-2022"]
+      },
+      "uncertainties": ["There is a material live-page conflict: current Princess product-page dimensions are 16.56/4.52/1.42 m, while the official 2022 release and independent 2022 test agree on 17.68/4.87/1.41 m. The canonical profile follows the 2022 Mk2/current restyle and keeps both reports.", "The F55 model name has predecessor versions in independent databases; this profile is limited to the new/restyled generation introduced in 2022.", "The live factory page does not state an end date; current status is supported by YachtBuyer and the live product page."]
+    },
+    {
+      "id": "princess-f65-gen1-2022",
+      "brand": "Princess",
+      "name": "F65",
+      "range": "F Class",
+      "type": "flybridge motor yacht",
+      "generation": "Gen 1 / current F65 introduced 2022",
+      "productionStart": 2022,
+      "productionEnd": null,
+      "productionStatus": "current",
+      "aliases": ["Princess F65", "F 65", "F65 Flybridge"],
+      "referenceConfiguration": "Current F65 with twin MAN V8-1200 engines, four guest cabins for eight and standard 4-cabin/3-head guest layout; optional aft crew/lazarette cabin excluded from the reference configuration.",
+      "dimensions": {
+        "lengthM": 20.3,
+        "beamM": 5.09,
+        "draftM": 1.63
+      },
+      "facts": [
+        {"key": "launchYear", "label": "World launch", "value": 2022, "unit": "year", "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/princess-f65-will-launch-at-southampton-international-boat-show", "note": "Official announcement dated 6 September 2022 says the world premiere would be at Southampton International Boat Show, 16–25 September 2022."},
+        {"key": "productionStatusEvidence", "label": "Current status", "value": "in production", "unit": null, "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en/princess/for-sale/princess-f65", "note": "YachtBuyer lists the F65 as launched in 2022 and still in production; the Princess page is live."},
+        {"key": "lengthOverall", "label": "Length overall", "value": 20.3, "unit": "m", "status": "verified", "sourceUrl": "https://www.princessyachts.com/our-yachts/f-class/f65/", "note": "Current Princess page: 66 ft 7 in / 20.30 m including pulpit."},
+        {"key": "beam", "label": "Beam", "value": 5.09, "unit": "m", "status": "verified", "sourceUrl": "https://www.princessyachts.com/our-yachts/f-class/f65/", "note": "Current Princess page: 16 ft 9 in / 5.09 m."},
+        {"key": "draft", "label": "Draft", "value": 1.63, "unit": "m", "status": "verified", "sourceUrl": "https://www.princessyachts.com/our-yachts/f-class/f65/", "note": "Current Princess page: 5 ft 4 in / 1.63 m."},
+        {"key": "independentDimensions", "label": "Independent dimension checks", "value": "20.30 m LOA, 5.10 m beam, 1.48 m draft", "unit": null, "status": "reported", "sourceUrl": "https://www.youtube.com/watch?v=rx31Y9dp8m4", "note": "Motor Boat & Yachting’s 2022 show-tour video description gives 5.10 m beam and 1.48 m draft; the beam is rounding, while the draft differs materially and may reflect a different load/configuration."},
+        {"key": "guestAccommodation", "label": "Guest accommodation", "value": "4 cabins / 8 guests", "unit": null, "status": "verified", "sourceUrl": "https://www.princessyachts.com/our-yachts/f-class/f65/", "note": "Official page states four cabins and eight berths/guests, with an optional aft cabin replacing the lazarette."},
+        {"key": "heads", "label": "Guest heads", "value": 3, "unit": "heads", "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en-us/princess/new/princess-f65", "note": "Independent brokerage specification lists two guest heads plus a shared day head; separate optional crew head is not counted here."},
+        {"key": "maximumSpeed", "label": "Maximum speed", "value": "31–33", "unit": "knots", "status": "verified", "sourceUrl": "https://www.princessyachts.com/our-yachts/f-class/f65/", "note": "Current Princess page quotes a 31–33 knot range with twin MAN V8-1200 engines."},
+        {"key": "interiorEvidence", "label": "Interior evidence", "value": "aft galley/dinette, saloon, full-beam owner cabin, forward VIP, convertible twin cabin and bunk cabin", "unit": null, "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en/reviews/princess-f65-2022-aquaholic", "note": "Independent review gives direct evidence for the galley-aft plan, four guest cabins, day-head arrangement and optional crew cabin."},
+        {"key": "designDirection", "label": "F Class design direction", "value": "sculptural surfaces, elongated feature lines and panoramic glazing", "unit": null, "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/princess-f65-will-launch-at-southampton-international-boat-show", "note": "Official launch notice describes the new F Class design language and elongated hull windows."}
+      ],
+      "sources": [
+        {"url": "https://www.princess.co.uk/news/princess-f65-will-launch-at-southampton-international-boat-show", "title": "Princess F65 to Launch at Southampton Boat Show", "publisher": "Princess Motor Yacht Sales", "accessed": "2026-09-14", "scope": "Official launch timing, design direction and four-cabin description."},
+        {"url": "https://www.princessyachts.com/our-yachts/f-class/f65/", "title": "F65 Luxury Flybridge Yacht", "publisher": "Princess Yachts", "accessed": "2026-09-14", "scope": "Current official dimensions, engines, cabins and visual design."},
+        {"url": "https://www.yachtbuyer.com/en-us/princess/new/princess-f65", "title": "Princess F65 Yacht", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent brokerage status, 4-cabin/3-head layout and current dimensions."},
+        {"url": "https://www.yachtbuyer.com/en/princess/for-sale/princess-f65", "title": "Princess F65 Yachts For Sale & model timeline", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent production-status evidence and model timeline."},
+        {"url": "https://www.yachtbuyer.com/en/reviews/princess-f65-2022-aquaholic", "title": "Princess F65 Review (2022 Edition)", "publisher": "YachtBuyer / Aquaholic", "accessed": "2026-09-14", "scope": "Independent walkthrough of exterior, interior, guest cabins, heads and crew cabin."},
+        {"url": "https://www.mby.com/boat-shows-and-events/southampton-boat-show/2022-princess-f65-122771", "title": "Princess F65 full tour: On board a spectacular new £2.75m motoryacht", "publisher": "Motor Boat & Yachting", "accessed": "2026-09-14", "scope": "Independent show debut report and visual changes."},
+        {"url": "https://www.youtube.com/watch?v=rx31Y9dp8m4", "title": "Princess F65 full tour", "publisher": "Motor Boat & Yachting", "accessed": "2026-09-14", "scope": "Independent show-tour video metadata used for alternate beam and draft reporting."}
+      ],
+      "layout": {
+        "decks": 3,
+        "cabins": 4,
+        "heads": 3,
+        "rooms": ["flybridge dining/wet bar/sunbed", "main-deck cockpit", "aft galley and dinette", "main saloon", "lower helm", "full-beam owner cabin", "forward VIP cabin", "convertible twin cabin", "bunk cabin", "two guest ensuites", "shared day head", "optional aft crew cabin"],
+        "description": "Three-level flagship F Class layout: aft galley and dinette connect to the cockpit, the main deck retains a separate saloon and helm, and the lower deck provides four guest cabins for eight. The standard guest arrangement is reported as two guest ensuites plus a day head; an aft crew/lazarette cabin is optional.",
+        "evidenceUrls": ["https://www.princessyachts.com/our-yachts/f-class/f65/", "https://www.yachtbuyer.com/en-us/princess/new/princess-f65", "https://www.yachtbuyer.com/en/reviews/princess-f65-2022-aquaholic"]
+      },
+      "visual": {
+        "hullDescription": "20.3 m planing flybridge hull with elongated hull windows and sculpted side surfaces; larger and wider than the F62 it replaces.",
+        "superstructureDescription": "Sculptural flybridge superstructure with a broad entertaining deck, aft sunbed and L-shaped companion seating, plus a contemporary main-deck profile.",
+        "glazingDescription": "Panoramic saloon windows, signature wrap-around forward screens and elongated lower-deck hull windows flood the interiors with light.",
+        "distinctiveFeatures": ["elongated hull windows", "wrap-around forward screens", "aft galley/dinette arrangement", "four guest cabins in 65 ft", "large social flybridge", "optional aft crew cabin replacing lazarette"],
+        "referenceUrls": ["https://www.princessyachts.com/our-yachts/f-class/f65/", "https://www.mby.com/boat-shows-and-events/southampton-boat-show/2022-princess-f65-122771", "https://www.yachtbuyer.com/en/reviews/princess-f65-2022-aquaholic"]
+      },
+      "uncertainties": ["Official F65 dimensions are 20.30/5.09/1.63 m; Motor Boat & Yachting’s show-tour metadata gives 5.10/1.48 m, so draft is explicitly unresolved by load/configuration and source timing.", "Heads count is the standard guest-facing 4-cabin arrangement (two guest heads plus one shared day head) and excludes the optional aft crew head.", "No production end date was found; the model is treated as current based on the live factory page and independent brokerage status."]
+    },
+    {
+      "id": "princess-y85-gen2-2022",
+      "brand": "Princess",
+      "name": "Y85",
+      "range": "Y Class",
+      "type": "superyacht flybridge motor yacht",
+      "generation": "Gen 2 / current 2022 refresh; original Gen 1 launched 2019",
+      "productionStart": 2022,
+      "productionEnd": null,
+      "productionStatus": "current",
+      "aliases": ["Princess Y85", "Y 85", "Y85 Mk2", "Y85 Gen 2"],
+      "referenceConfiguration": "Current Gen2/2022-refresh Y85 with the updated full-length hull glazing and reworked cockpit, four guest cabins for eight, five guest/day heads in the independent layout data and separate crew quarters; original Gen1 specifications are retained as explicit alternates.",
+      "dimensions": {
+        "lengthM": 26.2,
+        "beamM": 6.29,
+        "draftM": 1.89
+      },
+      "facts": [
+        {"key": "originalLaunchYear", "label": "Original Y85 launch", "value": 2019, "unit": "year", "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/the-all-new-contemporary-princess-y85", "note": "Official announcement says the original Y85 had its global launch at Düsseldorf Boat Show in early 2019."},
+        {"key": "currentGenerationYear", "label": "Current/Gen2 introduction", "value": 2022, "unit": "year", "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en/news/princess-unveil-reimagined-y85", "note": "Independent YachtBuyer identifies a reimagined Mk2 version unveiled in June 2022 and says it followed the original 2019 launch."},
+        {"key": "generationBoundary", "label": "Generation boundary", "value": "Gen 1 2019–2022; Gen 2 2022–present", "unit": null, "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en-gb/princess/for-sale/princess-y85", "note": "YachtBuyer explicitly lists Mk1 2019–2022 and Mk2 2022–present; Princess's live page does not label the generation number, so the source distinction is preserved here."},
+        {"key": "lengthOverall", "label": "Length overall", "value": 26.2, "unit": "m", "status": "verified", "sourceUrl": "https://cms.princessyachts.com/it/le-nostre-imbarcazioni/y-class/y85/", "note": "Current Princess page: 86 ft / 26.20 m including pulpit."},
+        {"key": "beam", "label": "Beam", "value": 6.29, "unit": "m", "status": "verified", "sourceUrl": "https://cms.princessyachts.com/it/le-nostre-imbarcazioni/y-class/y85/", "note": "Current Princess page: 20 ft 7 in / 6.29 m."},
+        {"key": "draft", "label": "Draft", "value": 1.89, "unit": "m", "status": "verified", "sourceUrl": "https://cms.princessyachts.com/it/le-nostre-imbarcazioni/y-class/y85/", "note": "Current Princess page: 6 ft 2 in / 1.89 m."},
+        {"key": "originalGen1Dimensions", "label": "Original Gen1 dimensions", "value": "26.20 m LOA, 6.30 m beam, 1.77 m draft", "unit": null, "status": "verified", "sourceUrl": "https://www.princess.fr/media-file/2398/y85-brochure-2019-20-book-1.pdf", "note": "The original 2019–20 official brochure gives 6.3 m beam and 1.77 m draft; these are not substituted into the current Gen2 dimensions."},
+        {"key": "independentCurrentDimensions", "label": "Independent Gen2 model-data dimensions", "value": "26.2 m LOA, 6.26 m beam, 1.77 m draft", "unit": null, "status": "reported", "sourceUrl": "https://www.yachtbuyer.com/en-gb/princess/new/princess-y85-2", "note": "YachtBuyer’s current Mk2 profile still reports the older 1.77 m draft and a 6.26 m beam; this is retained as a conflict against the current Princess page."},
+        {"key": "guestAccommodation", "label": "Guest accommodation", "value": "4 cabins / 8 guests", "unit": null, "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en-gb/princess/new/princess-y85-2", "note": "Independent current-model profile lists master, VIP, double and twin cabins, all en suite, for eight guests."},
+        {"key": "heads", "label": "Guest heads", "value": 5, "unit": "heads", "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en-gb/princess/new/princess-y85-2", "note": "YachtBuyer lists five guest heads and one dedicated day head; separate crew head is excluded from this guest-facing count."},
+        {"key": "maximumSpeed", "label": "Current quoted maximum speed", "value": "28–31", "unit": "knots", "status": "verified", "sourceUrl": "https://cms.princessyachts.com/it/le-nostre-imbarcazioni/y-class/y85/", "note": "Current Princess page quotes 28–31 knots depending on engine option; the original launch/brochure quoted up to 33 knots."},
+        {"key": "interiorEvidence", "label": "Interior evidence", "value": "extended main deck with circular dining, flexible galley, full-beam owner, forward VIP, double and convertible twin; day head on main deck", "unit": null, "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en-us/reviews/princess-y85-2022", "note": "Independent 2022 review directly describes the Gen2 interior, revised cockpit and four-cabin arrangement."},
+        {"key": "visualUpdate", "label": "Gen2 visual update", "value": "elongated hull glazing, redesigned cockpit and optional infinity-view seating", "unit": null, "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en/news/princess-unveil-reimagined-y85", "note": "Independent launch coverage names the full-length glazing and redesigned aft deck/cockpit as Gen2 changes."}
+      ],
+      "sources": [
+        {"url": "https://www.princess.co.uk/news/the-all-new-contemporary-princess-y85", "title": "The all-new, contemporary Princess Y85", "publisher": "Princess Motor Yacht Sales", "accessed": "2026-09-14", "scope": "Official original 2019 launch, design partners and original interior description."},
+        {"url": "https://cms.princessyachts.com/it/le-nostre-imbarcazioni/y-class/y85/", "title": "Y85", "publisher": "Princess Yachts", "accessed": "2026-09-14", "scope": "Live official current-model dimensions, performance and current layout narrative."},
+        {"url": "https://www.princess.fr/media-file/2398/y85-brochure-2019-20-book-1.pdf", "title": "Y85 brochure 2019–20", "publisher": "Princess Yachts", "accessed": "2026-09-14", "scope": "Original Gen1 dimensions, deck plans and cabin/crew specification."},
+        {"url": "https://www.yachtbuyer.com/en/news/princess-unveil-reimagined-y85", "title": "New version of Princess Y85 unveiled ahead of expected show debut", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent Gen1/Gen2 boundary and Gen2 visual changes."},
+        {"url": "https://www.yachtbuyer.com/en-gb/princess/for-sale/princess-y85", "title": "Princess Y85 Yachts For Sale & model timeline", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent Gen1/Gen2 model timeline and current-status context."},
+        {"url": "https://www.yachtbuyer.com/en-gb/princess/new/princess-y85-2", "title": "Princess Y85 Yacht Mk2", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent current Gen2 layout, heads, dimensions and design details."},
+        {"url": "https://www.yachtbuyer.com/en-us/reviews/princess-y85-2022", "title": "Princess Y85 Review (2022 Edition)", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent 2022 review of the current refresh, cockpit, glazing and interiors."}
+      ],
+      "layout": {
+        "decks": 3,
+        "cabins": 4,
+        "heads": 5,
+        "rooms": ["flybridge dining/wet bar/sunpad", "main-deck cockpit", "main saloon with circular dining", "flexible galley", "main-deck day head", "full-beam owner cabin", "forward VIP with walk-in wardrobe", "double guest cabin", "convertible twin guest cabin", "four guest ensuites", "separate crew quarters and crew head"],
+        "description": "The current Gen2 uses three main levels with an extended single-level main deck: social cockpit, flexible galley, circular saloon dining and a main-deck day head. Below are four guest cabins—full-beam owner, VIP, double and convertible twin—with guest ensuites; crew spaces and a crew head are separate. The 2019 Gen1 had the same broad four-cabin concept but different glazing/cockpit and older published draft/beam values.",
+        "evidenceUrls": ["https://cms.princessyachts.com/it/le-nostre-imbarcazioni/y-class/y85/", "https://www.yachtbuyer.com/en-gb/princess/new/princess-y85-2", "https://www.yachtbuyer.com/en-us/reviews/princess-y85-2022", "https://www.princess.fr/media-file/2398/y85-brochure-2019-20-book-1.pdf"]
+      },
+      "visual": {
+        "hullDescription": "Planing Y Class hull with full-length hull glazing in the current Gen2; original Gen1 used a shorter/split glazing treatment and older cockpit arrangement.",
+        "superstructureDescription": "Traditional Princess flybridge silhouette reinterpreted with sculpted surfaces, a broad flybridge, large aft sunpad and flexible upper-deck tender/jacuzzi options.",
+        "glazingDescription": "Current Gen2 is defined by elongated/full-length hull windows, expansive saloon glazing and large forward views; the Gen1 brochure shows the earlier window treatment.",
+        "distinctiveFeatures": ["full-length hull glazing in Gen2", "full-beam lower-deck owner cabin", "flexible/open-or-closed galley", "redesigned/infinity-view cockpit", "large flybridge with optional tender/crane or jacuzzi", "circular main-deck dining"],
+        "referenceUrls": ["https://www.princessyachts.com/our-yachts/y-class/y85/", "https://www.yachtbuyer.com/en/news/princess-unveil-reimagined-y85", "https://www.yachtbuyer.com/en-us/reviews/princess-y85-2022", "https://www.princess.fr/media-file/2398/y85-brochure-2019-20-book-1.pdf"]
+      },
+      "uncertainties": ["The profile intentionally represents current Gen2 while retaining original Gen1 evidence; the live Princess page does not name the generation, so the Gen1/Gen2 distinction relies on YachtBuyer’s independent 2022 reimagined-model reporting.", "Current official dimensions (6.29 m beam, 1.89 m draft) conflict with the 2019 brochure and current independent YachtBuyer Mk2 profile (about 6.26–6.30 m beam, 1.77 m draft). The current official page is used for the canonical Gen2 dimensions; the older values remain as explicit alternates.", "Heads count is guest-facing and excludes the separate crew head; optional layouts can alter room/head counts."]
+    },
+    {
+      "id": "princess-x95-gen1-2020",
+      "brand": "Princess",
+      "name": "X95",
+      "range": "X Class",
+      "type": "super flybridge motor yacht",
+      "generation": "Gen 1 / original X95 introduced 2020; excludes X95 Vista Gen 2",
+      "productionStart": 2020,
+      "productionEnd": 2023,
+      "productionStatus": "historical",
+      "aliases": ["Princess X95", "X 95", "Original X95", "X95 Gen 1", "X95 Mk1"],
+      "referenceConfiguration": "Original X95 Gen1 with twin MAN V12-1900 shaft drives, standard four-cabin lower-deck guest layout and the standard two-deck superflybridge concept; optional main-deck master/fifth cabin, cinema, jacuzzi and expanded crew layouts excluded.",
+      "dimensions": {
+        "lengthM": 29.11,
+        "beamM": 6.77,
+        "draftM": 2.01
+      },
+      "facts": [
+        {"key": "launchYear", "label": "Original launch", "value": 2020, "unit": "year", "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/the-princess-x-class", "note": "Official dealer article says the first X95 was launched in summer 2020; an independent Power & Motoryacht test calls it a virtual launch in summer 2020."},
+        {"key": "generationBoundary", "label": "Original vs successor", "value": "X95 Gen1 2020–2023; X95 Vista Gen2 from 2024", "unit": null, "status": "reported", "sourceUrl": "https://www.princessyachts.com/our-yachts/x-class/x95-vista/", "note": "Current Princess page explicitly says the X95 Vista was unveiled in March 2024, building on the original X95 launched in 2020; YachtBuyer independently lists Gen1 as 2020–2023 discontinued."},
+        {"key": "lengthOverall", "label": "Length overall", "value": 29.11, "unit": "m", "status": "verified", "sourceUrl": "https://www.princess.co.uk/wp-content/uploads/2019/02/x-class-brochure-book-2-updated.pdf", "note": "Official X Class brochure: 95 ft 6 in / 29.11 m."},
+        {"key": "beam", "label": "Beam", "value": 6.77, "unit": "m", "status": "verified", "sourceUrl": "https://www.princess.co.uk/wp-content/uploads/2019/02/x-class-brochure-book-2-updated.pdf", "note": "Official X Class brochure: 22 ft 3 in / 6.77 m."},
+        {"key": "draft", "label": "Draft at full load", "value": 2.01, "unit": "m", "status": "verified", "sourceUrl": "https://www.princess.co.uk/wp-content/uploads/2019/02/x-class-brochure-book-2-updated.pdf", "note": "Official X Class brochure: approximately 6 ft 7 in / 2.01 m."},
+        {"key": "independentDimensions", "label": "Independent test dimensions", "value": "95 ft 6 in LOA, 22 ft 3 in beam, 6 ft 7 in draft", "unit": null, "status": "verified", "sourceUrl": "https://powerandmotoryacht.com/boats/princess-x95-boat-test-and-review/", "note": "Power & Motoryacht independently repeats the official brochure dimensions."},
+        {"key": "maximumSpeed", "label": "Quoted maximum speed", "value": "24–26", "unit": "knots", "status": "verified", "sourceUrl": "https://www.princess.co.uk/wp-content/uploads/2019/02/x-class-brochure-book-2-updated.pdf", "note": "Official X Class brochure quotes 24–26 knots; independent testing averaged just under 24 knots and YachtBuyer model data reports 23 knots."},
+        {"key": "guestAccommodation", "label": "Guest accommodation", "value": "4 standard cabins / optional 5th main-deck master / 8 standard guests, 10 optional", "unit": null, "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en-us/princess/new/princess-x95", "note": "Independent brokerage specification lists 4–5 cabins, eight standard guests and optional ten-guest configuration."},
+        {"key": "heads", "label": "Guest heads", "value": 5, "unit": "heads", "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en-us/princess/new/princess-x95", "note": "Independent model specification lists five guest heads, optional seven, plus separate crew heads; the standard guest-facing count is used here."},
+        {"key": "interiorEvidence", "label": "Interior evidence", "value": "large main-deck saloon with optional owner suite or forward lounge/country kitchen, enclosed upper sky lounge, four lower-deck guest cabins", "unit": null, "status": "verified", "sourceUrl": "https://www.yachtbuyer.com/en/reviews/princess-x95-2020-2", "note": "Independent review directly describes the two-deck concept, main-deck options and standard four-cabin lower-deck layout."},
+        {"key": "distinctiveArchitecture", "label": "Distinctive architecture", "value": "superflybridge with upper deck and main deck running almost the full length", "unit": null, "status": "verified", "sourceUrl": "https://www.princess.co.uk/news/the-princess-x-class", "note": "Official X Class announcement describes the expansive flybridge and main deck extending nearly the yacht's full length."},
+        {"key": "successor", "label": "Successor model", "value": "X95 Vista Gen2, unveiled 2024", "unit": null, "status": "verified", "sourceUrl": "https://www.princessyachts.com/our-yachts/x-class/x95-vista/", "note": "This profile stops at the original X95 and does not merge the materially different X95 Vista dimensions or layout."}
+      ],
+      "sources": [
+        {"url": "https://www.princess.co.uk/news/the-princess-x-class", "title": "The Princess X Class: Princess X95 and X80", "publisher": "Princess Motor Yacht Sales", "accessed": "2026-09-14", "scope": "Official original-X95 launch timing and Super Flybridge concept."},
+        {"url": "https://www.princess.co.uk/wp-content/uploads/2019/02/x-class-brochure-book-2-updated.pdf", "title": "X Class brochure", "publisher": "Princess Yachts", "accessed": "2026-09-14", "scope": "Original X95 official LOA, beam, draft, performance and deck-plan evidence."},
+        {"url": "https://www.princessyachts.com/our-yachts/x-class/x95-vista/", "title": "X95 Vista Super Flybridge Yacht", "publisher": "Princess Yachts", "accessed": "2026-09-14", "scope": "Official distinction between original X95 (2020) and X95 Vista (2024)."},
+        {"url": "https://www.yachtbuyer.com/en-us/princess/new/princess-x95", "title": "Princess X95 Yacht Gen 1, 2020–2023", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent brokerage generation status, flexible cabin/head layouts and original X95 features."},
+        {"url": "https://www.yachtbuyer.com/en/reviews/princess-x95-2020-2", "title": "Princess X95 Review & Test Drive Video", "publisher": "YachtBuyer", "accessed": "2026-09-14", "scope": "Independent review of design, glazing, two-deck layout, cabins and optional configurations."},
+        {"url": "https://powerandmotoryacht.com/boats/princess-x95-boat-test-and-review/", "title": "Princess X95 Boat Test and Review", "publisher": "Power & Motoryacht", "accessed": "2026-09-14", "scope": "Independent virtual-launch timing, sea trial, visual architecture, interiors and dimensions."}
+      ],
+      "layout": {
+        "decks": 3,
+        "cabins": 4,
+        "heads": 5,
+        "rooms": ["full-length upper superflybridge terrace", "enclosed upper sky lounge and raised pilothouse", "main-deck saloon", "main-deck galley/dining or optional master suite", "lower full-beam master/VIP arrangement", "forward VIP", "port and starboard twin/double guest cabins", "guest ensuites", "crew quarters", "tender garage / Transformer platform"],
+        "description": "The original X95 is a three-level architectural concept: a full-length upper deck with walkaround terrace and enclosed sky lounge/pilothouse, a main deck dominated by a flexible saloon and optional owner/forward lounge-country-kitchen arrangement, and a lower deck with a standard four-cabin guest layout. The main-deck master can create a five-cabin/ten-guest configuration; optional crew/cinema/jacuzzi layouts are not part of the reference configuration.",
+        "evidenceUrls": ["https://www.princess.co.uk/wp-content/uploads/2019/02/x-class-brochure-book-2-updated.pdf", "https://www.yachtbuyer.com/en-us/princess/new/princess-x95", "https://www.yachtbuyer.com/en/reviews/princess-x95-2020-2", "https://powerandmotoryacht.com/boats/princess-x95-boat-test-and-review/"]
+      },
+      "visual": {
+        "hullDescription": "Tall, planing GRP hull with a short wave-piercing bow, broad aft running surfaces and an unusually high volume/length relationship.",
+        "superstructureDescription": "Signature Super Flybridge architecture: a raised enclosed pilothouse/sky lounge between long fore and aft upper-deck terraces, with deep side overhangs and an elevated profile.",
+        "glazingDescription": "Extensive full-height glazing and long side glass create a floating-window effect; the original brochure shows large saloon glazing, sky-lounge windows and a forward-facing main-deck/master option.",
+        "distinctiveFeatures": ["Super Flybridge / near full-length upper deck", "enclosed climate-controlled sky lounge", "raised central pilothouse", "optional main-deck master with private foredeck", "wave-piercing bow", "Transformer hydraulic platform and PWC garage", "optional cinema/country-kitchen layouts"],
+        "referenceUrls": ["https://www.princessyachts.com/our-yachts/x-class/x95-vista/", "https://www.princess.co.uk/wp-content/uploads/2019/02/x-class-brochure-book-2-updated.pdf", "https://powerandmotoryacht.com/boats/princess-x95-boat-test-and-review/", "https://www.yachtbuyer.com/en/reviews/princess-x95-2020-2"]
+      },
+      "uncertainties": ["Original X95 dimensions are consistent between the official brochure and Power & Motoryacht, while YachtBuyer’s later model database reports a shorter/narrower 28.96/6.65/2.03 m set; the canonical profile follows the original official brochure and records the independent database conflict.", "The original X95 was highly configurable: standard four-cabin and optional five-cabin/main-deck-master layouts are both documented, so no single interior configuration represents every hull.", "The 2020–2023 production window is from independent model tracking; the official sources establish launch in 2020 and successor X95 Vista in 2024 but do not publish a factory end date."]
+    }
+  ]
+}

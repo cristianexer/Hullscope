@@ -1,0 +1,43 @@
+{
+  "auditId": "collection-audit-03",
+  "createdAt": "2026-09-14",
+  "scope": {
+    "targetGenerations": 20,
+    "princess": 10,
+    "sunseeker": 10,
+    "availableResearchedGenerations": 32,
+    "deferredResearchedGenerations": 12,
+    "selectionFile": "research/yachts/release-selection.json"
+  },
+  "catalog": {
+    "seedRows": 172,
+    "unresolvedSeedRows": 130,
+    "selectedSeedRowsWithDisposition": 24,
+    "selectedDispositionCounts": {
+      "canonical": 17,
+      "variant": 4,
+      "alias": 3
+    },
+    "publicationReady": false
+  },
+  "assets": {
+    "selectedMasters": 20,
+    "selectedAssetDirectories": 20,
+    "selectedDimensionTolerancePasses": 20,
+    "selectedRoomCameraCoverageFailures": 0,
+    "selectedDraftReviews": 20,
+    "selectedIndependentApprovals": 0,
+    "selectedExteriorViewCoverage": 20,
+    "selectedRoomEvidenceCoverage": 20,
+    "selectedDeckEvidenceCoverage": 20,
+    "selectedExplodedEvidenceCoverage": 20
+  },
+  "status": "capped-draft-not-published",
+  "blockers": [
+    "All 20 selected models still require independent visual approval.",
+    "Draft review records intentionally fail the reference-faithfulness and geometry/material checks.",
+    "Deck-state and exploded-state evidence is now present for all selected models but remains unapproved evidence.",
+    "130 seed rows remain unresolved or outside the capped release selection and are deferred for a future expansion.",
+    "Hugging Face publication is intentionally not attempted until the selected collection passes review."
+  ]
+}

@@ -4,7 +4,8 @@ import { ALL_EXTENSIONS, EXTMeshoptCompression } from '@gltf-transform/extension
 import { reorder } from '@gltf-transform/functions';
 import { MeshoptEncoder } from 'meshoptimizer';
 import { Quaternion, Euler, Color } from 'three';
-import { fleet } from '../src/data/fleet';
+// Authored yacht masters use the separate read-only master export pipeline.
+import { legacyFleet as fleet } from '../src/data/fleet';
 import { buildModel } from '../src/model/build';
 import { makeGeometry, hullSectionFor } from '../src/model/geometry';
 import { commonSources } from '../src/data/systems';

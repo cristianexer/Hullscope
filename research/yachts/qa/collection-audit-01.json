@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-09-14",
+  "scope": "Filesystem-only audit of all research batches, seed dispositions, runtime release wiring, and current authored manifests/technical reviews.",
+  "visualApproval": "not-performed",
+  "research": {
+    "files": [
+      "research/yachts/princess-batch-01.json",
+      "research/yachts/princess-batch-02.json",
+      "research/yachts/sunseeker-batch-01.json",
+      "research/yachts/sunseeker-batch-02.json"
+    ],
+    "totalModels": 30,
+    "uniqueIds": 30,
+    "byBrand": {"Princess": 14, "Sunseeker": 16},
+    "schemaFailures": [],
+    "duplicateIds": [],
+    "manifestIdsWithoutResearch": [],
+    "researchIdsWithoutManifest": [],
+    "identityFindings": [
+      {
+        "id": "ID-001",
+        "severity": "blocker",
+        "subject": "Y85 Gen2 alias crosses into Y85 Gen1",
+        "evidence": ["princess-y85-gen2-2022 aliases include 'Y85 Mk1 / original'.", "princess-y85-gen1-2019 is a separate researched generation."]
+      },
+      {
+        "id": "ID-002",
+        "severity": "blocker",
+        "subject": "Predator 74 Gen2 alias includes Predator 74 XPS",
+        "evidence": ["sunseeker-predator-74-gen2-2018 aliases include 'Predator 74 XPS'.", "Seed row 73 is Predator 74 XPS and batch-02 treats it as a later product candidate."]
+      },
+      {
+        "id": "ID-003",
+        "severity": "blocker",
+        "subject": "Batch-02 narrative dispositions are not exact seedAudit dispositions",
+        "evidence": ["sunseeker-batch-02.json contains 24 seedDispositions with non-schema type strings.", "No dispositions-princess-02.json or dispositions-sunseeker-02.json exists.", "catalog.ts reads only dispositions-*.json and ignores seedDispositions inside batch JSON."]
+      }
+    ]
+  },
+  "seed": {
+    "totalRows": 172,
+    "dispositionFiles": ["research/yachts/dispositions-princess-01.json"],
+    "explicitDispositionEntries": 10,
+    "explicitDispositionCounts": {"canonical": 6, "unresolved": 4},
+    "appliedDispositionCounts": {"canonical": 6, "unresolved": 166},
+    "normalizedNameAliasCandidates": 28,
+    "mappedCandidateRows": 6,
+    "unmappedExactCandidateRows": 22,
+    "rowsWithoutNormalizedCandidate": 144,
+    "ambiguousCandidateRows": ["seed-row-54", "seed-row-60", "seed-row-70", "seed-row-134", "seed-row-152"],
+    "unmappedCandidates": [
+      {"rowId":"seed-row-18","brand":"Sunseeker","rawModel":"Superhawk 55","candidateIds":["sunseeker-superhawk-55-gen1-2023"],"reason":"exact normalized name; no exact-schema disposition loaded"},
+      {"rowId":"seed-row-19","brand":"Sunseeker","rawModel":"Predator 55","candidateIds":["sunseeker-predator-55-gen2-2024"],"reason":"exact normalized name; no exact-schema disposition loaded"},
+      {"rowId":"seed-row-20","brand":"Sunseeker","rawModel":"Predator 65","candidateIds":["sunseeker-predator-65-gen1-2021"],"reason":"exact normalized name; no exact-schema disposition loaded"},
+      {"rowId":"seed-row-26","brand":"Sunseeker","rawModel":"Manhattan 55","candidateIds":["sunseeker-manhattan-55-gen2-2021"],"reason":"exact normalized name; no exact-schema disposition loaded"},
+      {"rowId":"seed-row-28","brand":"Sunseeker","rawModel":"Manhattan 68","candidateIds":["sunseeker-manhattan-68-gen2-2025"],"reason":"exact normalized name; no exact-schema disposition loaded"},
+      {"rowId":"seed-row-29","brand":"Sunseeker","rawModel":"76 Yacht","candidateIds":["sunseeker-76-yacht-gen1-2017"],"reason":"exact normalized name; no exact-schema disposition loaded"},
+      {"rowId":"seed-row-35","brand":"Sunseeker","rawModel":"82 Ocean Enclosed","candidateIds":["sunseeker-82-ocean-enclosed-gen1-2024"],"reason":"exact normalized name; no exact-schema disposition loaded"},
+      {"rowId":"seed-row-37","brand":"Sunseeker","rawModel":"90 Ocean","candidateIds":["sunseeker-90-ocean-gen1-2020"],"reason":"exact normalized name; no exact-schema disposition loaded"},
+      {"rowId":"seed-row-45","brand":"Princess","rawModel":"X95 Vista","candidateIds":["princess-x95-vista-gen2-2024"],"reason":"batch-02 narrative says canonical but loaded disposition remains unresolved"},
+      {"rowId":"seed-row-54","brand":"Princess","rawModel":"F55","candidateIds":["princess-f55-gen1-2017","princess-f55-gen2-2022"],"reason":"repeated name and official dimensional conflict"},
+      {"rowId":"seed-row-60","brand":"Princess","rawModel":"S65","candidateIds":["princess-s65-gen1-2015","princess-s65-gen2-2024"],"reason":"repeated name requires generation evidence"},
+      {"rowId":"seed-row-62","brand":"Princess","rawModel":"S72","candidateIds":["princess-s72-gen1-2014"],"reason":"exact name but source/status context requires generation verification"},
+      {"rowId":"seed-row-71","brand":"Sunseeker","rawModel":"131 Yacht","candidateIds":["sunseeker-131-yacht-gen1-2016"],"reason":"exact normalized name; no exact-schema disposition loaded"},
+      {"rowId":"seed-row-73","brand":"Sunseeker","rawModel":"Predator 74 XPS","candidateIds":["sunseeker-predator-74-gen2-2018"],"reason":"only matched through a suspect cross-generation alias; do not auto-map"},
+      {"rowId":"seed-row-88","brand":"Sunseeker","rawModel":"Predator 60 Evo","candidateIds":["sunseeker-predator-60-evo-gen1-2019"],"reason":"exact normalized name; no exact-schema disposition loaded"},
+      {"rowId":"seed-row-98","brand":"Sunseeker","rawModel":"Predator 84","candidateIds":["sunseeker-predator-84-gen1-2008"],"reason":"exact normalized name; no exact-schema disposition loaded"},
+      {"rowId":"seed-row-99","brand":"Sunseeker","rawModel":"Manhattan 73","candidateIds":["sunseeker-manhattan-73-gen1-2012"],"reason":"exact normalized name; no exact-schema disposition loaded"},
+      {"rowId":"seed-row-105","brand":"Sunseeker","rawModel":"Portofino 48","candidateIds":["sunseeker-portofino-48-gen1-2010"],"reason":"exact normalized name; no exact-schema disposition loaded"},
+      {"rowId":"seed-row-134","brand":"Princess","rawModel":"Y85","candidateIds":["princess-y85-gen1-2019","princess-y85-gen2-2022"],"reason":"repeated name; Gen1 remains unresolved until exact-schema batch-02 disposition is loaded"},
+      {"rowId":"seed-row-144","brand":"Princess","rawModel":"Princess 55","candidateIds":["princess-f55-gen1-2017"],"reason":"batch-02 narrative says canonical but loaded disposition remains unresolved"},
+      {"rowId":"seed-row-151","brand":"Princess","rawModel":"S72","candidateIds":["princess-s72-gen1-2014"],"reason":"repeated/current name requires source identity"},
+      {"rowId":"seed-row-152","brand":"Princess","rawModel":"S65","candidateIds":["princess-s65-gen1-2015","princess-s65-gen2-2024"],"reason":"repeated name requires generation evidence"}
+    ],
+    "nonSchemaSunseekerBatch02DispositionCounts": {
+      "canonical": 8,
+      "variant-of-existing-canonical": 6,
+      "variant-deferred": 3,
+      "deferred-current-model": 1,
+      "unresolved-source-conflict": 1,
+      "distinct-deferred-generation": 3,
+      "alias-of-existing-canonical": 1,
+      "duplicate-seed-row": 1
+    }
+  },
+  "catalogAndRelease": {
+    "researchedCatalogCount": 30,
+    "catalogTableCount": 16,
+    "catalogTableMissingIds": ["princess-y85-gen1-2019", "princess-x95-vista-gen2-2024", "princess-f55-gen1-2017", "princess-s65-gen1-2015", "princess-s65-gen2-2024", "princess-s72-gen1-2014", "sunseeker-predator-55-gen2-2024", "sunseeker-82-ocean-enclosed-gen1-2024", "sunseeker-76-yacht-gen1-2017", "sunseeker-predator-60-evo-gen1-2019", "sunseeker-manhattan-66-gen2-2017", "sunseeker-manhattan-73-gen1-2012", "sunseeker-portofino-48-gen1-2010", "sunseeker-predator-84-gen1-2008"],
+    "runtimeRelease": {"repository": null, "revision": null, "vesselCount": 0},
+    "collectionFailureCount": 196,
+    "collectionFailureBreakdown": {"unresolvedSeedRows": 166, "noApprovedModels": 30, "other": 0}
+  },
+  "authoredArtifacts": {
+    "modelCount": 30,
+    "manifestSchemaFailures": [],
+    "staleMasterHashes": [],
+    "assetIntegrityFailures": [],
+    "technicalAssetPathMismatches": [],
+    "dimensionGateFailures": [],
+    "qualityEvidenceMissingCount": 30,
+    "visualReviewPendingCount": 30,
+    "publicationReadyCount": 0,
+    "uncoveredRoomCount": 25,
+    "modelsWithUncoveredRooms": 21,
+    "uncoveredDeckCount": 0,
+    "uncoveredRoomModels": {
+      "princess-f55-gen1-2017": ["princess-f55-gen1-2017_room_engine"],
+      "princess-f55-gen2-2022": ["princess-f55-gen2-2022_room_engine"],
+      "princess-f65-gen1-2022": ["princess-f65-gen1-2022_room_engine"],
+      "princess-s65-gen1-2015": ["princess-s65-gen1-2015_room_engine"],
+      "princess-s65-gen2-2024": ["princess-s65-gen2-2024_room_engine"],
+      "princess-s72-gen1-2014": ["princess-s72-gen1-2014_room_engine"],
+      "princess-v40-gen2-2017": ["princess-v40-gen2-2017_room_engine"],
+      "princess-v55-gen2-2019": ["princess-v55-gen2-2019_room_galley", "princess-v55-gen2-2019_room_helm", "princess-v55-gen2-2019_room_head_0", "princess-v55-gen2-2019_room_head_1", "princess-v55-gen2-2019_room_companionway"],
+      "princess-y85-gen1-2019": ["princess-y85-gen1-2019_room_engine"],
+      "princess-y85-gen2-2022": ["princess-y85-gen2-2022_room_engine"],
+      "sunseeker-76-yacht-gen1-2017": ["sunseeker-76-yacht-gen1-2017_room_engine"],
+      "sunseeker-82-ocean-enclosed-gen1-2024": ["sunseeker-82-ocean-enclosed-gen1-2024_room_engine"],
+      "sunseeker-manhattan-55-gen2-2021": ["sunseeker-manhattan-55-gen2-2021_room_engine"],
+      "sunseeker-manhattan-66-gen2-2017": ["sunseeker-manhattan-66-gen2-2017_room_engine"],
+      "sunseeker-manhattan-68-gen2-2025": ["sunseeker-manhattan-68-gen2-2025_room_engine"],
+      "sunseeker-manhattan-73-gen1-2012": ["sunseeker-manhattan-73-gen1-2012_room_engine"],
+      "sunseeker-predator-55-gen2-2024": ["sunseeker-predator-55-gen2-2024_room_engine"],
+      "sunseeker-predator-60-evo-gen1-2019": ["sunseeker-predator-60-evo-gen1-2019_room_engine"],
+      "sunseeker-predator-65-gen1-2021": ["sunseeker-predator-65-gen1-2021_room_engine"],
+      "sunseeker-predator-74-gen2-2018": ["sunseeker-predator-74-gen2-2018_room_engine"],
+      "sunseeker-predator-84-gen1-2008": ["sunseeker-predator-84-gen1-2008_room_engine"]
+    }
+  },
+  "blockers": [
+    "Exact-schema dispositions are missing for batch-02 decisions and Sunseeker seed candidates.",
+    "Research alias identity crosses generations/products for Y85 Gen2 and Predator 74 Gen2.",
+    "Generated catalog table has 16 IDs while researched catalog has 30.",
+    "Runtime release snapshot has zero vessels and no pinned repository/revision.",
+    "All 30 models lack independent quality evidence; all remain visualReview=pending and publicationReady=false.",
+    "25 manifest rooms lack camera references across 21 models."
+  ],
+  "tests": {
+    "command": "npx vitest run tests/yacht-seed-audit.test.ts tests/yacht-manifest.test.ts tests/yacht-export.test.ts tests/yacht-publication.test.ts tests/yacht-readiness.test.ts",
+    "testFiles": 5,
+    "tests": 19,
+    "status": "passed"
+  }
+}

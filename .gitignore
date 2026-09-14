@@ -8,5 +8,7 @@ playwright-report/
 .tools/
 *.blend1
 *.blend2
+__pycache__/
+*.pyc
 
 .pages/
