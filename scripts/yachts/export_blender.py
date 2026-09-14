@@ -89,6 +89,7 @@ def export_master(master: Path, destination: Path):
                 bpy.ops.export_scene.gltf(
                     filepath=str(destination / f"{key}.glb"),
                     export_format="GLB", use_selection=True, export_extras=True,
+                    use_active_scene=True,
                     export_yup=True, export_apply=True, export_animations=False,
                     export_cameras=False, export_lights=False, export_materials="EXPORT",
                 )

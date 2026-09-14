@@ -233,6 +233,16 @@ def cylinder(name: str, center: tuple[float, float, float], radius: float, depth
     return attach(bpy.context.object, component_id, root, mat, name, decorative)
 
 
+def sphere(name: str, center: tuple[float, float, float], scale: tuple[float, float, float], mat: bpy.types.Material, component_id: str, root: bpy.types.Object, decorative: bool | None = None) -> bpy.types.Object:
+    bpy.ops.mesh.primitive_uv_sphere_add(segments=16, ring_count=8, location=center)
+    obj = bpy.context.object
+    obj.scale = scale
+    bpy.ops.object.transform_apply(location=False, rotation=False, scale=True)
+    for polygon in obj.data.polygons:
+        polygon.use_smooth = True
+    return attach(obj, component_id, root, mat, name, decorative)
+
+
 def create_mesh(name: str, vertices: list[tuple[float, float, float]], faces: list[tuple[int, ...]], mat: bpy.types.Material, component_id: str, root: bpy.types.Object, bevel: float = 0.0, decorative: bool | None = None) -> bpy.types.Object:
     mesh = bpy.data.meshes.new(f"{VESSEL_ID} | {name} mesh")
     mesh.from_pydata(vertices, [], faces)
@@ -300,6 +310,14 @@ def curved_cabin(name: str, x_front: float, x_aft: float, z_bottom: float, z_top
     faces.append(tuple(range(7, -1, -1)))
     faces.append(tuple((len(stations) - 1) * 8 + side for side in range(8)))
     obj = create_mesh(name, vertices, faces, mat, component_id, root, bevel=0.045)
+    # Smooth the authored station transitions without adding selectable
+    # assemblies. A single render-level subdivision keeps the cabin shoulder
+    # and roofline continuous in the browser while remaining inexpensive in
+    # the exported LODs.
+    subdivision = obj.modifiers.new("Cabin shoulder smoothing", "SUBSURF")
+    subdivision.subdivision_type = "CATMULL_CLARK"
+    subdivision.levels = 1
+    subdivision.render_levels = 1
     for polygon in obj.data.polygons:
         polygon.use_smooth = True
     return obj
@@ -388,6 +406,10 @@ def hull_mesh(length: float, beam: float, draft: float, mat: bpy.types.Material,
     # Keep the visual chine soft without letting the bevel expand the measured
     # envelope beyond the audited beam on the smaller open boats.
     obj = create_mesh("continuous station hull", verts, faces, mat, component_id, root, bevel=min(0.03, beam * 0.012))
+    subdivision = obj.modifiers.new("Continuous hull smoothing", "SUBSURF")
+    subdivision.subdivision_type = "CATMULL_CLARK"
+    subdivision.levels = 1
+    subdivision.render_levels = 1
     for polygon in obj.data.polygons:
         polygon.use_smooth = True
     return obj
@@ -486,7 +508,6 @@ def create_geometry() -> None:
     # station envelope; leave room for those authored details while keeping
     # the exported overall dimensions within the catalog tolerance.
     length = target_length * 0.96
-    beam = target_beam * 1.015
     draft = float(MODEL["dimensions"].get("draftM") or max(0.65, length * 0.07))
     long = length / 2.0
     range_name = str(MODEL.get("range", "")).lower()
@@ -496,7 +517,7 @@ def create_geometry() -> None:
     visual_text = " ".join(str(visual.get(key, "")) for key in ("hullDescription", "superstructureDescription", "glazingDescription", "distinctiveFeatures")).lower()
     is_open_dayboat = any(token in model_name for token in ("hawk 38", "r35"))
     is_sportscruiser = range_name in {"v class", "predator", "portofino"} or "sportscruiser" in model_type
-    is_flybridge = range_name in {"manhattan", "f class", "y class", "s class", "ocean", "x class"} or "flybridge" in model_type or "flybridge" in visual_text
+    is_flybridge = range_name in {"manhattan", "f class", "y class", "s class", "ocean", "x class"} or "flybridge" in model_type or ("flybridge" in visual_text and "no flybridge" not in visual_text)
     is_super_flybridge = range_name == "x class"
     is_large_predator = range_name == "predator" and target_length > 24.0
     is_opening_roof = is_sportscruiser and not is_open_dayboat
@@ -507,6 +528,12 @@ def create_geometry() -> None:
     is_manhattan = range_name == "manhattan"
     is_ocean = range_name == "ocean"
     is_x_class = range_name == "x class"
+    # Calibrate the shared authored envelope against the final exported AABB.
+    # Flybridge families have a wider fixed upper-deck envelope, while the
+    # Ocean profile adds a larger fixed side transition. Keep those allowances
+    # family-specific so the audited beam remains within one percent.
+    beam_factor = 1.025 if is_ocean else 1.04 if is_flybridge else 1.058 if "hawk 38" in model_name else 1.05
+    beam = target_beam * beam_factor
     hull = root_for("hull_shell", "Hull shell", "structure", purpose="Reference-informed hull form and underwater volume.", enclosure="shell", explode=(0.0, 0.0, -0.9))
     deck = root_for("deck_main", "Main deck", "structure", "hull_shell", purpose="Main deck surface and deck edge.", enclosure="envelope", deck="deck_main")
     super_root = root_for("superstructure", "Superstructure", "structure", "deck_main", purpose="Reference-informed wheelhouse and superstructure.", enclosure="shell", deck="deck_main", explode=(0.0, 0.0, 0.8))
@@ -534,6 +561,7 @@ def create_geometry() -> None:
     glazing_color = (0.14, 0.36, 0.58, 1) if is_sunseeker else (0.15, 0.39, 0.62, 1)
     white = material(f"{brand_prefix} gelcoat ivory", gelcoat_color, roughness=0.24)
     dark = material(f"{brand_prefix} glazing deep blue", glazing_color, metallic=0.02, roughness=0.12)
+    carbon = material("R35 carbon composite", (0.045, 0.10, 0.14, 1), metallic=0.08, roughness=0.30)
     teak = material("teak", (0.38, 0.16, 0.055, 1), roughness=0.58)
     graphite = material("graphite", (0.12, 0.19, 0.25, 1), metallic=0.12, roughness=0.28)
     steel = material("stainless steel", (0.32, 0.38, 0.42, 1), metallic=0.85, roughness=0.2)
@@ -546,16 +574,17 @@ def create_geometry() -> None:
     # The authored bevel contributes a small evaluated width to the exported
     # AABB. Compensate at the hull surface so the release measurement remains
     # inside the audited beam envelope without narrowing decks or fittings.
-    hull_mesh(length, beam * 0.987, draft, white, cid("hull_shell"), hull, hull_profile)
+    hull_surface = carbon if model_name == "r35" else white
+    hull_mesh(length, beam * 0.987, draft, hull_surface, cid("hull_shell"), hull, hull_profile)
     for side in (-1, 1):
         box(f"hull boot stripe {side}", (-length * 0.06, side * beam * 0.46, 0.25), (length * 0.60, 0.035, 0.12), graphite, cid("hull_shell"), hull, 0.02, True)
         box(f"upper sheer rail {side}", (-length * 0.02, side * beam * 0.475, 0.66), (length * 0.74, 0.028, 0.055), steel, cid("hull_shell"), hull, 0.012, True)
         box(f"lower chine highlight {side}", (-length * 0.08, side * beam * 0.39, -draft * 0.28), (length * 0.48, 0.022, 0.045), graphite, cid("hull_shell"), hull, 0.01, True)
         # A continuous shoulder below the windows makes the freeboard read as
         # one built hull side instead of a thin floating window strip.
-        box(f"painted hull shoulder {side}", (length * 0.02, side * beam * 0.455, 0.82), (length * 0.52, 0.035, 0.20), white, cid("hull_shell"), hull, 0.025, True)
-    deck_shell("continuous sheer-following main deck", length, beam, teak, cid("deck_main"), deck, hull_profile)
-    box("foredeck cap", (length * 0.27, 0.0, 0.80), (length * 0.28, beam * 0.72, 0.10), white, cid("deck_main"), deck, 0.035, True)
+        box(f"painted hull shoulder {side}", (length * 0.02, side * beam * 0.455, 0.82), (length * 0.52, 0.035, 0.20), hull_surface, cid("hull_shell"), hull, 0.025, True)
+    deck_shell("continuous sheer-following main deck", length, beam, teak if model_name != "r35" else carbon, cid("deck_main"), deck, hull_profile)
+    box("foredeck cap", (length * 0.27, 0.0, 0.80), (length * 0.28, beam * 0.72, 0.10), hull_surface, cid("deck_main"), deck, 0.035, True)
     # Narrow inlaid deck lines make the teak treatment read as a built deck
     # rather than a single colored slab while remaining one selectable deck
     # assembly.
@@ -628,7 +657,7 @@ def create_geometry() -> None:
         hull_window_height = 0.62 if is_sportscruiser else 0.46
         hull_window_z = 0.60 if is_sportscruiser else 0.48
         for side in (-1, 1):
-            box(f"hull side window {side}", (length * 0.02, side * beam * 0.43, hull_window_z), (hull_window_length, 0.035, hull_window_height), dark, cid("glazing"), glazing, 0.03, True)
+            window_band(f"hull side window {side}", -hull_window_length * 0.44, hull_window_length * 0.56, side * beam * 0.43, side * beam * 0.455, hull_window_z - hull_window_height * 0.50, hull_window_z + hull_window_height * 0.50, dark, cid("glazing"), glazing)
             box(f"hull window lower sill {side}", (length * 0.02, side * beam * 0.445, hull_window_z - hull_window_height * 0.53), (hull_window_length * 1.05, 0.04, 0.055), steel, cid("glazing"), glazing, 0.012, True)
     else:
         for side in (-1, 1):
@@ -696,6 +725,17 @@ def create_geometry() -> None:
         box("flybridge stair housing", (-length * 0.14, 0.0, bridge_base + support_height * 0.34), (0.58, beam * 0.24, support_height * 0.68), white, cid("flybridge"), flybridge, 0.06, True)
         for side in (-1, 1):
             add_curve_rail(f"flybridge rail {side}", [(-length * 0.20, side * beam * 0.33, fly_z + 0.15), (length * 0.08, side * beam * 0.36, fly_z + 0.15), (length * 0.20, side * beam * 0.27, fly_z + 0.15)], 0.018, steel, cid("flybridge"), flybridge)
+        # Radar and antenna hardware gives the larger flybridge families a
+        # recognizable navigation profile and anchors the otherwise light
+        # canopy silhouette. It remains decorative within the flybridge
+        # assembly so interaction stays efficient.
+        mast_height = 0.72 if target_length < 22 else 0.92
+        mast_x = length * 0.14
+        cylinder("flybridge radar mast", (mast_x, 0.0, fly_z + 0.42 + mast_height * 0.5), 0.035, mast_height, steel, cid("flybridge"), flybridge, decorative=True)
+        box("flybridge radar bar", (mast_x, 0.0, fly_z + 0.42 + mast_height), (0.62 if target_length < 22 else 0.78, 0.045, 0.045), steel, cid("flybridge"), flybridge, 0.012, True)
+        if target_length >= 18:
+            sphere("flybridge radar dome port", (mast_x - 0.18, 0.0, fly_z + 0.42 + mast_height + 0.12), (0.16, 0.16, 0.09), graphite, cid("flybridge"), flybridge, True)
+            sphere("flybridge radar dome starboard", (mast_x + 0.18, 0.0, fly_z + 0.42 + mast_height + 0.12), (0.16, 0.16, 0.09), graphite, cid("flybridge"), flybridge, True)
         if is_super_flybridge:
             upper = root_for("sky_lounge", "Enclosed sky lounge", "accommodation", "flybridge", purpose="Reference-informed enclosed super-flybridge lounge and raised pilothouse.", enclosure="shell", deck="deck_main", fidelity="reference-informed", explode=(0.0, 0.0, 1.25))
             box("sky lounge volume", (length * 0.05, 0.0, fly_z + 0.78), (length * 0.27, beam * 0.48, 0.72), white, cid("sky_lounge"), upper, 0.08)
@@ -823,11 +863,13 @@ def create_geometry() -> None:
             for side in (-1, 1):
                 box(f"princess sportsbridge side blade {side}", (-length * 0.14, side * beam * 0.42, 1.00), (length * 0.20, 0.035, 0.14), graphite, signature_id, signature, 0.018, True)
         elif "princess" in brand_name and range_name == "f class":
-            # F-class geometry is intentionally upright and social: a broad
-            # flybridge brow, tall supports and an aft stair landing.
-            box("princess f class brow", (length * 0.05, 0.0, fly_z + 0.64), (length * 0.28, beam * 0.78, 0.10), white, signature_id, signature, 0.04, True)
+            # F-class is intentionally upright and social. The common
+            # flybridge supplies the actual deck and canopy; keep only a
+            # compact side screen and aft landing here so the family reads as
+            # one supported volume instead of stacked duplicate plates.
+            box("princess f class aft landing", (-length * 0.16, 0.0, fly_z + 0.16), (length * 0.22, beam * 0.58, 0.10), teak, signature_id, signature, 0.025, True)
             for side in (-1, 1):
-                box(f"princess f class support {side}", (length * 0.13, side * beam * 0.31, fly_z + 0.39), (0.055, 0.055, 0.68), steel, signature_id, signature, 0.018, True)
+                box(f"princess f class side screen {side}", (length * 0.17, side * beam * 0.27, fly_z + 0.30), (0.035, 0.04, 0.34), dark, signature_id, signature, 0.014, True)
         elif "princess" in brand_name and range_name == "y class":
             # Y-class uses a raised, long-range profile with a more pronounced
             # brow and continuous dark side glazing.
@@ -1299,6 +1341,13 @@ def main() -> None:
     scene_setup()
     COMPONENTS.clear(); MATERIALS.clear(); CAMERAS.clear()
     create_geometry()
+    # Calibrate the above-deck volume after the hull and signature geometry
+    # exist. The audited length remains the hull authority; this pass restores
+    # the proportion of wheelhouse, hardtop and flybridge on the larger
+    # generations without changing the measured footprint.
+    target_length = float(MODEL["dimensions"].get("lengthM") or 12.0)
+    model_name = str(MODEL.get("name", "")).lower()
+    scale_upper_superstructure(target_length, any(token in model_name for token in ("hawk 38", "r35")))
     add_lights()
     add_cameras()
     create_review_water()

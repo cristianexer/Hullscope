@@ -111,12 +111,15 @@ def set_render_visibility(scene: bpy.types.Scene, interior: bool, room_id: str |
             # the opposite wall. Walls/partitions remain in the editable and
             # production assets; this is strictly the review presentation.
             object_name = obj.name.lower()
-            room_wall = (
-                is_selected_room and (
-                    bool(obj.get("roomCutaway"))
-                    or " port wall" in object_name
-                    or " starboard wall" in object_name
-                )
+            room_number = int(str(room_id).rsplit("_", 1)[-1]) if room_id and str(room_id).rsplit("_", 1)[-1].isdigit() else 0
+            camera_side = "port" if room_number % 2 == 0 else "starboard"
+            # Keep the far wall and the forward/aft bulkheads for spatial
+            # context. Remove only the wall on the camera side, turning the
+            # review into a genuine architectural cutaway instead of a loose
+            # furniture turntable.
+            room_wall = is_selected_room and (
+                (" port wall" in object_name and camera_side == "port")
+                or (" starboard wall" in object_name and camera_side == "starboard")
             )
             context_wall = is_shared_lower_shell and any(token in object_name for token in ("wall", "partition", "bulkhead"))
             # A room cutaway must expose the furniture from above. The authored
@@ -140,12 +143,25 @@ def main() -> None:
     result: dict[str, int] = {}
 
     for vessel_id in selected_ids:
-        scene = bpy.data.scenes.get(vessel_id + SCENE_SUFFIX) or bpy.data.scenes.get(SCENE_ALIASES.get(vessel_id, "") + SCENE_SUFFIX)
+        scene = (
+            bpy.data.scenes.get(vessel_id + SCENE_SUFFIX)
+            or bpy.data.scenes.get(vessel_id)
+            or bpy.data.scenes.get(SCENE_ALIASES.get(vessel_id, "") + SCENE_SUFFIX)
+            or bpy.data.scenes.get(SCENE_ALIASES.get(vessel_id, ""))
+        )
         if scene is None:
             raise RuntimeError(f"Missing live Blender scene: {vessel_id}")
         manifest_path = ASSET_ROOT / "assets" / "models" / vessel_id / "manifest.json"
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
         out_dir = REVIEW_ROOT / vessel_id / "renders"
+
+        # Keep Blender-only stage helpers out of the canonical evidence for
+        # the whole pass. Capturing this state as hidden also prevents the
+        # final restoration block from re-enabling a water plane that can
+        # otherwise appear as bright reflection blobs in later views.
+        for obj in scene.objects:
+            if obj.type in {"MESH", "CURVE"} and (obj.get("reviewEnvironment") or "review water" in obj.name.lower()):
+                obj.hide_render = True
 
         previous_camera = scene.camera
         previous_visibility = {obj.name: obj.hide_render for obj in scene.objects if obj.type in {"MESH", "CURVE"}}
