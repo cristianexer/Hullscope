@@ -5,7 +5,7 @@ import type { VesselRecord } from '../data/schema';
 import { emptyYachtFilters, filterFleet } from '../data/yachts/filter';
 import { Modal } from './Primitives';
 import { YachtFilters } from './YachtFilters';
-import { yachtAssetResolver } from '../assets/yachts';
+import { yachtAssetResolver, yachtReleaseStatus } from '../assets/yachts';
 
 function VesselSilhouette({kind,color}:{kind:string;color:string}){if(kind==='pirate')return <svg className="vessel-silhouette pirate" viewBox="0 0 300 110" aria-hidden="true"><g fill="#243b45" stroke="#819797" strokeWidth="1"><path d="M30 79Q145 103 267 79L251 98Q125 115 43 95Z"/><path d="M65 84V18M137 91V6M207 86V24M261 81L290 65" fill="none"/><path d="M43 30H91L84 49Q67 55 45 47ZM39 53H96L88 77Q66 80 40 71ZM111 20H167L163 47Q139 51 114 42ZM105 51H172L162 81Q136 84 109 75ZM188 36H227L224 53Q204 57 191 51ZM185 58H236L226 79Q206 82 190 75Z"/><path d="M65 18L34 85M65 18L98 88M137 6L99 91M137 6L181 90M207 24L183 89M207 24L253 85M207 24L281 70" fill="none" strokeOpacity=".45"/><path d="M38 80V71H63V83M46 83V96M69 87V100M94 89V103M119 91V105M146 91V105M173 90V104M200 88V102M226 85V99" fill="none"/></g></svg>;return <div className={`vessel-silhouette ${kind}`} style={{'--ship-color':color} as CSSProperties}><div className="silhouette-hull"/><div className="silhouette-house"/>{['container','autonomous','inland'].includes(kind)?<div className="silhouette-containers">{Array.from({length:15},(_,i)=><i key={i}/>)}</div>:['cruise','ferry','roro','livestock'].includes(kind)?<div className="silhouette-decks"><i/><i/><i/></div>:['wind','crane','general','utility','cable','research'].includes(kind)?<div className="silhouette-crane"/>:kind==='lng'?<div className="silhouette-tanks"><i/><i/><i/></div>:<div className="silhouette-mast"/>}</div>;}
 
@@ -28,7 +28,7 @@ export function FleetBrowser({open,onOpenChange,vessels,selectedId,onSelect}:{op
   <div className="fleet-grid">{filtered.map(v=><button className={`fleet-card ${v.id===selectedId?'selected':''}`} key={v.id} onClick={()=>{onSelect(v.id);onOpenChange(false);}}>
    <div className="fleet-card-top"><span>{String(vessels.indexOf(v)+1).padStart(2,'0')} / {v.family.group}</span>{v.id===selectedId?<Check size={16}/>:<ArrowUpRight size={16}/>}</div>
    {v.yacht?<YachtThumbnail vessel={v}/>:<VesselSilhouette kind={v.kind} color={v.hullColor}/>}
-   <span className="eyebrow">{v.family.name}</span><h3>{v.name}</h3><p>{v.yacht?`${v.yacht.generation} · ${v.yacht.productionStatus}`:v.subtitle}</p>
+   <span className="eyebrow">{v.family.name}{v.yacht&&yachtReleaseStatus==='draft'?' · Draft reconstruction':''}</span><h3>{v.name}</h3><p>{v.yacht?`${v.yacht.generation} · ${v.yacht.productionStatus}`:v.subtitle}</p>
   </button>)}</div>
   {!filtered.length&&<div className="empty">No vessels match. Try a different family or search term.</div>}
  </Modal>;

@@ -12,6 +12,16 @@ export function yachtAssetResolver() {
   return createAssetResolver({ provider: 'local', baseUrl: `${import.meta.env.BASE_URL}yacht-assets/` });
 }
 
-/** Only the publisher's validated release snapshot becomes part of the fleet. */
+/** Manifests bundled from the pinned release stay readable when the Hub is offline. */
+export function vesselManifestUrl(vessel: VesselRecord) {
+  const path = vessel.yacht?.manifest ?? `models/${vessel.id}.json`;
+  if (vessel.yacht && !release.manifests.some(manifest => manifest.id === vessel.id)) {
+    return yachtAssetResolver().resolve(path);
+  }
+  return `${import.meta.env.BASE_URL}${path}`;
+}
+
+/** Published draft snapshots retain their reconstruction disclosures. */
 export const releasedYachts: VesselRecord[] = release.vessels;
 export const releasedManifests = release.manifests;
+export const yachtReleaseStatus = release.status;

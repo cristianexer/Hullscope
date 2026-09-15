@@ -1,6 +1,3907 @@
 {
   "schemaVersion": 1,
-  "repository": null,
-  "revision": null,
-  "vessels": []
+  "repository": "cristianexer/hullscope-yachts",
+  "revision": "1712ee395a615106ea6465f3bbc08b2c29521470",
+  "status": "draft",
+  "vessels": [
+    {
+      "id": "princess-r35-gen1-2018",
+      "name": "Princess R35",
+      "family": {
+        "id": "princess-r-class",
+        "name": "Princess R Class",
+        "group": "Yachts",
+        "description": "Low-profile open sportsboat superstructure with a compact hardtop/windscreen over the helm and a broad aft cockpit.",
+        "subtypes": [
+          "performance sports yacht"
+        ]
+      },
+      "yacht": {
+        "brand": "Princess",
+        "range": "R Class",
+        "type": "performance sports yacht",
+        "generation": "Gen 1 / first R Class R35",
+        "productionStart": 2018,
+        "productionEnd": 2024,
+        "productionStatus": "historical",
+        "aliases": [
+          "Princess R35",
+          "R 35",
+          "R35 Gen 1"
+        ],
+        "thumbnail": "thumbnails/princess-r35-gen1-2018.png",
+        "manifest": "yachts/princess-r35-gen1-2018/manifest.json"
+      },
+      "subtitle": "performance sports yacht",
+      "purpose": "Explore the documented configuration and reference-informed exterior and interior arrangement.",
+      "length": 10.89,
+      "beam": 3.27,
+      "depth": 2.351828663995531,
+      "year": 2018,
+      "hullColor": "#f4f1e9",
+      "deckColor": "#a48a68",
+      "kind": "yacht",
+      "configuration": "Standard R35 with twin Volvo V8 petrol engines, one lower-deck convertible berth cabin, enclosed head and galley/living area; optional equipment and owner-specific finishes excluded.",
+      "dimensionStatus": "verified",
+      "facts": [
+        {
+          "label": "First announced / introduced",
+          "value": 2018,
+          "unit": "year",
+          "status": "verified",
+          "sourceId": "source-ac4ddbad5f2773cc",
+          "effective": null,
+          "note": "Princess Motor Yacht Sales announced the R35 on 27 June 2018 and stated that its world premiere would be at Cannes in September 2018."
+        },
+        {
+          "label": "World premiere",
+          "value": "Cannes Yachting Festival, 11–16 September 2018",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-ac4ddbad5f2773cc",
+          "effective": null,
+          "note": "The official launch notice gives the 2018 Cannes dates."
+        },
+        {
+          "label": "Reported production run",
+          "value": "2018–2024",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-96df990fab3fb8bf",
+          "effective": null,
+          "note": "YachtBuyer lists the model as discontinued and 2018–2024; Princess does not publish a factory build ledger in the sources reviewed."
+        },
+        {
+          "label": "Hull material",
+          "value": "carbon fibre",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-96df990fab3fb8bf",
+          "effective": null,
+          "note": "Independent brokerage profile describes the R35 as a carbon-fibre sportsboat; the official launch material also describes advanced technology and the Princess Active Foil System."
+        },
+        {
+          "label": "Length overall",
+          "value": 10.89,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-c76b7b98033262a9",
+          "effective": null,
+          "note": "Official R Class brochure: 35 ft 9 in / 10.89 m."
+        },
+        {
+          "label": "Beam",
+          "value": 3.27,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-c76b7b98033262a9",
+          "effective": null,
+          "note": "Official R Class brochure: 10 ft 8 in / 3.27 m."
+        },
+        {
+          "label": "Draft at full load",
+          "value": 0.76,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-c76b7b98033262a9",
+          "effective": null,
+          "note": "Official R Class brochure: approximately 2 ft 6 in / 0.76 m."
+        },
+        {
+          "label": "Maximum speed range",
+          "value": "45–50",
+          "unit": "knots",
+          "status": "verified",
+          "sourceId": "source-ac4ddbad5f2773cc",
+          "effective": null,
+          "note": "Official launch material states a 45–50 knot speed range; independent testing reported roughly 24 knots in difficult conditions, so this is a quoted capability rather than a measured result here."
+        },
+        {
+          "label": "Guest accommodation",
+          "value": "up to 2 guests in 1 cabin",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-96df990fab3fb8bf",
+          "effective": null,
+          "note": "YachtBuyer identifies one cabin and up to two guests; the official brochure deck plan shows the lower accommodation."
+        },
+        {
+          "label": "Interior evidence",
+          "value": "lower cabin with convertible berth, enclosed head, galley and living area",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-79aa260c9460165f",
+          "effective": null,
+          "note": "Soundings independently describes the convertible cabin, enclosed head and galley; this is also consistent with the official R Class brochure deck plan."
+        },
+        {
+          "label": "Distinctive technology",
+          "value": "Princess Active Foil System with BAR Technologies and Pininfarina collaboration",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-ac4ddbad5f2773cc",
+          "effective": null,
+          "note": "The official launch material names BAR Technologies, Pininfarina and the Active Foil System."
+        },
+        {
+          "label": "Launch-date interpretation",
+          "value": "2018 Cannes launch vs 2019 Southampton public-show reference",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-96df990fab3fb8bf",
+          "effective": null,
+          "note": "YachtBuyer says the model was announced in 2018 and unveiled to the general public at Southampton in 2019, while the official launch notice and Soundings describe the Cannes 2018 launch. This is a show/publicity distinction, not a separate generation."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-ac4ddbad5f2773cc",
+          "publisher": "Princess Motor Yacht Sales",
+          "title": "The all-new Princess R35",
+          "url": "https://www.princess.co.uk/news/the-all-new-princess-r35",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official announcement, launch timing, design partners and quoted performance."
+        },
+        {
+          "id": "source-c76b7b98033262a9",
+          "publisher": "Princess Yachts",
+          "title": "R35 R Class brochure",
+          "url": "https://www.princess.fr/media-file/2399/r-class-brochure-2019-20-book-1.pdf",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Original dimensions, deck plan and equipment evidence."
+        },
+        {
+          "id": "source-96df990fab3fb8bf",
+          "publisher": "YachtBuyer",
+          "title": "Princess R35 Yachts For Sale & model timeline",
+          "url": "https://www.yachtbuyer.com/en-gb/princess/for-sale/princess-r35",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent brokerage timeline, carbon-fibre description, accommodation and status."
+        },
+        {
+          "id": "source-79aa260c9460165f",
+          "publisher": "Soundings",
+          "title": "Princess Yachts R35",
+          "url": "https://soundingsonline.com/boats/princess-yachts-r35/",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent launch-era review of foil system and interior arrangement."
+        }
+      ],
+      "signature": "Princess Active Foil System · Pininfarina exterior styling · BAR Technologies collaboration · curved windscreen and deployable side wind deflectors · aft sunpad and swim platform",
+      "operation": "Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.",
+      "efficiency": "Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.",
+      "risk": "Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.",
+      "modelNote": "DRAFT RECONSTRUCTION — visual review requires changes. Original reference-informed reconstruction of Princess R35 (Gen 1 / first R Class R35). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them. The 2018–2024 production window is a reported independent-brokerage timeline, not a Princess factory production record. The official 2018 Cannes premiere and independent 2019 Southampton public-show reference describe different milestones; no separate R35 generation is evidenced. The quoted 45–50 knot range is not a measured speed result in the reviewed independent test."
+    },
+    {
+      "id": "princess-v40-gen2-2017",
+      "name": "Princess V40",
+      "family": {
+        "id": "princess-v-class",
+        "name": "Princess V Class",
+        "group": "Yachts",
+        "description": "Sleek hardtop over the helm and cockpit, with a large opening sunroof and open aft cockpit seating.",
+        "subtypes": [
+          "sportscruiser / sports yacht"
+        ]
+      },
+      "yacht": {
+        "brand": "Princess",
+        "range": "V Class",
+        "type": "sportscruiser / sports yacht",
+        "generation": "Gen 2 / Mk2 introduced 2017",
+        "productionStart": 2017,
+        "productionEnd": 2025,
+        "productionStatus": "historical",
+        "aliases": [
+          "Princess V40",
+          "V 40",
+          "V40 Mk2",
+          "V40 Gen 2"
+        ],
+        "thumbnail": "thumbnails/princess-v40-gen2-2017.png",
+        "manifest": "yachts/princess-v40-gen2-2017/manifest.json"
+      },
+      "subtitle": "sportscruiser / sports yacht",
+      "purpose": "Explore the documented configuration and reference-informed exterior and interior arrangement.",
+      "length": 12.98,
+      "beam": 3.81,
+      "depth": 2.721967830020238,
+      "year": 2017,
+      "hullColor": "#f4f1e9",
+      "deckColor": "#a48a68",
+      "kind": "yacht",
+      "configuration": "2017 Gen2 V40 with twin Volvo D6 sterndrives, two guest cabins and the aft twin berth/sliding double conversion; later 60th Anniversary and 2025 Gen3 variants excluded.",
+      "dimensionStatus": "verified",
+      "facts": [
+        {
+          "label": "World debut",
+          "value": 2017,
+          "unit": "year",
+          "status": "verified",
+          "sourceId": "source-2f3a06a97aa24f59",
+          "effective": null,
+          "note": "Princess Motor Yacht Sales announced the worldwide debut at Boot Düsseldorf from 21–29 January 2017."
+        },
+        {
+          "label": "Independent generation timeline",
+          "value": "Gen 2: 2017–2025",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-79b5e76f129b27b3",
+          "effective": null,
+          "note": "YachtBuyer distinguishes the 2017–2025 Gen2 from a later Gen3 with a 2025 Düsseldorf debut; this profile is limited to the requested 2017 generation."
+        },
+        {
+          "label": "Relationship to predecessor",
+          "value": "update on V39 using the same hull, sterndrive setup and engines",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-2f3a06a97aa24f59",
+          "effective": null,
+          "note": "Official launch copy explicitly describes the V40 as an update on the V39."
+        },
+        {
+          "label": "Length overall",
+          "value": 12.98,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-fe5062041622cc6b",
+          "effective": null,
+          "note": "Official V40 brochure: 42 ft 6 in / 12.98 m including pulpit."
+        },
+        {
+          "label": "Beam",
+          "value": 3.81,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-fe5062041622cc6b",
+          "effective": null,
+          "note": "Official V40 brochure: 12 ft 5 in / 3.81 m."
+        },
+        {
+          "label": "Draft with drives lowered",
+          "value": 1.02,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-fe5062041622cc6b",
+          "effective": null,
+          "note": "Official V40 brochure: 3 ft 4 in / 1.02 m with drives lowered; drives-raised draft is 0.56 m."
+        },
+        {
+          "label": "Quoted maximum speed",
+          "value": "36–38",
+          "unit": "knots",
+          "status": "verified",
+          "sourceId": "source-fe5062041622cc6b",
+          "effective": null,
+          "note": "The original Gen2 brochure quotes 36–38 knots with twin Volvo D6-330 DP engines; later engine options and the 2025 anniversary page quote different figures."
+        },
+        {
+          "label": "Guest accommodation",
+          "value": "2 cabins / up to 4 guests",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-2f3a06a97aa24f59",
+          "effective": null,
+          "note": "Official launch copy describes a forward cabin and an aft cabin with optional sliding berth conversion."
+        },
+        {
+          "label": "Guest heads",
+          "value": 1,
+          "unit": "head",
+          "status": "verified",
+          "sourceId": "source-25238a0a6c3c9a2f",
+          "effective": null,
+          "note": "Independent brokerage specification lists one guest/shared day head; the forward ensuite has secondary access to the saloon."
+        },
+        {
+          "label": "Independent dimension check",
+          "value": "12.98 m LOA, 3.81 m beam, 1.02 m draft",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-64510c8253c57d8b",
+          "effective": null,
+          "note": "YachtBuyer/Aquaholic independently repeats the original Gen2 dimensions."
+        },
+        {
+          "label": "Current-page generation caution",
+          "value": "current Princess page includes a 2025 60th Anniversary edition and says a Gen3 exists",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-93a0c0633c109152",
+          "effective": null,
+          "note": "The live factory page is not used to identify the requested 2017 generation beyond confirming the V40 name and baseline dimensions."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-2f3a06a97aa24f59",
+          "publisher": "Princess Motor Yacht Sales",
+          "title": "Princess V40 To Make Debut in Dusseldorf",
+          "url": "https://www.princess.co.uk/news/princess-v40-show-debut-dusseldorf-2017",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official 2017 launch timing, V39 relationship, layout and styling."
+        },
+        {
+          "id": "source-fe5062041622cc6b",
+          "publisher": "Princess Yachts",
+          "title": "V40 official brochure",
+          "url": "https://www.princess.co.uk/wp-content/uploads/2017/03/v40-brochure.pdf",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Original Gen2 LOA, beam, draft, engines and deck plan."
+        },
+        {
+          "id": "source-79b5e76f129b27b3",
+          "publisher": "YachtBuyer",
+          "title": "Princess V40 Yachts For Sale & model timeline",
+          "url": "https://www.yachtbuyer.com/en-us/princess/for-sale/princess-v40",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent brokerage generation boundary and production status."
+        },
+        {
+          "id": "source-64510c8253c57d8b",
+          "publisher": "YachtBuyer / Aquaholic",
+          "title": "Princess V40 Review (2019 Edition)",
+          "url": "https://www.yachtbuyer.com/en-us/reviews/princess-v40-2019-aquaholic",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent walkthrough of cabins, head, layout and dimensions."
+        },
+        {
+          "id": "source-25238a0a6c3c9a2f",
+          "publisher": "YachtBuyer",
+          "title": "Princess V40 Yacht",
+          "url": "https://www.yachtbuyer.com/en/princess/new/princess-v40",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent guest-head and current model specification."
+        },
+        {
+          "id": "source-93a0c0633c109152",
+          "publisher": "Princess Yachts",
+          "title": "V40 Luxury Sports Yacht",
+          "url": "https://www.princessyachts.com/our-yachts/v-class/v40/",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Current official page retained as a generation-boundary caution because it includes later V40 material."
+        },
+        {
+          "id": "source-c7432b8711171fce",
+          "publisher": "Barche Magazine",
+          "title": "Princess V40, who gets off to a good start…",
+          "url": "https://www.barchemagazine.com/en/princess-v40-who-gets-off-to-a-good-start/",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent review cross-check of dimensions and single-head layout."
+        }
+      ],
+      "signature": "large opening hardtop sunroof · long hull-side portlights · aft wet bar and optional convertible sunpad · deep-V sterndrive sportscruiser profile · teak cockpit table",
+      "operation": "Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.",
+      "efficiency": "Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.",
+      "risk": "Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.",
+      "modelNote": "DRAFT RECONSTRUCTION — visual review requires changes. Original reference-informed reconstruction of Princess V40 (Gen 2 / Mk2 introduced 2017). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them. YachtBuyer identifies a later V40 Gen3 with a 2025 debut; the requested profile remains the 2017 Gen2 and does not merge the two generations. The production end year 2025 comes from independent model tracking, not a Princess factory notice. The original Gen2 brochure quotes 36–38 knots, while later V40 engine/page variants quote 34–39 knots; speed depends on engine and configuration."
+    },
+    {
+      "id": "princess-v55-gen2-2019",
+      "name": "Princess V55",
+      "family": {
+        "id": "princess-v-class",
+        "name": "Princess V Class",
+        "group": "Yachts",
+        "description": "Low, coupe-like sports superstructure with a long electric sunroof and open aft cockpit; designed for a strong connection to the water.",
+        "subtypes": [
+          "sports yacht / sportscruiser"
+        ]
+      },
+      "yacht": {
+        "brand": "Princess",
+        "range": "V Class",
+        "type": "sports yacht / sportscruiser",
+        "generation": "Gen 2 / Mk2 introduced 2019",
+        "productionStart": 2019,
+        "productionEnd": null,
+        "productionStatus": "current",
+        "aliases": [
+          "Princess V55",
+          "V 55",
+          "V55 Mk2",
+          "V55 Gen 2"
+        ],
+        "thumbnail": "thumbnails/princess-v55-gen2-2019.png",
+        "manifest": "yachts/princess-v55-gen2-2019/manifest.json"
+      },
+      "subtitle": "sports yacht / sportscruiser",
+      "purpose": "Explore the documented configuration and reference-informed exterior and interior arrangement.",
+      "length": 17.81,
+      "beam": 4.65,
+      "depth": 4.8831111430834415,
+      "year": 2019,
+      "hullColor": "#f4f1e9",
+      "deckColor": "#a48a68",
+      "kind": "yacht",
+      "configuration": "Current Gen2 V55 with twin Volvo D13 shaft drives, three guest cabins for six, two guest en-suites and an optional single aft crew cabin.",
+      "dimensionStatus": "verified",
+      "facts": [
+        {
+          "label": "Global launch",
+          "value": 2019,
+          "unit": "year",
+          "status": "verified",
+          "sourceId": "source-db5aa679240fbac8",
+          "effective": null,
+          "note": "Princess Motor Yacht Sales announced the global launch at Southampton Boat Show, 13–22 September 2019."
+        },
+        {
+          "label": "Independent generation timeline",
+          "value": "Gen 2 from 2019; Gen 1 ran 1997–2001",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-945cce20a7abfbbd",
+          "effective": null,
+          "note": "YachtBuyer distinguishes the historic first V55 generation from the all-new 2019 model."
+        },
+        {
+          "label": "Length overall",
+          "value": 17.81,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-b985b9106c86440e",
+          "effective": null,
+          "note": "Current Princess page: 58 ft 5 in / 17.81 m including pulpit."
+        },
+        {
+          "label": "Beam",
+          "value": 4.65,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-b985b9106c86440e",
+          "effective": null,
+          "note": "Current Princess page: 15 ft 3 in / 4.65 m."
+        },
+        {
+          "label": "Draft",
+          "value": 1.44,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-b985b9106c86440e",
+          "effective": null,
+          "note": "Current Princess page: 4 ft 9 in / 1.44 m."
+        },
+        {
+          "label": "Independent draft report",
+          "value": 1.4,
+          "unit": "m",
+          "status": "reported",
+          "sourceId": "source-1e3dfc0640689622",
+          "effective": null,
+          "note": "YachtBuyer’s model data rounds/reports the draft as approximately 1.40 m; this is retained as a source conflict against the official 1.44 m."
+        },
+        {
+          "label": "Maximum speed",
+          "value": "33–37",
+          "unit": "knots",
+          "status": "reported",
+          "sourceId": "source-bf91253a5cc1aa93",
+          "effective": null,
+          "note": "Launch material quoted up to 37 knots; the current Princess page quotes a 33–35 knot range, so engine and specification differences are material."
+        },
+        {
+          "label": "Guest accommodation",
+          "value": "3 cabins / 6 guests",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-c4537579ef6ddffe",
+          "effective": null,
+          "note": "Official dealer article describes three guest cabins and a practical aft crew cabin option."
+        },
+        {
+          "label": "Guest heads",
+          "value": 2,
+          "unit": "heads",
+          "status": "verified",
+          "sourceId": "source-c4537579ef6ddffe",
+          "effective": null,
+          "note": "The official article states three cabins and two en-suites; the forward cabin is flexible and the aft cabin is optional crew/storage."
+        },
+        {
+          "label": "Interior layout",
+          "value": "full-beam amidships master, forward VIP/twin cabin, third bunk cabin, saloon and galley",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-1e3dfc0640689622",
+          "effective": null,
+          "note": "Independent review confirms the three-cabin arrangement and full-beam master."
+        },
+        {
+          "label": "Distinctive design",
+          "value": "drop-down sliding patio door linking open cockpit and saloon",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-bf91253a5cc1aa93",
+          "effective": null,
+          "note": "Official launch material identifies this as a first for Princess yacht design."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-db5aa679240fbac8",
+          "publisher": "Princess Motor Yacht Sales",
+          "title": "See the all-new Princess V55 at Southampton Boat Show",
+          "url": "https://www.princess.co.uk/news/see-new-princess-v55-southampton-boat-show",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official global-launch date and show evidence."
+        },
+        {
+          "id": "source-b985b9106c86440e",
+          "publisher": "Princess Yachts",
+          "title": "V55 Luxury Sports Yacht",
+          "url": "https://www.princessyachts.com/our-yachts/v-class/v55/",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Current official dimensions, accommodation, visual/design and current quoted performance."
+        },
+        {
+          "id": "source-f0d0b5c3984f3e89",
+          "publisher": "Princess Yachts",
+          "title": "V55 main-deck plan",
+          "url": "https://www.princessyachts.com/media/atud4pbe/v55-main-deck.png?v=1da1ddb46550030",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official main-deck plan used for the reconstructed cockpit, saloon, galley and helm arrangement."
+        },
+        {
+          "id": "source-6365ee984d1f16b8",
+          "publisher": "Princess Yachts",
+          "title": "V55 lower-deck plan",
+          "url": "https://www.princessyachts.com/media/414ndr0h/v55-lower-deck.png?v=1da185958e2de70",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official lower-deck plan used for the reconstructed cabins, heads and machinery arrangement."
+        },
+        {
+          "id": "source-5ae69607469813b8",
+          "publisher": "Princess Yachts",
+          "title": "V55 exterior reference image",
+          "url": "https://www.princessyachts.com/media/gp1ohiew/v55-exterior-carosuel_0000s_0002_v55016-es0a1963-rt.jpg?v=1d9dbf2a04b5380",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official exterior image used for the hull, glazing, hardtop, deck and equipment silhouette."
+        },
+        {
+          "id": "source-bf91253a5cc1aa93",
+          "publisher": "Princess Motor Yacht Sales",
+          "title": "The new Princess V55: the heart and soul of the V Class",
+          "url": "https://www.princess.co.uk/news/the-new-princess-v55-the-heart-and-soul-of-the-v-class",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official pre-launch design, layout and 2019 release evidence."
+        },
+        {
+          "id": "source-c4537579ef6ddffe",
+          "publisher": "Princess Motor Yacht Sales",
+          "title": "The Princess V55: the heart and soul of the V Class",
+          "url": "https://www.princess.co.uk/news/the-princess-v55-the-heart-of-the-v-class",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official three-cabin, two-ensuite and optional aft crew-cabin evidence."
+        },
+        {
+          "id": "source-945cce20a7abfbbd",
+          "publisher": "YachtBuyer",
+          "title": "Princess V55 Yachts For Sale & model timeline",
+          "url": "https://www.yachtbuyer.com/en-us/princess/for-sale/princess-v55",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent generation/status timeline and brokerage specifications."
+        },
+        {
+          "id": "source-1e3dfc0640689622",
+          "publisher": "YachtBuyer",
+          "title": "Princess V55 Review (2019 Edition)",
+          "url": "https://www.yachtbuyer.com/en-us/reviews/princess-v55-2019",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent review of the three-cabin layout, full-beam master and dimensions."
+        }
+      ],
+      "signature": "drop-down sliding patio door · long knife-shaped hull windows · electric-opening saloon roof · full-beam amidships owner cabin · tender garage · open cockpit/waterline social layout",
+      "operation": "Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.",
+      "efficiency": "Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.",
+      "risk": "Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.",
+      "modelNote": "DRAFT RECONSTRUCTION — visual review requires changes. Original reference-informed reconstruction of the 2019 Princess V55 Gen2 standard three-cabin configuration. Official/independent evidence anchors silhouette, dimensions and deck arrangement; internal furniture, hull offsets and machinery detail are reconstructed. Exporter-owned assets are intentionally empty in the Blender master. The official page and independent sources differ slightly on draft (1.44 m official vs approximately 1.40 m in YachtBuyer data). Quoted top speed varies from 33–35 knots on the current official page to up to 37 knots in launch material; engine and load configuration are not interchangeable. The current production status is supported by the live Princess product page and YachtBuyer brokerage profile, but the factory has not published a model end date."
+    },
+    {
+      "id": "princess-f45-gen1-2019",
+      "name": "Princess F45",
+      "family": {
+        "id": "princess-f-class",
+        "name": "Princess F Class",
+        "group": "Yachts",
+        "description": "Contemporary flybridge with an extended upper deck, clean geometric surfaces and an extended cockpit/transom seating system.",
+        "subtypes": [
+          "flybridge motor yacht"
+        ]
+      },
+      "yacht": {
+        "brand": "Princess",
+        "range": "F Class",
+        "type": "flybridge motor yacht",
+        "generation": "current F45 generation introduced 2019",
+        "productionStart": 2019,
+        "productionEnd": null,
+        "productionStatus": "current",
+        "aliases": [
+          "Princess F45",
+          "F 45",
+          "F45 Flybridge"
+        ],
+        "thumbnail": "thumbnails/princess-f45-gen1-2019.png",
+        "manifest": "yachts/princess-f45-gen1-2019/manifest.json"
+      },
+      "subtitle": "flybridge motor yacht",
+      "purpose": "Explore the documented configuration and reference-informed exterior and interior arrangement.",
+      "length": 14.35,
+      "beam": 4.26,
+      "depth": 4.049604808890932,
+      "year": 2019,
+      "hullColor": "#f4f1e9",
+      "deckColor": "#a48a68",
+      "kind": "yacht",
+      "configuration": "Current F45 with twin Volvo IPS600 pod drives, two guest cabins for four and the standard full-beam owner cabin plus forward guest cabin; optional extended cockpit seating and berth conversions excluded.",
+      "dimensionStatus": "verified",
+      "facts": [
+        {
+          "label": "Introduction / launch year",
+          "value": 2019,
+          "unit": "year",
+          "status": "verified",
+          "sourceId": "source-4dc8738ccd18bbf1",
+          "effective": null,
+          "note": "The official dealer article is dated 20 August 2019 and says the F45 launched at Boot Düsseldorf 2019; that publication date is not being conflated with the boat-show date."
+        },
+        {
+          "label": "Launch event timing",
+          "value": "Boot Düsseldorf, 19–27 January 2019",
+          "unit": "date range",
+          "status": "verified",
+          "sourceId": "source-9264d99d2122b5e8",
+          "effective": null,
+          "note": "A separate official show notice dates the 2019 Düsseldorf event 19–27 January and lists the F45 among the global launches. The August article is a later introduction/reporting page."
+        },
+        {
+          "label": "Current status",
+          "value": "in production",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-35e26b9dee9786c8",
+          "effective": null,
+          "note": "YachtBuyer lists the F45 as in production, and Princess continues to maintain a live F45 product page."
+        },
+        {
+          "label": "Length overall",
+          "value": 14.35,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-1d17097563eba447",
+          "effective": null,
+          "note": "Current Princess page: 47 ft 1 in / 14.35 m including pulpit."
+        },
+        {
+          "label": "Beam",
+          "value": 4.26,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-1d17097563eba447",
+          "effective": null,
+          "note": "Current Princess page: 14 ft / 4.26 m."
+        },
+        {
+          "label": "Draft",
+          "value": 1.1,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-1d17097563eba447",
+          "effective": null,
+          "note": "Current Princess page: 3 ft 7 in / 1.10 m."
+        },
+        {
+          "label": "Independent dimension check",
+          "value": "14.35 m LOA, 4.25 m beam, 1.09 m draft",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-35e26b9dee9786c8",
+          "effective": null,
+          "note": "YachtBuyer reports 4.25 m beam and 1.09 m draft; the small difference is retained rather than normalized away."
+        },
+        {
+          "label": "Guest accommodation",
+          "value": "2 cabins / 4 guests",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-1d17097563eba447",
+          "effective": null,
+          "note": "Official page states a full-beam owner cabin plus a forward en-suite cabin; YachtBuyer independently confirms two cabins."
+        },
+        {
+          "label": "Guest heads",
+          "value": 2,
+          "unit": "heads",
+          "status": "verified",
+          "sourceId": "source-35e26b9dee9786c8",
+          "effective": null,
+          "note": "Independent layout lists the full-beam master en-suite and forward guest/day head."
+        },
+        {
+          "label": "Maximum speed",
+          "value": "29–31",
+          "unit": "knots",
+          "status": "verified",
+          "sourceId": "source-1d17097563eba447",
+          "effective": null,
+          "note": "Current official page quotes a 29–31 knot range."
+        },
+        {
+          "label": "Interior evidence",
+          "value": "full-beam amidships owner cabin, forward guest cabin with scissor berths, galley-aft main deck saloon",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-35e26b9dee9786c8",
+          "effective": null,
+          "note": "Independent review describes the full-beam master, forward convertible guest cabin and galley-aft saloon arrangement."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-4dc8738ccd18bbf1",
+          "publisher": "Princess Motor Yacht Sales",
+          "title": "Introducing the all-new Princess F45",
+          "url": "https://www.princess.co.uk/news/introducing-the-all-new-princess-f45",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official 20 August 2019 introduction/reporting page, launch claim, layout and pod-drive evidence."
+        },
+        {
+          "id": "source-9264d99d2122b5e8",
+          "publisher": "Princess Motor Yacht Sales",
+          "title": "Dusseldorf Boat Show 2019",
+          "url": "https://www.princess.co.uk/news/dusseldorf-boat-show-2019",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official pre-show notice dated 6 November 2018; event dates 19–27 January 2019 and F45 global-launch listing."
+        },
+        {
+          "id": "source-1d17097563eba447",
+          "publisher": "Princess Yachts",
+          "title": "F45 Luxury Flybridge Yacht",
+          "url": "https://www.princessyachts.com/our-yachts/f-class/f45/",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Current official dimensions, performance and accommodation."
+        },
+        {
+          "id": "source-2fe01e832880071d",
+          "publisher": "Princess Yachts",
+          "title": "F45 brochure",
+          "url": "https://www.princess.fr/media-file/2396/f45-brochure-2019-20-book-1.pdf",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Original specification and deck-plan evidence."
+        },
+        {
+          "id": "source-35e26b9dee9786c8",
+          "publisher": "YachtBuyer",
+          "title": "Princess F45 Review (2019 Edition)",
+          "url": "https://www.yachtbuyer.com/en/reviews/princess-f45-2019-2",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent review, dimensions, cabin/head layout and current status."
+        },
+        {
+          "id": "source-67fbb0a8e90ac2f9",
+          "publisher": "HMY Yachts",
+          "title": "F45 (2019–Current) — Specs, Photos & Review",
+          "url": "https://www.hmy.com/yachting/powerboat-guide/princess/f45-2019-current",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent brokerage/current-model cross-check."
+        }
+      ],
+      "signature": "full-beam owner cabin under 15 m · galley-aft layout · extended electrically sliding transom seating · flybridge dining and sunpad conversion · full-height patio connection",
+      "operation": "Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.",
+      "efficiency": "Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.",
+      "risk": "Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.",
+      "modelNote": "DRAFT RECONSTRUCTION — visual review requires changes. Original reference-informed reconstruction of Princess F45 (current F45 generation introduced 2019). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them. Official and independent sources differ by 0.01 m on beam and draft (4.26/1.10 m official versus 4.25/1.09 m independent). The model is treated as current because the live Princess page and YachtBuyer indicate ongoing production; no public end date was found."
+    },
+    {
+      "id": "princess-f55-gen1-2017",
+      "name": "Princess F55",
+      "family": {
+        "id": "princess-f-class",
+        "name": "Princess F Class",
+        "group": "Yachts",
+        "description": "Large open flybridge with wet bar, twin helm seats, L-shaped sunbed conversion and U-shaped dining; main-deck superstructure is shaped around a generous aft galley and saloon.",
+        "subtypes": [
+          "flybridge motor yacht"
+        ]
+      },
+      "yacht": {
+        "brand": "Princess",
+        "range": "F Class",
+        "type": "flybridge motor yacht",
+        "generation": "Gen 1 / all-new Princess 55 Flybridge introduced 2017",
+        "productionStart": 2017,
+        "productionEnd": 2022,
+        "productionStatus": "historical",
+        "aliases": [
+          "Princess 55",
+          "Princess 55 Flybridge",
+          "Princess F55",
+          "F55 Mk1",
+          "F55 Gen 1"
+        ],
+        "thumbnail": "thumbnails/princess-f55-gen1-2017.png",
+        "manifest": "yachts/princess-f55-gen1-2017/manifest.json"
+      },
+      "subtitle": "flybridge motor yacht",
+      "purpose": "Explore the documented configuration and reference-informed exterior and interior arrangement.",
+      "length": 17.6,
+      "beam": 4.87,
+      "depth": 4.393194692299009,
+      "year": 2017,
+      "hullColor": "#f4f1e9",
+      "deckColor": "#a48a68",
+      "kind": "yacht",
+      "configuration": "Original 2017 Princess 55/F55 with flybridge, aft galley, three guest en-suite cabins for six, lower and upper helms and optional single aft crew cabin; later 2022 restyle and hardtop/owner options excluded.",
+      "dimensionStatus": "verified",
+      "facts": [
+        {
+          "label": "Announcement",
+          "value": 2017,
+          "unit": "year",
+          "status": "verified",
+          "sourceId": "source-ebbdbf478aba5b01",
+          "effective": null,
+          "note": "Princess announced the all-new Princess 55 Flybridge on 21 June 2017."
+        },
+        {
+          "label": "World debut",
+          "value": "Southampton Boat Show, 15–24 September 2017",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-ebbdbf478aba5b01",
+          "effective": null,
+          "note": "The official announcement gives the 2017 Southampton debut dates."
+        },
+        {
+          "label": "Independent production window",
+          "value": "2017–2022",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-eb364d28c6162884",
+          "effective": null,
+          "note": "YachtBuyer tracks the first generation from 2017 to 2022; this is model-history evidence rather than a factory build ledger."
+        },
+        {
+          "label": "Length overall including pulpit",
+          "value": 17.6,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-081d61f218924c99",
+          "effective": null,
+          "note": "Original official F55 brochure: 57 ft 9 in / 17.6 m."
+        },
+        {
+          "label": "Beam",
+          "value": 4.87,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-081d61f218924c99",
+          "effective": null,
+          "note": "Original official F55 brochure: 16 ft 0 in / 4.87 m."
+        },
+        {
+          "label": "Approximate draft",
+          "value": 1.46,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-081d61f218924c99",
+          "effective": null,
+          "note": "Original official F55 brochure: approximately 4 ft 10 in / 1.46 m."
+        },
+        {
+          "label": "Guest accommodation",
+          "value": "3 cabins for 6 guests: full-beam en-suite master, forward double and starboard convertible twin",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-ebbdbf478aba5b01",
+          "effective": null,
+          "note": "The official launch release identifies the three-cabin arrangement and optional aft single crew cabin."
+        },
+        {
+          "label": "Guest heads",
+          "value": 3,
+          "unit": "heads",
+          "status": "verified",
+          "sourceId": "source-081d61f218924c99",
+          "effective": null,
+          "note": "The original brochure states that the three guest cabins are en suite; the optional crew bathroom is excluded."
+        },
+        {
+          "label": "Quoted speed",
+          "value": "30–32",
+          "unit": "knots",
+          "status": "verified",
+          "sourceId": "source-081d61f218924c99",
+          "effective": null,
+          "note": "Original brochure speed range with twin Volvo D13-800 engines; the launch release separately says testing approached 33 knots."
+        },
+        {
+          "label": "Current-page dimensional conflict",
+          "value": "Current official product page lists 16.26 m LOA, 4.50 m beam and 1.41 m draft",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-666827fe7328d3db",
+          "effective": null,
+          "note": "This later live-page set is recorded as a source conflict and is not treated as proof of a third generation or a variant of the 2017 boat."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-ebbdbf478aba5b01",
+          "publisher": "Princess Motor Yacht Sales",
+          "title": "The all-new Princess 55 Flybridge Yacht",
+          "url": "https://www.princess.co.uk/news/new-princess-55",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official 2017 announcement, world debut timing and three-cabin arrangement."
+        },
+        {
+          "id": "source-081d61f218924c99",
+          "publisher": "Princess Yachts",
+          "title": "F55 brochure 2019–20",
+          "url": "https://www.princess.co.uk/wp-content/uploads/2017/10/f55-brochure-2019-20-book-2.pdf",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Original Gen1 dimensions, three-level deck plans, accommodation and engine performance."
+        },
+        {
+          "id": "source-eb364d28c6162884",
+          "publisher": "YachtBuyer",
+          "title": "Princess F55 yachts for sale and model timeline",
+          "url": "https://www.yachtbuyer.com/en/princess/for-sale/princess-f55",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent Gen1/Gen2 production timeline and model status."
+        },
+        {
+          "id": "source-4b64962902ef5846",
+          "publisher": "Princess Yachts Sweden Norway Denmark",
+          "title": "Princess F55 pre-facelift",
+          "url": "https://pyscandinavia.com/portfolio/princess-f55-pre-facelift/",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent authorized-dealer/archive cross-check for pre-facelift dimensions and 2018–2022 manufacture window."
+        },
+        {
+          "id": "source-53c57a42bc7aa939",
+          "publisher": "Motor Boat & Yachting",
+          "title": "Princess 55 review",
+          "url": "https://www.mby.com/video/video-princess-55-review-92510",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent 2018 review of the new three-cabin F55/Princess 55 and its flybridge/main-deck arrangement."
+        },
+        {
+          "id": "source-666827fe7328d3db",
+          "publisher": "Princess Motor Yacht Sales",
+          "title": "Princess F55",
+          "url": "https://www.princess.co.uk/new-yachts/princess-f55",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Current-page dimensional conflict retained as evidence, not used to define a new generation."
+        }
+      ],
+      "signature": "17.80 m² flybridge · aft galley with separate dinette · three-cabin guest arrangement · expansive hull windows · U-shaped cockpit seating · optional aft crew cabin",
+      "operation": "Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.",
+      "efficiency": "Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.",
+      "risk": "Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.",
+      "modelNote": "DRAFT RECONSTRUCTION — visual review requires changes. Original reference-informed reconstruction of Princess F55 (Gen 1 / all-new Princess 55 Flybridge introduced 2017). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them. The 2017–2022 end date is independent model-history evidence; no Princess factory production ledger was found. The live Princess product page publishes a materially different dimensional set. It is retained as an explicit conflict and does not prove a variant or a new generation. The launch release calls the boat Princess 55 while later brochures and market sources call it F55; this is treated as an alias relationship, not a separate model."
+    },
+    {
+      "id": "princess-f65-gen1-2022",
+      "name": "Princess F65",
+      "family": {
+        "id": "princess-f-class",
+        "name": "Princess F Class",
+        "group": "Yachts",
+        "description": "Sculptural flybridge superstructure with a broad entertaining deck, aft sunbed and L-shaped companion seating, plus a contemporary main-deck profile.",
+        "subtypes": [
+          "flybridge motor yacht"
+        ]
+      },
+      "yacht": {
+        "brand": "Princess",
+        "range": "F Class",
+        "type": "flybridge motor yacht",
+        "generation": "Gen 1 / current F65 introduced 2022",
+        "productionStart": 2022,
+        "productionEnd": null,
+        "productionStatus": "current",
+        "aliases": [
+          "Princess F65",
+          "F 65",
+          "F65 Flybridge"
+        ],
+        "thumbnail": "thumbnails/princess-f65-gen1-2022.png",
+        "manifest": "yachts/princess-f65-gen1-2022/manifest.json"
+      },
+      "subtitle": "flybridge motor yacht",
+      "purpose": "Explore the documented configuration and reference-informed exterior and interior arrangement.",
+      "length": 20.3,
+      "beam": 5.09,
+      "depth": 5.118132918774502,
+      "year": 2022,
+      "hullColor": "#f4f1e9",
+      "deckColor": "#a48a68",
+      "kind": "yacht",
+      "configuration": "Current F65 with twin MAN V8-1200 engines, four guest cabins for eight and standard 4-cabin/3-head guest layout; optional aft crew/lazarette cabin excluded from the reference configuration.",
+      "dimensionStatus": "verified",
+      "facts": [
+        {
+          "label": "World launch",
+          "value": 2022,
+          "unit": "year",
+          "status": "verified",
+          "sourceId": "source-9e79eb652c8ddef6",
+          "effective": null,
+          "note": "Official announcement dated 6 September 2022 says the world premiere would be at Southampton International Boat Show, 16–25 September 2022."
+        },
+        {
+          "label": "Current status",
+          "value": "in production",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-5766516a49767854",
+          "effective": null,
+          "note": "YachtBuyer lists the F65 as launched in 2022 and still in production; the Princess page is live."
+        },
+        {
+          "label": "Length overall",
+          "value": 20.3,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-6433c57d29997646",
+          "effective": null,
+          "note": "Current Princess page: 66 ft 7 in / 20.30 m including pulpit."
+        },
+        {
+          "label": "Beam",
+          "value": 5.09,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-6433c57d29997646",
+          "effective": null,
+          "note": "Current Princess page: 16 ft 9 in / 5.09 m."
+        },
+        {
+          "label": "Draft",
+          "value": 1.63,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-6433c57d29997646",
+          "effective": null,
+          "note": "Current Princess page: 5 ft 4 in / 1.63 m."
+        },
+        {
+          "label": "Independent dimension checks",
+          "value": "20.30 m LOA, 5.10 m beam, 1.48 m draft",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-04aea5c25e8ea2db",
+          "effective": null,
+          "note": "Motor Boat & Yachting’s 2022 show-tour video description gives 5.10 m beam and 1.48 m draft; the beam is rounding, while the draft differs materially and may reflect a different load/configuration."
+        },
+        {
+          "label": "Guest accommodation",
+          "value": "4 cabins / 8 guests",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-6433c57d29997646",
+          "effective": null,
+          "note": "Official page states four cabins and eight berths/guests, with an optional aft cabin replacing the lazarette."
+        },
+        {
+          "label": "Guest heads",
+          "value": 3,
+          "unit": "heads",
+          "status": "verified",
+          "sourceId": "source-2a32b5ed65d2a35f",
+          "effective": null,
+          "note": "Independent brokerage specification lists two guest heads plus a shared day head; separate optional crew head is not counted here."
+        },
+        {
+          "label": "Maximum speed",
+          "value": "31–33",
+          "unit": "knots",
+          "status": "verified",
+          "sourceId": "source-6433c57d29997646",
+          "effective": null,
+          "note": "Current Princess page quotes a 31–33 knot range with twin MAN V8-1200 engines."
+        },
+        {
+          "label": "Interior evidence",
+          "value": "aft galley/dinette, saloon, full-beam owner cabin, forward VIP, convertible twin cabin and bunk cabin",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-23b2567bc365541d",
+          "effective": null,
+          "note": "Independent review gives direct evidence for the galley-aft plan, four guest cabins, day-head arrangement and optional crew cabin."
+        },
+        {
+          "label": "F Class design direction",
+          "value": "sculptural surfaces, elongated feature lines and panoramic glazing",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-9e79eb652c8ddef6",
+          "effective": null,
+          "note": "Official launch notice describes the new F Class design language and elongated hull windows."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-9e79eb652c8ddef6",
+          "publisher": "Princess Motor Yacht Sales",
+          "title": "Princess F65 to Launch at Southampton Boat Show",
+          "url": "https://www.princess.co.uk/news/princess-f65-will-launch-at-southampton-international-boat-show",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official launch timing, design direction and four-cabin description."
+        },
+        {
+          "id": "source-6433c57d29997646",
+          "publisher": "Princess Yachts",
+          "title": "F65 Luxury Flybridge Yacht",
+          "url": "https://www.princessyachts.com/our-yachts/f-class/f65/",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Current official dimensions, engines, cabins and visual design."
+        },
+        {
+          "id": "source-2a32b5ed65d2a35f",
+          "publisher": "YachtBuyer",
+          "title": "Princess F65 Yacht",
+          "url": "https://www.yachtbuyer.com/en-us/princess/new/princess-f65",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent brokerage status, 4-cabin/3-head layout and current dimensions."
+        },
+        {
+          "id": "source-5766516a49767854",
+          "publisher": "YachtBuyer",
+          "title": "Princess F65 Yachts For Sale & model timeline",
+          "url": "https://www.yachtbuyer.com/en/princess/for-sale/princess-f65",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent production-status evidence and model timeline."
+        },
+        {
+          "id": "source-23b2567bc365541d",
+          "publisher": "YachtBuyer / Aquaholic",
+          "title": "Princess F65 Review (2022 Edition)",
+          "url": "https://www.yachtbuyer.com/en/reviews/princess-f65-2022-aquaholic",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent walkthrough of exterior, interior, guest cabins, heads and crew cabin."
+        },
+        {
+          "id": "source-23738e226b9b7d98",
+          "publisher": "Motor Boat & Yachting",
+          "title": "Princess F65 full tour: On board a spectacular new £2.75m motoryacht",
+          "url": "https://www.mby.com/boat-shows-and-events/southampton-boat-show/2022-princess-f65-122771",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent show debut report and visual changes."
+        },
+        {
+          "id": "source-04aea5c25e8ea2db",
+          "publisher": "Motor Boat & Yachting",
+          "title": "Princess F65 full tour",
+          "url": "https://www.youtube.com/watch?v=rx31Y9dp8m4",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent show-tour video metadata used for alternate beam and draft reporting."
+        }
+      ],
+      "signature": "elongated hull windows · wrap-around forward screens · aft galley/dinette arrangement · four guest cabins in 65 ft · large social flybridge · optional aft crew cabin replacing lazarette",
+      "operation": "Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.",
+      "efficiency": "Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.",
+      "risk": "Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.",
+      "modelNote": "DRAFT RECONSTRUCTION — visual review requires changes. Original reference-informed reconstruction of Princess F65 (Gen 1 / current F65 introduced 2022). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them. Official F65 dimensions are 20.30/5.09/1.63 m; Motor Boat & Yachting’s show-tour metadata gives 5.10/1.48 m, so draft is explicitly unresolved by load/configuration and source timing. Heads count is the standard guest-facing 4-cabin arrangement (two guest heads plus one shared day head) and excludes the optional aft crew head. No production end date was found; the model is treated as current based on the live factory page and independent brokerage status."
+    },
+    {
+      "id": "princess-y85-gen1-2019",
+      "name": "Princess Y85",
+      "family": {
+        "id": "princess-y-class",
+        "name": "Princess Y Class",
+        "group": "Yachts",
+        "description": "Large flybridge with wet bar, dining and aft sunpad above a clean single-level main deck; the wheelhouse and flybridge retain the low, sweeping Y Class profile.",
+        "subtypes": [
+          "flybridge motor yacht"
+        ]
+      },
+      "yacht": {
+        "brand": "Princess",
+        "range": "Y Class",
+        "type": "flybridge motor yacht",
+        "generation": "Gen 1 / original Y85 introduced 2019",
+        "productionStart": 2019,
+        "productionEnd": 2022,
+        "productionStatus": "historical",
+        "aliases": [
+          "Princess Y85",
+          "Y85 Mk1",
+          "Y85 Gen 1",
+          "Y85/508"
+        ],
+        "thumbnail": "thumbnails/princess-y85-gen1-2019.png",
+        "manifest": "yachts/princess-y85-gen1-2019/manifest.json"
+      },
+      "subtitle": "flybridge motor yacht",
+      "purpose": "Explore the documented configuration and reference-informed exterior and interior arrangement.",
+      "length": 26.2,
+      "beam": 6.3,
+      "depth": 6.166382369063651,
+      "year": 2019,
+      "hullColor": "#f4f1e9",
+      "deckColor": "#a48a68",
+      "kind": "yacht",
+      "configuration": "Original 2019 Y85 with flybridge, single-level main deck, four guest en-suite cabins for eight, main-deck day head and separate crew quarters; optional lower-deck and owner-specific layouts excluded.",
+      "dimensionStatus": "verified",
+      "facts": [
+        {
+          "label": "Original introduction",
+          "value": 2019,
+          "unit": "year",
+          "status": "verified",
+          "sourceId": "source-d0c891645e07703a",
+          "effective": null,
+          "note": "Princess announced the all-new Y85 in April 2019 and described its 2019 global launch context."
+        },
+        {
+          "label": "Generation boundary",
+          "value": "Gen 1: 2019–2022; reimagined Mk2/current model from 2022",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-117166302e86d03c",
+          "effective": null,
+          "note": "YachtBuyer separates the original Mk1 from the reimagined 2022 Mk2; the end year is an independent model-history boundary, not a published factory build ledger."
+        },
+        {
+          "label": "Length overall including pulpit",
+          "value": 26.2,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-26010489e0eb2faa",
+          "effective": null,
+          "note": "Original official brochure: 86 ft 0 in / 26.2 m."
+        },
+        {
+          "label": "Beam",
+          "value": 6.3,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-26010489e0eb2faa",
+          "effective": null,
+          "note": "Original official brochure: 20 ft 8 in / 6.3 m."
+        },
+        {
+          "label": "Draft",
+          "value": 1.77,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-26010489e0eb2faa",
+          "effective": null,
+          "note": "Original official brochure: 5 ft 9.5 in / 1.77 m."
+        },
+        {
+          "label": "Guest accommodation",
+          "value": "4 en-suite cabins for up to 8 guests: full-beam owner, forward VIP, double and convertible twin",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-26010489e0eb2faa",
+          "effective": null,
+          "note": "The original brochure identifies four en-suite guest cabins and the named arrangement."
+        },
+        {
+          "label": "Main-deck day head",
+          "value": 1,
+          "unit": "head",
+          "status": "verified",
+          "sourceId": "source-26010489e0eb2faa",
+          "effective": null,
+          "note": "The deck-saloon equipment list includes a day head; the four guest en-suites are counted separately in layout.heads."
+        },
+        {
+          "label": "Crew accommodation",
+          "value": "Captain's cabin, crew cabin, crew bathroom and crew mess",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-26010489e0eb2faa",
+          "effective": null,
+          "note": "Crew spaces are described separately from the standard four-cabin guest arrangement."
+        },
+        {
+          "label": "Quoted speed range",
+          "value": "30–32",
+          "unit": "knots",
+          "status": "verified",
+          "sourceId": "source-26010489e0eb2faa",
+          "effective": null,
+          "note": "Original brochure speed range with twin MAN V12-1900 engines."
+        },
+        {
+          "label": "Independent 2019 example",
+          "value": "Y85/508 delivered in 2019 with 26.2 m length, 6.3 m beam, 1.77 m draft and four cabins",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-46c99c0f6d61213e",
+          "effective": null,
+          "note": "A period independent brokerage/vessel record corroborates the original configuration and dimensions without being treated as a factory production ledger."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-d0c891645e07703a",
+          "publisher": "Princess Motor Yacht Sales",
+          "title": "The all-new contemporary Princess Y85",
+          "url": "https://www.princess.co.uk/news/the-all-new-contemporary-princess-y85",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official 2019 introduction, design and original model description."
+        },
+        {
+          "id": "source-26010489e0eb2faa",
+          "publisher": "Princess Yachts",
+          "title": "Y85 brochure 2019–20",
+          "url": "https://www.princess.fr/media-file/2398/y85-brochure-2019-20-book-1.pdf",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Original Gen1 dimensions, deck plans, accommodation, day head, crew spaces and engine performance."
+        },
+        {
+          "id": "source-117166302e86d03c",
+          "publisher": "YachtBuyer",
+          "title": "Princess Y85 yachts for sale and generation timeline",
+          "url": "https://www.yachtbuyer.com/en/princess/for-sale/princess-y85",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent Mk1/Mk2 generation boundary and market status."
+        },
+        {
+          "id": "source-46c99c0f6d61213e",
+          "publisher": "YachtBuyer",
+          "title": "Princess Y85/508 yacht",
+          "url": "https://www.yachtbuyer.com/en-us/fleet/princess-y85-508-85-princess",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent 2019 delivered-vessel cross-check for dimensions and four-cabin configuration."
+        },
+        {
+          "id": "source-1d9d1ebced8372bd",
+          "publisher": "Yachting Magazine",
+          "title": "Reviewed: Princess Yachts Y85",
+          "url": "https://www.yachtingmagazine.com/princess-y85-reviewed/",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent 2019 review of the original Y85 social and exterior arrangement."
+        }
+      ],
+      "signature": "large flybridge with wet bar and aft sunpad · single-level main deck · full-beam owner suite · foredeck seating and sunbathing area · panoramic main-deck glazing · four-cabin lower-deck arrangement",
+      "operation": "Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.",
+      "efficiency": "Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.",
+      "risk": "Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.",
+      "modelNote": "DRAFT RECONSTRUCTION — visual review requires changes. Original reference-informed reconstruction of Princess Y85 (Gen 1 / original Y85 introduced 2019). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them. The 2022 production end is an independent generation boundary inferred from the reported Mk1/Mk2 timeline; Princess does not publish a factory build ledger in the reviewed sources. Current Princess regional pages publish different later-Y85 beam/draft values; those current/Gen2 values are not used for this Gen1 profile. The optional lower-deck plan and owner-specific finish packages are not part of the reference configuration."
+    },
+    {
+      "id": "princess-x95-gen1-2020",
+      "name": "Princess X95",
+      "family": {
+        "id": "princess-x-class",
+        "name": "Princess X Class",
+        "group": "Yachts",
+        "description": "Signature Super Flybridge architecture: a raised enclosed pilothouse/sky lounge between long fore and aft upper-deck terraces, with deep side overhangs and an elevated profile.",
+        "subtypes": [
+          "super flybridge motor yacht"
+        ]
+      },
+      "yacht": {
+        "brand": "Princess",
+        "range": "X Class",
+        "type": "super flybridge motor yacht",
+        "generation": "Gen 1 / original X95 introduced 2020; excludes X95 Vista Gen 2",
+        "productionStart": 2020,
+        "productionEnd": 2023,
+        "productionStatus": "historical",
+        "aliases": [
+          "Princess X95",
+          "X 95",
+          "Original X95",
+          "X95 Gen 1",
+          "X95 Mk1"
+        ],
+        "thumbnail": "thumbnails/princess-x95-gen1-2020.png",
+        "manifest": "yachts/princess-x95-gen1-2020/manifest.json"
+      },
+      "subtitle": "super flybridge motor yacht",
+      "purpose": "Explore the documented configuration and reference-informed exterior and interior arrangement.",
+      "length": 29.11,
+      "beam": 6.77,
+      "depth": 7.485266405474627,
+      "year": 2020,
+      "hullColor": "#f4f1e9",
+      "deckColor": "#a48a68",
+      "kind": "yacht",
+      "configuration": "Original X95 Gen1 with twin MAN V12-1900 shaft drives, standard four-cabin lower-deck guest layout and the standard two-deck superflybridge concept; optional main-deck master/fifth cabin, cinema, jacuzzi and expanded crew layouts excluded.",
+      "dimensionStatus": "verified",
+      "facts": [
+        {
+          "label": "Original launch",
+          "value": 2020,
+          "unit": "year",
+          "status": "verified",
+          "sourceId": "source-1a13ae46b23e45f5",
+          "effective": null,
+          "note": "Official dealer article says the first X95 was launched in summer 2020; an independent Power & Motoryacht test calls it a virtual launch in summer 2020."
+        },
+        {
+          "label": "Original vs successor",
+          "value": "X95 Gen1 2020–2023; X95 Vista Gen2 from 2024",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-b9bfc7823487971f",
+          "effective": null,
+          "note": "Current Princess page explicitly says the X95 Vista was unveiled in March 2024, building on the original X95 launched in 2020; YachtBuyer independently lists Gen1 as 2020–2023 discontinued."
+        },
+        {
+          "label": "Length overall",
+          "value": 29.11,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-00c45dd118d4da43",
+          "effective": null,
+          "note": "Official X Class brochure: 95 ft 6 in / 29.11 m."
+        },
+        {
+          "label": "Beam",
+          "value": 6.77,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-00c45dd118d4da43",
+          "effective": null,
+          "note": "Official X Class brochure: 22 ft 3 in / 6.77 m."
+        },
+        {
+          "label": "Draft at full load",
+          "value": 2.01,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-00c45dd118d4da43",
+          "effective": null,
+          "note": "Official X Class brochure: approximately 6 ft 7 in / 2.01 m."
+        },
+        {
+          "label": "Independent test dimensions",
+          "value": "95 ft 6 in LOA, 22 ft 3 in beam, 6 ft 7 in draft",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-061c523a98c59d18",
+          "effective": null,
+          "note": "Power & Motoryacht independently repeats the official brochure dimensions."
+        },
+        {
+          "label": "Quoted maximum speed",
+          "value": "24–26",
+          "unit": "knots",
+          "status": "verified",
+          "sourceId": "source-00c45dd118d4da43",
+          "effective": null,
+          "note": "Official X Class brochure quotes 24–26 knots; independent testing averaged just under 24 knots and YachtBuyer model data reports 23 knots."
+        },
+        {
+          "label": "Guest accommodation",
+          "value": "4 standard cabins / optional 5th main-deck master / 8 standard guests, 10 optional",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-fb0b28d874987630",
+          "effective": null,
+          "note": "Independent brokerage specification lists 4–5 cabins, eight standard guests and optional ten-guest configuration."
+        },
+        {
+          "label": "Guest heads",
+          "value": 5,
+          "unit": "heads",
+          "status": "verified",
+          "sourceId": "source-fb0b28d874987630",
+          "effective": null,
+          "note": "Independent model specification lists five guest heads, optional seven, plus separate crew heads; the standard guest-facing count is used here."
+        },
+        {
+          "label": "Interior evidence",
+          "value": "large main-deck saloon with optional owner suite or forward lounge/country kitchen, enclosed upper sky lounge, four lower-deck guest cabins",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-d85fd6d4744d96b4",
+          "effective": null,
+          "note": "Independent review directly describes the two-deck concept, main-deck options and standard four-cabin lower-deck layout."
+        },
+        {
+          "label": "Distinctive architecture",
+          "value": "superflybridge with upper deck and main deck running almost the full length",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-1a13ae46b23e45f5",
+          "effective": null,
+          "note": "Official X Class announcement describes the expansive flybridge and main deck extending nearly the yacht's full length."
+        },
+        {
+          "label": "Successor model",
+          "value": "X95 Vista Gen2, unveiled 2024",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-b9bfc7823487971f",
+          "effective": null,
+          "note": "This profile stops at the original X95 and does not merge the materially different X95 Vista dimensions or layout."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-1a13ae46b23e45f5",
+          "publisher": "Princess Motor Yacht Sales",
+          "title": "The Princess X Class: Princess X95 and X80",
+          "url": "https://www.princess.co.uk/news/the-princess-x-class",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official original-X95 launch timing and Super Flybridge concept."
+        },
+        {
+          "id": "source-00c45dd118d4da43",
+          "publisher": "Princess Yachts",
+          "title": "X Class brochure",
+          "url": "https://www.princess.co.uk/wp-content/uploads/2019/02/x-class-brochure-book-2-updated.pdf",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Original X95 official LOA, beam, draft, performance and deck-plan evidence."
+        },
+        {
+          "id": "source-b9bfc7823487971f",
+          "publisher": "Princess Yachts",
+          "title": "X95 Vista Super Flybridge Yacht",
+          "url": "https://www.princessyachts.com/our-yachts/x-class/x95-vista/",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official distinction between original X95 (2020) and X95 Vista (2024)."
+        },
+        {
+          "id": "source-fb0b28d874987630",
+          "publisher": "YachtBuyer",
+          "title": "Princess X95 Yacht Gen 1, 2020–2023",
+          "url": "https://www.yachtbuyer.com/en-us/princess/new/princess-x95",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent brokerage generation status, flexible cabin/head layouts and original X95 features."
+        },
+        {
+          "id": "source-d85fd6d4744d96b4",
+          "publisher": "YachtBuyer",
+          "title": "Princess X95 Review & Test Drive Video",
+          "url": "https://www.yachtbuyer.com/en/reviews/princess-x95-2020-2",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent review of design, glazing, two-deck layout, cabins and optional configurations."
+        },
+        {
+          "id": "source-061c523a98c59d18",
+          "publisher": "Power & Motoryacht",
+          "title": "Princess X95 Boat Test and Review",
+          "url": "https://powerandmotoryacht.com/boats/princess-x95-boat-test-and-review/",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent virtual-launch timing, sea trial, visual architecture, interiors and dimensions."
+        }
+      ],
+      "signature": "Super Flybridge / near full-length upper deck · enclosed climate-controlled sky lounge · raised central pilothouse · optional main-deck master with private foredeck · wave-piercing bow · Transformer hydraulic platform and PWC garage · optional cinema/country-kitchen layouts",
+      "operation": "Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.",
+      "efficiency": "Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.",
+      "risk": "Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.",
+      "modelNote": "DRAFT RECONSTRUCTION — visual review requires changes. Original reference-informed reconstruction of Princess X95 (Gen 1 / original X95 introduced 2020; excludes X95 Vista Gen 2). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them. Original X95 dimensions are consistent between the official brochure and Power & Motoryacht, while YachtBuyer’s later model database reports a shorter/narrower 28.96/6.65/2.03 m set; the canonical profile follows the original official brochure and records the independent database conflict. The original X95 was highly configurable: standard four-cabin and optional five-cabin/main-deck-master layouts are both documented, so no single interior configuration represents every hull. The 2020–2023 production window is from independent model tracking; the official sources establish launch in 2020 and successor X95 Vista in 2024 but do not publish a factory end date."
+    },
+    {
+      "id": "princess-s65-gen1-2015",
+      "name": "Princess S65",
+      "family": {
+        "id": "princess-s-class",
+        "name": "Princess S Class",
+        "group": "Yachts",
+        "description": "Low sportsbridge largely concealed by the main-deck profile, with a large opening roof over the saloon and compact upper helm/dining zone.",
+        "subtypes": [
+          "sportsbridge motor yacht"
+        ]
+      },
+      "yacht": {
+        "brand": "Princess",
+        "range": "S Class",
+        "type": "sportsbridge motor yacht",
+        "generation": "Gen 1 / original S65 introduced 2015",
+        "productionStart": 2015,
+        "productionEnd": 2019,
+        "productionStatus": "historical",
+        "aliases": [
+          "Princess S65",
+          "S65 Mk1",
+          "S65 Gen 1"
+        ],
+        "thumbnail": "thumbnails/princess-s65-gen1-2015.png",
+        "manifest": "yachts/princess-s65-gen1-2015/manifest.json"
+      },
+      "subtitle": "sportsbridge motor yacht",
+      "purpose": "Explore the documented configuration and reference-informed exterior and interior arrangement.",
+      "length": 20.12,
+      "beam": 5.08,
+      "depth": 4.939750486671205,
+      "year": 2015,
+      "hullColor": "#f4f1e9",
+      "deckColor": "#a48a68",
+      "kind": "yacht",
+      "configuration": "Original 2015 S65 sportsbridge with galley-aft main deck, opening aft window, four guest cabins for eight, three guest heads plus a shared day head and optional single aft crew cabin; later 2024 S65 excluded.",
+      "dimensionStatus": "verified",
+      "facts": [
+        {
+          "label": "Announcement",
+          "value": 2015,
+          "unit": "year",
+          "status": "verified",
+          "sourceId": "source-8aaf5f829ae15336",
+          "effective": null,
+          "note": "Princess announced the all-new S65 on 28 April 2015."
+        },
+        {
+          "label": "Launch timing",
+          "value": "Autumn 2015; UK debut at Southampton Boat Show 2015",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-7370d20adaf428b8",
+          "effective": null,
+          "note": "Princess described the S65 as a brand-new 2015 model making its UK debut at Southampton."
+        },
+        {
+          "label": "Independent production window",
+          "value": "2015–2019",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-25e2947e81dbb531",
+          "effective": null,
+          "note": "YachtBuyer reports that the first generation started in 2015 and ran for over four years, ending in 2019 in its model timeline."
+        },
+        {
+          "label": "Length overall including pulpit",
+          "value": 20.12,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-b1fcee7743699f6a",
+          "effective": null,
+          "note": "Original official brochure: 66 ft 0 in / 20.12 m."
+        },
+        {
+          "label": "Beam",
+          "value": 5.08,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-b1fcee7743699f6a",
+          "effective": null,
+          "note": "Original official brochure: 16 ft 9 in / 5.08 m."
+        },
+        {
+          "label": "Draft",
+          "value": 1.47,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-b1fcee7743699f6a",
+          "effective": null,
+          "note": "Original official brochure: 4 ft 9 in / 1.47 m."
+        },
+        {
+          "label": "Guest accommodation",
+          "value": "4 cabins for 8 guests, three en suite",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-8aaf5f829ae15336",
+          "effective": null,
+          "note": "Official announcement describes four staterooms, three en suite, and an optional aft crew cabin."
+        },
+        {
+          "label": "Guest heads",
+          "value": "3 guest heads plus 1 shared day head",
+          "unit": "heads",
+          "status": "reported",
+          "sourceId": "source-8e0c0e512923cb89",
+          "effective": null,
+          "note": "Independent model specification separates three guest heads from one shared day head; the optional crew head is excluded."
+        },
+        {
+          "label": "Quoted maximum speed",
+          "value": 38,
+          "unit": "knots",
+          "status": "verified",
+          "sourceId": "source-b1fcee7743699f6a",
+          "effective": null,
+          "note": "Original brochure's fastest MAN V12-1400 option is quoted at 36–38 knots."
+        },
+        {
+          "label": "Main-deck arrangement",
+          "value": "Aft galley with separate dining area, electrically opening aft window and cockpit-bar connection",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-8aaf5f829ae15336",
+          "effective": null,
+          "note": "The official announcement identifies the defining galley-aft and opening-window layout."
+        },
+        {
+          "label": "Independent LOA alternate",
+          "value": 20.32,
+          "unit": "m",
+          "status": "reported",
+          "sourceId": "source-8e0c0e512923cb89",
+          "effective": null,
+          "note": "YachtBuyer reports 20.32 m including pulpit versus 20.12 m in the original official brochure; the official brochure value is canonical here."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-8aaf5f829ae15336",
+          "publisher": "Princess Motor Yacht Sales",
+          "title": "Announcing the new Princess S65!",
+          "url": "https://www.princess.co.uk/news/announcing-the-princess-s65",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official 2015 announcement and guest/main-deck layout."
+        },
+        {
+          "id": "source-7370d20adaf428b8",
+          "publisher": "Princess Motor Yacht Sales",
+          "title": "Southampton Boat Show 2015",
+          "url": "https://www.princess.co.uk/news/psp-southampton-boat-show",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official 2015 UK-debut timing and arrangement description."
+        },
+        {
+          "id": "source-b1fcee7743699f6a",
+          "publisher": "Princess Yachts",
+          "title": "S65 brochure",
+          "url": "https://www.princess.co.uk/wp-content/uploads/2015/07/S65-Brochure-Pages-EN-FR-DE-IT-RU.pdf",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Original dimensions, deck-plan labels, accommodation features and performance options."
+        },
+        {
+          "id": "source-25e2947e81dbb531",
+          "publisher": "YachtBuyer",
+          "title": "Princess S65 yachts for sale and model timeline",
+          "url": "https://www.yachtbuyer.com/en-us/princess/for-sale/princess-s65",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent Gen1/Gen2 boundary and production window."
+        },
+        {
+          "id": "source-8e0c0e512923cb89",
+          "publisher": "YachtBuyer",
+          "title": "Princess S65 Yacht Mk1",
+          "url": "https://www.yachtbuyer.com/en/princess/new/princess-s65",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent Gen1 dimensions, accommodation, heads and model features."
+        },
+        {
+          "id": "source-25386dec3d08fcfc",
+          "publisher": "Motor Boat & Yachting",
+          "title": "New S65 on test",
+          "url": "https://www.princess.co.uk/wp-content/uploads/2015/07/Princess-S65-MBY-Jan-2016-Lower-RES.pdf",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent launch-era review of the galley-aft arrangement and four-cabin layout."
+        }
+      ],
+      "signature": "low concealed sportsbridge · opening roof over the saloon · aft galley with opening cockpit-bar window · 3.3 m tender garage · foredeck seating · four-cabin layout",
+      "operation": "Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.",
+      "efficiency": "Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.",
+      "risk": "Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.",
+      "modelNote": "DRAFT RECONSTRUCTION — visual review requires changes. Original reference-informed reconstruction of Princess S65 (Gen 1 / original S65 introduced 2015). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them. The original official brochure gives 20.12 m LOA while independent YachtBuyer lists 20.32 m; the official brochure is used for the canonical dimensions and the alternate is retained explicitly. The 2015–2019 end date comes from independent model tracking; no factory production ledger was found. The optional crew cabin/head and berth conversions are excluded from the reference cabin/head totals."
+    },
+    {
+      "id": "princess-s72-gen1-2014",
+      "name": "Princess S72",
+      "family": {
+        "id": "princess-s-class",
+        "name": "Princess S Class",
+        "group": "Yachts",
+        "description": "Low concealed sportsbridge integrated into the superstructure, with open steps and a central upper helm that preserves the express-cruiser silhouette.",
+        "subtypes": [
+          "sportsbridge motor yacht"
+        ]
+      },
+      "yacht": {
+        "brand": "Princess",
+        "range": "S Class",
+        "type": "sportsbridge motor yacht",
+        "generation": "Gen 1 / original S72 launched 2014",
+        "productionStart": 2014,
+        "productionEnd": 2017,
+        "productionStatus": "historical",
+        "aliases": [
+          "Princess S72",
+          "S72 Mk1",
+          "S72 Gen 1"
+        ],
+        "thumbnail": "thumbnails/princess-s72-gen1-2014.png",
+        "manifest": "yachts/princess-s72-gen1-2014/manifest.json"
+      },
+      "subtitle": "sportsbridge motor yacht",
+      "purpose": "Explore the documented configuration and reference-informed exterior and interior arrangement.",
+      "length": 22.57,
+      "beam": 5.38,
+      "depth": 5.321070357560725,
+      "year": 2014,
+      "hullColor": "#f4f1e9",
+      "deckColor": "#a48a68",
+      "kind": "yacht",
+      "configuration": "Original 2014 S72 with concealed sportsbridge, single-level deck saloon/cockpit connection, three en-suite guest cabins for six, day head and optional crew cabin; later 2022 S72 Gen2 excluded.",
+      "dimensionStatus": "verified",
+      "facts": [
+        {
+          "label": "Launch year",
+          "value": 2014,
+          "unit": "year",
+          "status": "verified",
+          "sourceId": "source-8b1eb419b92e52dc",
+          "effective": null,
+          "note": "Princess says the new S72 was officially unveiled at the 2014 Miami Yacht & Brokerage Show."
+        },
+        {
+          "label": "Generation boundary",
+          "value": "Gen 1: 2014–2017; later S72 Gen2 launched from 2022",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-2113f0d6feaf9036",
+          "effective": null,
+          "note": "Independent model-history tracking separates the original 2014–2017 S72 from the later 2022 generation."
+        },
+        {
+          "label": "Length overall including pulpit",
+          "value": 22.57,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-5661a713a266486e",
+          "effective": null,
+          "note": "Original official brochure: 74 ft / 22.57 m."
+        },
+        {
+          "label": "Beam",
+          "value": 5.38,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-5661a713a266486e",
+          "effective": null,
+          "note": "Original official brochure: 17 ft 8 in / 5.38 m."
+        },
+        {
+          "label": "Draft",
+          "value": 1.48,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-5661a713a266486e",
+          "effective": null,
+          "note": "Original official brochure: 4 ft 10 in / 1.48 m."
+        },
+        {
+          "label": "Independent production window",
+          "value": "2014–2017",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-2113f0d6feaf9036",
+          "effective": null,
+          "note": "YachtBuyer reports that the first S72 rolled off the line in 2014 and the first generation ended in 2017."
+        },
+        {
+          "label": "Guest accommodation",
+          "value": "3 en-suite cabins for 6 guests",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-c5ea0224f1c647f6",
+          "effective": null,
+          "note": "Independent model specification describes a full-beam master, double cabin and twin cabin, all with en-suite arrangements."
+        },
+        {
+          "label": "Guest heads",
+          "value": "3 guest heads plus 1 shared day head",
+          "unit": "heads",
+          "status": "reported",
+          "sourceId": "source-c5ea0224f1c647f6",
+          "effective": null,
+          "note": "YachtBuyer lists three guest heads and one shared day head; crew head is excluded."
+        },
+        {
+          "label": "Official speed range",
+          "value": "34–38",
+          "unit": "knots",
+          "status": "verified",
+          "sourceId": "source-5661a713a266486e",
+          "effective": null,
+          "note": "Original official brochure gives 34–36, 35–37 and 36–38 knot ranges for its engine options."
+        },
+        {
+          "label": "Independent maximum-speed report",
+          "value": 40,
+          "unit": "knots",
+          "status": "reported",
+          "sourceId": "source-c5ea0224f1c647f6",
+          "effective": null,
+          "note": "YachtBuyer reports up to 40 knots with the largest engine option; this is retained separately from the official brochure's 38-knot top range."
+        },
+        {
+          "label": "Tender garage",
+          "value": "3.9 m tender garage",
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-064037b8aa3d63bf",
+          "effective": null,
+          "note": "Official launch-era article identifies the 3.9 m garage and the large aft sunpad/cockpit arrangement."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-8b1eb419b92e52dc",
+          "publisher": "Princess Motor Yacht Sales",
+          "title": "Stunning S72 makes her debut in Miami",
+          "url": "https://www.princess.co.uk/news/stunning-s72-makes-debut-miami",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official 2014 launch and S Class sportsbridge concept."
+        },
+        {
+          "id": "source-064037b8aa3d63bf",
+          "publisher": "Princess Motor Yacht Sales",
+          "title": "Exclusive new S72 images plus MBY first drive",
+          "url": "https://www.princess.co.uk/news/exclusive-new-s72-images-released",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official launch-era exterior, garage and deck arrangement evidence."
+        },
+        {
+          "id": "source-5661a713a266486e",
+          "publisher": "Princess Yachts",
+          "title": "Princess S72 brochure",
+          "url": "https://www.princess.co.uk/wp-content/uploads/2014/02/Princess_S72_Brochure.pdf",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Original Gen1 dimensions, deck plans, equipment and engine performance."
+        },
+        {
+          "id": "source-2113f0d6feaf9036",
+          "publisher": "YachtBuyer",
+          "title": "Princess S72 yachts for sale and model timeline",
+          "url": "https://www.yachtbuyer.com/en-us/princess/for-sale/princess-s72",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent Gen1/Gen2 production boundary and status."
+        },
+        {
+          "id": "source-c5ea0224f1c647f6",
+          "publisher": "YachtBuyer",
+          "title": "Princess S72 Yacht Gen1",
+          "url": "https://www.yachtbuyer.com/en-us/princess/new/princess-s72",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent accommodation, heads, speed and model specification."
+        },
+        {
+          "id": "source-3c790d781c3b9d4a",
+          "publisher": "boats.com",
+          "title": "Princess S72: Open or Express Cruiser?",
+          "url": "https://www.boats.com/reviews/princess-s72-enjoy-highlife-hybrid-cruiser/",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent launch-era review of the hybrid sportsbridge layout and exterior identity."
+        }
+      ],
+      "signature": "concealed sportsbridge · dark wraparound saloon glass · 3.9 m tender garage · large aft sunpad · single-level saloon/cockpit connection · foredeck walk-through seating",
+      "operation": "Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.",
+      "efficiency": "Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.",
+      "risk": "Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.",
+      "modelNote": "DRAFT RECONSTRUCTION — visual review requires changes. Original reference-informed reconstruction of Princess S72 (Gen 1 / original S72 launched 2014). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them. The 2014–2017 end date is independent model-history evidence; the official sources establish the 2014 launch but do not publish a factory end date. The official brochure quotes a maximum range ending at 38 knots, while YachtBuyer reports up to 40 knots for the largest engine option; both are retained. The current S72 Gen2 is not merged with this original profile; current-range seed rows remain separate from this Gen1 record."
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018",
+      "name": "Sunseeker Hawk 38",
+      "family": {
+        "id": "sunseeker-hawk",
+        "name": "Sunseeker Hawk",
+        "group": "Yachts",
+        "description": "Low open center-console/dayboat arrangement with no flybridge and a very small visual profile above the hull.",
+        "subtypes": [
+          "dayboat / high-performance sportsboat"
+        ]
+      },
+      "yacht": {
+        "brand": "Sunseeker",
+        "range": "Hawk",
+        "type": "dayboat / high-performance sportsboat",
+        "generation": "original Hawk 38 launch generation, world-premiere-era 2018 model",
+        "productionStart": 2018,
+        "productionEnd": null,
+        "productionStatus": "historical",
+        "aliases": [
+          "Hawk 38",
+          "Hawk38"
+        ],
+        "thumbnail": "thumbnails/sunseeker-hawk-38-gen1-2018.png",
+        "manifest": "yachts/sunseeker-hawk-38-gen1-2018/manifest.json"
+      },
+      "subtitle": "dayboat / high-performance sportsboat",
+      "purpose": "Explore the documented configuration and reference-informed exterior and interior arrangement.",
+      "length": 11.85,
+      "beam": 3.01,
+      "depth": 2.3869762456498576,
+      "year": 2018,
+      "hullColor": "#f4f1e9",
+      "deckColor": "#a48a68",
+      "kind": "yacht",
+      "configuration": "Open one-level Hawk 38 dayboat with twin Mercury outboards, central helm and one published head; cabin count is not published by Sunseeker and is not inferred.",
+      "dimensionStatus": "verified",
+      "facts": [
+        {
+          "label": "Launch-era year",
+          "value": 2018,
+          "unit": "year",
+          "status": "reported",
+          "sourceId": "source-7fb1d6e1305046b4",
+          "effective": null,
+          "note": "Motor Boat & Yachting's independent first-look is dated to the 2018 launch period; the official current site now places the model under previous models."
+        },
+        {
+          "label": "Length overall",
+          "value": 11.85,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-c63cd3e3809d3c70",
+          "effective": null,
+          "note": "Official Hawk 38 brochure gives 11.85 m / 38 ft 11 in."
+        },
+        {
+          "label": "Beam",
+          "value": 3.01,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-c63cd3e3809d3c70",
+          "effective": null,
+          "note": "Official Hawk 38 brochure gives 3.01 m / 9 ft 9 in."
+        },
+        {
+          "label": "Draft",
+          "value": null,
+          "unit": "m",
+          "status": "unknown",
+          "sourceId": null,
+          "effective": null,
+          "note": "The accessible official technical block does not publish a draft; no independent source checked supplied a reliable comparable value."
+        },
+        {
+          "label": "Cabin count",
+          "value": null,
+          "unit": "cabins",
+          "status": "unknown",
+          "sourceId": null,
+          "effective": null,
+          "note": "Sunseeker shows cabins as N/A. The dayboat/interior profile is clear, but no enclosed cabin count is asserted."
+        },
+        {
+          "label": "Heads",
+          "value": 1,
+          "unit": "head",
+          "status": "verified",
+          "sourceId": "source-d26488d97b853cbb",
+          "effective": null,
+          "note": "Official page lists one bathroom/head."
+        },
+        {
+          "label": "Maximum speed",
+          "value": 62,
+          "unit": "knots",
+          "status": "verified",
+          "sourceId": "source-d26488d97b853cbb",
+          "effective": null,
+          "note": "Official page quotes 62 knots with Mercury outboards."
+        },
+        {
+          "label": "Independent design evidence",
+          "value": "racing-derived hull, center-console/dayboat layout and 62-knot target",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-e1bb15dd98b06b51",
+          "effective": null,
+          "note": "Yachting describes the Hawk 38 as a return to Sunseeker performance roots and a high-speed dayboat; it is not used to fill missing cabin or draft fields."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-d26488d97b853cbb",
+          "publisher": "Sunseeker",
+          "title": "Hawk 38",
+          "url": "https://www.sunseeker.com/es/yachts-and-boats/previous-models/hawk-38",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official previous-model dimensions, head count, propulsion and performance."
+        },
+        {
+          "id": "source-c63cd3e3809d3c70",
+          "publisher": "Sunseeker",
+          "title": "Hawk 38 brochure",
+          "url": "https://uploads.sunseeker.com/uploads/436ac2736ce5c504703c6e53d9f76c15/en/Sunseeker_Hawk38_400x225_wEB.pdf",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Original brochure evidence for LOA, beam, weight, tanks and performance."
+        },
+        {
+          "id": "source-e1bb15dd98b06b51",
+          "publisher": "Yachting",
+          "title": "The 62-knot Hawk 38",
+          "url": "https://www.yachtingmagazine.com/speedy-sunseeker/",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent launch-era design and dayboat cross-check."
+        },
+        {
+          "id": "source-7fb1d6e1305046b4",
+          "publisher": "Motor Boat & Yachting",
+          "title": "Sunseeker Hawk 38: Full throttle review",
+          "url": "https://www.youtube.com/watch?v=ZnFgI0dY9hs",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent 2018-era review/first-look evidence."
+        }
+      ],
+      "signature": "twin Mercury outboards · central helm · racing-derived hull · 62-knot published target · one official head with cabins listed N/A",
+      "operation": "Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.",
+      "efficiency": "Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.",
+      "risk": "Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.",
+      "modelNote": "DRAFT RECONSTRUCTION — visual review requires changes. Original reference-informed reconstruction of Sunseeker Hawk 38 (original Hawk 38 launch generation, world-premiere-era 2018 model). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them. The 2018 start is a launch-era attribution from independent show coverage, not a factory production ledger. Sunseeker does not publish draft or cabin count on the accessible technical page; both remain null/unknown. No reliable production end year was found; the model is treated as historical because Sunseeker exposes it as a previous model."
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023",
+      "name": "Sunseeker Superhawk 55",
+      "family": {
+        "id": "sunseeker-superhawk",
+        "name": "Sunseeker Superhawk",
+        "group": "Yachts",
+        "description": "Low open-top performance superstructure with a continuous social cockpit rather than a flybridge.",
+        "subtypes": [
+          "performance sports yacht"
+        ]
+      },
+      "yacht": {
+        "brand": "Sunseeker",
+        "range": "Superhawk",
+        "type": "performance sports yacht",
+        "generation": "current Superhawk 55 generation; the Superhawk name returned with the 2023 model",
+        "productionStart": 2023,
+        "productionEnd": null,
+        "productionStatus": "current",
+        "aliases": [
+          "Superhawk 55",
+          "Superhawk55"
+        ],
+        "thumbnail": "thumbnails/sunseeker-superhawk-55-gen1-2023.png",
+        "manifest": "yachts/sunseeker-superhawk-55-gen1-2023/manifest.json"
+      },
+      "subtitle": "performance sports yacht",
+      "purpose": "Explore the documented configuration and reference-informed exterior and interior arrangement.",
+      "length": 17.13,
+      "beam": 4.93,
+      "depth": 4.053365764764453,
+      "year": 2023,
+      "hullColor": "#f4f1e9",
+      "deckColor": "#a48a68",
+      "kind": "yacht",
+      "configuration": "Current two-cabin Superhawk 55 with twin Volvo Penta IPS 950 pod drives, open aft cockpit/wet bar, hydraulic bathing platform and two en-suite cabins. Optional furniture and finish packages are excluded.",
+      "dimensionStatus": "verified",
+      "facts": [
+        {
+          "label": "Independent model year",
+          "value": 2023,
+          "unit": "year",
+          "status": "reported",
+          "sourceId": "source-785e70bfe63278ff",
+          "effective": null,
+          "note": "YachtBuyer identifies the reviewed hull as model year 2023 and in production; this is used as the generation start rather than an undocumented factory order date."
+        },
+        {
+          "label": "Length overall",
+          "value": 17.13,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-54c13cfb996acede",
+          "effective": null,
+          "note": "Sunseeker technical specification gives 17.13 m / 56 ft 2 in."
+        },
+        {
+          "label": "Beam",
+          "value": 4.93,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-54c13cfb996acede",
+          "effective": null,
+          "note": "Sunseeker technical specification gives 4.93 m / 16 ft 2 in."
+        },
+        {
+          "label": "Draft",
+          "value": 1.43,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-54c13cfb996acede",
+          "effective": null,
+          "note": "Sunseeker technical specification gives 1.43 m / 4 ft 8 in."
+        },
+        {
+          "label": "Cabins and heads",
+          "value": "2 cabins; 2 en-suites/dayhead",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-54c13cfb996acede",
+          "effective": null,
+          "note": "Official accommodation block; independent YachtBuyer review also describes two double cabins with en-suites."
+        },
+        {
+          "label": "Maximum speed",
+          "value": 38,
+          "unit": "knots",
+          "status": "verified",
+          "sourceId": "source-54c13cfb996acede",
+          "effective": null,
+          "note": "Official figure with twin Volvo Penta IPS 950 pods."
+        },
+        {
+          "label": "Independent dimension conflict",
+          "value": "17.3 m LOA and 4.6 m beam",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-5b2481a18736d22c",
+          "effective": null,
+          "note": "YachtWorld's launch feature gives materially different rounded dimensions. The official 17.13 m / 4.93 m values are retained as canonical; the conflict is not normalized away."
+        },
+        {
+          "label": "Interior evidence",
+          "value": "open-plan lobby and galley, forward VIP, aft master with sliding berths, both en-suite",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-785e70bfe63278ff",
+          "effective": null,
+          "note": "Independent walkthrough evidence complements the manufacturer's interior and lower-deck description."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-54c13cfb996acede",
+          "publisher": "Sunseeker",
+          "title": "Superhawk 55",
+          "url": "https://www.sunseeker.com/range/superhawk-55",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official current dimensions, accommodation, propulsion, performance, deck profile and interior description."
+        },
+        {
+          "id": "source-4153de1d39826d17",
+          "publisher": "Sunseeker",
+          "title": "Sunseeker Superhawk 55 brochure",
+          "url": "https://uploads.sunseeker.com/uploads/e4ccda224055627bdbe1e1b3112bef1a/en/Sunseeker_Superhawk55_400x225_Web.pdf",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official brochure with side elevation, exterior plan, main-deck and lower-deck general-arrangement evidence; its older technical block is retained as a documented dimensional conflict."
+        },
+        {
+          "id": "source-785e70bfe63278ff",
+          "publisher": "YachtBuyer",
+          "title": "Sunseeker Superhawk 55 Review (2023 Edition)",
+          "url": "https://www.yachtbuyer.com/en-gb/reviews/sunseeker-superhawk-55-2022",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent model year, production status, layout and onboard review evidence."
+        },
+        {
+          "id": "source-5b2481a18736d22c",
+          "publisher": "YachtWorld",
+          "title": "Sunseeker Superhawk 55: Reimagining Open-Cruiser Luxury",
+          "url": "https://www.yachtworld.com/research/sunseeker-superhawk-55-new-legend-on-the-water/",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent launch-era cross-check; conflicting rounded dimensions retained as reported."
+        }
+      ],
+      "signature": "central cockpit wet bar · sliding-beam master berths · hydraulic bathing platform and tender garage · open-plan lower lobby · Superhawk name revival",
+      "operation": "Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.",
+      "efficiency": "Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.",
+      "risk": "Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.",
+      "modelNote": "DRAFT RECONSTRUCTION — visual review requires changes. Original reference-informed Superhawk 55 reconstruction: exterior distinctive body and glazing are model-specific; lower-deck furnishings and service systems are clearly reconstructed approximations. The official page is current as accessed, while the independent review supplies the 2023 model-year anchor; no factory production-start press release was found. YachtWorld reports conflicting rounded LOA and beam values; do not replace the official technical values with them."
+    },
+    {
+      "id": "sunseeker-portofino-48-gen1-2010",
+      "name": "Sunseeker Portofino 48",
+      "family": {
+        "id": "sunseeker-portofino",
+        "name": "Sunseeker Portofino",
+        "group": "Yachts",
+        "description": "Low sportscruiser screen/roof composition with long foredeck sunpads and a raised cockpit seating/helm zone; open and hardtop versions are documented.",
+        "subtypes": [
+          "sportscruiser"
+        ]
+      },
+      "yacht": {
+        "brand": "Sunseeker",
+        "range": "Portofino",
+        "type": "sportscruiser",
+        "generation": "Gen 1",
+        "productionStart": 2010,
+        "productionEnd": 2013,
+        "productionStatus": "historical",
+        "aliases": [
+          "Portofino 48",
+          "Sunseeker 48 Portofino"
+        ],
+        "thumbnail": "thumbnails/sunseeker-portofino-48-gen1-2010.png",
+        "manifest": "yachts/sunseeker-portofino-48-gen1-2010/manifest.json"
+      },
+      "subtitle": "sportscruiser",
+      "purpose": "Explore the documented configuration and reference-informed exterior and interior arrangement.",
+      "length": 16.17,
+      "beam": 4.3,
+      "depth": 2.989151453252976,
+      "year": 2010,
+      "hullColor": "#f4f1e9",
+      "deckColor": "#a48a68",
+      "kind": "yacht",
+      "configuration": "2010-2013 Portofino 48 sportscruiser with twin IPS600 pod-drive reference, two-cabin lower deck, and hardtop/open-top option kept as a documented variant.",
+      "dimensionStatus": "verified",
+      "facts": [
+        {
+          "label": "Length overall",
+          "value": 16.17,
+          "unit": "m",
+          "status": "reported",
+          "sourceId": "source-7c5d42f31e4cb3b0",
+          "effective": null,
+          "note": "YachtBuyer model specification explicitly includes pulpit. The authorized Sunseeker Southampton page gives 15.74 m, and MBY gives 16.09 m including pulpit and lifting platform; no average is taken."
+        },
+        {
+          "label": "Beam",
+          "value": 4.3,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-b623243f4e0322e1",
+          "effective": null,
+          "note": "Official dealer/previous-model page and independent sources agree on 4.30 m."
+        },
+        {
+          "label": "Draft",
+          "value": 1.3,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-b623243f4e0322e1",
+          "effective": null,
+          "note": "Official dealer/previous-model page; MBY reports 0.85 m for its tested configuration, a material configuration/measurement conflict."
+        },
+        {
+          "label": "Cabins",
+          "value": 2,
+          "unit": "cabins",
+          "status": "verified",
+          "sourceId": "source-7c5d42f31e4cb3b0",
+          "effective": null,
+          "note": "Independent model specification."
+        },
+        {
+          "label": "Heads",
+          "value": 2,
+          "unit": "heads",
+          "status": "reported",
+          "sourceId": "source-7c5d42f31e4cb3b0",
+          "effective": null,
+          "note": "YachtBuyer lists two guest heads; exact arrangement is option-sensitive."
+        },
+        {
+          "label": "Fuel capacity",
+          "value": 1320,
+          "unit": "L",
+          "status": "verified",
+          "sourceId": "source-b623243f4e0322e1",
+          "effective": null,
+          "note": "Official dealer/previous-model page."
+        },
+        {
+          "label": "Fresh-water capacity",
+          "value": 322,
+          "unit": "L",
+          "status": "verified",
+          "sourceId": "source-b623243f4e0322e1",
+          "effective": null,
+          "note": "Official dealer/previous-model page."
+        },
+        {
+          "label": "Maximum speed",
+          "value": 38,
+          "unit": "knots",
+          "status": "verified",
+          "sourceId": "source-b623243f4e0322e1",
+          "effective": null,
+          "note": "Official dealer/previous-model page."
+        },
+        {
+          "label": "Propulsion",
+          "value": "Twin Volvo Penta IPS600 pods",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-7c5d42f31e4cb3b0",
+          "effective": null,
+          "note": "YachtBuyer lists twin IPS600 as standard and a triple-IPS option; reference uses twin."
+        },
+        {
+          "label": "Production window",
+          "value": "2010-2013",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-7c5d42f31e4cb3b0",
+          "effective": null,
+          "note": "YachtBuyer model timeline."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-b623243f4e0322e1",
+          "publisher": "Sunseeker Southampton",
+          "title": "Portofino 48",
+          "url": "https://www.sunseekersouthampton.com/yachts-and-boats/previous-models/portofino-48",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official Sunseeker dealer/previous-model dimensions, capacities, performance, propulsion, and model page."
+        },
+        {
+          "id": "source-7c5d42f31e4cb3b0",
+          "publisher": "YachtBuyer",
+          "title": "Sunseeker Portofino 48 Yacht (2010-2013)",
+          "url": "https://www.yachtbuyer.com/en/sunseeker/new/portofino-48",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent production window, pulpit-inclusive model dimensions, layout, and engine options."
+        },
+        {
+          "id": "source-1c496a660c1b6fa7",
+          "publisher": "Motor Boat & Yachting",
+          "title": "Sunseeker Portofino 48 review: from the MBY archives",
+          "url": "https://www.mby.com/reviews/sportscruisers/sunseeker-portofino-48-review-from-the-archive",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent 2010 test with dimensional convention, helm/cockpit, cabin, garage, and draft evidence."
+        },
+        {
+          "id": "source-aecab24bca61bc98",
+          "publisher": "PowerYacht",
+          "title": "New Model: Sunseeker 48 Portofino",
+          "url": "https://www.poweryachtblog.com/2010/10/new-model-sunseeker-48-portofino.html",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent introduction and relationship to the prior Portofino 47."
+        }
+      ],
+      "signature": "raised cockpit seating alongside helm · long foredeck sunpads · large tender garage · full-beam aft cabin · scissor-action forward berths · open or hardtop variants",
+      "operation": "Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.",
+      "efficiency": "Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.",
+      "risk": "Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.",
+      "modelNote": "DRAFT RECONSTRUCTION — visual review requires changes. Original reference-informed reconstruction of Sunseeker Portofino 48 (Gen 1). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them. Published LOA varies by measurement convention: official dealer 15.74 m, YachtBuyer 16.17 m including pulpit, and MBY 16.09 m including pulpit and lifting platform. Canonical dimensions select YachtBuyer’s explicit pulpit-inclusive model figure without averaging. Draft is 1.30 m on the official dealer/model table but 0.85 m in the MBY tested-boat specification; drive/load/configuration basis is not resolved. YachtBuyer documents both twin- and triple-IPS options; only twin IPS600 is used as reference."
+    },
+    {
+      "id": "sunseeker-predator-57-gen2-2017",
+      "name": "Sunseeker Predator 57 Mk II",
+      "family": {
+        "id": "sunseeker-predator",
+        "name": "Sunseeker Predator",
+        "group": "Yachts",
+        "description": "Low hardtop sportsboat profile with opening roof, lowering patio door and a compact tender-garage transom.",
+        "subtypes": [
+          "sports yacht"
+        ]
+      },
+      "yacht": {
+        "brand": "Sunseeker",
+        "range": "Predator",
+        "type": "sports yacht",
+        "generation": "Gen 2 / Mk II introduced 2017",
+        "productionStart": 2017,
+        "productionEnd": 2019,
+        "productionStatus": "historical",
+        "aliases": [
+          "Sunseeker Predator 57",
+          "Predator 57 Mk II",
+          "Predator 57 Gen 2"
+        ],
+        "thumbnail": "thumbnails/sunseeker-predator-57-gen2-2017.png",
+        "manifest": "yachts/sunseeker-predator-57-gen2-2017/manifest.json"
+      },
+      "subtitle": "sports yacht",
+      "purpose": "Explore the documented configuration and reference-informed exterior and interior arrangement.",
+      "length": 18.24,
+      "beam": 4.7,
+      "depth": 3.0094335532785115,
+      "year": 2017,
+      "hullColor": "#f4f1e9",
+      "deckColor": "#a48a68",
+      "kind": "yacht",
+      "configuration": "Predator 57 Mk II with hardtop, three guest cabins for six, full-beam owner suite, lower saloon, tender garage and single crew cabin; engine choice and owner finishes are recorded as options rather than modeled as separate generations.",
+      "dimensionStatus": "verified",
+      "facts": [
+        {
+          "label": "Generation boundary",
+          "value": "Mk II production 2017–2019; predecessor Mk I 2015–2017",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-ab4764d27982da61",
+          "effective": null,
+          "note": "Independent model-history tracking separates two generations and dates the Mk II production window."
+        },
+        {
+          "label": "Length overall",
+          "value": 18.24,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-eff90fbfc7cba8bd",
+          "effective": null,
+          "note": "YachtBuyer principal characteristics list 59 ft 10 in / 18.24 m."
+        },
+        {
+          "label": "Beam",
+          "value": 4.7,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-fdd1cee37b629aad",
+          "effective": null,
+          "note": "Independent delivered-vessel listing reports 4.70 m beam for the Mk II."
+        },
+        {
+          "label": "Draft",
+          "value": 1.3,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-fdd1cee37b629aad",
+          "effective": null,
+          "note": "Independent delivered-vessel listing reports 1.30 m draft."
+        },
+        {
+          "label": "Fuel capacity",
+          "value": 2200,
+          "unit": "L",
+          "status": "verified",
+          "sourceId": "source-eff90fbfc7cba8bd",
+          "effective": null,
+          "note": "The principal characteristics give 581 US gallons, represented here as the rounded 2,200 L catalogue value."
+        },
+        {
+          "label": "Fresh-water capacity",
+          "value": 600,
+          "unit": "L",
+          "status": "verified",
+          "sourceId": "source-eff90fbfc7cba8bd",
+          "effective": null,
+          "note": "The principal characteristics give 158 US gallons, represented here as the rounded 600 L catalogue value."
+        },
+        {
+          "label": "Black-water capacity",
+          "value": 150,
+          "unit": "L",
+          "status": "verified",
+          "sourceId": "source-eff90fbfc7cba8bd",
+          "effective": null,
+          "note": "The principal characteristics give 39 US gallons, represented here as the rounded 150 L catalogue value."
+        },
+        {
+          "label": "Guest accommodation",
+          "value": "6 guests in 3 cabins; full-beam master, double cabin and twin/bunk cabin",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-eff90fbfc7cba8bd",
+          "effective": null,
+          "note": "The independent specification identifies three cabins and six guests with the stated berth arrangement."
+        },
+        {
+          "label": "Guest and day heads",
+          "value": "2 guest heads plus 1 shared day head",
+          "unit": "heads",
+          "status": "verified",
+          "sourceId": "source-eff90fbfc7cba8bd",
+          "effective": null,
+          "note": "The independent accommodation section lists two guest heads and one shared day head."
+        },
+        {
+          "label": "Engine options",
+          "value": "Twin Volvo Penta D13-800, D13-900 or D11 IPS950",
+          "unit": "engines",
+          "status": "verified",
+          "sourceId": "source-eff90fbfc7cba8bd",
+          "effective": null,
+          "note": "The manufacturer options reproduced by YachtBuyer show the three available twin-engine configurations."
+        },
+        {
+          "label": "Maximum speed",
+          "value": 33,
+          "unit": "knots",
+          "status": "verified",
+          "sourceId": "source-eff90fbfc7cba8bd",
+          "effective": null,
+          "note": "The Mk II principal characteristics quote 33 knots; the page also notes up to 40 knots depending on selected option, so the catalog keeps the principal value and records the conflict as an uncertainty."
+        },
+        {
+          "label": "Maximum range",
+          "value": 325,
+          "unit": "nautical miles",
+          "status": "verified",
+          "sourceId": "source-eff90fbfc7cba8bd",
+          "effective": null,
+          "note": "YachtBuyer lists a 325 nm maximum range for the reference configuration."
+        },
+        {
+          "label": "Hull and superstructure",
+          "value": "GRP hull and GRP superstructure",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-eff90fbfc7cba8bd",
+          "effective": null,
+          "note": "The principal characteristics identify GRP for both hull and superstructure."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-eff90fbfc7cba8bd",
+          "publisher": "YachtBuyer",
+          "title": "Sunseeker Predator 57 Yacht Gen 2",
+          "url": "https://www.yachtbuyer.com/en-us/sunseeker/new/predator-57-gen2",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent generation identity, dimensions, capacities, accommodation, engine options and performance."
+        },
+        {
+          "id": "source-ab4764d27982da61",
+          "publisher": "YachtBuyer",
+          "title": "Sunseeker Predator 57 yachts for sale and generation timeline",
+          "url": "https://www.yachtbuyer.com/en/sunseeker/for-sale/predator-57",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent Mk I/Mk II production boundary and introduction timeline."
+        },
+        {
+          "id": "source-d222707a4755f60f",
+          "publisher": "Sunseeker",
+          "title": "Predator 57 MkII",
+          "url": "https://www.sunseeker.com/zh/yachts-and-boats/previous-models/predator-57-mkii",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Manufacturer previous-model identity and reference styling."
+        },
+        {
+          "id": "source-7c78918cd59a1b20",
+          "publisher": "Sunseeker / Braun Yachtservice archive",
+          "title": "Sunseeker Predator 57 Mk II brochure",
+          "url": "https://braun-yachtservice.com/wp-content/uploads/2021/09/BROCHURE-2019-SUNSEEKER-PREDATOR-57-1.pdf",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Period brochure cross-check for the Mk II configuration and deck arrangement."
+        },
+        {
+          "id": "source-fdd1cee37b629aad",
+          "publisher": "YachtBuyer",
+          "title": "Sunseeker Predator 57 Mk2 delivered-vessel listing",
+          "url": "https://www.yachtbuyer.com/en/sunseeker/for-sale/v-0c15ef31",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent delivered-vessel dimensions, displacement and real-world configuration cross-check."
+        }
+      ],
+      "signature": "restyled pillarless saloon windows · opening hardtop roof · lowering patio door · full-beam master suite · hydraulic tender platform and garage · mini beach-club transom",
+      "operation": "Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.",
+      "efficiency": "Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.",
+      "risk": "Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.",
+      "modelNote": "DRAFT RECONSTRUCTION — visual review requires changes. Original reference-informed reconstruction of Sunseeker Predator 57 Mk II (Gen 2 / Mk II introduced 2017). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them. YachtBuyer presents a headline capability of up to 40 knots depending on option while its principal characteristics give 33 knots; the catalog uses 33 knots for the reference configuration. Exact production quantity and factory completion dates are not published; the 2017–2019 boundary is independent model-history evidence. Owner-specific four-cabin and engine layouts are excluded from the modeled reference configuration."
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018",
+      "name": "Sunseeker Predator 74",
+      "family": {
+        "id": "sunseeker-predator",
+        "name": "Sunseeker Predator",
+        "group": "Yachts",
+        "description": "Low coupé hardtop with an oversized sliding roof and minimal upper silhouette; no flybridge.",
+        "subtypes": [
+          "sportsboat / sportscruiser"
+        ]
+      },
+      "yacht": {
+        "brand": "Sunseeker",
+        "range": "Predator",
+        "type": "sportsboat / sportscruiser",
+        "generation": "Predator 74 Gen 2, launched at Boot Düsseldorf in January 2018",
+        "productionStart": 2018,
+        "productionEnd": 2023,
+        "productionStatus": "historical",
+        "aliases": [
+          "Predator 74",
+          "Predator 74 Mk2"
+        ],
+        "thumbnail": "thumbnails/sunseeker-predator-74-gen2-2018.png",
+        "manifest": "yachts/sunseeker-predator-74-gen2-2018/manifest.json"
+      },
+      "subtitle": "sportsboat / sportscruiser",
+      "purpose": "Explore the documented configuration and reference-informed exterior and interior arrangement.",
+      "length": 22.82,
+      "beam": 5.38,
+      "depth": 3.920325020080357,
+      "year": 2018,
+      "hullColor": "#f4f1e9",
+      "deckColor": "#a48a68",
+      "kind": "yacht",
+      "configuration": "Gen 2 three-cabin Predator 74 with shaft drives, large carbon/glass sliding roof, full-beam master, forward VIP, twin guest cabin and two-berth crew cabin; four-cabin option and XPS package are excluded from the reference configuration.",
+      "dimensionStatus": "verified",
+      "facts": [
+        {
+          "label": "Launch year",
+          "value": 2018,
+          "unit": "year",
+          "status": "verified",
+          "sourceId": "source-d0f3244560ca2209",
+          "effective": null,
+          "note": "Sunseeker Brokerage's official dealership news says the Predator 74 was one of two new model launches at Boot Düsseldorf in January 2018."
+        },
+        {
+          "label": "Independent production window",
+          "value": "2018-2023",
+          "unit": "year range",
+          "status": "reported",
+          "sourceId": "source-3403dc577dc8d063",
+          "effective": null,
+          "note": "YachtBuyer labels this exact generation Gen 2, 2018-2023, and discontinued. The end year is reported rather than a factory archive date."
+        },
+        {
+          "label": "Length overall",
+          "value": 22.82,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-19b4863d39a3495f",
+          "effective": null,
+          "note": "Official Predator 74 brochure gives 22.82 m / 74 ft 10 in."
+        },
+        {
+          "label": "Beam",
+          "value": 5.38,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-19b4863d39a3495f",
+          "effective": null,
+          "note": "Official brochure gives 5.38 m / 17 ft 8 in."
+        },
+        {
+          "label": "Draft",
+          "value": 1.83,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-4c94b5a4340c4580",
+          "effective": null,
+          "note": "Official previous-model technical block gives 1.83 m / 6 ft."
+        },
+        {
+          "label": "Cabins and heads",
+          "value": "3 cabins, 4 optional; 3 en-suites/dayhead; 2-berth crew cabin",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-4c94b5a4340c4580",
+          "effective": null,
+          "note": "Official previous-model page and independent model page agree on the three/four-cabin range and three heads."
+        },
+        {
+          "label": "Published performance conflict",
+          "value": "40 knots official maximum; 34 knots standard in YachtBuyer model data; 35 knots in an independent 2018 brochure/listing",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-3403dc577dc8d063",
+          "effective": null,
+          "note": "Engine option, load and test conditions differ. The official 40-knot figure is retained but the standard/independent figures are explicitly preserved."
+        },
+        {
+          "label": "Interior evidence",
+          "value": "galley-down, full-beam master, forward VIP, twin guest cabin, sliding roof and tender garage",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-3403dc577dc8d063",
+          "effective": null,
+          "note": "Independent model page and review provide clear layout evidence."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-4c94b5a4340c4580",
+          "publisher": "Sunseeker",
+          "title": "Predator 74",
+          "url": "https://www.sunseeker.com/yachts-and-boats/previous-models/predator-74",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official previous-model dimensions, accommodation, performance and visual/interior description; page now redirects in some locales."
+        },
+        {
+          "id": "source-19b4863d39a3495f",
+          "publisher": "Sunseeker",
+          "title": "Predator 74 brochure",
+          "url": "https://www.sunseeker.com/uploads/150ea3de88828eaafd9c67fdba59df29/en/Sunseeker_Predator74_400x225_Web.pdf",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official brochure evidence for LOA, beam and reference technical configuration."
+        },
+        {
+          "id": "source-d0f3244560ca2209",
+          "publisher": "Sunseeker Brokerage",
+          "title": "Boat Show: Another successful year at Boot Düsseldorf",
+          "url": "https://www.sunseekerbrokerage.com/2018/01/28/boat-show-another-successful-year-at-boot-dusseldorf/",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official dealership launch timing for the 2018 model."
+        },
+        {
+          "id": "source-3403dc577dc8d063",
+          "publisher": "YachtBuyer",
+          "title": "Sunseeker Predator 74 Yacht Gen 2, 2018-2023",
+          "url": "https://www.yachtbuyer.com/en-us/sunseeker/new/predator-74",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent generation window, discontinued status, layout, dimensions and engine/performance cross-check."
+        },
+        {
+          "id": "source-aa776cd637eb152c",
+          "publisher": "Power Boating",
+          "title": "Sunseeker Predator 74",
+          "url": "https://www.powerboating.com/sunseeker-predator-74/",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent 2018 reintroduction, hull styling, accommodation and performance context."
+        }
+      ],
+      "signature": "large carbon/glass sliding roof · pillarless side windows · hydraulic tender platform and garage · full-beam master · Predator 74 XPS limited-edition variant",
+      "operation": "Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.",
+      "efficiency": "Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.",
+      "risk": "Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.",
+      "modelNote": "DRAFT RECONSTRUCTION — visual review requires changes. Original reference-informed reconstruction of Sunseeker Predator 74 (Predator 74 Gen 2, launched at Boot Düsseldorf in January 2018). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them. Predator 74 is a repeated name across older Sunseeker generations; this profile is specifically Gen 2, launched in 2018, and must not be merged with the earlier 2009-2012 model. YachtBuyer reports an end year of 2023; no official factory end-of-production notice was located. Performance varies materially by MAN engine option and test/load condition; all reported values are preserved rather than collapsed into one universal speed."
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008",
+      "name": "Sunseeker Predator 84",
+      "family": {
+        "id": "sunseeker-predator",
+        "name": "Sunseeker Predator",
+        "group": "Yachts",
+        "description": "Low performance-motoryacht deck saloon with a hardtop/skylight arrangement and optional flybridge/dual helm; the brochure’s arrangement is substantially more open than a simple box cabin.",
+        "subtypes": [
+          "performance motoryacht"
+        ]
+      },
+      "yacht": {
+        "brand": "Sunseeker",
+        "range": "Predator",
+        "type": "performance motoryacht",
+        "generation": "Gen 1",
+        "productionStart": 2008,
+        "productionEnd": 2014,
+        "productionStatus": "historical",
+        "aliases": [
+          "Predator 84",
+          "Sunseeker 84 Predator",
+          "Predator 84 Sport Fly"
+        ],
+        "thumbnail": "thumbnails/sunseeker-predator-84-gen1-2008.png",
+        "manifest": "yachts/sunseeker-predator-84-gen1-2008/manifest.json"
+      },
+      "subtitle": "performance motoryacht",
+      "purpose": "Explore the documented configuration and reference-informed exterior and interior arrangement.",
+      "length": 26.48,
+      "beam": 6.34,
+      "depth": 6.308542746414801,
+      "year": 2008,
+      "hullColor": "#f4f1e9",
+      "deckColor": "#a48a68",
+      "kind": "yacht",
+      "configuration": "2008-2014 Predator 84 twin-shaft configuration with optional-flybridge family identity. Arneson surface-drive and optional-flybridge variants are described as variants rather than combined into one geometry.",
+      "dimensionStatus": "verified",
+      "facts": [
+        {
+          "label": "Length overall",
+          "value": 26.48,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-faea138960d49971",
+          "effective": null,
+          "note": "Official previous-model page; 86 ft 1 in in its displayed imperial text."
+        },
+        {
+          "label": "Beam",
+          "value": 6.34,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-faea138960d49971",
+          "effective": null,
+          "note": "Official previous-model page."
+        },
+        {
+          "label": "Draft",
+          "value": 2.12,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-faea138960d49971",
+          "effective": null,
+          "note": "Official archived page’s shaft-drive/reference value."
+        },
+        {
+          "label": "Alternate drive drafts",
+          "value": "1.70 m shaft-drive brochure value; 1.40 m Arneson value",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-af5eb55e8260a6ff",
+          "effective": null,
+          "note": "The launch brochure publishes separate shaft and Arneson variants; this is retained as a conflict rather than averaged with the archived-page value."
+        },
+        {
+          "label": "Cabins",
+          "value": 4,
+          "unit": "cabins",
+          "status": "reported",
+          "sourceId": "source-ee86fb3a3ebac287",
+          "effective": null,
+          "note": "Independent model specification, eight guests."
+        },
+        {
+          "label": "Crew",
+          "value": 3,
+          "unit": "crew",
+          "status": "reported",
+          "sourceId": "source-ee86fb3a3ebac287",
+          "effective": null,
+          "note": "Independent model specification."
+        },
+        {
+          "label": "Fuel capacity",
+          "value": 7500,
+          "unit": "L",
+          "status": "verified",
+          "sourceId": "source-af5eb55e8260a6ff",
+          "effective": null,
+          "note": "Official launch brochure twin-shaft and Arneson tables agree on 7,500 L."
+        },
+        {
+          "label": "Fresh-water capacity",
+          "value": 1200,
+          "unit": "L",
+          "status": "verified",
+          "sourceId": "source-af5eb55e8260a6ff",
+          "effective": null,
+          "note": "Official launch brochure."
+        },
+        {
+          "label": "Maximum speed",
+          "value": 35,
+          "unit": "knots",
+          "status": "verified",
+          "sourceId": "source-faea138960d49971",
+          "effective": null,
+          "note": "Official archived page shaft-drive figure; brochure’s Arneson variant is up to 42 knots."
+        },
+        {
+          "label": "Production window",
+          "value": "2008-2014",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-e0947efb851862aa",
+          "effective": null,
+          "note": "YachtBuyer timeline; official launch brochure says due to launch autumn 2008 and independent itBoat also gives 2008-2014."
+        },
+        {
+          "label": "Range",
+          "value": 350,
+          "unit": "nm",
+          "status": "reported",
+          "sourceId": "source-ee86fb3a3ebac287",
+          "effective": null,
+          "note": "Independent model overview; speed basis differs from official archived page’s 10-knot range row."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-faea138960d49971",
+          "publisher": "Sunseeker International",
+          "title": "Predator 84",
+          "url": "https://www.sunseeker.com/yachts-and-boats/previous-models/predator-84",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official archived model dimensions, shaft-drive reference specification, accommodation, and performance."
+        },
+        {
+          "id": "source-af5eb55e8260a6ff",
+          "publisher": "Sunseeker International brochure mirror",
+          "title": "Predator 84 launch brochure",
+          "url": "https://sunseeker.vn/mydata/download/pre84.pdf",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official launch brochure text and deck plans, including shaft/Arneson variants and optional flybridge."
+        },
+        {
+          "id": "source-ee86fb3a3ebac287",
+          "publisher": "YachtBuyer",
+          "title": "Sunseeker Predator 84 Yacht (2008-2014)",
+          "url": "https://www.yachtbuyer.com/en-us/sunseeker/new/predator-84",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent model timeline, dimensions, accommodation, and performance."
+        },
+        {
+          "id": "source-e0947efb851862aa",
+          "publisher": "YachtBuyer",
+          "title": "Sunseeker Predator 84 for sale",
+          "url": "https://www.yachtbuyer.com/en-us/sunseeker/for-sale/predator-84",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent production-window record."
+        },
+        {
+          "id": "source-720916dec7a71e62",
+          "publisher": "itBoat",
+          "title": "Sunseeker Predator 84: Prices, Specs, Reviews and Sales Information",
+          "url": "https://old.itboat.com/models/17-sunseeker-predator-84",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent production dates, dimensions, drive variants, and performance context."
+        }
+      ],
+      "signature": "optional flybridge and dual helm · stern tender/jet-ski garage · curved direct-glazed windscreen · foredeck U-shaped seating · sliding hardtop with skylights · shaft or Arneson drive variants",
+      "operation": "Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.",
+      "efficiency": "Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.",
+      "risk": "Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.",
+      "modelNote": "DRAFT RECONSTRUCTION — visual review requires changes. Original reference-informed reconstruction of Sunseeker Predator 84 (Gen 1). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them. The official archived page and launch brochure disagree on the shaft-drive draft (2.12 m versus 1.70 m); the canonical dimensions select the archived page’s published 2.12 m without averaging. The brochure has provisional language and separate drive/height/displacement variants; no single variant should be mistaken for every Predator 84. The nickname 'Sport Fly' appears in brokerage/seed material; the official brochure describes an optional flybridge rather than a separate canonical generation."
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021",
+      "name": "Sunseeker Manhattan 55",
+      "family": {
+        "id": "sunseeker-manhattan",
+        "name": "Sunseeker Manhattan",
+        "group": "Yachts",
+        "description": "Muscular flybridge silhouette with a tall upper deck and a clean galley-aft main-deck profile.",
+        "subtypes": [
+          "flybridge motor yacht"
+        ]
+      },
+      "yacht": {
+        "brand": "Sunseeker",
+        "range": "Manhattan",
+        "type": "flybridge motor yacht",
+        "generation": "Manhattan 55 Gen 2, 2021 model-year generation",
+        "productionStart": 2021,
+        "productionEnd": null,
+        "productionStatus": "current",
+        "aliases": [
+          "Manhattan 55",
+          "Manhattan55"
+        ],
+        "thumbnail": "thumbnails/sunseeker-manhattan-55-gen2-2021.png",
+        "manifest": "yachts/sunseeker-manhattan-55-gen2-2021/manifest.json"
+      },
+      "subtitle": "flybridge motor yacht",
+      "purpose": "Explore the documented configuration and reference-informed exterior and interior arrangement.",
+      "length": 17.21,
+      "beam": 4.87,
+      "depth": 4.308877099523336,
+      "year": 2021,
+      "hullColor": "#f4f1e9",
+      "deckColor": "#a48a68",
+      "kind": "yacht",
+      "configuration": "Current Gen 2 three-cabin Manhattan 55 with galley-aft main deck, flybridge, Beach Club transom and either twin MAN i6 shafts or Volvo Penta IPS 950 pods.",
+      "dimensionStatus": "verified",
+      "facts": [
+        {
+          "label": "Model year / generation start",
+          "value": 2021,
+          "unit": "year",
+          "status": "verified",
+          "sourceId": "source-fd3ad6641510ad82",
+          "effective": null,
+          "note": "YachtBuyer labels the reviewed boat Manhattan 55 Gen 2, model year 2021, and in production."
+        },
+        {
+          "label": "Length overall",
+          "value": 17.21,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-c837c16981a79f92",
+          "effective": null,
+          "note": "Sunseeker gives 17.21 m / 56 ft 6 in."
+        },
+        {
+          "label": "Beam",
+          "value": 4.87,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-c837c16981a79f92",
+          "effective": null,
+          "note": "Sunseeker gives 4.87 m / 16 ft."
+        },
+        {
+          "label": "Draft",
+          "value": 1.37,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-c837c16981a79f92",
+          "effective": null,
+          "note": "Sunseeker gives 1.37 m / 4 ft 6 in."
+        },
+        {
+          "label": "Cabins and heads",
+          "value": "3 cabins; 2 en-suites/dayhead",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-c837c16981a79f92",
+          "effective": null,
+          "note": "Official accommodation block; YachtBuyer independently confirms three cabins and a galley-aft layout."
+        },
+        {
+          "label": "Maximum speed",
+          "value": 32,
+          "unit": "knots",
+          "status": "verified",
+          "sourceId": "source-c837c16981a79f92",
+          "effective": null,
+          "note": "Official maximum speed with shaft or pod drive options."
+        },
+        {
+          "label": "Independent draft conflict",
+          "value": 1.26,
+          "unit": "m",
+          "status": "reported",
+          "sourceId": "source-22c2194c707b252d",
+          "effective": null,
+          "note": "YachtBuyer/Aquaholic lists 1.26 m full-load draft; Sunseeker lists 1.37 m. Load condition and configuration are not interchangeable."
+        },
+        {
+          "label": "Range configuration difference",
+          "value": "230 nm at 21 knots official versus approximately 250 nm in independent review",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-fd3ad6641510ad82",
+          "effective": null,
+          "note": "Retained as a configuration/test-condition difference rather than normalized."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-c837c16981a79f92",
+          "publisher": "Sunseeker",
+          "title": "Manhattan 55",
+          "url": "https://www.sunseeker.com/en/yachts-and-boats/yacht/manhattan-55",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official current dimensions, accommodation, performance, propulsion and layout description."
+        },
+        {
+          "id": "source-fd3ad6641510ad82",
+          "publisher": "YachtBuyer",
+          "title": "Sunseeker Manhattan 55 Review (2021 Edition)",
+          "url": "https://www.yachtbuyer.com/en-us/reviews/sunseeker-manhattan-55-2021-2",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent Gen 2/model-year/status, layout and review evidence."
+        },
+        {
+          "id": "source-22c2194c707b252d",
+          "publisher": "YachtBuyer / Aquaholic",
+          "title": "All-New Sunseeker Manhattan 55 Review (2021 Edition)",
+          "url": "https://www.yachtbuyer.com/en-us/reviews/sunseeker-manhattan-55-2021-aquaholic",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent interior, propulsion and draft cross-check."
+        },
+        {
+          "id": "source-209201abff00b0de",
+          "publisher": "Motor Boat & Yachting",
+          "title": "Sunseeker Manhattan 55 review",
+          "url": "https://www.mby.com/video/sunseeker-manhattan-55-review-114823",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent 2021 launch/show timing cross-check."
+        }
+      ],
+      "signature": "galley-aft layout · class-leading flybridge · Beach Club transom · three-cabin lower deck · optional shaft or IPS propulsion",
+      "operation": "Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.",
+      "efficiency": "Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.",
+      "risk": "Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.",
+      "modelNote": "DRAFT RECONSTRUCTION — visual review requires changes. Original reference-informed reconstruction of Sunseeker Manhattan 55 (Manhattan 55 Gen 2, 2021 model-year generation). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them. A previous Manhattan 55 page in Sunseeker's previous-model archive carries different dimensions; this profile is explicitly the Gen 2 2021 model and must not be merged with the older generation. Independent draft and range values differ from the official page because loading/configuration/test conditions are not identical."
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010",
+      "name": "Sunseeker Manhattan 63",
+      "family": {
+        "id": "sunseeker-manhattan",
+        "name": "Sunseeker Manhattan",
+        "group": "Yachts",
+        "description": "Raised main-deck saloon with a full flybridge, aft dining zone and forward helm arrangement typical of the Manhattan family.",
+        "subtypes": [
+          "flybridge motor yacht"
+        ]
+      },
+      "yacht": {
+        "brand": "Sunseeker",
+        "range": "Manhattan",
+        "type": "flybridge motor yacht",
+        "generation": "Gen 1 / introduced 2010",
+        "productionStart": 2010,
+        "productionEnd": 2015,
+        "productionStatus": "historical",
+        "aliases": [
+          "Sunseeker Manhattan 63",
+          "63 Manhattan",
+          "Sunseeker 63"
+        ],
+        "thumbnail": "thumbnails/sunseeker-manhattan-63-gen1-2010.png",
+        "manifest": "yachts/sunseeker-manhattan-63-gen1-2010/manifest.json"
+      },
+      "subtitle": "flybridge motor yacht",
+      "purpose": "Explore the documented configuration and reference-informed exterior and interior arrangement.",
+      "length": 21.07,
+      "beam": 5.13,
+      "depth": 5.205814056355839,
+      "year": 2010,
+      "hullColor": "#f4f1e9",
+      "deckColor": "#a48a68",
+      "kind": "yacht",
+      "configuration": "Manhattan 63 flybridge motor yacht with four guest cabins for up to eight, main-deck saloon, aft galley, flybridge helm and separate crew/service spaces; optional owner layouts excluded.",
+      "dimensionStatus": "verified",
+      "facts": [
+        {
+          "label": "Production window",
+          "value": "2010–2015",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-8b592323db36f003",
+          "effective": null,
+          "note": "Independent model timeline dates development and production from 2010 through 2015."
+        },
+        {
+          "label": "Length overall",
+          "value": 21.07,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-8b592323db36f003",
+          "effective": null,
+          "note": "YachtBuyer lists 21.07 m / 69 ft 2 in LOA."
+        },
+        {
+          "label": "Beam",
+          "value": 5.13,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-95b7c7e36399c78b",
+          "effective": null,
+          "note": "Independent comparison lists 5.13 m maximum beam."
+        },
+        {
+          "label": "Draft at full load",
+          "value": 1.6,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-95b7c7e36399c78b",
+          "effective": null,
+          "note": "Independent comparison lists 1.60 m full-load draft."
+        },
+        {
+          "label": "Guest accommodation",
+          "value": "Up to 8 guests in 4 cabins",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-8b592323db36f003",
+          "effective": null,
+          "note": "YachtBuyer identifies up to eight guests and four cabins."
+        },
+        {
+          "label": "Maximum speed",
+          "value": 33,
+          "unit": "knots",
+          "status": "verified",
+          "sourceId": "source-8b592323db36f003",
+          "effective": null,
+          "note": "Independent model overview quotes 33 knots maximum speed."
+        },
+        {
+          "label": "Cruising speed",
+          "value": 22,
+          "unit": "knots",
+          "status": "verified",
+          "sourceId": "source-8b592323db36f003",
+          "effective": null,
+          "note": "Independent overview describes a comfortable 22-knot cruise with MAN V8-1000 engines."
+        },
+        {
+          "label": "Standard range",
+          "value": 809,
+          "unit": "nautical miles",
+          "status": "verified",
+          "sourceId": "source-8b592323db36f003",
+          "effective": null,
+          "note": "Independent overview quotes 809 nm standard range."
+        },
+        {
+          "label": "Hull material",
+          "value": "GRP",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-8b592323db36f003",
+          "effective": null,
+          "note": "The model is described as a GRP flybridge yacht."
+        },
+        {
+          "label": "Model award",
+          "value": "Motor Boat Awards 2012, Flybridge over 55 ft",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-8b592323db36f003",
+          "effective": null,
+          "note": "YachtBuyer records the 2012 Flybridge over 55 ft award."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-8b592323db36f003",
+          "publisher": "YachtBuyer",
+          "title": "Sunseeker Manhattan 63 yachts for sale and model overview",
+          "url": "https://www.yachtbuyer.com/en-gb/sunseeker/for-sale/manhattan-63",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent production timeline, accommodation, performance, range and model history."
+        },
+        {
+          "id": "source-95b7c7e36399c78b",
+          "publisher": "YachtBuyer",
+          "title": "Sunseeker Manhattan 63 vs Manhattan 65",
+          "url": "https://www.yachtbuyer.com/en/yachts/compare/sunseeker-manhattan-63-vs-sunseeker-manhattan-65-cc9996d",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent principal-dimension comparison."
+        },
+        {
+          "id": "source-19991cb4914f999f",
+          "publisher": "Sunseeker",
+          "title": "Sunseeker previous-model archive",
+          "url": "https://www.sunseeker.com/de/yachts-and-boats/previous-models/manhattan-73",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Manufacturer archive context for the Manhattan heritage range."
+        },
+        {
+          "id": "source-3be0ef82d5a1e983",
+          "publisher": "HMY Yachts",
+          "title": "Sunseeker Manhattan 63 powerboat guide",
+          "url": "https://www.hmy.com/yachting/powerboat-guide/sunseeker/manhattan-63-2011-14",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent brokerage and model-history cross-check."
+        }
+      ],
+      "signature": "full flybridge with aft dining · four-cabin guest arrangement · large main-deck saloon · foredeck sunpads · Manhattan cruising profile · broad bathing platform",
+      "operation": "Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.",
+      "efficiency": "Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.",
+      "risk": "Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.",
+      "modelNote": "DRAFT RECONSTRUCTION — visual review requires changes. Original reference-informed reconstruction of Sunseeker Manhattan 63 (Gen 1 / introduced 2010). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them. Exact engine option and tank capacities were not consistently exposed in the independent pages used for this batch and remain null rather than inferred. YachtBuyer reports development beginning in 2010 and first production later that year; no factory build ledger was located. Owner-specific cabin and crew layouts are excluded from the reference configuration."
+    },
+    {
+      "id": "sunseeker-manhattan-73-gen1-2012",
+      "name": "Sunseeker Manhattan 73",
+      "family": {
+        "id": "sunseeker-manhattan",
+        "name": "Sunseeker Manhattan",
+        "group": "Yachts",
+        "description": "Tall but streamlined flybridge and main saloon, with a dedicated aft cockpit and broad upper-deck social area.",
+        "subtypes": [
+          "flybridge motor yacht"
+        ]
+      },
+      "yacht": {
+        "brand": "Sunseeker",
+        "range": "Manhattan",
+        "type": "flybridge motor yacht",
+        "generation": "Gen 1",
+        "productionStart": 2012,
+        "productionEnd": 2014,
+        "productionStatus": "historical",
+        "aliases": [
+          "Manhattan 73",
+          "73 Manhattan"
+        ],
+        "thumbnail": "thumbnails/sunseeker-manhattan-73-gen1-2012.png",
+        "manifest": "yachts/sunseeker-manhattan-73-gen1-2012/manifest.json"
+      },
+      "subtitle": "flybridge motor yacht",
+      "purpose": "Explore the documented configuration and reference-informed exterior and interior arrangement.",
+      "length": 22.6,
+      "beam": 5.73,
+      "depth": 5.470603524493615,
+      "year": 2012,
+      "hullColor": "#f4f1e9",
+      "deckColor": "#a48a68",
+      "kind": "yacht",
+      "configuration": "2012-2014 production Manhattan 73, four-cabin flybridge configuration with shaft drive. YachtBuyer describes development in 2011 and first production in 2012; the id uses first-production year.",
+      "dimensionStatus": "verified",
+      "facts": [
+        {
+          "label": "Length overall",
+          "value": 22.6,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-19991cb4914f999f",
+          "effective": null,
+          "note": "Official localized previous-model page; 74 ft 2 in."
+        },
+        {
+          "label": "Beam",
+          "value": 5.73,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-19991cb4914f999f",
+          "effective": null,
+          "note": "Official localized previous-model page."
+        },
+        {
+          "label": "Draft",
+          "value": 1.63,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-19991cb4914f999f",
+          "effective": null,
+          "note": "Official localized previous-model page."
+        },
+        {
+          "label": "Displacement at half load",
+          "value": 44900,
+          "unit": "kg",
+          "status": "verified",
+          "sourceId": "source-19991cb4914f999f",
+          "effective": null,
+          "note": "Official localized previous-model page."
+        },
+        {
+          "label": "Fresh-water capacity",
+          "value": null,
+          "unit": "L",
+          "status": "unknown",
+          "sourceId": null,
+          "effective": null,
+          "note": "The official page text is malformed as 91,200 litres while displaying 317 US gal; independent sources report 1,200 L / 317 US gal. The official row is not accepted as a verified number."
+        },
+        {
+          "label": "Fresh-water capacity reported independently",
+          "value": 1200,
+          "unit": "L",
+          "status": "reported",
+          "sourceId": "source-4931cec04ddb0e01",
+          "effective": null,
+          "note": "Independent comparison gives 317 gallons; 1,200 L is the corresponding rounded metric value."
+        },
+        {
+          "label": "Fuel capacity",
+          "value": 5000,
+          "unit": "L",
+          "status": "verified",
+          "sourceId": "source-19991cb4914f999f",
+          "effective": null,
+          "note": "Official localized previous-model page."
+        },
+        {
+          "label": "Guests",
+          "value": 8,
+          "unit": "guests",
+          "status": "verified",
+          "sourceId": "source-19991cb4914f999f",
+          "effective": null,
+          "note": "Official localized previous-model page."
+        },
+        {
+          "label": "Maximum speed",
+          "value": 34,
+          "unit": "knots",
+          "status": "verified",
+          "sourceId": "source-19991cb4914f999f",
+          "effective": null,
+          "note": "Official localized previous-model page."
+        },
+        {
+          "label": "Range",
+          "value": 325,
+          "unit": "nm at 10 knots",
+          "status": "verified",
+          "sourceId": "source-19991cb4914f999f",
+          "effective": null,
+          "note": "Official localized previous-model page."
+        },
+        {
+          "label": "Production window",
+          "value": "2011-2014 label; first production 2012",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-26c0703c2543bddd",
+          "effective": null,
+          "note": "YachtBuyer’s timeline distinguishes development/launch in 2011 from first model production in 2012."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-19991cb4914f999f",
+          "publisher": "Sunseeker International",
+          "title": "Manhattan 73",
+          "url": "https://www.sunseeker.com/de/yachts-and-boats/previous-models/manhattan-73",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official previous-model dimensions, capacities, performance, and propulsion."
+        },
+        {
+          "id": "source-26c0703c2543bddd",
+          "publisher": "YachtBuyer",
+          "title": "Sunseeker Manhattan 73 Yachts For Sale",
+          "url": "https://www.yachtbuyer.com/en/sunseeker/for-sale/manhattan-73",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent production timeline, layout, and model overview."
+        },
+        {
+          "id": "source-2d1f5b53ad3f45ea",
+          "publisher": "HMY Yachts",
+          "title": "Sunseeker Manhattan 73 (2011-14)",
+          "url": "https://www.hmy.com/yachting/powerboat-guide/sunseeker/manhattan-73-2011-14",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent brokerage/review guide with dimensions, tankage, hull type, and floor-plan evidence."
+        },
+        {
+          "id": "source-4931cec04ddb0e01",
+          "publisher": "YachtBuyer",
+          "title": "Manhattan 73 vs Manhattan 70",
+          "url": "https://www.yachtbuyer.com/en-us/yachts/compare/sunseeker-manhattan-73-vs-manhattan-70-ef63743",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent comparison of dimensions, capacities, accommodation, and performance."
+        }
+      ],
+      "signature": "large flybridge · four-cabin guest layout · shaft-drive cruiser proportions · hydraulic bathing platform · crew accommodation · forward-facing flybridge helm/social deck",
+      "operation": "Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.",
+      "efficiency": "Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.",
+      "risk": "Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.",
+      "modelNote": "DRAFT RECONSTRUCTION — visual review requires changes. Original reference-informed reconstruction of Sunseeker Manhattan 73 (Gen 1). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them. YachtBuyer labels the model timeline 2011-2014 but says first production was 2012; productionStart is 2012 and the earlier development/launch evidence remains in the facts. The official fresh-water row is visibly malformed; 1,200 L is only reported independently and is not used as a verified official fact. The official page leaves cabin/head subcounts blank in indexed text; layout counts use independent comparison and floor-plan evidence."
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020",
+      "name": "Sunseeker 90 Ocean",
+      "family": {
+        "id": "sunseeker-ocean",
+        "name": "Sunseeker Ocean",
+        "group": "Yachts",
+        "description": "Large open flybridge with a hardtop and optional enclosed upper-deck sibling; the aft terraces make the boat read as a compact superyacht.",
+        "subtypes": [
+          "Ocean flybridge motor yacht"
+        ]
+      },
+      "yacht": {
+        "brand": "Sunseeker",
+        "range": "Ocean",
+        "type": "Ocean flybridge motor yacht",
+        "generation": "first 90 Ocean generation; Ocean range introduced in 2020 and first launch/model year commonly reported as 2021",
+        "productionStart": 2020,
+        "productionEnd": null,
+        "productionStatus": "current",
+        "aliases": [
+          "90 Ocean",
+          "Ocean 90"
+        ],
+        "thumbnail": "thumbnails/sunseeker-90-ocean-gen1-2020.png",
+        "manifest": "yachts/sunseeker-90-ocean-gen1-2020/manifest.json"
+      },
+      "subtitle": "Ocean flybridge motor yacht",
+      "purpose": "Explore the documented configuration and reference-informed exterior and interior arrangement.",
+      "length": 27.1,
+      "beam": 7.16,
+      "depth": 6.47284377135012,
+      "year": 2020,
+      "hullColor": "#f4f1e9",
+      "deckColor": "#a48a68",
+      "kind": "yacht",
+      "configuration": "Current open-flybridge 90 Ocean with four-cabin/four-ensuite reference layout, full-beam owner suite, X-TEND transom/Beach Club and twin MAN V12 shaft options. The separately listed Enclosed variant is treated as a configuration sibling, not another profile.",
+      "dimensionStatus": "verified",
+      "facts": [
+        {
+          "label": "Ocean range introduction",
+          "value": 2020,
+          "unit": "year",
+          "status": "verified",
+          "sourceId": "source-bf8bbca0ff3afff1",
+          "effective": null,
+          "note": "Sunseeker's news page says the first Ocean model, the 90 Ocean, was introduced in 2020."
+        },
+        {
+          "label": "Independent model-year anchor",
+          "value": 2021,
+          "unit": "year",
+          "status": "reported",
+          "sourceId": "source-efd77a9ea276e9d8",
+          "effective": null,
+          "note": "YachtBuyer labels the reviewed model year 2021 and in production; a separate independent report describes a January 2021 launch."
+        },
+        {
+          "label": "Length overall",
+          "value": 27.1,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-fc95d1705c094f6d",
+          "effective": null,
+          "note": "Sunseeker gives 27.10 m / 88 ft 11 in."
+        },
+        {
+          "label": "Beam",
+          "value": 7.16,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-fc95d1705c094f6d",
+          "effective": null,
+          "note": "Sunseeker gives 7.16 m / 23 ft 6 in."
+        },
+        {
+          "label": "Draft",
+          "value": 1.94,
+          "unit": "m",
+          "status": "verified",
+          "sourceId": "source-fc95d1705c094f6d",
+          "effective": null,
+          "note": "Sunseeker gives 1.94 m / 6 ft 4 in."
+        },
+        {
+          "label": "Cabins and heads",
+          "value": "4 cabins; 4 en-suites/dayhead",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-fc95d1705c094f6d",
+          "effective": null,
+          "note": "Official current accommodation block; layout options exist for main-deck saloon and upper-deck configuration."
+        },
+        {
+          "label": "Maximum speed / range",
+          "value": "up to 27 knots; 1,100 nm at 12 knots",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-fc95d1705c094f6d",
+          "effective": null,
+          "note": "Official current specification."
+        },
+        {
+          "label": "Independent draft conflict",
+          "value": 1.86,
+          "unit": "m",
+          "status": "reported",
+          "sourceId": "source-efd77a9ea276e9d8",
+          "effective": null,
+          "note": "YachtBuyer lists 1.86 m; Sunseeker current page lists 1.94 m. Treat as a published configuration/load discrepancy."
+        },
+        {
+          "label": "Independent fresh-water conflict",
+          "value": "1,570 L independent versus 1,500 L official",
+          "unit": "",
+          "status": "reported",
+          "sourceId": "source-efd77a9ea276e9d8",
+          "effective": null,
+          "note": "The official current value is retained; independent review value remains visible for auditability."
+        },
+        {
+          "label": "Signature deck feature",
+          "value": "X-TEND multi-function transom and two-tier waterside terrace",
+          "unit": "",
+          "status": "verified",
+          "sourceId": "source-efd77a9ea276e9d8",
+          "effective": null,
+          "note": "Independent review gives clear evidence of the transom transformation and terrace arrangement."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-fc95d1705c094f6d",
+          "publisher": "Sunseeker",
+          "title": "90 Ocean",
+          "url": "https://www.sunseeker.com/range/90-ocean",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official current dimensions, accommodation, range, propulsion and layout/visual description."
+        },
+        {
+          "id": "source-bf8bbca0ff3afff1",
+          "publisher": "Sunseeker",
+          "title": "Sunseeker introduces a new range",
+          "url": "https://www.sunseeker.de/news/news/sunseeker-introduces-a-new-range-to-its-growing-family-of-luxury-performance-motor-yachts-1",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Official 2020 Ocean range introduction timing."
+        },
+        {
+          "id": "source-efd77a9ea276e9d8",
+          "publisher": "YachtBuyer",
+          "title": "Sunseeker 90 Ocean Review (2021 Edition)",
+          "url": "https://www.yachtbuyer.com/en/reviews/sunseeker-90-ocean-2021",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent model-year/status, dimensions, layout, X-TEND terrace and configuration conflicts."
+        },
+        {
+          "id": "source-cb0da4a404d50928",
+          "publisher": "Motor Boat & Yachting",
+          "title": "Sunseeker 90 Ocean review",
+          "url": "https://www.mby.com/news/sunseeker-90-yacht-superyacht-series-107229",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent design and beach-club review."
+        },
+        {
+          "id": "source-4352ba52b7460f9b",
+          "publisher": "BoatTEST",
+          "title": "Sunseeker 90 Ocean (2021-)",
+          "url": "https://boattest.com/boats/sunseeker/90-ocean-2021",
+          "accessed": "2026-09-14",
+          "published": null,
+          "scope": "Independent model-year listing cross-check."
+        }
+      ],
+      "signature": "X-TEND transom · two-tier waterside terrace · broad 7.16 m beam · open or enclosed upper deck · full-beam owner suite",
+      "operation": "Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.",
+      "efficiency": "Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.",
+      "risk": "Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.",
+      "modelNote": "DRAFT RECONSTRUCTION — visual review requires changes. Original reference-informed reconstruction of Sunseeker 90 Ocean (first 90 Ocean generation; Ocean range introduced in 2020 and first launch/model year commonly reported as 2021). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them. The official introduction is dated 2020, while independent model-year and launch coverage centers on 2021; productionStart uses the first official range-introduction year and keeps the model-year evidence separate. Official and independent draft/fresh-water values differ; use the official current technical page for canonical dimensions and preserve independent values as reported. 90 Ocean and 90 Ocean Enclosed are treated as open/enclosed configurations of the same requested model family, not separate generation profiles."
+    }
+  ],
+  "manifests": [
+    {
+      "id": "princess-r35-gen1-2018",
+      "path": "yachts/princess-r35-gen1-2018/manifest.json",
+      "sha256": "8f3ccf7f5dbdd21c0f16f8191b47013cd1af22c7cbdc3da9f5e3ece7238f4ef0"
+    },
+    {
+      "id": "princess-v40-gen2-2017",
+      "path": "yachts/princess-v40-gen2-2017/manifest.json",
+      "sha256": "b59629eadeac5ea03d532cdd5b44b4b656f474b963bbf866baf84e725f47557c"
+    },
+    {
+      "id": "princess-v55-gen2-2019",
+      "path": "yachts/princess-v55-gen2-2019/manifest.json",
+      "sha256": "913ff091f7bcb7d4ac4cf3cba29c4ef9247c431727a4d7d5537540b38114ac64"
+    },
+    {
+      "id": "princess-f45-gen1-2019",
+      "path": "yachts/princess-f45-gen1-2019/manifest.json",
+      "sha256": "903f8669c25ad375dff078bae7afe996046ace25ede85c2962c3a867775bc3f0"
+    },
+    {
+      "id": "princess-f55-gen1-2017",
+      "path": "yachts/princess-f55-gen1-2017/manifest.json",
+      "sha256": "6b89f71cc56abef03c5a6a11b2cfaa7ec530796b66774e758056263661f934d6"
+    },
+    {
+      "id": "princess-f65-gen1-2022",
+      "path": "yachts/princess-f65-gen1-2022/manifest.json",
+      "sha256": "a8549592a59b18af817cff508d7f7ffbceb3af818c15f8538323a4d64e5245c8"
+    },
+    {
+      "id": "princess-y85-gen1-2019",
+      "path": "yachts/princess-y85-gen1-2019/manifest.json",
+      "sha256": "553c947ed44158894995cde3a4021d5ce13011a8bc046ee4cbf19fba769d7011"
+    },
+    {
+      "id": "princess-x95-gen1-2020",
+      "path": "yachts/princess-x95-gen1-2020/manifest.json",
+      "sha256": "569807c4cb5c26d99864f4d8235a61de1c80c0e683252371e4f104f3674daf50"
+    },
+    {
+      "id": "princess-s65-gen1-2015",
+      "path": "yachts/princess-s65-gen1-2015/manifest.json",
+      "sha256": "dfb41f674ea6e5f396eeb109d43cf26a84911f7cf54d6d186b31ba257b882978"
+    },
+    {
+      "id": "princess-s72-gen1-2014",
+      "path": "yachts/princess-s72-gen1-2014/manifest.json",
+      "sha256": "0f41ddce2b6b0627b0d6f65657eb2deaff61336d56bd94980db9b95dc931097b"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018",
+      "path": "yachts/sunseeker-hawk-38-gen1-2018/manifest.json",
+      "sha256": "0d890c284306d223821b5e3283d2920154fbbff323a31fa36921d7b180c9b66d"
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023",
+      "path": "yachts/sunseeker-superhawk-55-gen1-2023/manifest.json",
+      "sha256": "fed790dc798da5c676a9626f2d57cd4a722b9379ae9d476a977a9fc15658b3ed"
+    },
+    {
+      "id": "sunseeker-portofino-48-gen1-2010",
+      "path": "yachts/sunseeker-portofino-48-gen1-2010/manifest.json",
+      "sha256": "04ee495dfcf6934d21bb154edeac6240e92e154b4b99ad2dabc1c90ec784532f"
+    },
+    {
+      "id": "sunseeker-predator-57-gen2-2017",
+      "path": "yachts/sunseeker-predator-57-gen2-2017/manifest.json",
+      "sha256": "5ddaace57c63cc262b948068082559a075e5e3c7999abf486b547a0b4f0881c5"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018",
+      "path": "yachts/sunseeker-predator-74-gen2-2018/manifest.json",
+      "sha256": "c67be2b3a3ac7b6e4e2c0505951d8b77386747da54361e3fe3b1ee468e22358a"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008",
+      "path": "yachts/sunseeker-predator-84-gen1-2008/manifest.json",
+      "sha256": "c890df267133c620598a12ed88d5289e78c9af02ad034dd1a4b4bcb3a42f7804"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021",
+      "path": "yachts/sunseeker-manhattan-55-gen2-2021/manifest.json",
+      "sha256": "db1be8366e34835f7065c511b1f6cd7f89020950e021ac6b63abef0281b9cee5"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010",
+      "path": "yachts/sunseeker-manhattan-63-gen1-2010/manifest.json",
+      "sha256": "e967049cb1165c02481264f6d330d351fa001b1d805cb5a970d887f4042e9053"
+    },
+    {
+      "id": "sunseeker-manhattan-73-gen1-2012",
+      "path": "yachts/sunseeker-manhattan-73-gen1-2012/manifest.json",
+      "sha256": "0eb8db110dca44da0693b7f4440e666a8ff20dd104ce5e050513dbdafd78e60a"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020",
+      "path": "yachts/sunseeker-90-ocean-gen1-2020/manifest.json",
+      "sha256": "1d74c97d48170459cd531a746a123f9e3542167da8851b40276bffa923f57a7f"
+    }
+  ]
 }

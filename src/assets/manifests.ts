@@ -3,7 +3,7 @@ import { manifestSchema } from '../data/schema';
 import type { ModelManifest } from '../data/schema';
 import { getVessel } from '../data/fleet';
 import { fetchAssetBytes } from './request';
-import { releasedManifests, yachtAssetResolver } from './yachts';
+import { releasedManifests, vesselManifestUrl } from './yachts';
 
 const cache = new Map<string, ModelManifest>();
 export function useManifest(id: string, enabled = true) {
@@ -17,8 +17,7 @@ export function useManifest(id: string, enabled = true) {
     setData(cache.get(id) ?? null);
     if (!cache.has(id)) {
       const vessel = getVessel(id);
-      const path = vessel.yacht?.manifest ?? `models/${id}.json`;
-      fetchAssetBytes(yachtAssetResolver().resolve(path), { signal: controller.signal })
+      fetchAssetBytes(vesselManifestUrl(vessel), { signal: controller.signal })
         .then(async bytes => {
           const expected=releasedManifests.find(manifest=>manifest.id===id);
           if(expected){

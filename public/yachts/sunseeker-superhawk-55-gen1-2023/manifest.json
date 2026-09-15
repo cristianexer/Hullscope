@@ -1,0 +1,1193 @@
+{
+  "vesselId": "sunseeker-superhawk-55-gen1-2023",
+  "version": 2,
+  "units": "metres",
+  "components": [
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023.hull",
+      "vesselId": "sunseeker-superhawk-55-gen1-2023",
+      "name": "Hull shell",
+      "systemId": "structure",
+      "assembly": "hull",
+      "parentId": null,
+      "shape": "hull",
+      "position": [
+        0,
+        1.1233039423823357,
+        0
+      ],
+      "size": [
+        17.100000381469727,
+        1.9935301204630989,
+        4.814218680961279
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#d8e0e4",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "single outer hull shell with official LOA/beam target",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-4153de1d39826d17",
+        "source-785e70bfe63278ff"
+      ],
+      "enclosure": "shell"
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023.superstructure",
+      "vesselId": "sunseeker-superhawk-55-gen1-2023",
+      "name": "Hardtop superstructure",
+      "systemId": "structure",
+      "assembly": "superstructure",
+      "parentId": "sunseeker-superhawk-55-gen1-2023.hull",
+      "shape": "chamferedBox",
+      "position": [
+        2.2299998998641968,
+        4.105000019073486,
+        0
+      ],
+      "size": [
+        5.8999998569488525,
+        0.14980925568350578,
+        3.2399852725589056
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#0d1f31",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "low hardtop and structural framing",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-4153de1d39826d17",
+        "source-785e70bfe63278ff"
+      ],
+      "enclosure": "shell"
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023.glazing",
+      "vesselId": "sunseeker-superhawk-55-gen1-2023",
+      "name": "Hull and cabin glazing",
+      "systemId": "structure",
+      "assembly": "glazing",
+      "parentId": "sunseeker-superhawk-55-gen1-2023.hull",
+      "shape": "chamferedBox",
+      "position": [
+        -0.05500006675720215,
+        2.5899643492363236,
+        0
+      ],
+      "size": [
+        11.490000247955322,
+        2.739797906312143,
+        4.9427480787710945
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#0d344f",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "long hull windows and forward/side cabin glass",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-4153de1d39826d17",
+        "source-785e70bfe63278ff"
+      ],
+      "enclosure": "envelope"
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023.main-deck",
+      "vesselId": "sunseeker-superhawk-55-gen1-2023",
+      "name": "Main deck",
+      "systemId": "structure",
+      "assembly": "main-deck",
+      "parentId": "sunseeker-superhawk-55-gen1-2023.hull",
+      "shape": "deck",
+      "position": [
+        -0.06495044978824005,
+        1.764960479694672,
+        0
+      ],
+      "size": [
+        16.96990105216437,
+        1.4899155181546484,
+        4.341008295643103
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9c5429",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "main walking deck and foredeck",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-4153de1d39826d17",
+        "source-785e70bfe63278ff"
+      ],
+      "enclosure": "shell",
+      "deckId": "main"
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023.cockpit-wetbar",
+      "vesselId": "sunseeker-superhawk-55-gen1-2023",
+      "name": "Aft cockpit and wet bar",
+      "systemId": "structure",
+      "assembly": "cockpit-wetbar",
+      "parentId": "sunseeker-superhawk-55-gen1-2023.main-deck",
+      "shape": "box",
+      "position": [
+        -4.214999973773956,
+        2.960001111177921,
+        0
+      ],
+      "size": [
+        6.729999899864197,
+        1.0199759373983701,
+        4.099986510852049
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#5e2b17",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "central wet bar, cockpit furniture and teak inset",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-4153de1d39826d17",
+        "source-785e70bfe63278ff"
+      ],
+      "enclosure": "equipment",
+      "deckId": "main"
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023.lower-deck",
+      "vesselId": "sunseeker-superhawk-55-gen1-2023",
+      "name": "Lower deck envelope",
+      "systemId": "structure",
+      "assembly": "lower-deck",
+      "parentId": "sunseeker-superhawk-55-gen1-2023.hull",
+      "shape": "deck",
+      "position": [
+        -0.125,
+        1.4724786942522021,
+        0
+      ],
+      "size": [
+        13.149999618530273,
+        1.4652210637137133,
+        3.6196734328751203
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#32170c",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "reconstructed lower-deck floor, lining, partitions and stairs",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-4153de1d39826d17",
+        "source-785e70bfe63278ff"
+      ],
+      "enclosure": "envelope",
+      "deckId": "lower"
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023.master-cabin",
+      "vesselId": "sunseeker-superhawk-55-gen1-2023",
+      "name": "Owner master cabin",
+      "systemId": "accommodation",
+      "assembly": "master-cabin",
+      "parentId": "sunseeker-superhawk-55-gen1-2023.lower-deck",
+      "shape": "box",
+      "position": [
+        -2.8200070798173322,
+        1.5774999856948853,
+        0.11250799609265805
+      ],
+      "size": [
+        4.34001420731838,
+        1.4449999332427979,
+        3.025016004106245
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#80613e",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "furnished aft master cabin with en-suite approximation",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-4153de1d39826d17",
+        "source-785e70bfe63278ff"
+      ],
+      "enclosure": "envelope",
+      "deckId": "lower",
+      "roomId": "master"
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023.vip-cabin",
+      "vesselId": "sunseeker-superhawk-55-gen1-2023",
+      "name": "Forward VIP cabin",
+      "systemId": "accommodation",
+      "assembly": "vip-cabin",
+      "parentId": "sunseeker-superhawk-55-gen1-2023.lower-deck",
+      "shape": "box",
+      "position": [
+        4.669999957084656,
+        1.5375151975405468,
+        0
+      ],
+      "size": [
+        2.4799997806549072,
+        1.3350076164172466,
+        2.120012663592897
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#80613e",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "furnished forward VIP cabin with en-suite approximation",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-4153de1d39826d17",
+        "source-785e70bfe63278ff"
+      ],
+      "enclosure": "envelope",
+      "deckId": "lower",
+      "roomId": "vip"
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023.lobby-galley",
+      "vesselId": "sunseeker-superhawk-55-gen1-2023",
+      "name": "Lower lobby and galley",
+      "systemId": "accommodation",
+      "assembly": "lobby-galley",
+      "parentId": "sunseeker-superhawk-55-gen1-2023.lower-deck",
+      "shape": "box",
+      "position": [
+        0.6500000059604645,
+        1.229990243154793,
+        -0.04997624305719839
+      ],
+      "size": [
+        2.4200000166893005,
+        0.8600109783850653,
+        2.7598967105964247
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8a5a32",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "reconstructed central lobby/galley and settee",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-4153de1d39826d17",
+        "source-785e70bfe63278ff"
+      ],
+      "enclosure": "equipment",
+      "deckId": "lower",
+      "roomId": "lobby"
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023.engine-room",
+      "vesselId": "sunseeker-superhawk-55-gen1-2023",
+      "name": "Engine room envelope",
+      "systemId": "propulsion",
+      "assembly": "engine-room",
+      "parentId": "sunseeker-superhawk-55-gen1-2023.lower-deck",
+      "shape": "box",
+      "position": [
+        -6.037549109080853,
+        1.4975685852048244,
+        0
+      ],
+      "size": [
+        1.8750038976529897,
+        1.3550425574634135,
+        2.4800000190734863
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#20272c",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "reconstructed aft service space",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-4153de1d39826d17",
+        "source-785e70bfe63278ff"
+      ],
+      "enclosure": "envelope",
+      "deckId": "lower",
+      "roomId": "engine-room"
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023.engines",
+      "vesselId": "sunseeker-superhawk-55-gen1-2023",
+      "name": "Twin Volvo Penta IPS 950 engines",
+      "systemId": "propulsion",
+      "assembly": "engines",
+      "parentId": "sunseeker-superhawk-55-gen1-2023.engine-room",
+      "shape": "cylinder",
+      "position": [
+        -6.180000066757202,
+        1.3349989015758814,
+        0
+      ],
+      "size": [
+        1.3499999046325684,
+        0.8100164161740104,
+        2.139972249174495
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#1f2426",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "twin engine blocks and service details",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-4153de1d39826d17",
+        "source-785e70bfe63278ff"
+      ],
+      "enclosure": "equipment",
+      "deckId": "lower",
+      "roomId": "engine-room"
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023.drives",
+      "vesselId": "sunseeker-superhawk-55-gen1-2023",
+      "name": "Twin IPS pod drives",
+      "systemId": "propulsion",
+      "assembly": "drives",
+      "parentId": "sunseeker-superhawk-55-gen1-2023.hull",
+      "shape": "cylinder",
+      "position": [
+        -6.619999885559082,
+        0.47999998927116394,
+        0
+      ],
+      "size": [
+        0.700000146625964,
+        0.4800257859200643,
+        2.040025570152713
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9ca7aa",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "twin Volvo IPS pod assemblies",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-4153de1d39826d17",
+        "source-785e70bfe63278ff"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023.helm",
+      "vesselId": "sunseeker-superhawk-55-gen1-2023",
+      "name": "Helm station",
+      "systemId": "navigation",
+      "assembly": "helm",
+      "parentId": "sunseeker-superhawk-55-gen1-2023.superstructure",
+      "shape": "box",
+      "position": [
+        2.774999976158142,
+        3.0175000160144103,
+        0.9600223581859939
+      ],
+      "size": [
+        2.030029269160032,
+        1.0949999748083616,
+        0.5599760950251969
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#101820",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "helm console, wheel and seats",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-4153de1d39826d17",
+        "source-785e70bfe63278ff"
+      ],
+      "enclosure": "equipment",
+      "deckId": "main"
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023.electrical",
+      "vesselId": "sunseeker-superhawk-55-gen1-2023",
+      "name": "Electrical distribution",
+      "systemId": "electrical",
+      "assembly": "electrical",
+      "parentId": "sunseeker-superhawk-55-gen1-2023.engine-room",
+      "shape": "box",
+      "position": [
+        -5.25,
+        1.7000000476837158,
+        -1.3699999451637268
+      ],
+      "size": [
+        0.5500198370311598,
+        0.75,
+        0.1200292977690971
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#14232f",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "reconstructed service board",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-4153de1d39826d17",
+        "source-785e70bfe63278ff"
+      ],
+      "enclosure": "equipment",
+      "deckId": "lower",
+      "roomId": "engine-room"
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023.fuel",
+      "vesselId": "sunseeker-superhawk-55-gen1-2023",
+      "name": "Fuel tanks",
+      "systemId": "fuel",
+      "assembly": "fuel",
+      "parentId": "sunseeker-superhawk-55-gen1-2023.engine-room",
+      "shape": "box",
+      "position": [
+        -4.900000095367432,
+        0.9199999868869781,
+        0
+      ],
+      "size": [
+        1.0500001907348633,
+        0.5199210515052693,
+        2.8199423724587
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#555e63",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "reconstructed fuel tank envelopes",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-4153de1d39826d17",
+        "source-785e70bfe63278ff"
+      ],
+      "enclosure": "equipment",
+      "deckId": "lower",
+      "roomId": "engine-room"
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023.ventilation",
+      "vesselId": "sunseeker-superhawk-55-gen1-2023",
+      "name": "Engine-room ventilation",
+      "systemId": "utilities",
+      "assembly": "ventilation",
+      "parentId": "sunseeker-superhawk-55-gen1-2023.engine-room",
+      "shape": "box",
+      "position": [
+        -5.199999809265137,
+        2.0199999809265137,
+        0
+      ],
+      "size": [
+        0.9000001266337421,
+        0.21995314614424277,
+        2.8199529003012107
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#7c8587",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "reconstructed ventilation trunks",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-4153de1d39826d17",
+        "source-785e70bfe63278ff"
+      ],
+      "enclosure": "equipment",
+      "deckId": "lower",
+      "roomId": "engine-room"
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023.safety",
+      "vesselId": "sunseeker-superhawk-55-gen1-2023",
+      "name": "Safety equipment and rails",
+      "systemId": "safety",
+      "assembly": "safety",
+      "parentId": "sunseeker-superhawk-55-gen1-2023.main-deck",
+      "shape": "cylinder",
+      "position": [
+        -6.205008881443633,
+        1.7382835141583861,
+        0.5199913212121591
+      ],
+      "size": [
+        3.509982611429903,
+        1.15656691626004,
+        1.8599826352717608
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c0c9cb",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "sparse rails, life ring and fire extinguisher",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-4153de1d39826d17",
+        "source-785e70bfe63278ff"
+      ],
+      "enclosure": "equipment",
+      "deckId": "main"
+    },
+    {
+      "id": "sunseeker-superhawk-55-gen1-2023.mooring",
+      "vesselId": "sunseeker-superhawk-55-gen1-2023",
+      "name": "Mooring fittings",
+      "systemId": "mooring",
+      "assembly": "mooring",
+      "parentId": "sunseeker-superhawk-55-gen1-2023.main-deck",
+      "shape": "cylinder",
+      "position": [
+        -7.349999904632568,
+        2.6799999475479126,
+        1.449999988079071
+      ],
+      "size": [
+        0.3400001525878906,
+        0.06997775289323815,
+        0.09999638265601085
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c0c9cb",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "four visible deck cleats",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-4153de1d39826d17",
+        "source-785e70bfe63278ff"
+      ],
+      "enclosure": "equipment",
+      "deckId": "main"
+    }
+  ],
+  "meaningfulCount": 18,
+  "lods": [],
+  "assets": [
+    {
+      "id": "exterior-lod0",
+      "kind": "exterior",
+      "level": 0,
+      "path": "models/sunseeker-superhawk-55-gen1-2023/exterior.lod0.glb",
+      "bytes": 192560,
+      "sha256": "cd69c90784d71feccc5aeb9f753e68615c6fa5b1685deace111a337b2093283e",
+      "componentIds": [
+        "sunseeker-superhawk-55-gen1-2023.cockpit-wetbar",
+        "sunseeker-superhawk-55-gen1-2023.drives",
+        "sunseeker-superhawk-55-gen1-2023.glazing",
+        "sunseeker-superhawk-55-gen1-2023.hull",
+        "sunseeker-superhawk-55-gen1-2023.main-deck",
+        "sunseeker-superhawk-55-gen1-2023.mooring",
+        "sunseeker-superhawk-55-gen1-2023.safety",
+        "sunseeker-superhawk-55-gen1-2023.superstructure"
+      ]
+    },
+    {
+      "id": "exterior-lod1",
+      "kind": "exterior",
+      "level": 1,
+      "path": "models/sunseeker-superhawk-55-gen1-2023/exterior.lod1.glb",
+      "bytes": 138040,
+      "sha256": "ccc6c8b10d7b4a78357c35b1ce56444f092294bbd786e013a3273a2bc5473b1b",
+      "componentIds": [
+        "sunseeker-superhawk-55-gen1-2023.cockpit-wetbar",
+        "sunseeker-superhawk-55-gen1-2023.drives",
+        "sunseeker-superhawk-55-gen1-2023.glazing",
+        "sunseeker-superhawk-55-gen1-2023.hull",
+        "sunseeker-superhawk-55-gen1-2023.main-deck",
+        "sunseeker-superhawk-55-gen1-2023.mooring",
+        "sunseeker-superhawk-55-gen1-2023.safety",
+        "sunseeker-superhawk-55-gen1-2023.superstructure"
+      ]
+    },
+    {
+      "id": "interior-lower-lod0",
+      "kind": "interior",
+      "level": 0,
+      "path": "models/sunseeker-superhawk-55-gen1-2023/interior-lower.lod0.glb",
+      "bytes": 184364,
+      "sha256": "0eff57317e9f3b7faa80db70ef5212fffc2dfddc6e4d6731920f509abd5fb309",
+      "componentIds": [
+        "sunseeker-superhawk-55-gen1-2023.electrical",
+        "sunseeker-superhawk-55-gen1-2023.engine-room",
+        "sunseeker-superhawk-55-gen1-2023.engines",
+        "sunseeker-superhawk-55-gen1-2023.fuel",
+        "sunseeker-superhawk-55-gen1-2023.lobby-galley",
+        "sunseeker-superhawk-55-gen1-2023.lower-deck",
+        "sunseeker-superhawk-55-gen1-2023.master-cabin",
+        "sunseeker-superhawk-55-gen1-2023.ventilation",
+        "sunseeker-superhawk-55-gen1-2023.vip-cabin"
+      ],
+      "deckId": "lower"
+    },
+    {
+      "id": "interior-lower-lod1",
+      "kind": "interior",
+      "level": 1,
+      "path": "models/sunseeker-superhawk-55-gen1-2023/interior-lower.lod1.glb",
+      "bytes": 174212,
+      "sha256": "bf3cb48682a1d505133fe750b3cb97acc749fde15eef6bce5e77ff40a258a005",
+      "componentIds": [
+        "sunseeker-superhawk-55-gen1-2023.electrical",
+        "sunseeker-superhawk-55-gen1-2023.engine-room",
+        "sunseeker-superhawk-55-gen1-2023.engines",
+        "sunseeker-superhawk-55-gen1-2023.fuel",
+        "sunseeker-superhawk-55-gen1-2023.lobby-galley",
+        "sunseeker-superhawk-55-gen1-2023.lower-deck",
+        "sunseeker-superhawk-55-gen1-2023.master-cabin",
+        "sunseeker-superhawk-55-gen1-2023.ventilation",
+        "sunseeker-superhawk-55-gen1-2023.vip-cabin"
+      ],
+      "deckId": "lower"
+    },
+    {
+      "id": "interior-main-lod0",
+      "kind": "interior",
+      "level": 0,
+      "path": "models/sunseeker-superhawk-55-gen1-2023/interior-main.lod0.glb",
+      "bytes": 73436,
+      "sha256": "6a34df404e073556956d5cdaa60015e77b4335b6d7d970c4e7b989880382a0dc",
+      "componentIds": [
+        "sunseeker-superhawk-55-gen1-2023.helm"
+      ],
+      "deckId": "main"
+    },
+    {
+      "id": "interior-main-lod1",
+      "kind": "interior",
+      "level": 1,
+      "path": "models/sunseeker-superhawk-55-gen1-2023/interior-main.lod1.glb",
+      "bytes": 54560,
+      "sha256": "b2a7a4db0e26adfc263fa06571247320638f86a506a63115bf1c7fd5f1689e70",
+      "componentIds": [
+        "sunseeker-superhawk-55-gen1-2023.helm"
+      ],
+      "deckId": "main"
+    }
+  ],
+  "decks": [
+    {
+      "id": "main",
+      "name": "Main deck",
+      "componentId": "sunseeker-superhawk-55-gen1-2023.main-deck"
+    },
+    {
+      "id": "lower",
+      "name": "Lower deck",
+      "componentId": "sunseeker-superhawk-55-gen1-2023.lower-deck"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "master",
+      "name": "Owner master cabin",
+      "deckId": "lower",
+      "componentId": "sunseeker-superhawk-55-gen1-2023.master-cabin",
+      "fidelity": "reconstructed",
+      "note": "Furnished lower cabin reconstructed from official two-cabin evidence; exact joinery and proportions are not published.",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-785e70bfe63278ff"
+      ]
+    },
+    {
+      "id": "vip",
+      "name": "Forward VIP cabin",
+      "deckId": "lower",
+      "componentId": "sunseeker-superhawk-55-gen1-2023.vip-cabin",
+      "fidelity": "reconstructed",
+      "note": "Furnished forward guest cabin reconstructed from official and independent descriptions.",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-785e70bfe63278ff"
+      ]
+    },
+    {
+      "id": "lobby",
+      "name": "Lower lobby and galley",
+      "deckId": "lower",
+      "componentId": "sunseeker-superhawk-55-gen1-2023.lobby-galley",
+      "fidelity": "reconstructed",
+      "note": "Central lower-deck lobby/galley approximation; brochure plan is reference-informed but not dimensioned in the source text.",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-4153de1d39826d17",
+        "source-785e70bfe63278ff"
+      ]
+    },
+    {
+      "id": "engine-room",
+      "name": "Aft engine room",
+      "deckId": "lower",
+      "componentId": "sunseeker-superhawk-55-gen1-2023.engine-room",
+      "fidelity": "reconstructed",
+      "note": "Service-space approximation for the twin IPS 950 installation; exact machinery arrangement is hull-specific.",
+      "sourceIds": [
+        "source-54c13cfb996acede",
+        "source-785e70bfe63278ff"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "id": "exterior-starboard-3q",
+      "name": "Exterior starboard three-quarter",
+      "position": [
+        13,
+        7,
+        13
+      ],
+      "target": [
+        0,
+        2,
+        0
+      ],
+      "deckId": "main"
+    },
+    {
+      "id": "exterior-port-3q",
+      "name": "Exterior port three-quarter",
+      "position": [
+        13,
+        7,
+        -13
+      ],
+      "target": [
+        0,
+        2,
+        0
+      ],
+      "deckId": "main"
+    },
+    {
+      "id": "exterior-bow",
+      "name": "Exterior bow",
+      "position": [
+        14,
+        4.8,
+        0
+      ],
+      "target": [
+        2,
+        2,
+        0
+      ],
+      "deckId": "main"
+    },
+    {
+      "id": "exterior-stern",
+      "name": "Exterior stern",
+      "position": [
+        -14,
+        4.2,
+        0
+      ],
+      "target": [
+        -2,
+        1.9,
+        0
+      ],
+      "deckId": "main"
+    },
+    {
+      "id": "exterior-profile",
+      "name": "Exterior starboard profile",
+      "position": [
+        0,
+        4.4,
+        18
+      ],
+      "target": [
+        0,
+        2,
+        0
+      ],
+      "deckId": "main"
+    },
+    {
+      "id": "exterior-high",
+      "name": "Exterior high oblique",
+      "position": [
+        4,
+        13,
+        12
+      ],
+      "target": [
+        0,
+        1.5,
+        0
+      ],
+      "deckId": "main"
+    },
+    {
+      "id": "exterior-below",
+      "name": "Exterior below hull",
+      "position": [
+        -1,
+        -8,
+        -2
+      ],
+      "target": [
+        0,
+        0.2,
+        0
+      ],
+      "deckId": "lower"
+    },
+    {
+      "id": "exterior-cockpit",
+      "name": "Exterior cockpit and wet bar",
+      "position": [
+        -7,
+        4.4,
+        8
+      ],
+      "target": [
+        -4,
+        2.5,
+        0
+      ],
+      "deckId": "main"
+    },
+    {
+      "id": "room-master",
+      "name": "Room view: owner master",
+      "position": [
+        -5.8,
+        2.5,
+        2.4
+      ],
+      "target": [
+        -2.8,
+        1.25,
+        0
+      ],
+      "roomId": "master",
+      "deckId": "lower"
+    },
+    {
+      "id": "room-vip",
+      "name": "Room view: forward VIP",
+      "position": [
+        2.3,
+        2.5,
+        2.4
+      ],
+      "target": [
+        4.7,
+        1.25,
+        0
+      ],
+      "roomId": "vip",
+      "deckId": "lower"
+    },
+    {
+      "id": "room-lobby",
+      "name": "Room view: lower lobby and galley",
+      "position": [
+        -1.8,
+        2.5,
+        2.4
+      ],
+      "target": [
+        0.6,
+        1.2,
+        0
+      ],
+      "roomId": "lobby",
+      "deckId": "lower"
+    },
+    {
+      "id": "room-engine-room",
+      "name": "Room view: aft engine room",
+      "position": [
+        -7.8,
+        2.6,
+        2.6
+      ],
+      "target": [
+        -5.6,
+        1.3,
+        0
+      ],
+      "roomId": "engine-room",
+      "deckId": "lower"
+    }
+  ],
+  "fidelity": "Original reference-informed Superhawk 55 reconstruction: exterior distinctive body and glazing are model-specific; lower-deck furnishings and service systems are clearly reconstructed approximations."
+}

@@ -1,0 +1,1581 @@
+{
+  "vesselId": "princess-y85-gen1-2019",
+  "version": 2,
+  "units": "metres",
+  "components": [
+    {
+      "id": "princess-y85-gen1-2019_cockpit",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "Cockpit and social deck",
+      "systemId": "accommodation",
+      "assembly": "Cockpit and social deck",
+      "parentId": "princess-y85-gen1-2019_deck_main",
+      "shape": "deck",
+      "position": [
+        -6.791039943695068,
+        1.0400052605498737,
+        0
+      ],
+      "size": [
+        8.551679611206055,
+        0.500228627407944,
+        5.634655684253631
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Open aft cockpit, seating and social equipment.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-y85-gen1-2019_deck_main"
+    },
+    {
+      "id": "princess-y85-gen1-2019_deck_lower",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "Lower accommodation deck",
+      "systemId": "structure",
+      "assembly": "Lower accommodation deck",
+      "parentId": "princess-y85-gen1-2019_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        -0.5799999833106995,
+        0
+      ],
+      "size": [
+        18.109439849853516,
+        0.07958492807943673,
+        4.585528807465884
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.7
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.7
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Lower accommodation deck and room boundaries.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-y85-gen1-2019_deck_lower"
+    },
+    {
+      "id": "princess-y85-gen1-2019_deck_main",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "Main deck",
+      "systemId": "structure",
+      "assembly": "Main deck",
+      "parentId": "princess-y85-gen1-2019_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        0.811811164021492,
+        0
+      ],
+      "size": [
+        25.152000427246094,
+        0.8197984696889806,
+        6.0916860069772945
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Main deck surface and deck edge.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-y85-gen1-2019_deck_main"
+    },
+    {
+      "id": "princess-y85-gen1-2019_electrical",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "Electrical power",
+      "systemId": "electrical",
+      "assembly": "Electrical power",
+      "parentId": "princess-y85-gen1-2019_hull_shell",
+      "shape": "box",
+      "position": [
+        -0.7545599937438965,
+        -0.531000018119812,
+        0
+      ],
+      "size": [
+        3.52128005027771,
+        0.27983682518763264,
+        1.5725239105109938
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Batteries, distribution and generator family placeholder where details are unknown.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-y85-gen1-2019_engine_room",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "Engine room",
+      "systemId": "propulsion",
+      "assembly": "Engine room",
+      "parentId": "princess-y85-gen1-2019_deck_lower",
+      "shape": "cylinder",
+      "position": [
+        -7.545599937438965,
+        -0.30000001192092896,
+        0
+      ],
+      "size": [
+        3.7727999687194824,
+        0.5499097461044418,
+        3.7999511300893554
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-y85-gen1-2019_deck_lower",
+      "roomId": "princess-y85-gen1-2019_room_engine"
+    },
+    {
+      "id": "princess-y85-gen1-2019_family_signature",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "Family-specific exterior details",
+      "systemId": "structure",
+      "assembly": "Family-specific exterior details",
+      "parentId": "princess-y85-gen1-2019_deck_main",
+      "shape": "box",
+      "position": [
+        -6.791039943695068,
+        1.1729999780654907,
+        0
+      ],
+      "size": [
+        3.5211677985220895,
+        0.2332116922172851,
+        4.193280220031738
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.28
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.28
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed family signature details; small joinery and offsets are reconstructed where public references do not expose them.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-y85-gen1-2019_deck_main"
+    },
+    {
+      "id": "princess-y85-gen1-2019_flybridge",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "Flybridge and upper deck",
+      "systemId": "accommodation",
+      "assembly": "Flybridge and upper deck",
+      "parentId": "princess-y85-gen1-2019_superstructure",
+      "shape": "deck",
+      "position": [
+        -0.24145936965942383,
+        4.010485984140089,
+        0
+      ],
+      "size": [
+        12.072959899902344,
+        0.9024956898432372,
+        5.306214545074117
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        1
+      ],
+      "localExplode": [
+        0,
+        0,
+        1
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed upper helm, seating and deck volume.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-y85-gen1-2019_deck_main"
+    },
+    {
+      "id": "princess-y85-gen1-2019_freshwater",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "Freshwater and sanitation",
+      "systemId": "utilities",
+      "assembly": "Freshwater and sanitation",
+      "parentId": "princess-y85-gen1-2019_hull_shell",
+      "shape": "box",
+      "position": [
+        2.515199899673462,
+        -0.796500027179718,
+        0
+      ],
+      "size": [
+        4.527359962463379,
+        0.21996389844177688,
+        1.703476698422529
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Freshwater and sanitation service envelope.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-y85-gen1-2019_fuel",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "Fuel system",
+      "systemId": "fuel",
+      "assembly": "Fuel system",
+      "parentId": "princess-y85-gen1-2019_hull_shell",
+      "shape": "box",
+      "position": [
+        -3.018239974975586,
+        -0.8496000170707703,
+        0
+      ],
+      "size": [
+        6.288000106811523,
+        0.24025928933768825,
+        2.0965117699794273
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Fuel tank and service system envelope.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-y85-gen1-2019_glazing",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "Glazing",
+      "systemId": "structure",
+      "assembly": "Glazing",
+      "parentId": "princess-y85-gen1-2019_superstructure",
+      "shape": "chamferedBox",
+      "position": [
+        6.791039943695068,
+        2.0899999141693115,
+        0
+      ],
+      "size": [
+        0.040119425983494494,
+        0.8006406280067182,
+        4.324319839477539
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Windshield, side glazing and hull windows.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "shell",
+      "deckId": "princess-y85-gen1-2019_deck_main"
+    },
+    {
+      "id": "princess-y85-gen1-2019_helm",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "Helm station",
+      "systemId": "navigation",
+      "assembly": "Helm station",
+      "parentId": "princess-y85-gen1-2019_superstructure",
+      "shape": "box",
+      "position": [
+        3.52128005027771,
+        1.5077776908874512,
+        -1.1138399839401245
+      ],
+      "size": [
+        4.024320125579834,
+        0.6113793030059624,
+        0.6877710105669443
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Helm console, steering position and displays.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-y85-gen1-2019_deck_main"
+    },
+    {
+      "id": "princess-y85-gen1-2019_hull_shell",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "Hull shell",
+      "systemId": "structure",
+      "assembly": "Hull shell",
+      "parentId": null,
+      "shape": "hull",
+      "position": [
+        -0.0006394386291503906,
+        -0.2693554759025574,
+        0
+      ],
+      "size": [
+        25.14986515045166,
+        2.8705861281987737,
+        6.3068465816602455
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.9
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.9
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed hull form and underwater volume.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "shell"
+    },
+    {
+      "id": "princess-y85-gen1-2019_lower_partitions",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "Lower partitions",
+      "systemId": "structure",
+      "assembly": "Lower partitions",
+      "parentId": "princess-y85-gen1-2019_deck_lower",
+      "shape": "box",
+      "position": [
+        -6.539519786834717,
+        -0.17000000178813934,
+        0
+      ],
+      "size": [
+        0.059891205877097065,
+        0.520080898898556,
+        4.193280220031738
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Low room-divider partitions; exact joinery is reconstructed.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-y85-gen1-2019_deck_lower"
+    },
+    {
+      "id": "princess-y85-gen1-2019_mooring",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "Mooring equipment",
+      "systemId": "mooring",
+      "assembly": "Mooring equipment",
+      "parentId": "princess-y85-gen1-2019_deck_main",
+      "shape": "box",
+      "position": [
+        9.434185981750488,
+        1.1729990708827955,
+        -1.5406290590763092
+      ],
+      "size": [
+        5.795555114746094,
+        0.18639133216799353,
+        2.056841042188248
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Anchor, windlass, cleats and rails.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-y85-gen1-2019_deck_main"
+    },
+    {
+      "id": "princess-y85-gen1-2019_propulsion",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "Propulsion",
+      "systemId": "propulsion",
+      "assembly": "Propulsion",
+      "parentId": "princess-y85-gen1-2019_hull_shell",
+      "shape": "cylinder",
+      "position": [
+        -5.533440113067627,
+        -0.2831999957561493,
+        0
+      ],
+      "size": [
+        5.030399799346924,
+        0.639872626840357,
+        3.93140285308409
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -1.2
+      ],
+      "localExplode": [
+        0,
+        0,
+        -1.2
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Documented propulsion family represented as authored machinery and drives.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-y85-gen1-2019_room_deck_saloon_0",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "deck saloon",
+      "systemId": "accommodation",
+      "assembly": "deck saloon",
+      "parentId": "princess-y85-gen1-2019_deck_lower",
+      "shape": "box",
+      "position": [
+        -6.237696170806885,
+        -0.23000000417232513,
+        1.0483200252056122
+      ],
+      "size": [
+        1.9910725355148315,
+        0.3799000668977546,
+        1.8024056333772585
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored deck saloon arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-y85-gen1-2019_deck_lower",
+      "roomId": "princess-y85-gen1-2019_room_deck_saloon_0"
+    },
+    {
+      "id": "princess-y85-gen1-2019_room_galley_2",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "galley",
+      "systemId": "accommodation",
+      "assembly": "galley",
+      "parentId": "princess-y85-gen1-2019_deck_lower",
+      "shape": "box",
+      "position": [
+        0,
+        -0.18000000715255737,
+        0.4614775478839874
+      ],
+      "size": [
+        1.7814860343933105,
+        0.5500440751352618,
+        0.279888000276399
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored galley arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-y85-gen1-2019_deck_lower",
+      "roomId": "princess-y85-gen1-2019_room_galley_2"
+    },
+    {
+      "id": "princess-y85-gen1-2019_room_main_deck_day_head_1",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "main-deck day head",
+      "systemId": "accommodation",
+      "assembly": "main-deck day head",
+      "parentId": "princess-y85-gen1-2019_deck_lower",
+      "shape": "box",
+      "position": [
+        -3.1188480854034424,
+        -0.18000000715255737,
+        -1.5553842782974243
+      ],
+      "size": [
+        0.9507455825805664,
+        0.41993898790516493,
+        0.21993626258005605
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored main-deck day head arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-y85-gen1-2019_deck_lower",
+      "roomId": "princess-y85-gen1-2019_room_main_deck_day_head_1"
+    },
+    {
+      "id": "princess-y85-gen1-2019_room_port_double_guest_cabin_4",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "port double guest cabin",
+      "systemId": "accommodation",
+      "assembly": "port double guest cabin",
+      "parentId": "princess-y85-gen1-2019_deck_lower",
+      "shape": "box",
+      "position": [
+        6.237696170806885,
+        -0.36000001430511475,
+        1.0483200550079346
+      ],
+      "size": [
+        2.043469190597534,
+        0.20006253741376656,
+        1.4671668501235264
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored port double guest cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-y85-gen1-2019_deck_lower",
+      "roomId": "princess-y85-gen1-2019_room_port_double_guest_cabin_4"
+    },
+    {
+      "id": "princess-y85-gen1-2019_room_starboard_convertible_twin_cabin_3",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "starboard convertible twin cabin",
+      "systemId": "accommodation",
+      "assembly": "starboard convertible twin cabin",
+      "parentId": "princess-y85-gen1-2019_deck_lower",
+      "shape": "box",
+      "position": [
+        3.1188480854034424,
+        -0.36000001430511475,
+        -1.0483200550079346
+      ],
+      "size": [
+        2.043469190597534,
+        0.20006253741376656,
+        1.4671668501235264
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored starboard convertible twin cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-y85-gen1-2019_deck_lower",
+      "roomId": "princess-y85-gen1-2019_room_starboard_convertible_twin_cabin_3"
+    },
+    {
+      "id": "princess-y85-gen1-2019_safety",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "Safety equipment",
+      "systemId": "safety",
+      "assembly": "Safety equipment",
+      "parentId": "princess-y85-gen1-2019_deck_main",
+      "shape": "box",
+      "position": [
+        -9.557760238647461,
+        1.3913334608078003,
+        2.620800018310547
+      ],
+      "size": [
+        3.52128005027771,
+        0.23275316930982948,
+        0.720440121373997
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Liferaft, extinguisher and navigation safety equipment.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-y85-gen1-2019_deck_main"
+    },
+    {
+      "id": "princess-y85-gen1-2019_superstructure",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "Superstructure",
+      "systemId": "structure",
+      "assembly": "Superstructure",
+      "parentId": "princess-y85-gen1-2019_deck_main",
+      "shape": "chamferedBox",
+      "position": [
+        2.012160062789917,
+        1.965680092579328,
+        1.1920928955078125e-7
+      ],
+      "size": [
+        12.292959690093994,
+        2.0400893366377053,
+        5.343688303206181
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.8
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.8
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed wheelhouse and superstructure.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "shell",
+      "deckId": "princess-y85-gen1-2019_deck_main"
+    },
+    {
+      "id": "princess-y85-gen1-2019_swim_platform",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "Swim platform",
+      "systemId": "structure",
+      "assembly": "Swim platform",
+      "parentId": "princess-y85-gen1-2019_hull_shell",
+      "shape": "box",
+      "position": [
+        -12.072959899902344,
+        0.18000000715255737,
+        0
+      ],
+      "size": [
+        3.0185789692466294,
+        0.09981867005879108,
+        5.110559940338135
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Aft bathing platform or transom step.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-y85-gen1-2019_deck_main"
+    },
+    {
+      "id": "princess-y85-gen1-2019_ventilation",
+      "vesselId": "princess-y85-gen1-2019",
+      "name": "Ventilation and HVAC",
+      "systemId": "utilities",
+      "assembly": "Ventilation and HVAC",
+      "parentId": "princess-y85-gen1-2019_superstructure",
+      "shape": "box",
+      "position": [
+        1.257599949836731,
+        -1.0767066478729248,
+        0
+      ],
+      "size": [
+        5.491520717087743,
+        0.11007481402993236,
+        0.1100740614061655
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Ventilation and HVAC service equipment envelope.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ],
+      "enclosure": "equipment"
+    }
+  ],
+  "meaningfulCount": 22,
+  "lods": [],
+  "assets": [
+    {
+      "id": "exterior-lod0",
+      "kind": "exterior",
+      "level": 0,
+      "path": "models/princess-y85-gen1-2019/exterior.lod0.glb",
+      "bytes": 320776,
+      "sha256": "589d6027a37e1c8375070415892a12b07439fcaec330c15d0c0fb5d1b1caf1dd",
+      "componentIds": [
+        "princess-y85-gen1-2019_cockpit",
+        "princess-y85-gen1-2019_deck_main",
+        "princess-y85-gen1-2019_electrical",
+        "princess-y85-gen1-2019_family_signature",
+        "princess-y85-gen1-2019_flybridge",
+        "princess-y85-gen1-2019_freshwater",
+        "princess-y85-gen1-2019_fuel",
+        "princess-y85-gen1-2019_glazing",
+        "princess-y85-gen1-2019_helm",
+        "princess-y85-gen1-2019_hull_shell",
+        "princess-y85-gen1-2019_mooring",
+        "princess-y85-gen1-2019_propulsion",
+        "princess-y85-gen1-2019_safety",
+        "princess-y85-gen1-2019_superstructure",
+        "princess-y85-gen1-2019_swim_platform",
+        "princess-y85-gen1-2019_ventilation"
+      ]
+    },
+    {
+      "id": "exterior-lod1",
+      "kind": "exterior",
+      "level": 1,
+      "path": "models/princess-y85-gen1-2019/exterior.lod1.glb",
+      "bytes": 175848,
+      "sha256": "2ae632b4e98ed93992975bb033b1bad288094aa320423fa85ccbdc50f128f07c",
+      "componentIds": [
+        "princess-y85-gen1-2019_cockpit",
+        "princess-y85-gen1-2019_deck_main",
+        "princess-y85-gen1-2019_electrical",
+        "princess-y85-gen1-2019_family_signature",
+        "princess-y85-gen1-2019_flybridge",
+        "princess-y85-gen1-2019_freshwater",
+        "princess-y85-gen1-2019_fuel",
+        "princess-y85-gen1-2019_glazing",
+        "princess-y85-gen1-2019_helm",
+        "princess-y85-gen1-2019_hull_shell",
+        "princess-y85-gen1-2019_mooring",
+        "princess-y85-gen1-2019_propulsion",
+        "princess-y85-gen1-2019_safety",
+        "princess-y85-gen1-2019_superstructure",
+        "princess-y85-gen1-2019_swim_platform",
+        "princess-y85-gen1-2019_ventilation"
+      ]
+    },
+    {
+      "id": "interior-princess-y85-gen1-2019_deck_lower-lod0",
+      "kind": "interior",
+      "level": 0,
+      "path": "models/princess-y85-gen1-2019/interior-princess-y85-gen1-2019_deck_lower.lod0.glb",
+      "bytes": 297592,
+      "sha256": "6e482c6d6e4552276db3604ce9b4ac41e593a02b595071582b26e5c6a012b200",
+      "componentIds": [
+        "princess-y85-gen1-2019_deck_lower",
+        "princess-y85-gen1-2019_engine_room",
+        "princess-y85-gen1-2019_lower_partitions",
+        "princess-y85-gen1-2019_room_deck_saloon_0",
+        "princess-y85-gen1-2019_room_galley_2",
+        "princess-y85-gen1-2019_room_main_deck_day_head_1",
+        "princess-y85-gen1-2019_room_port_double_guest_cabin_4",
+        "princess-y85-gen1-2019_room_starboard_convertible_twin_cabin_3"
+      ],
+      "deckId": "princess-y85-gen1-2019_deck_lower"
+    },
+    {
+      "id": "interior-princess-y85-gen1-2019_deck_lower-lod1",
+      "kind": "interior",
+      "level": 1,
+      "path": "models/princess-y85-gen1-2019/interior-princess-y85-gen1-2019_deck_lower.lod1.glb",
+      "bytes": 67908,
+      "sha256": "35e5e8fce24805ff5b3de985a26fc7d9258b1ca4dad53bc5869454d57c8e5c2e",
+      "componentIds": [
+        "princess-y85-gen1-2019_deck_lower",
+        "princess-y85-gen1-2019_engine_room",
+        "princess-y85-gen1-2019_lower_partitions",
+        "princess-y85-gen1-2019_room_deck_saloon_0",
+        "princess-y85-gen1-2019_room_galley_2",
+        "princess-y85-gen1-2019_room_main_deck_day_head_1",
+        "princess-y85-gen1-2019_room_port_double_guest_cabin_4",
+        "princess-y85-gen1-2019_room_starboard_convertible_twin_cabin_3"
+      ],
+      "deckId": "princess-y85-gen1-2019_deck_lower"
+    }
+  ],
+  "decks": [
+    {
+      "id": "princess-y85-gen1-2019_deck_main",
+      "name": "Main deck",
+      "componentId": "princess-y85-gen1-2019_deck_main"
+    },
+    {
+      "id": "princess-y85-gen1-2019_cockpit",
+      "name": "Aft cockpit",
+      "componentId": "princess-y85-gen1-2019_cockpit"
+    },
+    {
+      "id": "princess-y85-gen1-2019_deck_lower",
+      "name": "Lower accommodation deck",
+      "componentId": "princess-y85-gen1-2019_deck_lower"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "princess-y85-gen1-2019_room_deck_saloon_0",
+      "name": "deck saloon",
+      "deckId": "princess-y85-gen1-2019_deck_lower",
+      "componentId": "princess-y85-gen1-2019_room_deck_saloon_0",
+      "fidelity": "reference-informed",
+      "note": "Authored deck saloon arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ]
+    },
+    {
+      "id": "princess-y85-gen1-2019_room_main_deck_day_head_1",
+      "name": "main-deck day head",
+      "deckId": "princess-y85-gen1-2019_deck_lower",
+      "componentId": "princess-y85-gen1-2019_room_main_deck_day_head_1",
+      "fidelity": "reference-informed",
+      "note": "Authored main-deck day head arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ]
+    },
+    {
+      "id": "princess-y85-gen1-2019_room_galley_2",
+      "name": "galley",
+      "deckId": "princess-y85-gen1-2019_deck_lower",
+      "componentId": "princess-y85-gen1-2019_room_galley_2",
+      "fidelity": "reference-informed",
+      "note": "Authored galley arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ]
+    },
+    {
+      "id": "princess-y85-gen1-2019_room_starboard_convertible_twin_cabin_3",
+      "name": "starboard convertible twin cabin",
+      "deckId": "princess-y85-gen1-2019_deck_lower",
+      "componentId": "princess-y85-gen1-2019_room_starboard_convertible_twin_cabin_3",
+      "fidelity": "reference-informed",
+      "note": "Authored starboard convertible twin cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ]
+    },
+    {
+      "id": "princess-y85-gen1-2019_room_port_double_guest_cabin_4",
+      "name": "port double guest cabin",
+      "deckId": "princess-y85-gen1-2019_deck_lower",
+      "componentId": "princess-y85-gen1-2019_room_port_double_guest_cabin_4",
+      "fidelity": "reference-informed",
+      "note": "Authored port double guest cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ]
+    },
+    {
+      "id": "princess-y85-gen1-2019_room_engine",
+      "name": "Engine room",
+      "deckId": "princess-y85-gen1-2019_deck_lower",
+      "componentId": "princess-y85-gen1-2019_engine_room",
+      "fidelity": "reconstructed",
+      "note": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-d0c891645e07703a",
+        "source-26010489e0eb2faa",
+        "source-117166302e86d03c",
+        "source-46c99c0f6d61213e",
+        "source-1d9d1ebced8372bd"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "id": "exterior_bow",
+      "name": "Review | Bow quarter",
+      "position": [
+        28.296,
+        4.715999999999999,
+        24.104
+      ],
+      "target": [
+        0,
+        0.62,
+        0
+      ],
+      "deckId": "princess-y85-gen1-2019_deck_main"
+    },
+    {
+      "id": "exterior_port_profile",
+      "name": "Review | Port profile",
+      "position": [
+        0,
+        3.668,
+        38.775999999999996
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "princess-y85-gen1-2019_deck_main"
+    },
+    {
+      "id": "exterior_starboard_profile",
+      "name": "Review | Starboard profile",
+      "position": [
+        0,
+        3.668,
+        -38.775999999999996
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "princess-y85-gen1-2019_deck_main"
+    },
+    {
+      "id": "exterior_stern",
+      "name": "Review | Stern quarter",
+      "position": [
+        -28.296,
+        4.715999999999999,
+        -24.104
+      ],
+      "target": [
+        0,
+        0.66,
+        0
+      ],
+      "deckId": "princess-y85-gen1-2019_cockpit"
+    },
+    {
+      "id": "exterior_high",
+      "name": "Review | High bow",
+      "position": [
+        17.292,
+        35.108000000000004,
+        0
+      ],
+      "target": [
+        0,
+        0.25,
+        0
+      ],
+      "deckId": "princess-y85-gen1-2019_deck_main"
+    },
+    {
+      "id": "exterior_above",
+      "name": "Review | Above plan",
+      "position": [
+        1.834,
+        54.496,
+        1.834
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "deckId": "princess-y85-gen1-2019_deck_main"
+    },
+    {
+      "id": "exterior_below",
+      "name": "Review | Below hull",
+      "position": [
+        -28.296,
+        -16.244,
+        -22.008
+      ],
+      "target": [
+        0,
+        -0.35,
+        0
+      ],
+      "deckId": "princess-y85-gen1-2019_deck_lower"
+    },
+    {
+      "id": "exterior_three_quarter",
+      "name": "Review | Starboard three-quarter",
+      "position": [
+        30.391999999999996,
+        4.715999999999999,
+        -29.344
+      ],
+      "target": [
+        0,
+        0.58,
+        0
+      ],
+      "deckId": "princess-y85-gen1-2019_deck_main"
+    },
+    {
+      "id": "room_0",
+      "name": "Room | deck saloon",
+      "position": [
+        -9.679258133333333,
+        0.92,
+        3.33673984
+      ],
+      "target": [
+        -6.7683333333333335,
+        -0.18,
+        1.008
+      ],
+      "roomId": "princess-y85-gen1-2019_room_deck_saloon_0",
+      "deckId": "princess-y85-gen1-2019_deck_lower"
+    },
+    {
+      "id": "room_1",
+      "name": "Room | main-deck day head",
+      "position": [
+        -6.9719248,
+        0.92,
+        1.3207398399999999
+      ],
+      "target": [
+        -4.061,
+        -0.18,
+        -1.008
+      ],
+      "roomId": "princess-y85-gen1-2019_room_main_deck_day_head_1",
+      "deckId": "princess-y85-gen1-2019_deck_lower"
+    },
+    {
+      "id": "room_2",
+      "name": "Room | galley",
+      "position": [
+        -4.264591466666667,
+        0.92,
+        3.33673984
+      ],
+      "target": [
+        -1.3536666666666672,
+        -0.18,
+        1.008
+      ],
+      "roomId": "princess-y85-gen1-2019_room_galley_2",
+      "deckId": "princess-y85-gen1-2019_deck_lower"
+    },
+    {
+      "id": "room_3",
+      "name": "Room | starboard convertible twin cabin",
+      "position": [
+        -1.5572581333333342,
+        0.92,
+        1.3207398399999999
+      ],
+      "target": [
+        1.3536666666666655,
+        -0.18,
+        -1.008
+      ],
+      "roomId": "princess-y85-gen1-2019_room_starboard_convertible_twin_cabin_3",
+      "deckId": "princess-y85-gen1-2019_deck_lower"
+    },
+    {
+      "id": "room_4",
+      "name": "Room | port double guest cabin",
+      "position": [
+        1.1500752000000003,
+        0.92,
+        3.33673984
+      ],
+      "target": [
+        4.061,
+        -0.18,
+        1.008
+      ],
+      "roomId": "princess-y85-gen1-2019_room_port_double_guest_cabin_4",
+      "deckId": "princess-y85-gen1-2019_deck_lower"
+    },
+    {
+      "id": "room_5",
+      "name": "Room | Engine room",
+      "position": [
+        -15.237919999999999,
+        0.72,
+        5.937119999999999
+      ],
+      "target": [
+        -7.859999999999999,
+        -0.18,
+        1.26
+      ],
+      "roomId": "princess-y85-gen1-2019_room_engine",
+      "deckId": "princess-y85-gen1-2019_deck_lower"
+    }
+  ],
+  "fidelity": "Original reference-informed reconstruction of Princess Y85 (Gen 1 / original Y85 introduced 2019). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them."
+}

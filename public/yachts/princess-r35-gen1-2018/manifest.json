@@ -1,0 +1,1390 @@
+{
+  "vesselId": "princess-r35-gen1-2018",
+  "version": 2,
+  "units": "metres",
+  "components": [
+    {
+      "id": "princess-r35-gen1-2018_active_foil",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "Active foil system",
+      "systemId": "propulsion",
+      "assembly": "Active foil system",
+      "parentId": "princess-r35-gen1-2018_hull_shell",
+      "shape": "cylinder",
+      "position": [
+        1.0454399585723877,
+        -0.3192000091075897,
+        -1.4420700073242188
+      ],
+      "size": [
+        2.2999680042266846,
+        0.049976415876015534,
+        0.4118842814051389
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.45
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.45
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed active-foil appendage system.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-r35-gen1-2018_cockpit",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "Cockpit and social deck",
+      "systemId": "accommodation",
+      "assembly": "Cockpit and social deck",
+      "parentId": "princess-r35-gen1-2018_deck_main",
+      "shape": "deck",
+      "position": [
+        -2.822688102722168,
+        1.0400767381444755,
+        0
+      ],
+      "size": [
+        3.5544960498809814,
+        0.4999532164112708,
+        2.9526605420609284
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Open aft cockpit, seating and social equipment.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-r35-gen1-2018_deck_main"
+    },
+    {
+      "id": "princess-r35-gen1-2018_deck_lower",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "Lower accommodation deck",
+      "systemId": "structure",
+      "assembly": "Lower accommodation deck",
+      "parentId": "princess-r35-gen1-2018_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        -0.5799999833106995,
+        0
+      ],
+      "size": [
+        7.527167797088623,
+        0.07994184372651869,
+        2.4030793885721633
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.7
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.7
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Lower accommodation deck and room boundaries.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-r35-gen1-2018_deck_lower"
+    },
+    {
+      "id": "princess-r35-gen1-2018_deck_main",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "Main deck",
+      "systemId": "structure",
+      "assembly": "Main deck",
+      "parentId": "princess-r35-gen1-2018_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        0.6913764625787735,
+        0
+      ],
+      "size": [
+        10.454400062561035,
+        0.8525088341063595,
+        3.193398548117722
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Main deck surface and deck edge.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-r35-gen1-2018_deck_main"
+    },
+    {
+      "id": "princess-r35-gen1-2018_electrical",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "Electrical power",
+      "systemId": "electrical",
+      "assembly": "Electrical power",
+      "parentId": "princess-r35-gen1-2018_hull_shell",
+      "shape": "box",
+      "position": [
+        -0.3136320114135742,
+        -0.2280000001192093,
+        0
+      ],
+      "size": [
+        1.4636160135269165,
+        0.27997513268797003,
+        0.8241131458348829
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Batteries, distribution and generator family placeholder where details are unknown.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-r35-gen1-2018_engine_room",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "Engine room",
+      "systemId": "propulsion",
+      "assembly": "Engine room",
+      "parentId": "princess-r35-gen1-2018_deck_lower",
+      "shape": "cylinder",
+      "position": [
+        -3.136320114135742,
+        -0.30000001192092896,
+        0
+      ],
+      "size": [
+        1.568160057067871,
+        0.5500309316043899,
+        1.9913891332573779
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-r35-gen1-2018_deck_lower",
+      "roomId": "princess-r35-gen1-2018_room_engine"
+    },
+    {
+      "id": "princess-r35-gen1-2018_freshwater",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "Freshwater and sanitation",
+      "systemId": "utilities",
+      "assembly": "Freshwater and sanitation",
+      "parentId": "princess-r35-gen1-2018_hull_shell",
+      "shape": "box",
+      "position": [
+        1.0454399585723877,
+        -0.34200000762939453,
+        0
+      ],
+      "size": [
+        1.8817919492721558,
+        0.2200697881896695,
+        0.8927413510982287
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Freshwater and sanitation service envelope.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-r35-gen1-2018_fuel",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "Fuel system",
+      "systemId": "fuel",
+      "assembly": "Fuel system",
+      "parentId": "princess-r35-gen1-2018_hull_shell",
+      "shape": "box",
+      "position": [
+        -1.2545280456542969,
+        -0.36480000615119934,
+        0
+      ],
+      "size": [
+        2.613600015640259,
+        0.23992763594610123,
+        1.0985782346694322
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Fuel tank and service system envelope.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-r35-gen1-2018_glazing",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "Glazing",
+      "systemId": "structure",
+      "assembly": "Glazing",
+      "parentId": "princess-r35-gen1-2018_superstructure",
+      "shape": "chamferedBox",
+      "position": [
+        1.0454399958252907,
+        1.4800000190734863,
+        0
+      ],
+      "size": [
+        1.6584545820951462,
+        0.27999422431563303,
+        1.3646934689483758
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Windshield, side glazing and hull windows.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "shell",
+      "deckId": "princess-r35-gen1-2018_deck_main"
+    },
+    {
+      "id": "princess-r35-gen1-2018_helm",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "Helm station",
+      "systemId": "navigation",
+      "assembly": "Helm station",
+      "parentId": "princess-r35-gen1-2018_superstructure",
+      "shape": "box",
+      "position": [
+        1.4636160135269165,
+        1.2799999713897705,
+        -1.0300500392913818
+      ],
+      "size": [
+        1.6727039813995361,
+        0.4200775494533153,
+        0.5493321800543355
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Helm console, steering position and displays.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-r35-gen1-2018_deck_main"
+    },
+    {
+      "id": "princess-r35-gen1-2018_hull_shell",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "Hull shell",
+      "systemId": "structure",
+      "assembly": "Hull shell",
+      "parentId": null,
+      "shape": "hull",
+      "position": [
+        -0.0004057884216308594,
+        0.1671431064605713,
+        -5.960464477539063e-8
+      ],
+      "size": [
+        10.453052520751953,
+        1.797949278449599,
+        3.244028781503544
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.9
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.9
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed hull form and underwater volume.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "shell"
+    },
+    {
+      "id": "princess-r35-gen1-2018_lower_partitions",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "Lower partitions",
+      "systemId": "structure",
+      "assembly": "Lower partitions",
+      "parentId": "princess-r35-gen1-2018_deck_lower",
+      "shape": "box",
+      "position": [
+        -2.718143939971924,
+        -0.17000000178813934,
+        0
+      ],
+      "size": [
+        0.060088081253922176,
+        0.5198692029915225,
+        2.1974399089813232
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Low room-divider partitions; exact joinery is reconstructed.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-r35-gen1-2018_deck_lower"
+    },
+    {
+      "id": "princess-r35-gen1-2018_mooring",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "Mooring equipment",
+      "systemId": "mooring",
+      "assembly": "Mooring equipment",
+      "parentId": "princess-r35-gen1-2018_deck_main",
+      "shape": "box",
+      "position": [
+        3.9228272438049316,
+        1.0499969720840454,
+        -0.8081254810094833
+      ],
+      "size": [
+        2.417099952697754,
+        0.12805827563961614,
+        1.0888641743757912
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Anchor, windlass, cleats and rails.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-r35-gen1-2018_deck_main"
+    },
+    {
+      "id": "princess-r35-gen1-2018_propulsion",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "Propulsion",
+      "systemId": "propulsion",
+      "assembly": "Propulsion",
+      "parentId": "princess-r35-gen1-2018_hull_shell",
+      "shape": "cylinder",
+      "position": [
+        -2.2999680042266846,
+        -0.12160000205039978,
+        0
+      ],
+      "size": [
+        2.0908799171447754,
+        0.6399558912639226,
+        2.060065178408826
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -1.2
+      ],
+      "localExplode": [
+        0,
+        0,
+        -1.2
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Documented propulsion family represented as authored machinery and drives.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-r35-gen1-2018_r35_sportsbridge",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "R35 sportsbridge",
+      "systemId": "structure",
+      "assembly": "R35 sportsbridge",
+      "parentId": "princess-r35-gen1-2018_deck_main",
+      "shape": "box",
+      "position": [
+        0.20908799767494202,
+        1.559999942779541,
+        0
+      ],
+      "size": [
+        2.2999680042266846,
+        0.08001841867789006,
+        2.1287005116178674
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.32
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.32
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed low sportsbridge and wind deflector treatment.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "shell",
+      "deckId": "princess-r35-gen1-2018_deck_main"
+    },
+    {
+      "id": "princess-r35-gen1-2018_room_enclosed_head_1",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "enclosed head",
+      "systemId": "accommodation",
+      "assembly": "enclosed head",
+      "parentId": "princess-r35-gen1-2018_deck_lower",
+      "shape": "box",
+      "position": [
+        0,
+        -0.18000000715255737,
+        -0.9301599860191345
+      ],
+      "size": [
+        0.7139999866485596,
+        0.4199846108177232,
+        0.2200158044737237
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored enclosed head arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-r35-gen1-2018_deck_lower",
+      "roomId": "princess-r35-gen1-2018_room_enclosed_head_1"
+    },
+    {
+      "id": "princess-r35-gen1-2018_room_galley_living_area_2",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "galley/living area",
+      "systemId": "accommodation",
+      "assembly": "galley/living area",
+      "parentId": "princess-r35-gen1-2018_deck_lower",
+      "shape": "box",
+      "position": [
+        2.160576105117798,
+        -0.23000000417232513,
+        0.549359992146492
+      ],
+      "size": [
+        1.3793116807937622,
+        0.38007157096734145,
+        1.240213487897695
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored galley/living area arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-r35-gen1-2018_deck_lower",
+      "roomId": "princess-r35-gen1-2018_room_galley_living_area_2"
+    },
+    {
+      "id": "princess-r35-gen1-2018_room_lower_convertible_berth_cabin_0",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "lower convertible berth cabin",
+      "systemId": "accommodation",
+      "assembly": "lower convertible berth cabin",
+      "parentId": "princess-r35-gen1-2018_deck_lower",
+      "shape": "box",
+      "position": [
+        -2.160576105117798,
+        -0.36000001430511475,
+        0.5493599772453308
+      ],
+      "size": [
+        1.415609359741211,
+        0.19994018728850138,
+        1.0094646534535703
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored lower convertible berth cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-r35-gen1-2018_deck_lower",
+      "roomId": "princess-r35-gen1-2018_room_lower_convertible_berth_cabin_0"
+    },
+    {
+      "id": "princess-r35-gen1-2018_safety",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "Safety equipment",
+      "systemId": "safety",
+      "assembly": "Safety equipment",
+      "parentId": "princess-r35-gen1-2018_deck_main",
+      "shape": "box",
+      "position": [
+        -3.9726719856262207,
+        1.2000000476837158,
+        1.3733999729156494
+      ],
+      "size": [
+        1.4636160135269165,
+        0.15990921745739195,
+        0.37775202570870503
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Liferaft, extinguisher and navigation safety equipment.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-r35-gen1-2018_deck_main"
+    },
+    {
+      "id": "princess-r35-gen1-2018_superstructure",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "Superstructure",
+      "systemId": "structure",
+      "assembly": "Superstructure",
+      "parentId": "princess-r35-gen1-2018_deck_main",
+      "shape": "chamferedBox",
+      "position": [
+        0.8363519906997681,
+        1.1299999952316284,
+        0
+      ],
+      "size": [
+        2.0908799171447754,
+        0.49988762512050444,
+        1.7853550584976858
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.8
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.8
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed wheelhouse and superstructure.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "shell",
+      "deckId": "princess-r35-gen1-2018_deck_main"
+    },
+    {
+      "id": "princess-r35-gen1-2018_swim_platform",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "Swim platform",
+      "systemId": "structure",
+      "assembly": "Swim platform",
+      "parentId": "princess-r35-gen1-2018_hull_shell",
+      "shape": "box",
+      "position": [
+        -5.0181121826171875,
+        0.18000000715255737,
+        0
+      ],
+      "size": [
+        1.2545126502404091,
+        0.10004062048956025,
+        2.6781299114227295
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Aft bathing platform or transom step.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-r35-gen1-2018_deck_main"
+    },
+    {
+      "id": "princess-r35-gen1-2018_ventilation",
+      "vesselId": "princess-r35-gen1-2018",
+      "name": "Ventilation and HVAC",
+      "systemId": "utilities",
+      "assembly": "Ventilation and HVAC",
+      "parentId": "princess-r35-gen1-2018_superstructure",
+      "shape": "box",
+      "position": [
+        0.5227199792861938,
+        -0.21279999613761902,
+        0
+      ],
+      "size": [
+        1.254528228985126,
+        0.1099585117441455,
+        0.10995832841331647
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Ventilation and HVAC service equipment envelope.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ],
+      "enclosure": "equipment"
+    }
+  ],
+  "meaningfulCount": 20,
+  "lods": [],
+  "assets": [
+    {
+      "id": "exterior-lod0",
+      "kind": "exterior",
+      "level": 0,
+      "path": "models/princess-r35-gen1-2018/exterior.lod0.glb",
+      "bytes": 216868,
+      "sha256": "7aa8c549c47e994032885db50f38e8de25ce3dec5a3cafff16f1ae042b0ee349",
+      "componentIds": [
+        "princess-r35-gen1-2018_active_foil",
+        "princess-r35-gen1-2018_cockpit",
+        "princess-r35-gen1-2018_deck_main",
+        "princess-r35-gen1-2018_electrical",
+        "princess-r35-gen1-2018_freshwater",
+        "princess-r35-gen1-2018_fuel",
+        "princess-r35-gen1-2018_glazing",
+        "princess-r35-gen1-2018_helm",
+        "princess-r35-gen1-2018_hull_shell",
+        "princess-r35-gen1-2018_mooring",
+        "princess-r35-gen1-2018_propulsion",
+        "princess-r35-gen1-2018_r35_sportsbridge",
+        "princess-r35-gen1-2018_safety",
+        "princess-r35-gen1-2018_superstructure",
+        "princess-r35-gen1-2018_swim_platform",
+        "princess-r35-gen1-2018_ventilation"
+      ]
+    },
+    {
+      "id": "exterior-lod1",
+      "kind": "exterior",
+      "level": 1,
+      "path": "models/princess-r35-gen1-2018/exterior.lod1.glb",
+      "bytes": 144484,
+      "sha256": "158ea63d680f21520317cde4ad48e3f6e3ee80b334311b2b9762ed811bf4198d",
+      "componentIds": [
+        "princess-r35-gen1-2018_active_foil",
+        "princess-r35-gen1-2018_cockpit",
+        "princess-r35-gen1-2018_deck_main",
+        "princess-r35-gen1-2018_electrical",
+        "princess-r35-gen1-2018_freshwater",
+        "princess-r35-gen1-2018_fuel",
+        "princess-r35-gen1-2018_glazing",
+        "princess-r35-gen1-2018_helm",
+        "princess-r35-gen1-2018_hull_shell",
+        "princess-r35-gen1-2018_mooring",
+        "princess-r35-gen1-2018_propulsion",
+        "princess-r35-gen1-2018_r35_sportsbridge",
+        "princess-r35-gen1-2018_safety",
+        "princess-r35-gen1-2018_superstructure",
+        "princess-r35-gen1-2018_swim_platform",
+        "princess-r35-gen1-2018_ventilation"
+      ]
+    },
+    {
+      "id": "interior-princess-r35-gen1-2018_deck_lower-lod0",
+      "kind": "interior",
+      "level": 0,
+      "path": "models/princess-r35-gen1-2018/interior-princess-r35-gen1-2018_deck_lower.lod0.glb",
+      "bytes": 235844,
+      "sha256": "948916f20aeb8efa6b48d7d4a611f738e954bfbe7be37bcfa92db728b3e27bbc",
+      "componentIds": [
+        "princess-r35-gen1-2018_deck_lower",
+        "princess-r35-gen1-2018_engine_room",
+        "princess-r35-gen1-2018_lower_partitions",
+        "princess-r35-gen1-2018_room_enclosed_head_1",
+        "princess-r35-gen1-2018_room_galley_living_area_2",
+        "princess-r35-gen1-2018_room_lower_convertible_berth_cabin_0"
+      ],
+      "deckId": "princess-r35-gen1-2018_deck_lower"
+    },
+    {
+      "id": "interior-princess-r35-gen1-2018_deck_lower-lod1",
+      "kind": "interior",
+      "level": 1,
+      "path": "models/princess-r35-gen1-2018/interior-princess-r35-gen1-2018_deck_lower.lod1.glb",
+      "bytes": 57104,
+      "sha256": "c54dec2dbc88eafb5766fd6136337b6495cfc7b461fa3f7e37be8cf20b3e4cfb",
+      "componentIds": [
+        "princess-r35-gen1-2018_deck_lower",
+        "princess-r35-gen1-2018_engine_room",
+        "princess-r35-gen1-2018_lower_partitions",
+        "princess-r35-gen1-2018_room_enclosed_head_1",
+        "princess-r35-gen1-2018_room_galley_living_area_2",
+        "princess-r35-gen1-2018_room_lower_convertible_berth_cabin_0"
+      ],
+      "deckId": "princess-r35-gen1-2018_deck_lower"
+    }
+  ],
+  "decks": [
+    {
+      "id": "princess-r35-gen1-2018_deck_main",
+      "name": "Main deck",
+      "componentId": "princess-r35-gen1-2018_deck_main"
+    },
+    {
+      "id": "princess-r35-gen1-2018_cockpit",
+      "name": "Aft cockpit",
+      "componentId": "princess-r35-gen1-2018_cockpit"
+    },
+    {
+      "id": "princess-r35-gen1-2018_deck_lower",
+      "name": "Lower accommodation deck",
+      "componentId": "princess-r35-gen1-2018_deck_lower"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "princess-r35-gen1-2018_room_lower_convertible_berth_cabin_0",
+      "name": "lower convertible berth cabin",
+      "deckId": "princess-r35-gen1-2018_deck_lower",
+      "componentId": "princess-r35-gen1-2018_room_lower_convertible_berth_cabin_0",
+      "fidelity": "reference-informed",
+      "note": "Authored lower convertible berth cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ]
+    },
+    {
+      "id": "princess-r35-gen1-2018_room_enclosed_head_1",
+      "name": "enclosed head",
+      "deckId": "princess-r35-gen1-2018_deck_lower",
+      "componentId": "princess-r35-gen1-2018_room_enclosed_head_1",
+      "fidelity": "reference-informed",
+      "note": "Authored enclosed head arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ]
+    },
+    {
+      "id": "princess-r35-gen1-2018_room_galley_living_area_2",
+      "name": "galley/living area",
+      "deckId": "princess-r35-gen1-2018_deck_lower",
+      "componentId": "princess-r35-gen1-2018_room_galley_living_area_2",
+      "fidelity": "reference-informed",
+      "note": "Authored galley/living area arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ]
+    },
+    {
+      "id": "princess-r35-gen1-2018_room_engine",
+      "name": "Engine room",
+      "deckId": "princess-r35-gen1-2018_deck_lower",
+      "componentId": "princess-r35-gen1-2018_engine_room",
+      "fidelity": "reconstructed",
+      "note": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-ac4ddbad5f2773cc",
+        "source-c76b7b98033262a9",
+        "source-96df990fab3fb8bf",
+        "source-79aa260c9460165f"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "id": "exterior_bow",
+      "name": "Review | Bow quarter",
+      "position": [
+        11.7612,
+        2.1,
+        10.0188
+      ],
+      "target": [
+        0,
+        0.62,
+        0
+      ],
+      "deckId": "princess-r35-gen1-2018_deck_main"
+    },
+    {
+      "id": "exterior_port_profile",
+      "name": "Review | Port profile",
+      "position": [
+        0,
+        1.85,
+        16.1172
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "princess-r35-gen1-2018_deck_main"
+    },
+    {
+      "id": "exterior_starboard_profile",
+      "name": "Review | Starboard profile",
+      "position": [
+        0,
+        1.85,
+        -16.1172
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "princess-r35-gen1-2018_deck_main"
+    },
+    {
+      "id": "exterior_stern",
+      "name": "Review | Stern quarter",
+      "position": [
+        -11.7612,
+        2.1,
+        -10.0188
+      ],
+      "target": [
+        0,
+        0.66,
+        0
+      ],
+      "deckId": "princess-r35-gen1-2018_cockpit"
+    },
+    {
+      "id": "exterior_high",
+      "name": "Review | High bow",
+      "position": [
+        7.187400000000001,
+        14.592600000000001,
+        0
+      ],
+      "target": [
+        0,
+        0.25,
+        0
+      ],
+      "deckId": "princess-r35-gen1-2018_deck_main"
+    },
+    {
+      "id": "exterior_above",
+      "name": "Review | Above plan",
+      "position": [
+        0.7623000000000001,
+        22.651200000000003,
+        0.7623000000000001
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "deckId": "princess-r35-gen1-2018_deck_main"
+    },
+    {
+      "id": "exterior_below",
+      "name": "Review | Below hull",
+      "position": [
+        -11.7612,
+        -6.7518,
+        -9.1476
+      ],
+      "target": [
+        0,
+        -0.35,
+        0
+      ],
+      "deckId": "princess-r35-gen1-2018_deck_lower"
+    },
+    {
+      "id": "exterior_three_quarter",
+      "name": "Review | Starboard three-quarter",
+      "position": [
+        12.6324,
+        2.1,
+        -12.196800000000001
+      ],
+      "target": [
+        0,
+        0.58,
+        0
+      ],
+      "deckId": "princess-r35-gen1-2018_deck_main"
+    },
+    {
+      "id": "room_0",
+      "name": "Room | lower convertible berth cabin",
+      "position": [
+        -4.3468088400000005,
+        0.92,
+        2.2512000000000003
+      ],
+      "target": [
+        -2.531925,
+        -0.18,
+        0.5232
+      ],
+      "roomId": "princess-r35-gen1-2018_room_lower_convertible_berth_cabin_0",
+      "deckId": "princess-r35-gen1-2018_deck_lower"
+    },
+    {
+      "id": "room_1",
+      "name": "Room | enclosed head",
+      "position": [
+        -2.6588588399999997,
+        0.92,
+        1.2048
+      ],
+      "target": [
+        -0.8439749999999999,
+        -0.18,
+        -0.5232
+      ],
+      "roomId": "princess-r35-gen1-2018_room_enclosed_head_1",
+      "deckId": "princess-r35-gen1-2018_deck_lower"
+    },
+    {
+      "id": "room_2",
+      "name": "Room | galley/living area",
+      "position": [
+        -0.9709088400000001,
+        0.92,
+        2.2512000000000003
+      ],
+      "target": [
+        0.8439749999999999,
+        -0.18,
+        0.5232
+      ],
+      "roomId": "princess-r35-gen1-2018_room_galley_living_area_2",
+      "deckId": "princess-r35-gen1-2018_deck_lower"
+    },
+    {
+      "id": "room_3",
+      "name": "Room | Engine room",
+      "position": [
+        -6.339,
+        0.72,
+        3.081648
+      ],
+      "target": [
+        -3.267,
+        -0.18,
+        0.654
+      ],
+      "roomId": "princess-r35-gen1-2018_room_engine",
+      "deckId": "princess-r35-gen1-2018_deck_lower"
+    }
+  ],
+  "fidelity": "Original reference-informed reconstruction of Princess R35 (Gen 1 / first R Class R35). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them."
+}

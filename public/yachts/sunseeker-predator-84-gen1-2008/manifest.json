@@ -1,0 +1,1631 @@
+{
+  "vesselId": "sunseeker-predator-84-gen1-2008",
+  "version": 2,
+  "units": "metres",
+  "components": [
+    {
+      "id": "sunseeker-predator-84-gen1-2008_cockpit",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "Cockpit and social deck",
+      "systemId": "accommodation",
+      "assembly": "Cockpit and social deck",
+      "parentId": "sunseeker-predator-84-gen1-2008_deck_main",
+      "shape": "deck",
+      "position": [
+        -6.863615989685059,
+        1.0399000253962085,
+        0
+      ],
+      "size": [
+        8.643072128295898,
+        0.5000341011311722,
+        5.670606543598902
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Open aft cockpit, seating and social equipment.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "Lower accommodation deck",
+      "systemId": "structure",
+      "assembly": "Lower accommodation deck",
+      "parentId": "sunseeker-predator-84-gen1-2008_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        -0.5799999833106995,
+        0
+      ],
+      "size": [
+        18.302976608276367,
+        0.08043545736844382,
+        4.616660105209637
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.7
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.7
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Lower accommodation deck and room boundaries.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_deck_main",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "Main deck",
+      "systemId": "structure",
+      "assembly": "Main deck",
+      "parentId": "sunseeker-predator-84-gen1-2008_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        0.732155829668045,
+        0
+      ],
+      "size": [
+        25.420799255371094,
+        0.8595918324824114,
+        6.131961953015324
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Main deck surface and deck edge.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_electrical",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "Electrical power",
+      "systemId": "electrical",
+      "assembly": "Electrical power",
+      "parentId": "sunseeker-predator-84-gen1-2008_hull_shell",
+      "shape": "box",
+      "position": [
+        -0.7626240253448486,
+        -0.6359999775886536,
+        0
+      ],
+      "size": [
+        3.5589120388031006,
+        0.27978629145044676,
+        1.5823782919804186
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Batteries, distribution and generator family placeholder where details are unknown.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_engine_room",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "Engine room",
+      "systemId": "propulsion",
+      "assembly": "Engine room",
+      "parentId": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "shape": "cylinder",
+      "position": [
+        -7.626239776611328,
+        -0.30000001192092896,
+        0
+      ],
+      "size": [
+        3.813119888305664,
+        0.549735354239203,
+        3.8240723555280205
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "roomId": "sunseeker-predator-84-gen1-2008_room_engine"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_family_signature",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "Family-specific exterior details",
+      "systemId": "structure",
+      "assembly": "Family-specific exterior details",
+      "parentId": "sunseeker-predator-84-gen1-2008_deck_main",
+      "shape": "box",
+      "position": [
+        -9.151488304138184,
+        1.3199999332427979,
+        0
+      ],
+      "size": [
+        5.8467841148376465,
+        0.1618763586125156,
+        3.428452711035204
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.28
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.28
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed family signature details; small joinery and offsets are reconstructed where public references do not expose them.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_flybridge",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "Flybridge and upper deck",
+      "systemId": "accommodation",
+      "assembly": "Flybridge and upper deck",
+      "parentId": "sunseeker-predator-84-gen1-2008_superstructure",
+      "shape": "deck",
+      "position": [
+        -0.24403977394104004,
+        3.7806296078798107,
+        0
+      ],
+      "size": [
+        12.20198392868042,
+        0.8362295134185977,
+        5.339462062395513
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        1
+      ],
+      "localExplode": [
+        0,
+        0,
+        1
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed upper helm, seating and deck volume.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_freshwater",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "Freshwater and sanitation",
+      "systemId": "utilities",
+      "assembly": "Freshwater and sanitation",
+      "parentId": "sunseeker-predator-84-gen1-2008_hull_shell",
+      "shape": "box",
+      "position": [
+        2.5420799255371094,
+        -0.9539999961853027,
+        0
+      ],
+      "size": [
+        4.575744152069092,
+        0.2200803486331031,
+        1.7144203300562224
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Freshwater and sanitation service envelope.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_fuel",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "Fuel system",
+      "systemId": "fuel",
+      "assembly": "Fuel system",
+      "parentId": "sunseeker-predator-84-gen1-2008_hull_shell",
+      "shape": "box",
+      "position": [
+        -3.0504961013793945,
+        -1.0176000595092773,
+        0
+      ],
+      "size": [
+        6.355199813842773,
+        0.23972371501540168,
+        2.1096074823806834
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Fuel tank and service system envelope.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_glazing",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "Glazing",
+      "systemId": "structure",
+      "assembly": "Glazing",
+      "parentId": "sunseeker-predator-84-gen1-2008_superstructure",
+      "shape": "chamferedBox",
+      "position": [
+        -1.5252480506896973,
+        1.3470001220703125,
+        0
+      ],
+      "size": [
+        0.03501346987567944,
+        0.6478892580217046,
+        3.8242878913879395
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Windshield, side glazing and hull windows.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "shell",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_helm",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "Helm station",
+      "systemId": "navigation",
+      "assembly": "Helm station",
+      "parentId": "sunseeker-predator-84-gen1-2008_superstructure",
+      "shape": "box",
+      "position": [
+        3.5589120388031006,
+        1.4549999237060547,
+        -1.120911955833435
+      ],
+      "size": [
+        4.067327976226807,
+        0.5670699623020115,
+        0.6921421184557839
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Helm console, steering position and displays.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_hull_shell",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "Hull shell",
+      "systemId": "structure",
+      "assembly": "Hull shell",
+      "parentId": null,
+      "shape": "hull",
+      "position": [
+        -0.0006375312805175781,
+        -0.5024673342704773,
+        2.384185791015625e-7
+      ],
+      "size": [
+        25.4186372756958,
+        3.2146620951104286,
+        6.280382317088327
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.9
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.9
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed hull form and underwater volume.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "shell"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_lower_partitions",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "Lower partitions",
+      "systemId": "structure",
+      "assembly": "Lower partitions",
+      "parentId": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "shape": "box",
+      "position": [
+        -6.609407901763916,
+        -0.17000000178813934,
+        0
+      ],
+      "size": [
+        0.05975632285251109,
+        0.5197769806739899,
+        4.219903945922852
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Low room-divider partitions; exact joinery is reconstructed.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_mooring",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "Mooring equipment",
+      "systemId": "mooring",
+      "assembly": "Mooring equipment",
+      "parentId": "sunseeker-predator-84-gen1-2008_deck_main",
+      "shape": "box",
+      "position": [
+        9.53498101234436,
+        1.14449911385773,
+        -1.550399273633957
+      ],
+      "size": [
+        5.8573431968688965,
+        0.17278689028848637,
+        2.0694742329218787
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Anchor, windlass, cleats and rails.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_propulsion",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "Propulsion",
+      "systemId": "propulsion",
+      "assembly": "Propulsion",
+      "parentId": "sunseeker-predator-84-gen1-2008_hull_shell",
+      "shape": "cylinder",
+      "position": [
+        -5.592576026916504,
+        -0.3391999900341034,
+        0
+      ],
+      "size": [
+        5.084159851074219,
+        0.6398838839634413,
+        3.9564634622185655
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -1.2
+      ],
+      "localExplode": [
+        0,
+        0,
+        -1.2
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Documented propulsion family represented as authored machinery and drives.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_room_day_head_4",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "day head",
+      "systemId": "accommodation",
+      "assembly": "day head",
+      "parentId": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "shape": "box",
+      "position": [
+        6.30435848236084,
+        -0.18000000715255737,
+        0.542492687702179
+      ],
+      "size": [
+        0.9609062671661377,
+        0.4199694403542057,
+        0.21994070265041143
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored day head arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "roomId": "sunseeker-predator-84-gen1-2008_room_day_head_4"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_room_deck_saloon_0",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "deck saloon",
+      "systemId": "accommodation",
+      "assembly": "deck saloon",
+      "parentId": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "shape": "box",
+      "position": [
+        -6.30435848236084,
+        -0.23000000417232513,
+        1.054975986480713
+      ],
+      "size": [
+        2.0123512744903564,
+        0.38002959338805276,
+        1.8216679750787046
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored deck saloon arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "roomId": "sunseeker-predator-84-gen1-2008_room_deck_saloon_0"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_room_main_galley_1",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "main galley",
+      "systemId": "accommodation",
+      "assembly": "main galley",
+      "parentId": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "shape": "box",
+      "position": [
+        -3.15217924118042,
+        -0.18000000715255737,
+        -1.6480900049209595
+      ],
+      "size": [
+        1.8005247116088867,
+        0.5499878487042862,
+        0.2800217880904228
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored main galley arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "roomId": "sunseeker-predator-84-gen1-2008_room_main_galley_1"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_room_port_guest_cabin_2",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "port guest cabin",
+      "systemId": "accommodation",
+      "assembly": "port guest cabin",
+      "parentId": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "shape": "box",
+      "position": [
+        0,
+        -0.36000001430511475,
+        1.054975986480713
+      ],
+      "size": [
+        2.065307855606079,
+        0.19993153227278915,
+        1.4828465410623073
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored port guest cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "roomId": "sunseeker-predator-84-gen1-2008_room_port_guest_cabin_2"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_room_starboard_guest_cabin_3",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "starboard guest cabin",
+      "systemId": "accommodation",
+      "assembly": "starboard guest cabin",
+      "parentId": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "shape": "box",
+      "position": [
+        3.15217924118042,
+        -0.36000001430511475,
+        -1.054975986480713
+      ],
+      "size": [
+        2.065307855606079,
+        0.19993153227278915,
+        1.4828465410623073
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored starboard guest cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "roomId": "sunseeker-predator-84-gen1-2008_room_starboard_guest_cabin_3"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_safety",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "Safety equipment",
+      "systemId": "safety",
+      "assembly": "Safety equipment",
+      "parentId": "sunseeker-predator-84-gen1-2008_deck_main",
+      "shape": "box",
+      "position": [
+        -9.659903526306152,
+        1.3470001220703125,
+        2.6374399662017822
+      ],
+      "size": [
+        3.5589120388031006,
+        0.21583514293070172,
+        0.7250983236503039
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Liferaft, extinguisher and navigation safety equipment.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_superstructure",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "Superstructure",
+      "systemId": "structure",
+      "assembly": "Superstructure",
+      "parentId": "sunseeker-predator-84-gen1-2008_deck_main",
+      "shape": "chamferedBox",
+      "position": [
+        2.2878719568252563,
+        1.613773690124018,
+        1.1920928955078125e-7
+      ],
+      "size": [
+        10.896735906600952,
+        1.3601691399027658,
+        4.858966171728753
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.8
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.8
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed wheelhouse and superstructure.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "shell",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_swim_platform",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "Swim platform",
+      "systemId": "structure",
+      "assembly": "Swim platform",
+      "parentId": "sunseeker-predator-84-gen1-2008_hull_shell",
+      "shape": "box",
+      "position": [
+        -12.201984405517578,
+        0.18000000715255737,
+        0
+      ],
+      "size": [
+        3.0503012782053887,
+        0.09982461731700248,
+        5.143008232116699
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Aft bathing platform or transom step.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_tender_garage",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "Tender garage and transom",
+      "systemId": "accommodation",
+      "assembly": "Tender garage and transom",
+      "parentId": "sunseeker-predator-84-gen1-2008_hull_shell",
+      "shape": "chamferedBox",
+      "position": [
+        -11.947775840759277,
+        0.34800001978874207,
+        0
+      ],
+      "size": [
+        0.05003304187112079,
+        0.783152343551504,
+        3.692415952682495
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.35
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.35
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed tender garage, lowering platform and bathing transom.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_ventilation",
+      "vesselId": "sunseeker-predator-84-gen1-2008",
+      "name": "Ventilation and HVAC",
+      "systemId": "utilities",
+      "assembly": "Ventilation and HVAC",
+      "parentId": "sunseeker-predator-84-gen1-2008_superstructure",
+      "shape": "box",
+      "position": [
+        1.2710399627685547,
+        -1.0743600130081177,
+        0
+      ],
+      "size": [
+        5.147712646525053,
+        0.10985468066002824,
+        0.10985397425948505
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Ventilation and HVAC service equipment envelope.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ],
+      "enclosure": "equipment"
+    }
+  ],
+  "meaningfulCount": 23,
+  "lods": [],
+  "assets": [
+    {
+      "id": "exterior-lod0",
+      "kind": "exterior",
+      "level": 0,
+      "path": "models/sunseeker-predator-84-gen1-2008/exterior.lod0.glb",
+      "bytes": 338612,
+      "sha256": "f675d55f5a4f433ffb5a108dc85c6b5cab9e96bf477f603d852a4c0858f077cb",
+      "componentIds": [
+        "sunseeker-predator-84-gen1-2008_cockpit",
+        "sunseeker-predator-84-gen1-2008_deck_main",
+        "sunseeker-predator-84-gen1-2008_electrical",
+        "sunseeker-predator-84-gen1-2008_family_signature",
+        "sunseeker-predator-84-gen1-2008_flybridge",
+        "sunseeker-predator-84-gen1-2008_freshwater",
+        "sunseeker-predator-84-gen1-2008_fuel",
+        "sunseeker-predator-84-gen1-2008_glazing",
+        "sunseeker-predator-84-gen1-2008_helm",
+        "sunseeker-predator-84-gen1-2008_hull_shell",
+        "sunseeker-predator-84-gen1-2008_mooring",
+        "sunseeker-predator-84-gen1-2008_propulsion",
+        "sunseeker-predator-84-gen1-2008_safety",
+        "sunseeker-predator-84-gen1-2008_superstructure",
+        "sunseeker-predator-84-gen1-2008_swim_platform",
+        "sunseeker-predator-84-gen1-2008_tender_garage",
+        "sunseeker-predator-84-gen1-2008_ventilation"
+      ]
+    },
+    {
+      "id": "exterior-lod1",
+      "kind": "exterior",
+      "level": 1,
+      "path": "models/sunseeker-predator-84-gen1-2008/exterior.lod1.glb",
+      "bytes": 186572,
+      "sha256": "6e886a17446c40f1bda77debd57600d56ee825adf3268e43a7c0f421c428082c",
+      "componentIds": [
+        "sunseeker-predator-84-gen1-2008_cockpit",
+        "sunseeker-predator-84-gen1-2008_deck_main",
+        "sunseeker-predator-84-gen1-2008_electrical",
+        "sunseeker-predator-84-gen1-2008_family_signature",
+        "sunseeker-predator-84-gen1-2008_flybridge",
+        "sunseeker-predator-84-gen1-2008_freshwater",
+        "sunseeker-predator-84-gen1-2008_fuel",
+        "sunseeker-predator-84-gen1-2008_glazing",
+        "sunseeker-predator-84-gen1-2008_helm",
+        "sunseeker-predator-84-gen1-2008_hull_shell",
+        "sunseeker-predator-84-gen1-2008_mooring",
+        "sunseeker-predator-84-gen1-2008_propulsion",
+        "sunseeker-predator-84-gen1-2008_safety",
+        "sunseeker-predator-84-gen1-2008_superstructure",
+        "sunseeker-predator-84-gen1-2008_swim_platform",
+        "sunseeker-predator-84-gen1-2008_tender_garage",
+        "sunseeker-predator-84-gen1-2008_ventilation"
+      ]
+    },
+    {
+      "id": "interior-sunseeker-predator-84-gen1-2008_deck_lower-lod0",
+      "kind": "interior",
+      "level": 0,
+      "path": "models/sunseeker-predator-84-gen1-2008/interior-sunseeker-predator-84-gen1-2008_deck_lower.lod0.glb",
+      "bytes": 301332,
+      "sha256": "801c370cd69591475c15eae54822cc7a4d12926c99701f9703fac66487156f4a",
+      "componentIds": [
+        "sunseeker-predator-84-gen1-2008_deck_lower",
+        "sunseeker-predator-84-gen1-2008_engine_room",
+        "sunseeker-predator-84-gen1-2008_lower_partitions",
+        "sunseeker-predator-84-gen1-2008_room_day_head_4",
+        "sunseeker-predator-84-gen1-2008_room_deck_saloon_0",
+        "sunseeker-predator-84-gen1-2008_room_main_galley_1",
+        "sunseeker-predator-84-gen1-2008_room_port_guest_cabin_2",
+        "sunseeker-predator-84-gen1-2008_room_starboard_guest_cabin_3"
+      ],
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower"
+    },
+    {
+      "id": "interior-sunseeker-predator-84-gen1-2008_deck_lower-lod1",
+      "kind": "interior",
+      "level": 1,
+      "path": "models/sunseeker-predator-84-gen1-2008/interior-sunseeker-predator-84-gen1-2008_deck_lower.lod1.glb",
+      "bytes": 68132,
+      "sha256": "7838dee046ec3e50732e23389be9ce3d2a832728de681819a2ad4e218534c625",
+      "componentIds": [
+        "sunseeker-predator-84-gen1-2008_deck_lower",
+        "sunseeker-predator-84-gen1-2008_engine_room",
+        "sunseeker-predator-84-gen1-2008_lower_partitions",
+        "sunseeker-predator-84-gen1-2008_room_day_head_4",
+        "sunseeker-predator-84-gen1-2008_room_deck_saloon_0",
+        "sunseeker-predator-84-gen1-2008_room_main_galley_1",
+        "sunseeker-predator-84-gen1-2008_room_port_guest_cabin_2",
+        "sunseeker-predator-84-gen1-2008_room_starboard_guest_cabin_3"
+      ],
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower"
+    }
+  ],
+  "decks": [
+    {
+      "id": "sunseeker-predator-84-gen1-2008_deck_main",
+      "name": "Main deck",
+      "componentId": "sunseeker-predator-84-gen1-2008_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_cockpit",
+      "name": "Aft cockpit",
+      "componentId": "sunseeker-predator-84-gen1-2008_cockpit"
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "name": "Lower accommodation deck",
+      "componentId": "sunseeker-predator-84-gen1-2008_deck_lower"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "sunseeker-predator-84-gen1-2008_room_deck_saloon_0",
+      "name": "deck saloon",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "componentId": "sunseeker-predator-84-gen1-2008_room_deck_saloon_0",
+      "fidelity": "reference-informed",
+      "note": "Authored deck saloon arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ]
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_room_main_galley_1",
+      "name": "main galley",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "componentId": "sunseeker-predator-84-gen1-2008_room_main_galley_1",
+      "fidelity": "reference-informed",
+      "note": "Authored main galley arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ]
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_room_port_guest_cabin_2",
+      "name": "port guest cabin",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "componentId": "sunseeker-predator-84-gen1-2008_room_port_guest_cabin_2",
+      "fidelity": "reference-informed",
+      "note": "Authored port guest cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ]
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_room_starboard_guest_cabin_3",
+      "name": "starboard guest cabin",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "componentId": "sunseeker-predator-84-gen1-2008_room_starboard_guest_cabin_3",
+      "fidelity": "reference-informed",
+      "note": "Authored starboard guest cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ]
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_room_day_head_4",
+      "name": "day head",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "componentId": "sunseeker-predator-84-gen1-2008_room_day_head_4",
+      "fidelity": "reference-informed",
+      "note": "Authored day head arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ]
+    },
+    {
+      "id": "sunseeker-predator-84-gen1-2008_room_engine",
+      "name": "Engine room",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower",
+      "componentId": "sunseeker-predator-84-gen1-2008_engine_room",
+      "fidelity": "reconstructed",
+      "note": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-faea138960d49971",
+        "source-af5eb55e8260a6ff",
+        "source-ee86fb3a3ebac287",
+        "source-e0947efb851862aa",
+        "source-720916dec7a71e62"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "id": "exterior_bow",
+      "name": "Review | Bow quarter",
+      "position": [
+        28.5984,
+        4.7664,
+        24.361600000000003
+      ],
+      "target": [
+        0,
+        0.62,
+        0
+      ],
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_main"
+    },
+    {
+      "id": "exterior_port_profile",
+      "name": "Review | Port profile",
+      "position": [
+        0,
+        3.7072000000000003,
+        39.1904
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_main"
+    },
+    {
+      "id": "exterior_starboard_profile",
+      "name": "Review | Starboard profile",
+      "position": [
+        0,
+        3.7072000000000003,
+        -39.1904
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_main"
+    },
+    {
+      "id": "exterior_stern",
+      "name": "Review | Stern quarter",
+      "position": [
+        -28.5984,
+        4.7664,
+        -24.361600000000003
+      ],
+      "target": [
+        0,
+        0.66,
+        0
+      ],
+      "deckId": "sunseeker-predator-84-gen1-2008_cockpit"
+    },
+    {
+      "id": "exterior_high",
+      "name": "Review | High bow",
+      "position": [
+        17.4768,
+        35.483200000000004,
+        0
+      ],
+      "target": [
+        0,
+        0.25,
+        0
+      ],
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_main"
+    },
+    {
+      "id": "exterior_above",
+      "name": "Review | Above plan",
+      "position": [
+        1.8536000000000001,
+        55.0784,
+        1.8536000000000001
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_main"
+    },
+    {
+      "id": "exterior_below",
+      "name": "Review | Below hull",
+      "position": [
+        -28.5984,
+        -16.4176,
+        -22.243199999999998
+      ],
+      "target": [
+        0,
+        -0.35,
+        0
+      ],
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower"
+    },
+    {
+      "id": "exterior_three_quarter",
+      "name": "Review | Starboard three-quarter",
+      "position": [
+        30.7168,
+        4.7664,
+        -29.657600000000002
+      ],
+      "target": [
+        0,
+        0.58,
+        0
+      ],
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_main"
+    },
+    {
+      "id": "room_0",
+      "name": "Room | deck saloon",
+      "position": [
+        -9.782700586666667,
+        0.92,
+        3.3680271360000003
+      ],
+      "target": [
+        -6.8406666666666665,
+        -0.18,
+        1.0144
+      ],
+      "roomId": "sunseeker-predator-84-gen1-2008_room_deck_saloon_0",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower"
+    },
+    {
+      "id": "room_1",
+      "name": "Room | main galley",
+      "position": [
+        -7.04643392,
+        0.92,
+        1.339227136
+      ],
+      "target": [
+        -4.1044,
+        -0.18,
+        -1.0144
+      ],
+      "roomId": "sunseeker-predator-84-gen1-2008_room_main_galley_1",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower"
+    },
+    {
+      "id": "room_2",
+      "name": "Room | port guest cabin",
+      "position": [
+        -4.310167253333333,
+        0.92,
+        3.3680271360000003
+      ],
+      "target": [
+        -1.3681333333333328,
+        -0.18,
+        1.0144
+      ],
+      "roomId": "sunseeker-predator-84-gen1-2008_room_port_guest_cabin_2",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower"
+    },
+    {
+      "id": "room_3",
+      "name": "Room | starboard guest cabin",
+      "position": [
+        -1.5739005866666655,
+        0.92,
+        1.339227136
+      ],
+      "target": [
+        1.3681333333333345,
+        -0.18,
+        -1.0144
+      ],
+      "roomId": "sunseeker-predator-84-gen1-2008_room_starboard_guest_cabin_3",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower"
+    },
+    {
+      "id": "room_4",
+      "name": "Room | day head",
+      "position": [
+        1.16236608,
+        0.92,
+        3.3680271360000003
+      ],
+      "target": [
+        4.1044,
+        -0.18,
+        1.0144
+      ],
+      "roomId": "sunseeker-predator-84-gen1-2008_room_day_head_4",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower"
+    },
+    {
+      "id": "room_5",
+      "name": "Room | Engine room",
+      "position": [
+        -15.400768000000001,
+        0.72,
+        5.974816
+      ],
+      "target": [
+        -7.944,
+        -0.18,
+        1.268
+      ],
+      "roomId": "sunseeker-predator-84-gen1-2008_room_engine",
+      "deckId": "sunseeker-predator-84-gen1-2008_deck_lower"
+    }
+  ],
+  "fidelity": "Original reference-informed reconstruction of Sunseeker Predator 84 (Gen 1). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them."
+}

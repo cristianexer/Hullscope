@@ -1,0 +1,1181 @@
+{
+  "vesselId": "sunseeker-hawk-38-gen1-2018",
+  "version": 2,
+  "units": "metres",
+  "components": [
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_cockpit",
+      "vesselId": "sunseeker-hawk-38-gen1-2018",
+      "name": "Cockpit and social deck",
+      "systemId": "accommodation",
+      "assembly": "Cockpit and social deck",
+      "parentId": "sunseeker-hawk-38-gen1-2018_deck_main",
+      "shape": "deck",
+      "position": [
+        -3.0715200901031494,
+        1.0399634263586197,
+        0
+      ],
+      "size": [
+        3.867840051651001,
+        0.5000254300205507,
+        2.738780629243035
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Open aft cockpit, seating and social equipment.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_main"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_deck_lower",
+      "vesselId": "sunseeker-hawk-38-gen1-2018",
+      "name": "Lower accommodation deck",
+      "systemId": "structure",
+      "assembly": "Lower accommodation deck",
+      "parentId": "sunseeker-hawk-38-gen1-2018_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        -0.5799999833106995,
+        0
+      ],
+      "size": [
+        8.190719604492188,
+        0.07998993723677783,
+        2.228969594813588
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.7
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.7
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Lower accommodation deck and room boundaries.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_lower"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_deck_main",
+      "vesselId": "sunseeker-hawk-38-gen1-2018",
+      "name": "Main deck",
+      "systemId": "structure",
+      "assembly": "Main deck",
+      "parentId": "sunseeker-hawk-38-gen1-2018_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        0.6913509517908096,
+        0
+      ],
+      "size": [
+        11.37600040435791,
+        0.8526705829982308,
+        2.9610860758924713
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Main deck surface and deck edge.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_main"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_electrical",
+      "vesselId": "sunseeker-hawk-38-gen1-2018",
+      "name": "Electrical power",
+      "systemId": "electrical",
+      "assembly": "Electrical power",
+      "parentId": "sunseeker-hawk-38-gen1-2018_hull_shell",
+      "shape": "box",
+      "position": [
+        -0.3412800133228302,
+        -0.23889599740505219,
+        0
+      ],
+      "size": [
+        1.5926400423049927,
+        0.27996480128411994,
+        0.7643136285056921
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Batteries, distribution and generator family placeholder where details are unknown.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_engine_room",
+      "vesselId": "sunseeker-hawk-38-gen1-2018",
+      "name": "Engine room",
+      "systemId": "propulsion",
+      "assembly": "Engine room",
+      "parentId": "sunseeker-hawk-38-gen1-2018_deck_lower",
+      "shape": "cylinder",
+      "position": [
+        -3.4128000736236572,
+        -0.30000001192092896,
+        0
+      ],
+      "size": [
+        1.7064000368118286,
+        0.5499829337067696,
+        1.8471452972364844
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_lower",
+      "roomId": "sunseeker-hawk-38-gen1-2018_room_engine"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_freshwater",
+      "vesselId": "sunseeker-hawk-38-gen1-2018",
+      "name": "Freshwater and sanitation",
+      "systemId": "utilities",
+      "assembly": "Freshwater and sanitation",
+      "parentId": "sunseeker-hawk-38-gen1-2018_hull_shell",
+      "shape": "box",
+      "position": [
+        1.1375999450683594,
+        -0.3583439886569977,
+        0
+      ],
+      "size": [
+        2.047679901123047,
+        0.21997232740113912,
+        0.827958342539117
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Freshwater and sanitation service envelope.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_fuel",
+      "vesselId": "sunseeker-hawk-38-gen1-2018",
+      "name": "Fuel system",
+      "systemId": "fuel",
+      "assembly": "Fuel system",
+      "parentId": "sunseeker-hawk-38-gen1-2018_hull_shell",
+      "shape": "box",
+      "position": [
+        -1.3651200532913208,
+        -0.382233589887619,
+        0
+      ],
+      "size": [
+        2.8440001010894775,
+        0.2399003961122872,
+        1.0190559156130117
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Fuel tank and service system envelope.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_glazing",
+      "vesselId": "sunseeker-hawk-38-gen1-2018",
+      "name": "Glazing",
+      "systemId": "structure",
+      "assembly": "Glazing",
+      "parentId": "sunseeker-hawk-38-gen1-2018_superstructure",
+      "shape": "chamferedBox",
+      "position": [
+        1.1375999748706818,
+        1.4800000190734863,
+        0
+      ],
+      "size": [
+        1.8059105277061462,
+        0.279977583567224,
+        1.2593479890769812
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Windshield, side glazing and hull windows.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ],
+      "enclosure": "shell",
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_main"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_helm",
+      "vesselId": "sunseeker-hawk-38-gen1-2018",
+      "name": "Helm station",
+      "systemId": "navigation",
+      "assembly": "Helm station",
+      "parentId": "sunseeker-hawk-38-gen1-2018_superstructure",
+      "shape": "box",
+      "position": [
+        1.5926400423049927,
+        1.2799999713897705,
+        -0.955374002456665
+      ],
+      "size": [
+        1.8201600313186646,
+        0.41994719799704283,
+        0.5095470432839782
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Helm console, steering position and displays.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_main"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_hull_shell",
+      "vesselId": "sunseeker-hawk-38-gen1-2018",
+      "name": "Hull shell",
+      "systemId": "structure",
+      "assembly": "Hull shell",
+      "parentId": null,
+      "shape": "hull",
+      "position": [
+        -0.0003712177276611328,
+        0.1501573622226715,
+        -5.960464477539063e-8
+      ],
+      "size": [
+        11.37474775314331,
+        1.834289594030862,
+        3.0107482303235553
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.9
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.9
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed hull form and underwater volume.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ],
+      "enclosure": "shell"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_lower_partitions",
+      "vesselId": "sunseeker-hawk-38-gen1-2018",
+      "name": "Lower partitions",
+      "systemId": "structure",
+      "assembly": "Lower partitions",
+      "parentId": "sunseeker-hawk-38-gen1-2018_deck_lower",
+      "shape": "box",
+      "position": [
+        -2.9577600955963135,
+        -0.17000000178813934,
+        0
+      ],
+      "size": [
+        0.05996150128168409,
+        0.5200602823819109,
+        2.0381312370300293
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Low room-divider partitions; exact joinery is reconstructed.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_lower"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_mooring",
+      "vesselId": "sunseeker-hawk-38-gen1-2018",
+      "name": "Mooring equipment",
+      "systemId": "mooring",
+      "assembly": "Mooring equipment",
+      "parentId": "sunseeker-hawk-38-gen1-2018_deck_main",
+      "shape": "box",
+      "position": [
+        4.268266797065735,
+        1.049996942281723,
+        -0.7493847161531448
+      ],
+      "size": [
+        2.6276748180389404,
+        0.12798757925932025,
+        1.0124330752812778
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Anchor, windlass, cleats and rails.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_main"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_outboard_propulsion",
+      "vesselId": "sunseeker-hawk-38-gen1-2018",
+      "name": "Twin outboard propulsion",
+      "systemId": "propulsion",
+      "assembly": "Twin outboard propulsion",
+      "parentId": "sunseeker-hawk-38-gen1-2018_hull_shell",
+      "shape": "cylinder",
+      "position": [
+        -5.346720218658447,
+        0.23999999463558197,
+        0
+      ],
+      "size": [
+        0.36000000276873223,
+        0.6200000047683716,
+        1.6138508876300577
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.65
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.65
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed twin outboard propulsion arrangement.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_propulsion",
+      "vesselId": "sunseeker-hawk-38-gen1-2018",
+      "name": "Propulsion",
+      "systemId": "propulsion",
+      "assembly": "Propulsion",
+      "parentId": "sunseeker-hawk-38-gen1-2018_hull_shell",
+      "shape": "cylinder",
+      "position": [
+        -2.5027201175689697,
+        -0.12741120159626007,
+        0
+      ],
+      "size": [
+        2.2751998901367188,
+        0.6399889336036297,
+        1.9107657259288486
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -1.2
+      ],
+      "localExplode": [
+        0,
+        0,
+        -1.2
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Documented propulsion family represented as authored machinery and drives.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_room_one_head_0",
+      "vesselId": "sunseeker-hawk-38-gen1-2018",
+      "name": "one head",
+      "systemId": "accommodation",
+      "assembly": "one head",
+      "parentId": "sunseeker-hawk-38-gen1-2018_deck_lower",
+      "shape": "box",
+      "position": [
+        0,
+        -0.18000000715255737,
+        0.13153280317783356
+      ],
+      "size": [
+        0.7139999866485596,
+        0.4199846108177232,
+        0.22001580447372376
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored one head arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_lower",
+      "roomId": "sunseeker-hawk-38-gen1-2018_room_one_head_0"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_safety",
+      "vesselId": "sunseeker-hawk-38-gen1-2018",
+      "name": "Safety equipment",
+      "systemId": "safety",
+      "assembly": "Safety equipment",
+      "parentId": "sunseeker-hawk-38-gen1-2018_deck_main",
+      "shape": "box",
+      "position": [
+        -4.322879791259766,
+        1.2000000476837158,
+        1.2738319635391235
+      ],
+      "size": [
+        1.5926400423049927,
+        0.16000766073391004,
+        0.35034484160693324
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Liferaft, extinguisher and navigation safety equipment.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_main"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_superstructure",
+      "vesselId": "sunseeker-hawk-38-gen1-2018",
+      "name": "Superstructure",
+      "systemId": "structure",
+      "assembly": "Superstructure",
+      "parentId": "sunseeker-hawk-38-gen1-2018_deck_main",
+      "shape": "chamferedBox",
+      "position": [
+        0.9100800156593323,
+        1.1299999952316284,
+        0
+      ],
+      "size": [
+        2.2751998901367188,
+        0.4998412415452096,
+        1.6560416693551665
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.8
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.8
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed wheelhouse and superstructure.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ],
+      "enclosure": "shell",
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_main"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_swim_platform",
+      "vesselId": "sunseeker-hawk-38-gen1-2018",
+      "name": "Swim platform",
+      "systemId": "structure",
+      "assembly": "Swim platform",
+      "parentId": "sunseeker-hawk-38-gen1-2018_hull_shell",
+      "shape": "box",
+      "position": [
+        -5.460480213165283,
+        0.18000000715255737,
+        0
+      ],
+      "size": [
+        1.3652864565406766,
+        0.1000654149158075,
+        2.4839723110198975
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Aft bathing platform or transom step.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_main"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_ventilation",
+      "vesselId": "sunseeker-hawk-38-gen1-2018",
+      "name": "Ventilation and HVAC",
+      "systemId": "utilities",
+      "assembly": "Ventilation and HVAC",
+      "parentId": "sunseeker-hawk-38-gen1-2018_superstructure",
+      "shape": "box",
+      "position": [
+        0.5687999725341797,
+        -0.22296960651874542,
+        0
+      ],
+      "size": [
+        1.3651202514849063,
+        0.10998637149871196,
+        0.10998617330512671
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Ventilation and HVAC service equipment envelope.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ],
+      "enclosure": "equipment"
+    }
+  ],
+  "meaningfulCount": 17,
+  "lods": [],
+  "assets": [
+    {
+      "id": "exterior-lod0",
+      "kind": "exterior",
+      "level": 0,
+      "path": "models/sunseeker-hawk-38-gen1-2018/exterior.lod0.glb",
+      "bytes": 202392,
+      "sha256": "9d07168526c3e41682d6f9f187a86667927a6e3e494e613a2c6810c43dc1688e",
+      "componentIds": [
+        "sunseeker-hawk-38-gen1-2018_cockpit",
+        "sunseeker-hawk-38-gen1-2018_deck_main",
+        "sunseeker-hawk-38-gen1-2018_electrical",
+        "sunseeker-hawk-38-gen1-2018_freshwater",
+        "sunseeker-hawk-38-gen1-2018_fuel",
+        "sunseeker-hawk-38-gen1-2018_glazing",
+        "sunseeker-hawk-38-gen1-2018_helm",
+        "sunseeker-hawk-38-gen1-2018_hull_shell",
+        "sunseeker-hawk-38-gen1-2018_mooring",
+        "sunseeker-hawk-38-gen1-2018_outboard_propulsion",
+        "sunseeker-hawk-38-gen1-2018_propulsion",
+        "sunseeker-hawk-38-gen1-2018_safety",
+        "sunseeker-hawk-38-gen1-2018_superstructure",
+        "sunseeker-hawk-38-gen1-2018_swim_platform",
+        "sunseeker-hawk-38-gen1-2018_ventilation"
+      ]
+    },
+    {
+      "id": "exterior-lod1",
+      "kind": "exterior",
+      "level": 1,
+      "path": "models/sunseeker-hawk-38-gen1-2018/exterior.lod1.glb",
+      "bytes": 137856,
+      "sha256": "6ec502f41aebcfc38475dbba07d5ce5540447042a474748a62457ccef2498c78",
+      "componentIds": [
+        "sunseeker-hawk-38-gen1-2018_cockpit",
+        "sunseeker-hawk-38-gen1-2018_deck_main",
+        "sunseeker-hawk-38-gen1-2018_electrical",
+        "sunseeker-hawk-38-gen1-2018_freshwater",
+        "sunseeker-hawk-38-gen1-2018_fuel",
+        "sunseeker-hawk-38-gen1-2018_glazing",
+        "sunseeker-hawk-38-gen1-2018_helm",
+        "sunseeker-hawk-38-gen1-2018_hull_shell",
+        "sunseeker-hawk-38-gen1-2018_mooring",
+        "sunseeker-hawk-38-gen1-2018_outboard_propulsion",
+        "sunseeker-hawk-38-gen1-2018_propulsion",
+        "sunseeker-hawk-38-gen1-2018_safety",
+        "sunseeker-hawk-38-gen1-2018_superstructure",
+        "sunseeker-hawk-38-gen1-2018_swim_platform",
+        "sunseeker-hawk-38-gen1-2018_ventilation"
+      ]
+    },
+    {
+      "id": "interior-sunseeker-hawk-38-gen1-2018_deck_lower-lod0",
+      "kind": "interior",
+      "level": 0,
+      "path": "models/sunseeker-hawk-38-gen1-2018/interior-sunseeker-hawk-38-gen1-2018_deck_lower.lod0.glb",
+      "bytes": 124188,
+      "sha256": "85ec6aaad532c26374830e6d23e615c21fa6817bdbc7007f8ded736eea240e39",
+      "componentIds": [
+        "sunseeker-hawk-38-gen1-2018_deck_lower",
+        "sunseeker-hawk-38-gen1-2018_engine_room",
+        "sunseeker-hawk-38-gen1-2018_lower_partitions",
+        "sunseeker-hawk-38-gen1-2018_room_one_head_0"
+      ],
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_lower"
+    },
+    {
+      "id": "interior-sunseeker-hawk-38-gen1-2018_deck_lower-lod1",
+      "kind": "interior",
+      "level": 1,
+      "path": "models/sunseeker-hawk-38-gen1-2018/interior-sunseeker-hawk-38-gen1-2018_deck_lower.lod1.glb",
+      "bytes": 44112,
+      "sha256": "5c6705e45e0ba5a512b41a5465697bec484307e7d22070012ffea829ca9326ec",
+      "componentIds": [
+        "sunseeker-hawk-38-gen1-2018_deck_lower",
+        "sunseeker-hawk-38-gen1-2018_engine_room",
+        "sunseeker-hawk-38-gen1-2018_lower_partitions",
+        "sunseeker-hawk-38-gen1-2018_room_one_head_0"
+      ],
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_lower"
+    }
+  ],
+  "decks": [
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_deck_main",
+      "name": "Main deck",
+      "componentId": "sunseeker-hawk-38-gen1-2018_deck_main"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_cockpit",
+      "name": "Aft cockpit",
+      "componentId": "sunseeker-hawk-38-gen1-2018_cockpit"
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_deck_lower",
+      "name": "Lower accommodation deck",
+      "componentId": "sunseeker-hawk-38-gen1-2018_deck_lower"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_room_one_head_0",
+      "name": "one head",
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_lower",
+      "componentId": "sunseeker-hawk-38-gen1-2018_room_one_head_0",
+      "fidelity": "reference-informed",
+      "note": "Authored one head arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ]
+    },
+    {
+      "id": "sunseeker-hawk-38-gen1-2018_room_engine",
+      "name": "Engine room",
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_lower",
+      "componentId": "sunseeker-hawk-38-gen1-2018_engine_room",
+      "fidelity": "reconstructed",
+      "note": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-d26488d97b853cbb",
+        "source-c63cd3e3809d3c70",
+        "source-e1bb15dd98b06b51",
+        "source-7fb1d6e1305046b4"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "id": "exterior_bow",
+      "name": "Review | Bow quarter",
+      "position": [
+        12.798,
+        2.133,
+        10.902000000000001
+      ],
+      "target": [
+        0,
+        0.62,
+        0
+      ],
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_main"
+    },
+    {
+      "id": "exterior_port_profile",
+      "name": "Review | Port profile",
+      "position": [
+        0,
+        1.85,
+        17.538
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_main"
+    },
+    {
+      "id": "exterior_starboard_profile",
+      "name": "Review | Starboard profile",
+      "position": [
+        0,
+        1.85,
+        -17.538
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_main"
+    },
+    {
+      "id": "exterior_stern",
+      "name": "Review | Stern quarter",
+      "position": [
+        -12.798,
+        2.133,
+        -10.902000000000001
+      ],
+      "target": [
+        0,
+        0.66,
+        0
+      ],
+      "deckId": "sunseeker-hawk-38-gen1-2018_cockpit"
+    },
+    {
+      "id": "exterior_high",
+      "name": "Review | High bow",
+      "position": [
+        7.821,
+        15.879000000000001,
+        0
+      ],
+      "target": [
+        0,
+        0.25,
+        0
+      ],
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_main"
+    },
+    {
+      "id": "exterior_above",
+      "name": "Review | Above plan",
+      "position": [
+        0.8295,
+        24.648,
+        0.8295
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_main"
+    },
+    {
+      "id": "exterior_below",
+      "name": "Review | Below hull",
+      "position": [
+        -12.798,
+        -7.3469999999999995,
+        -9.953999999999999
+      ],
+      "target": [
+        0,
+        -0.35,
+        0
+      ],
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_lower"
+    },
+    {
+      "id": "exterior_three_quarter",
+      "name": "Review | Starboard three-quarter",
+      "position": [
+        13.745999999999999,
+        2.133,
+        -13.272
+      ],
+      "target": [
+        0,
+        0.58,
+        0
+      ],
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_main"
+    },
+    {
+      "id": "room_0",
+      "name": "Room | one head",
+      "position": [
+        -4.0127500000000005,
+        0.92,
+        2.2096
+      ],
+      "target": [
+        -1.8367499999999999,
+        -0.18,
+        0.4816
+      ],
+      "roomId": "sunseeker-hawk-38-gen1-2018_room_one_head_0",
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_lower"
+    },
+    {
+      "id": "room_1",
+      "name": "Room | Engine room",
+      "position": [
+        -6.891959999999999,
+        0.72,
+        2.8366239999999996
+      ],
+      "target": [
+        -3.5549999999999997,
+        -0.18,
+        0.602
+      ],
+      "roomId": "sunseeker-hawk-38-gen1-2018_room_engine",
+      "deckId": "sunseeker-hawk-38-gen1-2018_deck_lower"
+    }
+  ],
+  "fidelity": "Original reference-informed reconstruction of Sunseeker Hawk 38 (original Hawk 38 launch generation, world-premiere-era 2018 model). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them."
+}

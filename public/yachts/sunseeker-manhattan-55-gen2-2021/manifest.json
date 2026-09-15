@@ -1,0 +1,1551 @@
+{
+  "vesselId": "sunseeker-manhattan-55-gen2-2021",
+  "version": 2,
+  "units": "metres",
+  "components": [
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_cockpit",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "Cockpit and social deck",
+      "systemId": "accommodation",
+      "assembly": "Cockpit and social deck",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_deck_main",
+      "shape": "deck",
+      "position": [
+        -4.460832118988037,
+        1.0399648173531626,
+        0
+      ],
+      "size": [
+        5.617343902587891,
+        0.5000465376211136,
+        4.355597294016862
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Open aft cockpit, seating and social equipment.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "Lower accommodation deck",
+      "systemId": "structure",
+      "assembly": "Lower accommodation deck",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        -0.5799999833106995,
+        0
+      ],
+      "size": [
+        11.895551681518555,
+        0.07986759147722045,
+        3.5450319580684435
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.7
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.7
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Lower accommodation deck and room boundaries.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_deck_main",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "Main deck",
+      "systemId": "structure",
+      "assembly": "Main deck",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        0.8115010112524033,
+        0
+      ],
+      "size": [
+        16.5216007232666,
+        0.8168276977352793,
+        4.709868842311878
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Main deck surface and deck edge.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_electrical",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "Electrical power",
+      "systemId": "electrical",
+      "assembly": "Electrical power",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_hull_shell",
+      "shape": "box",
+      "position": [
+        -0.49564799666404724,
+        -0.41100001335144043,
+        0
+      ],
+      "size": [
+        2.3130240440368652,
+        0.2801013033459969,
+        1.215701775762288
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Batteries, distribution and generator family placeholder where details are unknown.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_engine_room",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "Engine room",
+      "systemId": "propulsion",
+      "assembly": "Engine room",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "shape": "cylinder",
+      "position": [
+        -4.956480026245117,
+        -0.30000001192092896,
+        0
+      ],
+      "size": [
+        2.4782400131225586,
+        0.5499972953101366,
+        2.9375147162771067
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "roomId": "sunseeker-manhattan-55-gen2-2021_room_engine"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_family_signature",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "Family-specific exterior details",
+      "systemId": "structure",
+      "assembly": "Family-specific exterior details",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_deck_main",
+      "shape": "box",
+      "position": [
+        -4.956480026245117,
+        1.0800000429153442,
+        -1.7220319509506226
+      ],
+      "size": [
+        1.321727991104126,
+        0.10003617718858093,
+        0.45585033806780384
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.28
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.28
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed family signature details; small joinery and offsets are reconstructed where public references do not expose them.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_flybridge",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "Flybridge and upper deck",
+      "systemId": "accommodation",
+      "assembly": "Flybridge and upper deck",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_superstructure",
+      "shape": "deck",
+      "position": [
+        -0.15860724449157715,
+        2.680103027049676,
+        0
+      ],
+      "size": [
+        7.930367946624756,
+        0.6197602039370573,
+        4.099022615314981
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        1
+      ],
+      "localExplode": [
+        0,
+        0,
+        1
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed upper helm, seating and deck volume.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_freshwater",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "Freshwater and sanitation",
+      "systemId": "utilities",
+      "assembly": "Freshwater and sanitation",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_hull_shell",
+      "shape": "box",
+      "position": [
+        1.6521600484848022,
+        -0.6165000200271606,
+        0
+      ],
+      "size": [
+        2.9738879203796387,
+        0.21999891106907077,
+        1.316816914480672
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Freshwater and sanitation service envelope.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_fuel",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "Fuel system",
+      "systemId": "fuel",
+      "assembly": "Fuel system",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_hull_shell",
+      "shape": "box",
+      "position": [
+        -1.982591986656189,
+        -0.6575999855995178,
+        0
+      ],
+      "size": [
+        4.13040018081665,
+        0.24000616303826727,
+        1.6206718687935935
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Fuel tank and service system envelope.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_glazing",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "Glazing",
+      "systemId": "structure",
+      "assembly": "Glazing",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_superstructure",
+      "shape": "chamferedBox",
+      "position": [
+        4.460832118988037,
+        1.6799999475479126,
+        0
+      ],
+      "size": [
+        0.03999038782671782,
+        0.5500718652083343,
+        3.3427679538726807
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Windshield, side glazing and hull windows.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "shell",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_helm",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "Helm station",
+      "systemId": "navigation",
+      "assembly": "Helm station",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_superstructure",
+      "shape": "box",
+      "position": [
+        2.3130240440368652,
+        1.2799999713897705,
+        -0.8610159754753113
+      ],
+      "size": [
+        2.643455982208252,
+        0.41982924684627054,
+        0.5318052258283271
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Helm console, steering position and displays.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_hull_shell",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "Hull shell",
+      "systemId": "structure",
+      "assembly": "Hull shell",
+      "parentId": null,
+      "shape": "hull",
+      "position": [
+        -0.0006375312805175781,
+        -0.0776757001876831,
+        -0.0006276369094848633
+      ],
+      "size": [
+        16.519495964050293,
+        2.4824365406348963,
+        4.868580355993338
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.9
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.9
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed hull form and underwater volume.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "shell"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_lower_partitions",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "Lower partitions",
+      "systemId": "structure",
+      "assembly": "Lower partitions",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "shape": "box",
+      "position": [
+        -4.295616149902344,
+        -0.17000000178813934,
+        0
+      ],
+      "size": [
+        0.060146335628932235,
+        0.5199492435290589,
+        3.241472005844116
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Low room-divider partitions; exact joinery is reconstructed.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_mooring",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "Mooring equipment",
+      "systemId": "mooring",
+      "assembly": "Mooring equipment",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_deck_main",
+      "shape": "box",
+      "position": [
+        6.197964906692505,
+        1.0499986708164215,
+        -1.1913733929395676
+      ],
+      "size": [
+        3.8119521141052246,
+        0.12796860638800467,
+        1.5948378408846864
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Anchor, windlass, cleats and rails.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_propulsion",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "Propulsion",
+      "systemId": "propulsion",
+      "assembly": "Propulsion",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_hull_shell",
+      "shape": "cylinder",
+      "position": [
+        -3.634752035140991,
+        -0.21920000016689303,
+        0
+      ],
+      "size": [
+        3.3043200969696045,
+        0.6397475110683057,
+        3.0388870877451533
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -1.2
+      ],
+      "localExplode": [
+        0,
+        0,
+        -1.2
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Documented propulsion family represented as authored machinery and drives.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_room_forward_guest_cabin_2",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "forward guest cabin",
+      "systemId": "accommodation",
+      "assembly": "forward guest cabin",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "shape": "box",
+      "position": [
+        0,
+        -0.36000001430511475,
+        0.810368001461029
+      ],
+      "size": [
+        1.3422940969467163,
+        0.19990829777214802,
+        0.9637382404482695
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored forward guest cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "roomId": "sunseeker-manhattan-55-gen2-2021_room_forward_guest_cabin_2"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_room_full_beam_owner_cabin_1",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "full-beam owner cabin",
+      "systemId": "accommodation",
+      "assembly": "full-beam owner cabin",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "shape": "box",
+      "position": [
+        -2.048678398132324,
+        -0.36000001430511475,
+        -0.810368001461029
+      ],
+      "size": [
+        1.3422940969467163,
+        0.19990829777214802,
+        0.9637382404482695
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored full-beam owner cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "roomId": "sunseeker-manhattan-55-gen2-2021_room_full_beam_owner_cabin_1"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_room_galley_aft_saloon_0",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "galley-aft saloon",
+      "systemId": "accommodation",
+      "assembly": "galley-aft saloon",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "shape": "box",
+      "position": [
+        -4.097356796264648,
+        -0.23000000417232513,
+        0.8103679716587067
+      ],
+      "size": [
+        1.3078763484954834,
+        0.380025352153859,
+        1.183946564422956
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored galley-aft saloon arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "roomId": "sunseeker-manhattan-55-gen2-2021_room_galley_aft_saloon_0"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_room_third_cabin_3",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "third cabin",
+      "systemId": "accommodation",
+      "assembly": "third cabin",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "shape": "box",
+      "position": [
+        2.048678398132324,
+        -0.36000001430511475,
+        -0.810368001461029
+      ],
+      "size": [
+        1.3422940969467163,
+        0.19990829777214802,
+        0.9637382404482695
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored third cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "roomId": "sunseeker-manhattan-55-gen2-2021_room_third_cabin_3"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_room_two_en_suites_dayhead_4",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "two en-suites/dayhead",
+      "systemId": "accommodation",
+      "assembly": "two en-suites/dayhead",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "shape": "box",
+      "position": [
+        4.097356796264648,
+        -0.18000000715255737,
+        0.42956799268722534
+      ],
+      "size": [
+        0.7139999866485596,
+        0.4199846108177232,
+        0.2200158044737237
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored two en-suites/dayhead arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "roomId": "sunseeker-manhattan-55-gen2-2021_room_two_en_suites_dayhead_4"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_safety",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "Safety equipment",
+      "systemId": "safety",
+      "assembly": "Safety equipment",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_deck_main",
+      "shape": "box",
+      "position": [
+        -6.278207778930664,
+        1.2000000476837158,
+        2.0259199142456055
+      ],
+      "size": [
+        2.3130240440368652,
+        0.16009822479554447,
+        0.5570966446589232
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Liferaft, extinguisher and navigation safety equipment.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_superstructure",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "Superstructure",
+      "systemId": "structure",
+      "assembly": "Superstructure",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_deck_main",
+      "shape": "chamferedBox",
+      "position": [
+        1.321727991104126,
+        1.5045643067935288,
+        -1.1920928955078125e-7
+      ],
+      "size": [
+        8.150368213653564,
+        1.2208626279835078,
+        4.129589947592725
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.8
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.8
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed wheelhouse and superstructure.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "shell",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_swim_platform",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "Swim platform",
+      "systemId": "structure",
+      "assembly": "Swim platform",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_hull_shell",
+      "shape": "box",
+      "position": [
+        -7.930367946624756,
+        0.18000000715255737,
+        0
+      ],
+      "size": [
+        1.982807354323576,
+        0.09982758660950514,
+        3.9505441188812256
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Aft bathing platform or transom step.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_ventilation",
+      "vesselId": "sunseeker-manhattan-55-gen2-2021",
+      "name": "Ventilation and HVAC",
+      "systemId": "utilities",
+      "assembly": "Ventilation and HVAC",
+      "parentId": "sunseeker-manhattan-55-gen2-2021_superstructure",
+      "shape": "box",
+      "position": [
+        0.8260800242424011,
+        -0.38359999656677246,
+        0
+      ],
+      "size": [
+        2.4782403608917134,
+        0.11012081833730059,
+        0.11012047056814617
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Ventilation and HVAC service equipment envelope.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ],
+      "enclosure": "equipment"
+    }
+  ],
+  "meaningfulCount": 22,
+  "lods": [],
+  "assets": [
+    {
+      "id": "exterior-lod0",
+      "kind": "exterior",
+      "level": 0,
+      "path": "models/sunseeker-manhattan-55-gen2-2021/exterior.lod0.glb",
+      "bytes": 322116,
+      "sha256": "a461a973c05f28da910f35490cb3011e9a1680941bd8aa88b9f8ef7f0c0b82b4",
+      "componentIds": [
+        "sunseeker-manhattan-55-gen2-2021_cockpit",
+        "sunseeker-manhattan-55-gen2-2021_deck_main",
+        "sunseeker-manhattan-55-gen2-2021_electrical",
+        "sunseeker-manhattan-55-gen2-2021_family_signature",
+        "sunseeker-manhattan-55-gen2-2021_flybridge",
+        "sunseeker-manhattan-55-gen2-2021_freshwater",
+        "sunseeker-manhattan-55-gen2-2021_fuel",
+        "sunseeker-manhattan-55-gen2-2021_glazing",
+        "sunseeker-manhattan-55-gen2-2021_helm",
+        "sunseeker-manhattan-55-gen2-2021_hull_shell",
+        "sunseeker-manhattan-55-gen2-2021_mooring",
+        "sunseeker-manhattan-55-gen2-2021_propulsion",
+        "sunseeker-manhattan-55-gen2-2021_safety",
+        "sunseeker-manhattan-55-gen2-2021_superstructure",
+        "sunseeker-manhattan-55-gen2-2021_swim_platform",
+        "sunseeker-manhattan-55-gen2-2021_ventilation"
+      ]
+    },
+    {
+      "id": "exterior-lod1",
+      "kind": "exterior",
+      "level": 1,
+      "path": "models/sunseeker-manhattan-55-gen2-2021/exterior.lod1.glb",
+      "bytes": 179700,
+      "sha256": "380983d707ec263b8b817ed20009e4336a215ee8a89ec2595433a6cb1ffa3179",
+      "componentIds": [
+        "sunseeker-manhattan-55-gen2-2021_cockpit",
+        "sunseeker-manhattan-55-gen2-2021_deck_main",
+        "sunseeker-manhattan-55-gen2-2021_electrical",
+        "sunseeker-manhattan-55-gen2-2021_family_signature",
+        "sunseeker-manhattan-55-gen2-2021_flybridge",
+        "sunseeker-manhattan-55-gen2-2021_freshwater",
+        "sunseeker-manhattan-55-gen2-2021_fuel",
+        "sunseeker-manhattan-55-gen2-2021_glazing",
+        "sunseeker-manhattan-55-gen2-2021_helm",
+        "sunseeker-manhattan-55-gen2-2021_hull_shell",
+        "sunseeker-manhattan-55-gen2-2021_mooring",
+        "sunseeker-manhattan-55-gen2-2021_propulsion",
+        "sunseeker-manhattan-55-gen2-2021_safety",
+        "sunseeker-manhattan-55-gen2-2021_superstructure",
+        "sunseeker-manhattan-55-gen2-2021_swim_platform",
+        "sunseeker-manhattan-55-gen2-2021_ventilation"
+      ]
+    },
+    {
+      "id": "interior-sunseeker-manhattan-55-gen2-2021_deck_lower-lod0",
+      "kind": "interior",
+      "level": 0,
+      "path": "models/sunseeker-manhattan-55-gen2-2021/interior-sunseeker-manhattan-55-gen2-2021_deck_lower.lod0.glb",
+      "bytes": 285464,
+      "sha256": "156da5a81e6005ae2d5d5b128d16faf4e7fdce80b62dac52fd71ea13d367f58c",
+      "componentIds": [
+        "sunseeker-manhattan-55-gen2-2021_deck_lower",
+        "sunseeker-manhattan-55-gen2-2021_engine_room",
+        "sunseeker-manhattan-55-gen2-2021_lower_partitions",
+        "sunseeker-manhattan-55-gen2-2021_room_forward_guest_cabin_2",
+        "sunseeker-manhattan-55-gen2-2021_room_full_beam_owner_cabin_1",
+        "sunseeker-manhattan-55-gen2-2021_room_galley_aft_saloon_0",
+        "sunseeker-manhattan-55-gen2-2021_room_third_cabin_3",
+        "sunseeker-manhattan-55-gen2-2021_room_two_en_suites_dayhead_4"
+      ],
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower"
+    },
+    {
+      "id": "interior-sunseeker-manhattan-55-gen2-2021_deck_lower-lod1",
+      "kind": "interior",
+      "level": 1,
+      "path": "models/sunseeker-manhattan-55-gen2-2021/interior-sunseeker-manhattan-55-gen2-2021_deck_lower.lod1.glb",
+      "bytes": 64808,
+      "sha256": "b8e398194b323fabac4dfdd76b739cba6d2121ad6b7a1b90467c025a91f40bb0",
+      "componentIds": [
+        "sunseeker-manhattan-55-gen2-2021_deck_lower",
+        "sunseeker-manhattan-55-gen2-2021_engine_room",
+        "sunseeker-manhattan-55-gen2-2021_lower_partitions",
+        "sunseeker-manhattan-55-gen2-2021_room_forward_guest_cabin_2",
+        "sunseeker-manhattan-55-gen2-2021_room_full_beam_owner_cabin_1",
+        "sunseeker-manhattan-55-gen2-2021_room_galley_aft_saloon_0",
+        "sunseeker-manhattan-55-gen2-2021_room_third_cabin_3",
+        "sunseeker-manhattan-55-gen2-2021_room_two_en_suites_dayhead_4"
+      ],
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower"
+    }
+  ],
+  "decks": [
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_deck_main",
+      "name": "Main deck",
+      "componentId": "sunseeker-manhattan-55-gen2-2021_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_cockpit",
+      "name": "Aft cockpit",
+      "componentId": "sunseeker-manhattan-55-gen2-2021_cockpit"
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "name": "Lower accommodation deck",
+      "componentId": "sunseeker-manhattan-55-gen2-2021_deck_lower"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_room_galley_aft_saloon_0",
+      "name": "galley-aft saloon",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "componentId": "sunseeker-manhattan-55-gen2-2021_room_galley_aft_saloon_0",
+      "fidelity": "reference-informed",
+      "note": "Authored galley-aft saloon arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ]
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_room_full_beam_owner_cabin_1",
+      "name": "full-beam owner cabin",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "componentId": "sunseeker-manhattan-55-gen2-2021_room_full_beam_owner_cabin_1",
+      "fidelity": "reference-informed",
+      "note": "Authored full-beam owner cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ]
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_room_forward_guest_cabin_2",
+      "name": "forward guest cabin",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "componentId": "sunseeker-manhattan-55-gen2-2021_room_forward_guest_cabin_2",
+      "fidelity": "reference-informed",
+      "note": "Authored forward guest cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ]
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_room_third_cabin_3",
+      "name": "third cabin",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "componentId": "sunseeker-manhattan-55-gen2-2021_room_third_cabin_3",
+      "fidelity": "reference-informed",
+      "note": "Authored third cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ]
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_room_two_en_suites_dayhead_4",
+      "name": "two en-suites/dayhead",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "componentId": "sunseeker-manhattan-55-gen2-2021_room_two_en_suites_dayhead_4",
+      "fidelity": "reference-informed",
+      "note": "Authored two en-suites/dayhead arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ]
+    },
+    {
+      "id": "sunseeker-manhattan-55-gen2-2021_room_engine",
+      "name": "Engine room",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower",
+      "componentId": "sunseeker-manhattan-55-gen2-2021_engine_room",
+      "fidelity": "reconstructed",
+      "note": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-c837c16981a79f92",
+        "source-fd3ad6641510ad82",
+        "source-22c2194c707b252d",
+        "source-209201abff00b0de"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "id": "exterior_bow",
+      "name": "Review | Bow quarter",
+      "position": [
+        18.586800000000004,
+        3.0978,
+        15.833200000000001
+      ],
+      "target": [
+        0,
+        0.62,
+        0
+      ],
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_main"
+    },
+    {
+      "id": "exterior_port_profile",
+      "name": "Review | Port profile",
+      "position": [
+        0,
+        2.4094,
+        25.4708
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_main"
+    },
+    {
+      "id": "exterior_starboard_profile",
+      "name": "Review | Starboard profile",
+      "position": [
+        0,
+        2.4094,
+        -25.4708
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_main"
+    },
+    {
+      "id": "exterior_stern",
+      "name": "Review | Stern quarter",
+      "position": [
+        -18.586800000000004,
+        3.0978,
+        -15.833200000000001
+      ],
+      "target": [
+        0,
+        0.66,
+        0
+      ],
+      "deckId": "sunseeker-manhattan-55-gen2-2021_cockpit"
+    },
+    {
+      "id": "exterior_high",
+      "name": "Review | High bow",
+      "position": [
+        11.358600000000001,
+        23.061400000000003,
+        0
+      ],
+      "target": [
+        0,
+        0.25,
+        0
+      ],
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_main"
+    },
+    {
+      "id": "exterior_above",
+      "name": "Review | Above plan",
+      "position": [
+        1.2047,
+        35.796800000000005,
+        1.2047
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_main"
+    },
+    {
+      "id": "exterior_below",
+      "name": "Review | Below hull",
+      "position": [
+        -18.586800000000004,
+        -10.670200000000001,
+        -14.4564
+      ],
+      "target": [
+        0,
+        -0.35,
+        0
+      ],
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower"
+    },
+    {
+      "id": "exterior_three_quarter",
+      "name": "Review | Starboard three-quarter",
+      "position": [
+        19.9636,
+        3.0978,
+        -19.2752
+      ],
+      "target": [
+        0,
+        0.58,
+        0
+      ],
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_main"
+    },
+    {
+      "id": "room_0",
+      "name": "Room | galley-aft saloon",
+      "position": [
+        -6.358016506666667,
+        0.92,
+        2.5072
+      ],
+      "target": [
+        -4.445916666666667,
+        -0.18,
+        0.7792
+      ],
+      "roomId": "sunseeker-manhattan-55-gen2-2021_room_galley_aft_saloon_0",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower"
+    },
+    {
+      "id": "room_1",
+      "name": "Room | full-beam owner cabin",
+      "position": [
+        -4.57964984,
+        0.92,
+        0.9488000000000002
+      ],
+      "target": [
+        -2.6675500000000003,
+        -0.18,
+        -0.7792
+      ],
+      "roomId": "sunseeker-manhattan-55-gen2-2021_room_full_beam_owner_cabin_1",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower"
+    },
+    {
+      "id": "room_2",
+      "name": "Room | forward guest cabin",
+      "position": [
+        -2.8012831733333337,
+        0.92,
+        2.5072
+      ],
+      "target": [
+        -0.8891833333333334,
+        -0.18,
+        0.7792
+      ],
+      "roomId": "sunseeker-manhattan-55-gen2-2021_room_forward_guest_cabin_2",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower"
+    },
+    {
+      "id": "room_3",
+      "name": "Room | third cabin",
+      "position": [
+        -1.0229165066666668,
+        0.92,
+        0.9488000000000002
+      ],
+      "target": [
+        0.8891833333333334,
+        -0.18,
+        -0.7792
+      ],
+      "roomId": "sunseeker-manhattan-55-gen2-2021_room_third_cabin_3",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower"
+    },
+    {
+      "id": "room_4",
+      "name": "Room | two en-suites/dayhead",
+      "position": [
+        0.7554501600000001,
+        0.92,
+        2.5072
+      ],
+      "target": [
+        2.6675500000000003,
+        -0.18,
+        0.7792
+      ],
+      "roomId": "sunseeker-manhattan-55-gen2-2021_room_two_en_suites_dayhead_4",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower"
+    },
+    {
+      "id": "room_5",
+      "name": "Room | Engine room",
+      "position": [
+        -10.009336000000001,
+        0.72,
+        4.589487999999999
+      ],
+      "target": [
+        -5.163,
+        -0.18,
+        0.9740000000000001
+      ],
+      "roomId": "sunseeker-manhattan-55-gen2-2021_room_engine",
+      "deckId": "sunseeker-manhattan-55-gen2-2021_deck_lower"
+    }
+  ],
+  "fidelity": "Original reference-informed reconstruction of Sunseeker Manhattan 55 (Manhattan 55 Gen 2, 2021 model-year generation). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them."
+}

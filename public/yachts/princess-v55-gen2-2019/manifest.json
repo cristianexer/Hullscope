@@ -1,0 +1,2111 @@
+{
+  "vesselId": "princess-v55-gen2-2019",
+  "version": 2,
+  "units": "metres",
+  "components": [
+    {
+      "id": "princess-v55-gen2-2019_aft_sunpad",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Aft transom sunpad",
+      "systemId": "accommodation",
+      "assembly": "Aft transom sunpad",
+      "parentId": "princess-v55-gen2-2019_deck_cockpit",
+      "shape": "box",
+      "position": [
+        -7.2200000286102295,
+        1.6200000047683716,
+        0
+      ],
+      "size": [
+        2.549999952316284,
+        0.24000365773318943,
+        2.549999952316284
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Large aft sunpad above the optional garage/crew volume; the model selects the no-crew standard hull.",
+      "sourceIds": [
+        "source-5ae69607469813b8",
+        "source-b985b9106c86440e"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_cockpit"
+    },
+    {
+      "id": "princess-v55-gen2-2019_anchor",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Bow anchor and roller",
+      "systemId": "mooring",
+      "assembly": "Bow anchor and roller",
+      "parentId": "princess-v55-gen2-2019_bow_pulpit",
+      "shape": "cylinder",
+      "position": [
+        8.5,
+        1.1500000059604645,
+        0
+      ],
+      "size": [
+        0.7836186659781035,
+        0.799229085445404,
+        0.20003289070521435
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Visible bow ground tackle reconstructed for exterior readability.",
+      "sourceIds": [
+        "source-5ae69607469813b8"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "princess-v55-gen2-2019_bow_pulpit",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Stainless deck rail assembly",
+      "systemId": "mooring",
+      "assembly": "Stainless deck rail assembly",
+      "parentId": "princess-v55-gen2-2019_deck_main",
+      "shape": "cylinder",
+      "position": [
+        6.5,
+        1.5799999833106995,
+        1.350000023841858
+      ],
+      "size": [
+        0.05198888595035811,
+        0.41999995708465576,
+        0.051988885950357666
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Safety rail reconstructed from the low-profile V Class exterior language.",
+      "sourceIds": [
+        "source-5ae69607469813b8",
+        "source-b985b9106c86440e"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "princess-v55-gen2-2019_bunk_cabin_furnishings",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Starboard compact bunk cabin",
+      "systemId": "accommodation",
+      "assembly": "Starboard compact bunk cabin",
+      "parentId": "princess-v55-gen2-2019_deck_lower",
+      "shape": "box",
+      "position": [
+        2,
+        -0.14999999571591616,
+        -1.0300000309944153
+      ],
+      "size": [
+        1.4000000953674316,
+        0.5399615490276956,
+        0.6199103178101768
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Compact starboard bunk cabin with two berths.",
+      "sourceIds": [
+        "source-6365ee984d1f16b8",
+        "source-1e3dfc0640689622"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_lower",
+      "roomId": "princess-v55-gen2-2019_room_bunk"
+    },
+    {
+      "id": "princess-v55-gen2-2019_cockpit_l_seat",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Port cockpit L-seat",
+      "systemId": "accommodation",
+      "assembly": "Port cockpit L-seat",
+      "parentId": "princess-v55-gen2-2019_deck_cockpit",
+      "shape": "box",
+      "position": [
+        -4.824999928474426,
+        1.5799999833106995,
+        1.1249900808494826
+      ],
+      "size": [
+        5.299999952316284,
+        0.37994322388391977,
+        1.0899234141162053
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Port-side L-seat in the open cockpit, shown on the supplied main-deck plan.",
+      "sourceIds": [
+        "source-f0d0b5c3984f3e89",
+        "source-5ae69607469813b8"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_cockpit"
+    },
+    {
+      "id": "princess-v55-gen2-2019_cockpit_table",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Cockpit table",
+      "systemId": "accommodation",
+      "assembly": "Cockpit table",
+      "parentId": "princess-v55-gen2-2019_cockpit_l_seat",
+      "shape": "cylinder",
+      "position": [
+        -4.25,
+        1.5550000071525574,
+        0.6499999761581421
+      ],
+      "size": [
+        0.13998380294014723,
+        0.44999992847442627,
+        0.1399838029401479
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Cockpit social table pedestal.",
+      "sourceIds": [
+        "source-f0d0b5c3984f3e89"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_cockpit"
+    },
+    {
+      "id": "princess-v55-gen2-2019_companionway",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Central lower-deck companionway",
+      "systemId": "structure",
+      "assembly": "Central lower-deck companionway",
+      "parentId": "princess-v55-gen2-2019_deck_lower",
+      "shape": "deck",
+      "position": [
+        2.600000023841858,
+        -0.7800000011920929,
+        0.25000000186264515
+      ],
+      "size": [
+        0.8199999332427979,
+        0.15996092328525546,
+        0.6199987287847626
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Central companionway between main and lower deck.",
+      "sourceIds": [
+        "source-6365ee984d1f16b8",
+        "source-f0d0b5c3984f3e89"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_lower",
+      "roomId": "princess-v55-gen2-2019_room_companionway"
+    },
+    {
+      "id": "princess-v55-gen2-2019_deck_cockpit",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Open aft cockpit teak deck",
+      "systemId": "structure",
+      "assembly": "Open aft cockpit teak deck",
+      "parentId": "princess-v55-gen2-2019_deck_main",
+      "shape": "deck",
+      "position": [
+        -4.8750001192092896,
+        1.2225000262260437,
+        0
+      ],
+      "size": [
+        7.3500001430511475,
+        0.06460158211611455,
+        3.4402585587321224
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Open social cockpit and aft access deck.",
+      "sourceIds": [
+        "source-5ae69607469813b8",
+        "source-f0d0b5c3984f3e89"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-v55-gen2-2019_deck_cockpit"
+    },
+    {
+      "id": "princess-v55-gen2-2019_deck_hardware",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Deck cleats and hardware",
+      "systemId": "mooring",
+      "assembly": "Deck cleats and hardware",
+      "parentId": "princess-v55-gen2-2019_deck_main",
+      "shape": "box",
+      "position": [
+        7.349999904632568,
+        1.5,
+        1.2399999499320984
+      ],
+      "size": [
+        0.4200000762939453,
+        0.06998505864329774,
+        0.11998720402196161
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Sparse deck hardware for scale and recognition.",
+      "sourceIds": [
+        "source-5ae69607469813b8"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "princess-v55-gen2-2019_deck_lower",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Lower accommodation deck",
+      "systemId": "structure",
+      "assembly": "Lower accommodation deck",
+      "parentId": "princess-v55-gen2-2019_hull_shell",
+      "shape": "deck",
+      "position": [
+        0.17499995231628418,
+        -0.8799999952316284,
+        0
+      ],
+      "size": [
+        14.049999713897705,
+        0.08061158928839296,
+        3.0992583371090614
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Lower-deck floor and room datum derived from the supplied lower-deck plan.",
+      "sourceIds": [
+        "source-6365ee984d1f16b8",
+        "source-1e3dfc0640689622"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-v55-gen2-2019_deck_lower"
+    },
+    {
+      "id": "princess-v55-gen2-2019_deck_main",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Main deck envelope",
+      "systemId": "structure",
+      "assembly": "Main deck envelope",
+      "parentId": "princess-v55-gen2-2019_hull_shell",
+      "shape": "deck",
+      "position": [
+        -0.15999984741210938,
+        1.1299999952316284,
+        0
+      ],
+      "size": [
+        16.920000076293945,
+        0.09914365107115186,
+        4.040103781149444
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed main deck slab following the V55 sheer.",
+      "sourceIds": [
+        "source-f0d0b5c3984f3e89",
+        "source-b985b9106c86440e"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "princess-v55-gen2-2019_engine_room",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Engine room",
+      "systemId": "structure",
+      "assembly": "Engine room",
+      "parentId": "princess-v55-gen2-2019_deck_lower",
+      "shape": "deck",
+      "position": [
+        -5.450000047683716,
+        -0.9000000059604645,
+        0
+      ],
+      "size": [
+        2.9000000953674316,
+        0.0800073270733408,
+        2.2500290665769285
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Machinery space aft of the owner cabin.",
+      "sourceIds": [
+        "source-6365ee984d1f16b8",
+        "source-1e3dfc0640689622"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_lower",
+      "roomId": "princess-v55-gen2-2019_room_engine"
+    },
+    {
+      "id": "princess-v55-gen2-2019_foredeck_lounge",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Foredeck lounge bench",
+      "systemId": "accommodation",
+      "assembly": "Foredeck lounge bench",
+      "parentId": "princess-v55-gen2-2019_deck_main",
+      "shape": "box",
+      "position": [
+        7.079999923706055,
+        1.6200000047683716,
+        0
+      ],
+      "size": [
+        1.4500747044958793,
+        0.3199316240096981,
+        2.0999999046325684
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Separate foredeck bench ahead of the saloon.",
+      "sourceIds": [
+        "source-f0d0b5c3984f3e89",
+        "source-5ae69607469813b8"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "princess-v55-gen2-2019_foredeck_sunpad",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Separate bow sunpad",
+      "systemId": "accommodation",
+      "assembly": "Separate bow sunpad",
+      "parentId": "princess-v55-gen2-2019_deck_main",
+      "shape": "box",
+      "position": [
+        5.480000019073486,
+        1.6100000143051147,
+        0
+      ],
+      "size": [
+        1.7800225836970114,
+        0.23999755851924176,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Dedicated bow sunpad distinct from the forward lounge bench.",
+      "sourceIds": [
+        "source-f0d0b5c3984f3e89",
+        "source-5ae69607469813b8"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "princess-v55-gen2-2019_forward_windshield",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Raked forward windshield",
+      "systemId": "navigation",
+      "assembly": "Raked forward windshield",
+      "parentId": "princess-v55-gen2-2019_hardtop_shell",
+      "shape": "box",
+      "position": [
+        4.650000095367432,
+        2.674999952316284,
+        0
+      ],
+      "size": [
+        0.45979917385203706,
+        1.149805561196005,
+        3.359999895095825
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Raked forward windscreen reconstructed from the supplied exterior reference.",
+      "sourceIds": [
+        "source-5ae69607469813b8",
+        "source-b985b9106c86440e"
+      ],
+      "enclosure": "shell",
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "princess-v55-gen2-2019_galley_furnishings",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Aft starboard galley",
+      "systemId": "utilities",
+      "assembly": "Aft starboard galley",
+      "parentId": "princess-v55-gen2-2019_deck_main",
+      "shape": "box",
+      "position": [
+        -0.6499999910593033,
+        1.7800000309944153,
+        -1.1200000047683716
+      ],
+      "size": [
+        2,
+        0.7798699911496323,
+        0.5501266518143253
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Aft starboard galley counter and appliance bank.",
+      "sourceIds": [
+        "source-f0d0b5c3984f3e89",
+        "source-1e3dfc0640689622"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_main",
+      "roomId": "princess-v55-gen2-2019_room_galley"
+    },
+    {
+      "id": "princess-v55-gen2-2019_guest_heads",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Port guest head",
+      "systemId": "utilities",
+      "assembly": "Port guest head",
+      "parentId": "princess-v55-gen2-2019_deck_lower",
+      "shape": "box",
+      "position": [
+        2.174999952316284,
+        -0.05000000447034836,
+        1.1700000166893005
+      ],
+      "size": [
+        2.369999885559082,
+        0.5799859845322125,
+        0.3800067291721949
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Port-side guest head around the central companionway.",
+      "sourceIds": [
+        "source-6365ee984d1f16b8",
+        "source-1e3dfc0640689622"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_lower",
+      "roomId": "princess-v55-gen2-2019_room_head_0"
+    },
+    {
+      "id": "princess-v55-gen2-2019_hardtop_shell",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Low charcoal continuous curved hardtop",
+      "systemId": "structure",
+      "assembly": "Low charcoal continuous curved hardtop",
+      "parentId": "princess-v55-gen2-2019_deck_main",
+      "shape": "deck",
+      "position": [
+        1.949999988079071,
+        3.336909770965576,
+        0
+      ],
+      "size": [
+        5.600000023841858,
+        0.3336039322043307,
+        3.4997650223771957
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Low silver-charcoal curved hardtop and opening-roof shell.",
+      "sourceIds": [
+        "source-5ae69607469813b8",
+        "source-b985b9106c86440e"
+      ],
+      "enclosure": "shell",
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "princess-v55-gen2-2019_hardtop_supports",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Hardtop support pillars",
+      "systemId": "structure",
+      "assembly": "Hardtop support pillars",
+      "parentId": "princess-v55-gen2-2019_hardtop_shell",
+      "shape": "cylinder",
+      "position": [
+        -0.5499999970197678,
+        2.240000009536743,
+        1.659999966621399
+      ],
+      "size": [
+        0.4483545679203064,
+        1.939180850982666,
+        0.11007649106807937
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Raked hardtop support and windscreen framing.",
+      "sourceIds": [
+        "source-5ae69607469813b8"
+      ],
+      "enclosure": "shell",
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "princess-v55-gen2-2019_helm_station",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Starboard helm station",
+      "systemId": "navigation",
+      "assembly": "Starboard helm station",
+      "parentId": "princess-v55-gen2-2019_deck_main",
+      "shape": "box",
+      "position": [
+        2.9800000190734863,
+        1.9700170671291906,
+        -1.0499999895691872
+      ],
+      "size": [
+        1.5500001907348633,
+        1.1400605429662072,
+        1.140026391422479
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Twin-helm forward starboard console bank.",
+      "sourceIds": [
+        "source-f0d0b5c3984f3e89",
+        "source-5ae69607469813b8"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_main",
+      "roomId": "princess-v55-gen2-2019_room_helm"
+    },
+    {
+      "id": "princess-v55-gen2-2019_hull_glazing",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Sculpted black hull glazing band",
+      "systemId": "structure",
+      "assembly": "Sculpted black hull glazing band",
+      "parentId": "princess-v55-gen2-2019_hull_shell",
+      "shape": "hull",
+      "position": [
+        -0.04999995231628418,
+        1.0399999916553497,
+        0
+      ],
+      "size": [
+        15.400000095367432,
+        1.4795129337509287,
+        4.6364025068147745
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Almost bow-to-aft dark hull glazing inset visually within white topsides.",
+      "sourceIds": [
+        "source-5ae69607469813b8",
+        "source-b985b9106c86440e"
+      ],
+      "enclosure": "shell"
+    },
+    {
+      "id": "princess-v55-gen2-2019_hull_shell",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Continuous white topsides and underwater hull",
+      "systemId": "structure",
+      "assembly": "Continuous white topsides and underwater hull",
+      "parentId": null,
+      "shape": "hull",
+      "position": [
+        -0.05000019073486328,
+        0.06000000238418579,
+        0
+      ],
+      "size": [
+        17.34000015258789,
+        2.878798816799772,
+        4.600257006330959
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        -0.9,
+        0
+      ],
+      "localExplode": [
+        0,
+        -0.25,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Single continuous closed station surface for the V55 hull; painted underwater region is face-assigned, not a second hull shell.",
+      "sourceIds": [
+        "source-b985b9106c86440e",
+        "source-5ae69607469813b8"
+      ],
+      "enclosure": "shell"
+    },
+    {
+      "id": "princess-v55-gen2-2019_lower_partition_walls",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Lower-deck partition walls",
+      "systemId": "structure",
+      "assembly": "Lower-deck partition walls",
+      "parentId": "princess-v55-gen2-2019_deck_lower",
+      "shape": "box",
+      "position": [
+        -0.7349893322767189,
+        -0.09999999403953552,
+        0
+      ],
+      "size": [
+        8.089995759237885,
+        1.4200812043147424,
+        2.8499999046325684
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Low authored room boundaries preserving the supplied three-cabin/two-head reading.",
+      "sourceIds": [
+        "source-6365ee984d1f16b8",
+        "source-1e3dfc0640689622"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-v55-gen2-2019_deck_lower"
+    },
+    {
+      "id": "princess-v55-gen2-2019_owner_cabin_furnishings",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Full-beam owner cabin",
+      "systemId": "accommodation",
+      "assembly": "Full-beam owner cabin",
+      "parentId": "princess-v55-gen2-2019_deck_lower",
+      "shape": "box",
+      "position": [
+        -0.2125222621564663,
+        -0.04503333900321313,
+        0
+      ],
+      "size": [
+        2.624955428003352,
+        1.0900144756557004,
+        2.2001113514186126
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Full-beam amidships owner berth.",
+      "sourceIds": [
+        "source-6365ee984d1f16b8",
+        "source-1e3dfc0640689622"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_lower",
+      "roomId": "princess-v55-gen2-2019_room_owner"
+    },
+    {
+      "id": "princess-v55-gen2-2019_rubrail",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Black hull rubrail",
+      "systemId": "structure",
+      "assembly": "Black hull rubrail",
+      "parentId": "princess-v55-gen2-2019_hull_shell",
+      "shape": "cylinder",
+      "position": [
+        -7.025000333786011,
+        0.5949999988079071,
+        1.5054658651351929
+      ],
+      "size": [
+        2.462822437286377,
+        0.1298793655699595,
+        0.8671401855211931
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Continuous protective rubrail aligned with the dark hull glazing language.",
+      "sourceIds": [
+        "source-5ae69607469813b8"
+      ],
+      "enclosure": "shell"
+    },
+    {
+      "id": "princess-v55-gen2-2019_saloon_furnishings",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Port saloon U-sofa",
+      "systemId": "accommodation",
+      "assembly": "Port saloon U-sofa",
+      "parentId": "princess-v55-gen2-2019_deck_main",
+      "shape": "box",
+      "position": [
+        0.6099985155554671,
+        1.7200000286102295,
+        0.49749197105258025
+      ],
+      "size": [
+        3.329925277245393,
+        0.4799798768564316,
+        1.5949839659470184
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Port-side U-sofa reconstructed from the supplied main-deck hallmarks.",
+      "sourceIds": [
+        "source-f0d0b5c3984f3e89",
+        "source-5ae69607469813b8"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_main",
+      "roomId": "princess-v55-gen2-2019_room_saloon"
+    },
+    {
+      "id": "princess-v55-gen2-2019_saloon_side_glazing",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Continuous dark saloon side glazing",
+      "systemId": "structure",
+      "assembly": "Continuous dark saloon side glazing",
+      "parentId": "princess-v55-gen2-2019_hardtop_shell",
+      "shape": "box",
+      "position": [
+        1.8749999105930328,
+        2.6100000143051147,
+        0
+      ],
+      "size": [
+        5.149999797344208,
+        1.10019222331643,
+        3.359999895095825
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Raked side glazing under the low charcoal hardtop.",
+      "sourceIds": [
+        "source-5ae69607469813b8",
+        "source-b985b9106c86440e"
+      ],
+      "enclosure": "shell",
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "princess-v55-gen2-2019_saloon_table",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Saloon coffee table",
+      "systemId": "accommodation",
+      "assembly": "Saloon coffee table",
+      "parentId": "princess-v55-gen2-2019_saloon_furnishings",
+      "shape": "box",
+      "position": [
+        0.5200000144541264,
+        1.5799999833106995,
+        0.10000000149011612
+      ],
+      "size": [
+        1.1500000283122063,
+        0.12002930072413553,
+        0.6200110019276539
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Low saloon table.",
+      "sourceIds": [
+        "source-f0d0b5c3984f3e89"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_main",
+      "roomId": "princess-v55-gen2-2019_room_saloon"
+    },
+    {
+      "id": "princess-v55-gen2-2019_shaft_lines",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Twin shaft lines",
+      "systemId": "propulsion",
+      "assembly": "Twin shaft lines",
+      "parentId": "princess-v55-gen2-2019_twin_diesel_machinery",
+      "shape": "cylinder",
+      "position": [
+        -4.260000109672546,
+        -0.6850000023841858,
+        0.7799999713897705
+      ],
+      "size": [
+        1.1346619129180908,
+        0.25929588927673164,
+        0.15000932055913485
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Twin shaft-line outlines behind the engine blocks.",
+      "sourceIds": [
+        "source-b985b9106c86440e"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_lower",
+      "roomId": "princess-v55-gen2-2019_room_engine"
+    },
+    {
+      "id": "princess-v55-gen2-2019_swim_platform",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Expansive teak swim platform",
+      "systemId": "mooring",
+      "assembly": "Expansive teak swim platform",
+      "parentId": "princess-v55-gen2-2019_hull_shell",
+      "shape": "deck",
+      "position": [
+        -8.150000095367432,
+        0.6000000238418579,
+        0
+      ],
+      "size": [
+        1.6998675627424227,
+        0.11988647206678671,
+        3.7200000286102295
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        -0.95,
+        0,
+        -0.6
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Large stern swim platform with integrated twin side stair landings.",
+      "sourceIds": [
+        "source-5ae69607469813b8",
+        "source-b985b9106c86440e"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-v55-gen2-2019_deck_cockpit"
+    },
+    {
+      "id": "princess-v55-gen2-2019_swim_stairs",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Twin swim platform stairs",
+      "systemId": "mooring",
+      "assembly": "Twin swim platform stairs",
+      "parentId": "princess-v55-gen2-2019_swim_platform",
+      "shape": "deck",
+      "position": [
+        -8.049999713897705,
+        0.8600000143051147,
+        1.7200000286102295
+      ],
+      "size": [
+        0.3600421683681416,
+        0.09997865171214504,
+        0.6500000953674316
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Twin side stairs between cockpit transom and swim platform.",
+      "sourceIds": [
+        "source-5ae69607469813b8"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_cockpit"
+    },
+    {
+      "id": "princess-v55-gen2-2019_transom_garage",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Tender garage aperture",
+      "systemId": "structure",
+      "assembly": "Tender garage aperture",
+      "parentId": "princess-v55-gen2-2019_hull_shell",
+      "shape": "box",
+      "position": [
+        -8.764999866485596,
+        1.0399999916553497,
+        0
+      ],
+      "size": [
+        0.06007263329874135,
+        0.6801080269893137,
+        1.899999976158142
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Dark transom garage aperture shown below the aft sunpad; optional crew cabin is not modeled.",
+      "sourceIds": [
+        "source-5ae69607469813b8",
+        "source-b985b9106c86440e"
+      ],
+      "enclosure": "shell",
+      "deckId": "princess-v55-gen2-2019_deck_cockpit"
+    },
+    {
+      "id": "princess-v55-gen2-2019_twin_diesel_machinery",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Twin Volvo D13 engine room machinery",
+      "systemId": "propulsion",
+      "assembly": "Twin Volvo D13 engine room machinery",
+      "parentId": "princess-v55-gen2-2019_engine_room",
+      "shape": "box",
+      "position": [
+        -5.799999952316284,
+        -0.4799999985843897,
+        0
+      ],
+      "size": [
+        1.950000286102295,
+        0.9198631068539438,
+        2.1799271839040166
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        -1.2,
+        0,
+        -0.6
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Twin D13 shaft-drive machinery rendered as an externally detailed block, not a service manual.",
+      "sourceIds": [
+        "source-1e3dfc0640689622",
+        "source-b985b9106c86440e"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_lower",
+      "roomId": "princess-v55-gen2-2019_room_engine"
+    },
+    {
+      "id": "princess-v55-gen2-2019_vip_cabin_furnishings",
+      "vesselId": "princess-v55-gen2-2019",
+      "name": "Forward VIP cabin",
+      "systemId": "accommodation",
+      "assembly": "Forward VIP cabin",
+      "parentId": "princess-v55-gen2-2019_deck_lower",
+      "shape": "box",
+      "position": [
+        5.349999904632568,
+        -0.10501586676083224,
+        0
+      ],
+      "size": [
+        2.0500001907348633,
+        0.9699395780881942,
+        1.6801280288761484
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Forward VIP/double berth.",
+      "sourceIds": [
+        "source-6365ee984d1f16b8",
+        "source-1e3dfc0640689622"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-v55-gen2-2019_deck_lower",
+      "roomId": "princess-v55-gen2-2019_room_vip"
+    }
+  ],
+  "meaningfulCount": 25,
+  "lods": [],
+  "assets": [
+    {
+      "id": "exterior-lod0",
+      "kind": "exterior",
+      "level": 0,
+      "path": "models/princess-v55-gen2-2019/exterior.lod0.glb",
+      "bytes": 541192,
+      "sha256": "61a66ba1bb98b74333939e2496eef41bfc2135948b2e18f77a27098ee2395d57",
+      "componentIds": [
+        "princess-v55-gen2-2019_aft_sunpad",
+        "princess-v55-gen2-2019_anchor",
+        "princess-v55-gen2-2019_bow_pulpit",
+        "princess-v55-gen2-2019_cockpit_l_seat",
+        "princess-v55-gen2-2019_cockpit_table",
+        "princess-v55-gen2-2019_deck_cockpit",
+        "princess-v55-gen2-2019_deck_hardware",
+        "princess-v55-gen2-2019_deck_main",
+        "princess-v55-gen2-2019_foredeck_lounge",
+        "princess-v55-gen2-2019_foredeck_sunpad",
+        "princess-v55-gen2-2019_forward_windshield",
+        "princess-v55-gen2-2019_hardtop_shell",
+        "princess-v55-gen2-2019_hardtop_supports",
+        "princess-v55-gen2-2019_helm_station",
+        "princess-v55-gen2-2019_hull_glazing",
+        "princess-v55-gen2-2019_hull_shell",
+        "princess-v55-gen2-2019_rubrail",
+        "princess-v55-gen2-2019_saloon_side_glazing",
+        "princess-v55-gen2-2019_swim_platform",
+        "princess-v55-gen2-2019_swim_stairs",
+        "princess-v55-gen2-2019_transom_garage"
+      ]
+    },
+    {
+      "id": "exterior-lod1",
+      "kind": "exterior",
+      "level": 1,
+      "path": "models/princess-v55-gen2-2019/exterior.lod1.glb",
+      "bytes": 166848,
+      "sha256": "d70c9654295b03593958281da1baee6ad8f0f6e88dba54197890603a4a631f30",
+      "componentIds": [
+        "princess-v55-gen2-2019_aft_sunpad",
+        "princess-v55-gen2-2019_anchor",
+        "princess-v55-gen2-2019_bow_pulpit",
+        "princess-v55-gen2-2019_cockpit_l_seat",
+        "princess-v55-gen2-2019_cockpit_table",
+        "princess-v55-gen2-2019_deck_cockpit",
+        "princess-v55-gen2-2019_deck_hardware",
+        "princess-v55-gen2-2019_deck_main",
+        "princess-v55-gen2-2019_foredeck_lounge",
+        "princess-v55-gen2-2019_foredeck_sunpad",
+        "princess-v55-gen2-2019_forward_windshield",
+        "princess-v55-gen2-2019_hardtop_shell",
+        "princess-v55-gen2-2019_hardtop_supports",
+        "princess-v55-gen2-2019_helm_station",
+        "princess-v55-gen2-2019_hull_glazing",
+        "princess-v55-gen2-2019_hull_shell",
+        "princess-v55-gen2-2019_rubrail",
+        "princess-v55-gen2-2019_saloon_side_glazing",
+        "princess-v55-gen2-2019_swim_platform",
+        "princess-v55-gen2-2019_swim_stairs",
+        "princess-v55-gen2-2019_transom_garage"
+      ]
+    },
+    {
+      "id": "interior-princess-v55-gen2-2019_deck_lower-lod0",
+      "kind": "interior",
+      "level": 0,
+      "path": "models/princess-v55-gen2-2019/interior-princess-v55-gen2-2019_deck_lower.lod0.glb",
+      "bytes": 224888,
+      "sha256": "9af8f2428c882b5681946eef7b3cdd6a072f1a169dc219f0825565cefc00a925",
+      "componentIds": [
+        "princess-v55-gen2-2019_bunk_cabin_furnishings",
+        "princess-v55-gen2-2019_companionway",
+        "princess-v55-gen2-2019_deck_lower",
+        "princess-v55-gen2-2019_engine_room",
+        "princess-v55-gen2-2019_guest_heads",
+        "princess-v55-gen2-2019_lower_partition_walls",
+        "princess-v55-gen2-2019_owner_cabin_furnishings",
+        "princess-v55-gen2-2019_shaft_lines",
+        "princess-v55-gen2-2019_twin_diesel_machinery",
+        "princess-v55-gen2-2019_vip_cabin_furnishings"
+      ],
+      "deckId": "princess-v55-gen2-2019_deck_lower"
+    },
+    {
+      "id": "interior-princess-v55-gen2-2019_deck_lower-lod1",
+      "kind": "interior",
+      "level": 1,
+      "path": "models/princess-v55-gen2-2019/interior-princess-v55-gen2-2019_deck_lower.lod1.glb",
+      "bytes": 161392,
+      "sha256": "11dd70e93766443e37afdc18c448e42033aaf76de52afc15f4a457caf1084af7",
+      "componentIds": [
+        "princess-v55-gen2-2019_bunk_cabin_furnishings",
+        "princess-v55-gen2-2019_companionway",
+        "princess-v55-gen2-2019_deck_lower",
+        "princess-v55-gen2-2019_engine_room",
+        "princess-v55-gen2-2019_guest_heads",
+        "princess-v55-gen2-2019_lower_partition_walls",
+        "princess-v55-gen2-2019_owner_cabin_furnishings",
+        "princess-v55-gen2-2019_shaft_lines",
+        "princess-v55-gen2-2019_twin_diesel_machinery",
+        "princess-v55-gen2-2019_vip_cabin_furnishings"
+      ],
+      "deckId": "princess-v55-gen2-2019_deck_lower"
+    },
+    {
+      "id": "interior-princess-v55-gen2-2019_deck_main-lod0",
+      "kind": "interior",
+      "level": 0,
+      "path": "models/princess-v55-gen2-2019/interior-princess-v55-gen2-2019_deck_main.lod0.glb",
+      "bytes": 112580,
+      "sha256": "6a677d4187e52e6b2c855e73ac896668758e0dc7ecbe286f096d2b671ce179dd",
+      "componentIds": [
+        "princess-v55-gen2-2019_galley_furnishings",
+        "princess-v55-gen2-2019_saloon_furnishings",
+        "princess-v55-gen2-2019_saloon_table"
+      ],
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "interior-princess-v55-gen2-2019_deck_main-lod1",
+      "kind": "interior",
+      "level": 1,
+      "path": "models/princess-v55-gen2-2019/interior-princess-v55-gen2-2019_deck_main.lod1.glb",
+      "bytes": 85272,
+      "sha256": "ca186f210545d803fa91f8559991a287d063483bcac658521e90feb108add167",
+      "componentIds": [
+        "princess-v55-gen2-2019_galley_furnishings",
+        "princess-v55-gen2-2019_saloon_furnishings",
+        "princess-v55-gen2-2019_saloon_table"
+      ],
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    }
+  ],
+  "decks": [
+    {
+      "id": "princess-v55-gen2-2019_deck_main",
+      "name": "Main deck",
+      "componentId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "princess-v55-gen2-2019_deck_cockpit",
+      "name": "Open aft cockpit",
+      "componentId": "princess-v55-gen2-2019_deck_cockpit"
+    },
+    {
+      "id": "princess-v55-gen2-2019_deck_lower",
+      "name": "Lower accommodation deck",
+      "componentId": "princess-v55-gen2-2019_deck_lower"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "princess-v55-gen2-2019_room_saloon",
+      "name": "Saloon",
+      "deckId": "princess-v55-gen2-2019_deck_main",
+      "componentId": "princess-v55-gen2-2019_saloon_furnishings",
+      "fidelity": "reference-informed",
+      "note": "Port U-sofa and social saloon reconstructed from supplied main-deck hallmarks.",
+      "sourceIds": [
+        "source-f0d0b5c3984f3e89",
+        "source-5ae69607469813b8"
+      ]
+    },
+    {
+      "id": "princess-v55-gen2-2019_room_galley",
+      "name": "Aft starboard galley",
+      "deckId": "princess-v55-gen2-2019_deck_main",
+      "componentId": "princess-v55-gen2-2019_galley_furnishings",
+      "fidelity": "reference-informed",
+      "note": "Aft galley position is reference-informed; appliance arrangement is authored.",
+      "sourceIds": [
+        "source-f0d0b5c3984f3e89",
+        "source-1e3dfc0640689622"
+      ]
+    },
+    {
+      "id": "princess-v55-gen2-2019_room_helm",
+      "name": "Twin starboard helm",
+      "deckId": "princess-v55-gen2-2019_deck_main",
+      "componentId": "princess-v55-gen2-2019_helm_station",
+      "fidelity": "reference-informed",
+      "note": "Two helm chairs and console are visible in the model; instrument details are authored.",
+      "sourceIds": [
+        "source-f0d0b5c3984f3e89",
+        "source-5ae69607469813b8"
+      ]
+    },
+    {
+      "id": "princess-v55-gen2-2019_room_owner",
+      "name": "Full-beam owner cabin",
+      "deckId": "princess-v55-gen2-2019_deck_lower",
+      "componentId": "princess-v55-gen2-2019_owner_cabin_furnishings",
+      "fidelity": "reference-informed",
+      "note": "Full-beam amidships owner cabin is evidenced; furniture finish is authored.",
+      "sourceIds": [
+        "source-6365ee984d1f16b8",
+        "source-1e3dfc0640689622"
+      ]
+    },
+    {
+      "id": "princess-v55-gen2-2019_room_vip",
+      "name": "Forward VIP cabin",
+      "deckId": "princess-v55-gen2-2019_deck_lower",
+      "componentId": "princess-v55-gen2-2019_vip_cabin_furnishings",
+      "fidelity": "reference-informed",
+      "note": "Forward VIP/double cabin is evidenced; furniture finish is authored.",
+      "sourceIds": [
+        "source-6365ee984d1f16b8",
+        "source-1e3dfc0640689622"
+      ]
+    },
+    {
+      "id": "princess-v55-gen2-2019_room_bunk",
+      "name": "Starboard bunk cabin",
+      "deckId": "princess-v55-gen2-2019_deck_lower",
+      "componentId": "princess-v55-gen2-2019_bunk_cabin_furnishings",
+      "fidelity": "reference-informed",
+      "note": "Compact starboard bunk cabin is reference-informed.",
+      "sourceIds": [
+        "source-6365ee984d1f16b8",
+        "source-1e3dfc0640689622"
+      ]
+    },
+    {
+      "id": "princess-v55-gen2-2019_room_head_0",
+      "name": "Port guest head forward",
+      "deckId": "princess-v55-gen2-2019_deck_lower",
+      "componentId": "princess-v55-gen2-2019_guest_heads",
+      "fidelity": "reference-informed",
+      "note": "One of two port-side guest heads around the companionway.",
+      "sourceIds": [
+        "source-6365ee984d1f16b8",
+        "source-1e3dfc0640689622"
+      ]
+    },
+    {
+      "id": "princess-v55-gen2-2019_room_head_1",
+      "name": "Port guest head aft",
+      "deckId": "princess-v55-gen2-2019_deck_lower",
+      "componentId": "princess-v55-gen2-2019_guest_heads",
+      "fidelity": "reference-informed",
+      "note": "One of two port-side guest heads around the companionway.",
+      "sourceIds": [
+        "source-6365ee984d1f16b8",
+        "source-1e3dfc0640689622"
+      ]
+    },
+    {
+      "id": "princess-v55-gen2-2019_room_engine",
+      "name": "Aft engine space",
+      "deckId": "princess-v55-gen2-2019_deck_lower",
+      "componentId": "princess-v55-gen2-2019_engine_room",
+      "fidelity": "reconstructed",
+      "note": "Machinery aft of the owner cabin; equipment detail is externally legible and not service documentation.",
+      "sourceIds": [
+        "source-6365ee984d1f16b8",
+        "source-b985b9106c86440e"
+      ]
+    },
+    {
+      "id": "princess-v55-gen2-2019_room_companionway",
+      "name": "Central companionway",
+      "deckId": "princess-v55-gen2-2019_deck_lower",
+      "componentId": "princess-v55-gen2-2019_companionway",
+      "fidelity": "reference-informed",
+      "note": "Central stairs connect the main and lower deck views.",
+      "sourceIds": [
+        "source-f0d0b5c3984f3e89",
+        "source-6365ee984d1f16b8"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "id": "exterior_bow_port",
+      "name": "Review | Bow Port Quarter",
+      "position": [
+        18,
+        10,
+        15.5
+      ],
+      "target": [
+        0.2,
+        0.9,
+        0
+      ],
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "exterior_bow_starboard",
+      "name": "Review | Bow Starboard Quarter",
+      "position": [
+        17,
+        9,
+        -14.5
+      ],
+      "target": [
+        0.4,
+        1,
+        0
+      ],
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "exterior_port_profile",
+      "name": "Review | Port Profile",
+      "position": [
+        0,
+        5.2,
+        27.5
+      ],
+      "target": [
+        0,
+        0.9,
+        0
+      ],
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "exterior_starboard_profile",
+      "name": "Review | Starboard Profile",
+      "position": [
+        0,
+        5.2,
+        -27.5
+      ],
+      "target": [
+        0,
+        0.9,
+        0
+      ],
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "exterior_stern_port",
+      "name": "Review | Stern Port Quarter",
+      "position": [
+        -17,
+        9,
+        14.5
+      ],
+      "target": [
+        -0.6,
+        0.9,
+        0
+      ],
+      "deckId": "princess-v55-gen2-2019_deck_cockpit"
+    },
+    {
+      "id": "exterior_stern_starboard",
+      "name": "Review | Stern Starboard Quarter",
+      "position": [
+        -17,
+        9,
+        -14.5
+      ],
+      "target": [
+        -0.6,
+        0.9,
+        0
+      ],
+      "deckId": "princess-v55-gen2-2019_deck_cockpit"
+    },
+    {
+      "id": "exterior_high_bow",
+      "name": "Review | High Bow",
+      "position": [
+        12.5,
+        18.5,
+        0
+      ],
+      "target": [
+        0.5,
+        0.7,
+        0
+      ],
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "exterior_three_quarter",
+      "name": "Review | Starboard Three-Quarter",
+      "position": [
+        18.5,
+        10,
+        -15.5
+      ],
+      "target": [
+        0,
+        0.9,
+        0
+      ],
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "exterior_below",
+      "name": "Review | Below Hull",
+      "position": [
+        -13,
+        -11,
+        -16
+      ],
+      "target": [
+        0,
+        -0.2,
+        0
+      ],
+      "deckId": "princess-v55-gen2-2019_deck_lower"
+    },
+    {
+      "id": "room_saloon",
+      "name": "Room | Saloon",
+      "position": [
+        -4.35,
+        2.85,
+        -0.55
+      ],
+      "target": [
+        1.15,
+        1.6,
+        0.15
+      ],
+      "roomId": "princess-v55-gen2-2019_room_saloon",
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "room_owner",
+      "name": "Room | Full-beam Owner",
+      "position": [
+        -1.95,
+        0.62,
+        1.95
+      ],
+      "target": [
+        0.15,
+        -0.12,
+        -0.05
+      ],
+      "roomId": "princess-v55-gen2-2019_room_owner",
+      "deckId": "princess-v55-gen2-2019_deck_lower"
+    },
+    {
+      "id": "room_vip",
+      "name": "Room | Forward VIP",
+      "position": [
+        3.55,
+        0.66,
+        -1.75
+      ],
+      "target": [
+        5.3,
+        -0.1,
+        0
+      ],
+      "roomId": "princess-v55-gen2-2019_room_vip",
+      "deckId": "princess-v55-gen2-2019_deck_lower"
+    },
+    {
+      "id": "room_bunk_heads",
+      "name": "Room | Bunk and Heads",
+      "position": [
+        0.55,
+        0.78,
+        0.82
+      ],
+      "target": [
+        2.05,
+        -0.02,
+        -1
+      ],
+      "roomId": "princess-v55-gen2-2019_room_bunk",
+      "deckId": "princess-v55-gen2-2019_deck_lower"
+    },
+    {
+      "id": "room_galley",
+      "name": "Room | Aft Galley",
+      "position": [
+        -2.3,
+        2.65,
+        -0.35
+      ],
+      "target": [
+        -0.65,
+        1.95,
+        -1.15
+      ],
+      "roomId": "princess-v55-gen2-2019_room_galley",
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "room_helm",
+      "name": "Room | Starboard Helm",
+      "position": [
+        4.5,
+        2.85,
+        -2.65
+      ],
+      "target": [
+        3,
+        1.9,
+        -1.2
+      ],
+      "roomId": "princess-v55-gen2-2019_room_helm",
+      "deckId": "princess-v55-gen2-2019_deck_main"
+    },
+    {
+      "id": "room_head_0",
+      "name": "Room | Guest Head Forward",
+      "position": [
+        1.8,
+        0.72,
+        2.05
+      ],
+      "target": [
+        1.8,
+        -0.05,
+        1.15
+      ],
+      "roomId": "princess-v55-gen2-2019_room_head_0",
+      "deckId": "princess-v55-gen2-2019_deck_lower"
+    },
+    {
+      "id": "room_head_1",
+      "name": "Room | Guest Head Aft",
+      "position": [
+        3,
+        0.72,
+        2.05
+      ],
+      "target": [
+        3,
+        -0.05,
+        1.15
+      ],
+      "roomId": "princess-v55-gen2-2019_room_head_1",
+      "deckId": "princess-v55-gen2-2019_deck_lower"
+    },
+    {
+      "id": "room_companionway",
+      "name": "Room | Central Companionway",
+      "position": [
+        2.95,
+        0.82,
+        1.85
+      ],
+      "target": [
+        2.6,
+        -0.4,
+        0.25
+      ],
+      "roomId": "princess-v55-gen2-2019_room_companionway",
+      "deckId": "princess-v55-gen2-2019_deck_lower"
+    },
+    {
+      "id": "room_engine",
+      "name": "Room | Engine Space",
+      "position": [
+        -7.65,
+        0.62,
+        1.75
+      ],
+      "target": [
+        -5.55,
+        -0.22,
+        0
+      ],
+      "roomId": "princess-v55-gen2-2019_room_engine",
+      "deckId": "princess-v55-gen2-2019_deck_lower"
+    }
+  ],
+  "fidelity": "Original reference-informed reconstruction of the 2019 Princess V55 Gen2 standard three-cabin configuration. Official/independent evidence anchors silhouette, dimensions and deck arrangement; internal furniture, hull offsets and machinery detail are reconstructed. Exporter-owned assets are intentionally empty in the Blender master."
+}

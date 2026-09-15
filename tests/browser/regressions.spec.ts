@@ -2,6 +2,8 @@ import { test, expect, type Page, type Locator } from '@playwright/test';
 import { fleet } from '../../src/data/fleet';
 import { openSystems, chooseOption } from './helpers';
 import { isSoftwareRenderer } from '../../src/viewer/renderQuality';
+import { readFileSync } from 'node:fs';
+import { manifestSchema } from '../../src/data/schema';
 
 async function ready(page: Page, vessel = 'ever-ace') {
   await page.goto(`#/vessel/${vessel}`);
@@ -245,7 +247,11 @@ test(`all ${fleet.length} vessels can be visited serially without stale state or
     await page.waitForTimeout(300);
     const ids=await page.locator('.scene-label').evaluateAll(labels=>labels.map(label=>label.getAttribute('data-component-id')));
     expect(ids.length).toBeGreaterThan(0);
-    expect(ids.every(id=>id?.startsWith(vessel.id+'.'))).toBe(true);
+    const manifestPath=vessel.yacht?.manifest??`models/${vessel.id}.json`;
+    const currentManifest=manifestSchema.parse(JSON.parse(readFileSync(`public/${manifestPath}`,'utf8')));
+    expect(currentManifest.vesselId).toBe(vessel.id);
+    const validIds=new Set(currentManifest.components.map(component=>component.id));
+    expect(ids.every(id=>id!==null&&validIds.has(id))).toBe(true);
   }
   await expect(page.locator('[data-scene-status]')).toHaveAttribute('data-loaded','ever-ace');
   const timing=await page.evaluate(async()=>{

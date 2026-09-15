@@ -41,12 +41,12 @@ test('yacht cards keep thumbnails visible and compact controls separated', { tag
   await page.getByRole('button', { name: 'Browse the fleet', exact: true }).click();
   await page.getByRole('button', { name: 'Yachts', exact: true }).click();
   const thumbnails = page.locator('.fleet-card img.yacht-thumbnail');
+  const expectedThumbnails=fleet.filter(vessel=>vessel.yacht).length;
+  await expect(thumbnails).toHaveCount(expectedThumbnails);
   for (let index = 0; index < await thumbnails.count(); index++) {
     await thumbnails.nth(index).scrollIntoViewIfNeeded();
   }
-  await page.waitForTimeout(250);
-  const broken = await thumbnails.evaluateAll(images => images.filter(image => image instanceof HTMLImageElement && (!image.complete || image.naturalWidth === 0)).length);
-  expect(broken).toBe(0);
+  await expect.poll(()=>thumbnails.evaluateAll(images=>images.filter(image=>image instanceof HTMLImageElement&&image.complete&&image.naturalWidth>0).length),{timeout:30000}).toBe(expectedThumbnails);
   await page.keyboard.press('Escape');
   await page.setViewportSize({ width: 787, height: 420 });
   await page.reload();
@@ -56,7 +56,14 @@ test('yacht cards keep thumbnails visible and compact controls separated', { tag
   const controlsBox = await controls.boundingBox();
   expect(titleBox).not.toBeNull();
   expect(controlsBox).not.toBeNull();
-  expect(controlsBox!.x).toBeGreaterThanOrEqual(titleBox!.x + titleBox!.width - 1);
+  const separate=(a:NonNullable<typeof titleBox>,b:NonNullable<typeof titleBox>)=>a.x+a.width<=b.x+1||b.x+b.width<=a.x+1||a.y+a.height<=b.y+1||b.y+b.height<=a.y+1;
+  expect(separate(titleBox!,controlsBox!)).toBe(true);
+  const interior=page.getByRole('region',{name:'Explore yacht interiors'});
+  await expect(interior).toBeVisible();
+  const interiorBox=await interior.boundingBox();
+  expect(interiorBox).not.toBeNull();
+  expect(separate(interiorBox!,titleBox!)).toBe(true);
+  expect(separate(interiorBox!,controlsBox!)).toBe(true);
 });
 
 test('representative Princess and Sunseeker authored assets load in the viewer', { tag: '@smoke' }, async ({ page }) => {

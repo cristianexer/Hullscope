@@ -1,0 +1,1611 @@
+{
+  "vesselId": "princess-s72-gen1-2014",
+  "version": 2,
+  "units": "metres",
+  "components": [
+    {
+      "id": "princess-s72-gen1-2014_cockpit",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "Cockpit and social deck",
+      "systemId": "accommodation",
+      "assembly": "Cockpit and social deck",
+      "parentId": "princess-s72-gen1-2014_deck_main",
+      "shape": "deck",
+      "position": [
+        -5.850143909454346,
+        1.04010579402542,
+        0
+      ],
+      "size": [
+        7.366847991943359,
+        0.5000340382940847,
+        4.811709363798083
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Open aft cockpit, seating and social equipment.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-s72-gen1-2014_deck_main"
+    },
+    {
+      "id": "princess-s72-gen1-2014_deck_lower",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "Lower accommodation deck",
+      "systemId": "structure",
+      "assembly": "Lower accommodation deck",
+      "parentId": "princess-s72-gen1-2014_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        -0.5799999833106995,
+        0
+      ],
+      "size": [
+        15.600383758544922,
+        0.07998487720681013,
+        3.9159262799167456
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.7
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.7
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Lower accommodation deck and room boundaries.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-s72-gen1-2014_deck_lower"
+    },
+    {
+      "id": "princess-s72-gen1-2014_deck_main",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "Main deck",
+      "systemId": "structure",
+      "assembly": "Main deck",
+      "parentId": "princess-s72-gen1-2014_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        0.8117106407880783,
+        0
+      ],
+      "size": [
+        21.667200088500977,
+        0.8173058049069861,
+        5.202720123793014
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Main deck surface and deck edge.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-s72-gen1-2014_deck_main"
+    },
+    {
+      "id": "princess-s72-gen1-2014_electrical",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "Electrical power",
+      "systemId": "electrical",
+      "assembly": "Electrical power",
+      "parentId": "princess-s72-gen1-2014_hull_shell",
+      "shape": "box",
+      "position": [
+        -0.6500160098075867,
+        -0.4440000057220459,
+        0
+      ],
+      "size": [
+        3.0334079265594482,
+        0.279947067779039,
+        1.3428016594361645
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Batteries, distribution and generator family placeholder where details are unknown.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-s72-gen1-2014_engine_room",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "Engine room",
+      "systemId": "propulsion",
+      "assembly": "Engine room",
+      "parentId": "princess-s72-gen1-2014_deck_lower",
+      "shape": "cylinder",
+      "position": [
+        -6.500160217285156,
+        -0.30000001192092896,
+        0
+      ],
+      "size": [
+        3.250080108642578,
+        0.5498960576895795,
+        3.245131733543607
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-s72-gen1-2014_deck_lower",
+      "roomId": "princess-s72-gen1-2014_room_engine"
+    },
+    {
+      "id": "princess-s72-gen1-2014_family_signature",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "Family-specific exterior details",
+      "systemId": "structure",
+      "assembly": "Family-specific exterior details",
+      "parentId": "princess-s72-gen1-2014_deck_main",
+      "shape": "box",
+      "position": [
+        -6.933504104614258,
+        1.2564777135849,
+        0
+      ],
+      "size": [
+        5.616138458251953,
+        0.15043822617538227,
+        3.0217145609601714
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.28
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.28
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed family signature details; small joinery and offsets are reconstructed where public references do not expose them.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-s72-gen1-2014_deck_main"
+    },
+    {
+      "id": "princess-s72-gen1-2014_flybridge",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "Flybridge and upper deck",
+      "systemId": "accommodation",
+      "assembly": "Flybridge and upper deck",
+      "parentId": "princess-s72-gen1-2014_superstructure",
+      "shape": "deck",
+      "position": [
+        -0.18200469017028809,
+        3.507554290782825,
+        0
+      ],
+      "size": [
+        9.100224018096924,
+        0.778029881866563,
+        4.530095872754751
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        1
+      ],
+      "localExplode": [
+        0,
+        0,
+        1
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed upper helm, seating and deck volume.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-s72-gen1-2014_deck_main"
+    },
+    {
+      "id": "princess-s72-gen1-2014_freshwater",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "Freshwater and sanitation",
+      "systemId": "utilities",
+      "assembly": "Freshwater and sanitation",
+      "parentId": "princess-s72-gen1-2014_hull_shell",
+      "shape": "box",
+      "position": [
+        2.166719913482666,
+        -0.6660000085830688,
+        0
+      ],
+      "size": [
+        3.9000959396362305,
+        0.2199584123187277,
+        1.454605929083968
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Freshwater and sanitation service envelope.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-s72-gen1-2014_fuel",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "Fuel system",
+      "systemId": "fuel",
+      "assembly": "Fuel system",
+      "parentId": "princess-s72-gen1-2014_hull_shell",
+      "shape": "box",
+      "position": [
+        -2.6000640392303467,
+        -0.7103999853134155,
+        0
+      ],
+      "size": [
+        5.416800022125244,
+        0.24003398639258577,
+        1.7901708255132989
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Fuel tank and service system envelope.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-s72-gen1-2014_glazing",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "Glazing",
+      "systemId": "structure",
+      "assembly": "Glazing",
+      "parentId": "princess-s72-gen1-2014_superstructure",
+      "shape": "chamferedBox",
+      "position": [
+        5.850143909454346,
+        1.9084999561309814,
+        0
+      ],
+      "size": [
+        0.04012110323022178,
+        0.6896071083693374,
+        3.6928319931030273
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Windshield, side glazing and hull windows.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "shell",
+      "deckId": "princess-s72-gen1-2014_deck_main"
+    },
+    {
+      "id": "princess-s72-gen1-2014_helm",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "Helm station",
+      "systemId": "navigation",
+      "assembly": "Helm station",
+      "parentId": "princess-s72-gen1-2014_superstructure",
+      "shape": "box",
+      "position": [
+        3.0334079265594482,
+        1.4069443941116333,
+        -0.9511839747428894
+      ],
+      "size": [
+        3.466752052307129,
+        0.5264011175244114,
+        0.5874021849546551
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Helm console, steering position and displays.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-s72-gen1-2014_deck_main"
+    },
+    {
+      "id": "princess-s72-gen1-2014_hull_shell",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "Hull shell",
+      "systemId": "structure",
+      "assembly": "Hull shell",
+      "parentId": null,
+      "shape": "hull",
+      "position": [
+        -0.0006389617919921875,
+        -0.13122248649597168,
+        -1.1920928955078125e-7
+      ],
+      "size": [
+        21.665061950683594,
+        2.5865572786972937,
+        5.379404401707868
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.9
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.9
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed hull form and underwater volume.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "shell"
+    },
+    {
+      "id": "princess-s72-gen1-2014_lower_partitions",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "Lower partitions",
+      "systemId": "structure",
+      "assembly": "Lower partitions",
+      "parentId": "princess-s72-gen1-2014_deck_lower",
+      "shape": "box",
+      "position": [
+        -5.633471965789795,
+        -0.17000000178813934,
+        0
+      ],
+      "size": [
+        0.05988795409419545,
+        0.5197574994014487,
+        3.580928087234497
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Low room-divider partitions; exact joinery is reconstructed.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-s72-gen1-2014_deck_lower"
+    },
+    {
+      "id": "princess-s72-gen1-2014_mooring",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "Mooring equipment",
+      "systemId": "mooring",
+      "assembly": "Mooring equipment",
+      "parentId": "princess-s72-gen1-2014_deck_main",
+      "shape": "box",
+      "position": [
+        8.127375602722168,
+        1.1185488487747364,
+        -1.3157691061496735
+      ],
+      "size": [
+        4.993978500366211,
+        0.16052708231561574,
+        1.7601690023721845
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Anchor, windlass, cleats and rails.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-s72-gen1-2014_deck_main"
+    },
+    {
+      "id": "princess-s72-gen1-2014_propulsion",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "Propulsion",
+      "systemId": "propulsion",
+      "assembly": "Propulsion",
+      "parentId": "princess-s72-gen1-2014_hull_shell",
+      "shape": "cylinder",
+      "position": [
+        -4.766784191131592,
+        -0.23680000007152555,
+        0
+      ],
+      "size": [
+        4.333439826965332,
+        0.6400906022068606,
+        3.357048327461438
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -1.2
+      ],
+      "localExplode": [
+        0,
+        0,
+        -1.2
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Documented propulsion family represented as authored machinery and drives.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-s72-gen1-2014_room_deck_saloon_0",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "deck saloon",
+      "systemId": "accommodation",
+      "assembly": "deck saloon",
+      "parentId": "princess-s72-gen1-2014_deck_lower",
+      "shape": "box",
+      "position": [
+        -5.373465538024902,
+        -0.23000000417232513,
+        0.8952320218086243
+      ],
+      "size": [
+        1.715210199356079,
+        0.38002948232444633,
+        1.5526830365282573
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored deck saloon arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-s72-gen1-2014_deck_lower",
+      "roomId": "princess-s72-gen1-2014_room_deck_saloon_0"
+    },
+    {
+      "id": "princess-s72-gen1-2014_room_forward_double_en_suite_cabin_3",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "forward double en-suite cabin",
+      "systemId": "accommodation",
+      "assembly": "forward double en-suite cabin",
+      "parentId": "princess-s72-gen1-2014_deck_lower",
+      "shape": "box",
+      "position": [
+        2.686732769012451,
+        -0.36000001430511475,
+        -0.8952320218086243
+      ],
+      "size": [
+        1.7603473663330078,
+        0.20006511405450977,
+        1.2638914804635863
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored forward double en-suite cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-s72-gen1-2014_deck_lower",
+      "roomId": "princess-s72-gen1-2014_room_forward_double_en_suite_cabin_3"
+    },
+    {
+      "id": "princess-s72-gen1-2014_room_galley_2",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "galley",
+      "systemId": "accommodation",
+      "assembly": "galley",
+      "parentId": "princess-s72-gen1-2014_deck_lower",
+      "shape": "box",
+      "position": [
+        0,
+        -0.18000000715255737,
+        0.3896963596343994
+      ],
+      "size": [
+        1.5346617698669434,
+        0.5500840018032548,
+        0.27988948444242245
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored galley arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-s72-gen1-2014_deck_lower",
+      "roomId": "princess-s72-gen1-2014_room_galley_2"
+    },
+    {
+      "id": "princess-s72-gen1-2014_room_main_deck_day_head_1",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "main-deck day head",
+      "systemId": "accommodation",
+      "assembly": "main-deck day head",
+      "parentId": "princess-s72-gen1-2014_deck_lower",
+      "shape": "box",
+      "position": [
+        -2.686732769012451,
+        -0.18000000715255737,
+        -1.3320426940917969
+      ],
+      "size": [
+        0.81902015209198,
+        0.41997059832909467,
+        0.2199834088736079
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored main-deck day head arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-s72-gen1-2014_deck_lower",
+      "roomId": "princess-s72-gen1-2014_room_main_deck_day_head_1"
+    },
+    {
+      "id": "princess-s72-gen1-2014_room_twin_guest_cabin_4",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "twin guest cabin",
+      "systemId": "accommodation",
+      "assembly": "twin guest cabin",
+      "parentId": "princess-s72-gen1-2014_deck_lower",
+      "shape": "box",
+      "position": [
+        5.373465538024902,
+        -0.36000001430511475,
+        0.8952320218086243
+      ],
+      "size": [
+        1.7603473663330078,
+        0.20006511405450977,
+        1.2638914804635863
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored twin guest cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-s72-gen1-2014_deck_lower",
+      "roomId": "princess-s72-gen1-2014_room_twin_guest_cabin_4"
+    },
+    {
+      "id": "princess-s72-gen1-2014_safety",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "Safety equipment",
+      "systemId": "safety",
+      "assembly": "Safety equipment",
+      "parentId": "princess-s72-gen1-2014_deck_main",
+      "shape": "box",
+      "position": [
+        -8.233535766601562,
+        1.3066333532333374,
+        2.2380800247192383
+      ],
+      "size": [
+        3.0334079265594482,
+        0.20058428891589486,
+        0.61543918868884
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Liferaft, extinguisher and navigation safety equipment.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-s72-gen1-2014_deck_main"
+    },
+    {
+      "id": "princess-s72-gen1-2014_superstructure",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "Superstructure",
+      "systemId": "structure",
+      "assembly": "Superstructure",
+      "parentId": "princess-s72-gen1-2014_deck_main",
+      "shape": "chamferedBox",
+      "position": [
+        1.733376145362854,
+        1.7516441030525813,
+        0
+      ],
+      "size": [
+        10.620256185531616,
+        1.657466161981089,
+        4.562611370908588
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.8
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.8
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed wheelhouse and superstructure.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "shell",
+      "deckId": "princess-s72-gen1-2014_deck_main"
+    },
+    {
+      "id": "princess-s72-gen1-2014_swim_platform",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "Swim platform",
+      "systemId": "structure",
+      "assembly": "Swim platform",
+      "parentId": "princess-s72-gen1-2014_hull_shell",
+      "shape": "box",
+      "position": [
+        -10.400256156921387,
+        0.18000000715255737,
+        0
+      ],
+      "size": [
+        2.60014660421659,
+        0.10015932006817307,
+        4.364255905151367
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Aft bathing platform or transom step.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-s72-gen1-2014_deck_main"
+    },
+    {
+      "id": "princess-s72-gen1-2014_ventilation",
+      "vesselId": "princess-s72-gen1-2014",
+      "name": "Ventilation and HVAC",
+      "systemId": "utilities",
+      "assembly": "Ventilation and HVAC",
+      "parentId": "princess-s72-gen1-2014_superstructure",
+      "shape": "box",
+      "position": [
+        1.083359956741333,
+        -0.7176449298858643,
+        0
+      ],
+      "size": [
+        4.075239757335957,
+        0.1099004237679384,
+        0.10989986145744124
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Ventilation and HVAC service equipment envelope.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ],
+      "enclosure": "equipment"
+    }
+  ],
+  "meaningfulCount": 22,
+  "lods": [],
+  "assets": [
+    {
+      "id": "exterior-lod0",
+      "kind": "exterior",
+      "level": 0,
+      "path": "models/princess-s72-gen1-2014/exterior.lod0.glb",
+      "bytes": 323532,
+      "sha256": "6b8ddded21d5c79f063ad8b2e9e352edc13afd9afebe476b7e9e0c8c1f0a0f8b",
+      "componentIds": [
+        "princess-s72-gen1-2014_cockpit",
+        "princess-s72-gen1-2014_deck_main",
+        "princess-s72-gen1-2014_electrical",
+        "princess-s72-gen1-2014_family_signature",
+        "princess-s72-gen1-2014_flybridge",
+        "princess-s72-gen1-2014_freshwater",
+        "princess-s72-gen1-2014_fuel",
+        "princess-s72-gen1-2014_glazing",
+        "princess-s72-gen1-2014_helm",
+        "princess-s72-gen1-2014_hull_shell",
+        "princess-s72-gen1-2014_mooring",
+        "princess-s72-gen1-2014_propulsion",
+        "princess-s72-gen1-2014_safety",
+        "princess-s72-gen1-2014_superstructure",
+        "princess-s72-gen1-2014_swim_platform",
+        "princess-s72-gen1-2014_ventilation"
+      ]
+    },
+    {
+      "id": "exterior-lod1",
+      "kind": "exterior",
+      "level": 1,
+      "path": "models/princess-s72-gen1-2014/exterior.lod1.glb",
+      "bytes": 184108,
+      "sha256": "102efacd99508b9a539ee75adc79205dd71c31589684777b1cc52c29e6b30c2b",
+      "componentIds": [
+        "princess-s72-gen1-2014_cockpit",
+        "princess-s72-gen1-2014_deck_main",
+        "princess-s72-gen1-2014_electrical",
+        "princess-s72-gen1-2014_family_signature",
+        "princess-s72-gen1-2014_flybridge",
+        "princess-s72-gen1-2014_freshwater",
+        "princess-s72-gen1-2014_fuel",
+        "princess-s72-gen1-2014_glazing",
+        "princess-s72-gen1-2014_helm",
+        "princess-s72-gen1-2014_hull_shell",
+        "princess-s72-gen1-2014_mooring",
+        "princess-s72-gen1-2014_propulsion",
+        "princess-s72-gen1-2014_safety",
+        "princess-s72-gen1-2014_superstructure",
+        "princess-s72-gen1-2014_swim_platform",
+        "princess-s72-gen1-2014_ventilation"
+      ]
+    },
+    {
+      "id": "interior-princess-s72-gen1-2014_deck_lower-lod0",
+      "kind": "interior",
+      "level": 0,
+      "path": "models/princess-s72-gen1-2014/interior-princess-s72-gen1-2014_deck_lower.lod0.glb",
+      "bytes": 296964,
+      "sha256": "4981ce143bacd1b46f22084091a56aa9134db11547a05f140b381d743489f21a",
+      "componentIds": [
+        "princess-s72-gen1-2014_deck_lower",
+        "princess-s72-gen1-2014_engine_room",
+        "princess-s72-gen1-2014_lower_partitions",
+        "princess-s72-gen1-2014_room_deck_saloon_0",
+        "princess-s72-gen1-2014_room_forward_double_en_suite_cabin_3",
+        "princess-s72-gen1-2014_room_galley_2",
+        "princess-s72-gen1-2014_room_main_deck_day_head_1",
+        "princess-s72-gen1-2014_room_twin_guest_cabin_4"
+      ],
+      "deckId": "princess-s72-gen1-2014_deck_lower"
+    },
+    {
+      "id": "interior-princess-s72-gen1-2014_deck_lower-lod1",
+      "kind": "interior",
+      "level": 1,
+      "path": "models/princess-s72-gen1-2014/interior-princess-s72-gen1-2014_deck_lower.lod1.glb",
+      "bytes": 69152,
+      "sha256": "c710cba904385ae0be1f077b68164a26ca5d9448002e72755ce5c167f481f277",
+      "componentIds": [
+        "princess-s72-gen1-2014_deck_lower",
+        "princess-s72-gen1-2014_engine_room",
+        "princess-s72-gen1-2014_lower_partitions",
+        "princess-s72-gen1-2014_room_deck_saloon_0",
+        "princess-s72-gen1-2014_room_forward_double_en_suite_cabin_3",
+        "princess-s72-gen1-2014_room_galley_2",
+        "princess-s72-gen1-2014_room_main_deck_day_head_1",
+        "princess-s72-gen1-2014_room_twin_guest_cabin_4"
+      ],
+      "deckId": "princess-s72-gen1-2014_deck_lower"
+    }
+  ],
+  "decks": [
+    {
+      "id": "princess-s72-gen1-2014_deck_main",
+      "name": "Main deck",
+      "componentId": "princess-s72-gen1-2014_deck_main"
+    },
+    {
+      "id": "princess-s72-gen1-2014_cockpit",
+      "name": "Aft cockpit",
+      "componentId": "princess-s72-gen1-2014_cockpit"
+    },
+    {
+      "id": "princess-s72-gen1-2014_deck_lower",
+      "name": "Lower accommodation deck",
+      "componentId": "princess-s72-gen1-2014_deck_lower"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "princess-s72-gen1-2014_room_deck_saloon_0",
+      "name": "deck saloon",
+      "deckId": "princess-s72-gen1-2014_deck_lower",
+      "componentId": "princess-s72-gen1-2014_room_deck_saloon_0",
+      "fidelity": "reference-informed",
+      "note": "Authored deck saloon arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ]
+    },
+    {
+      "id": "princess-s72-gen1-2014_room_main_deck_day_head_1",
+      "name": "main-deck day head",
+      "deckId": "princess-s72-gen1-2014_deck_lower",
+      "componentId": "princess-s72-gen1-2014_room_main_deck_day_head_1",
+      "fidelity": "reference-informed",
+      "note": "Authored main-deck day head arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ]
+    },
+    {
+      "id": "princess-s72-gen1-2014_room_galley_2",
+      "name": "galley",
+      "deckId": "princess-s72-gen1-2014_deck_lower",
+      "componentId": "princess-s72-gen1-2014_room_galley_2",
+      "fidelity": "reference-informed",
+      "note": "Authored galley arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ]
+    },
+    {
+      "id": "princess-s72-gen1-2014_room_forward_double_en_suite_cabin_3",
+      "name": "forward double en-suite cabin",
+      "deckId": "princess-s72-gen1-2014_deck_lower",
+      "componentId": "princess-s72-gen1-2014_room_forward_double_en_suite_cabin_3",
+      "fidelity": "reference-informed",
+      "note": "Authored forward double en-suite cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ]
+    },
+    {
+      "id": "princess-s72-gen1-2014_room_twin_guest_cabin_4",
+      "name": "twin guest cabin",
+      "deckId": "princess-s72-gen1-2014_deck_lower",
+      "componentId": "princess-s72-gen1-2014_room_twin_guest_cabin_4",
+      "fidelity": "reference-informed",
+      "note": "Authored twin guest cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ]
+    },
+    {
+      "id": "princess-s72-gen1-2014_room_engine",
+      "name": "Engine room",
+      "deckId": "princess-s72-gen1-2014_deck_lower",
+      "componentId": "princess-s72-gen1-2014_engine_room",
+      "fidelity": "reconstructed",
+      "note": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-8b1eb419b92e52dc",
+        "source-064037b8aa3d63bf",
+        "source-5661a713a266486e",
+        "source-2113f0d6feaf9036",
+        "source-c5ea0224f1c647f6",
+        "source-3c790d781c3b9d4a"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "id": "exterior_bow",
+      "name": "Review | Bow quarter",
+      "position": [
+        24.375600000000002,
+        4.0626,
+        20.764400000000002
+      ],
+      "target": [
+        0,
+        0.62,
+        0
+      ],
+      "deckId": "princess-s72-gen1-2014_deck_main"
+    },
+    {
+      "id": "exterior_port_profile",
+      "name": "Review | Port profile",
+      "position": [
+        0,
+        3.1598,
+        33.4036
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "princess-s72-gen1-2014_deck_main"
+    },
+    {
+      "id": "exterior_starboard_profile",
+      "name": "Review | Starboard profile",
+      "position": [
+        0,
+        3.1598,
+        -33.4036
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "princess-s72-gen1-2014_deck_main"
+    },
+    {
+      "id": "exterior_stern",
+      "name": "Review | Stern quarter",
+      "position": [
+        -24.375600000000002,
+        4.0626,
+        -20.764400000000002
+      ],
+      "target": [
+        0,
+        0.66,
+        0
+      ],
+      "deckId": "princess-s72-gen1-2014_cockpit"
+    },
+    {
+      "id": "exterior_high",
+      "name": "Review | High bow",
+      "position": [
+        14.8962,
+        30.243800000000004,
+        0
+      ],
+      "target": [
+        0,
+        0.25,
+        0
+      ],
+      "deckId": "princess-s72-gen1-2014_deck_main"
+    },
+    {
+      "id": "exterior_above",
+      "name": "Review | Above plan",
+      "position": [
+        1.5799,
+        46.9456,
+        1.5799
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "deckId": "princess-s72-gen1-2014_deck_main"
+    },
+    {
+      "id": "exterior_below",
+      "name": "Review | Below hull",
+      "position": [
+        -24.375600000000002,
+        -13.9934,
+        -18.9588
+      ],
+      "target": [
+        0,
+        -0.35,
+        0
+      ],
+      "deckId": "princess-s72-gen1-2014_deck_lower"
+    },
+    {
+      "id": "exterior_three_quarter",
+      "name": "Review | Starboard three-quarter",
+      "position": [
+        26.181199999999997,
+        4.0626,
+        -25.2784
+      ],
+      "target": [
+        0,
+        0.58,
+        0
+      ],
+      "deckId": "princess-s72-gen1-2014_deck_main"
+    },
+    {
+      "id": "room_0",
+      "name": "Room | deck saloon",
+      "position": [
+        -8.338200613333333,
+        0.92,
+        2.866893824
+      ],
+      "target": [
+        -5.830583333333333,
+        -0.18,
+        0.8608
+      ],
+      "roomId": "princess-s72-gen1-2014_room_deck_saloon_0",
+      "deckId": "princess-s72-gen1-2014_deck_lower"
+    },
+    {
+      "id": "room_1",
+      "name": "Room | main-deck day head",
+      "position": [
+        -6.00596728,
+        0.92,
+        1.1452938240000001
+      ],
+      "target": [
+        -3.4983499999999994,
+        -0.18,
+        -0.8608
+      ],
+      "roomId": "princess-s72-gen1-2014_room_main_deck_day_head_1",
+      "deckId": "princess-s72-gen1-2014_deck_lower"
+    },
+    {
+      "id": "room_2",
+      "name": "Room | galley",
+      "position": [
+        -3.6737339466666667,
+        0.92,
+        2.866893824
+      ],
+      "target": [
+        -1.1661166666666665,
+        -0.18,
+        0.8608
+      ],
+      "roomId": "princess-s72-gen1-2014_room_galley_2",
+      "deckId": "princess-s72-gen1-2014_deck_lower"
+    },
+    {
+      "id": "room_3",
+      "name": "Room | forward double en-suite cabin",
+      "position": [
+        -1.3415006133333338,
+        0.92,
+        1.1452938240000001
+      ],
+      "target": [
+        1.1661166666666665,
+        -0.18,
+        -0.8608
+      ],
+      "roomId": "princess-s72-gen1-2014_room_forward_double_en_suite_cabin_3",
+      "deckId": "princess-s72-gen1-2014_deck_lower"
+    },
+    {
+      "id": "room_4",
+      "name": "Room | twin guest cabin",
+      "position": [
+        0.9907327200000009,
+        0.92,
+        2.866893824
+      ],
+      "target": [
+        3.498350000000001,
+        -0.18,
+        0.8608
+      ],
+      "roomId": "princess-s72-gen1-2014_room_twin_guest_cabin_4",
+      "deckId": "princess-s72-gen1-2014_deck_lower"
+    },
+    {
+      "id": "room_5",
+      "name": "Room | Engine room",
+      "position": [
+        -13.126712,
+        0.72,
+        5.070112
+      ],
+      "target": [
+        -6.771,
+        -0.18,
+        1.076
+      ],
+      "roomId": "princess-s72-gen1-2014_room_engine",
+      "deckId": "princess-s72-gen1-2014_deck_lower"
+    }
+  ],
+  "fidelity": "Original reference-informed reconstruction of Princess S72 (Gen 1 / original S72 launched 2014). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them."
+}

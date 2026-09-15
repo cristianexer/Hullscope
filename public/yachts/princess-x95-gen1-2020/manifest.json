@@ -1,0 +1,1494 @@
+{
+  "vesselId": "princess-x95-gen1-2020",
+  "version": 2,
+  "units": "metres",
+  "components": [
+    {
+      "id": "princess-x95-gen1-2020_cockpit",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "Cockpit and social deck",
+      "systemId": "accommodation",
+      "assembly": "Cockpit and social deck",
+      "parentId": "princess-x95-gen1-2020_deck_main",
+      "shape": "deck",
+      "position": [
+        -7.54531192779541,
+        1.040036702552073,
+        0
+      ],
+      "size": [
+        9.501503944396973,
+        0.49982373548440984,
+        6.055189836326108
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Open aft cockpit, seating and social equipment.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-x95-gen1-2020_deck_main"
+    },
+    {
+      "id": "princess-x95-gen1-2020_deck_lower",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "Lower accommodation deck",
+      "systemId": "structure",
+      "assembly": "Lower accommodation deck",
+      "parentId": "princess-x95-gen1-2020_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        -0.5799999833106995,
+        0
+      ],
+      "size": [
+        20.120832443237305,
+        0.08105563165707341,
+        4.927199912245129
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.7
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.7
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Lower accommodation deck and room boundaries.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-x95-gen1-2020_deck_lower"
+    },
+    {
+      "id": "princess-x95-gen1-2020_deck_main",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "Main deck",
+      "systemId": "structure",
+      "assembly": "Main deck",
+      "parentId": "princess-x95-gen1-2020_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        0.811875581741333,
+        0
+      ],
+      "size": [
+        27.945600509643555,
+        0.8187437510073492,
+        6.54653857576293
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Main deck surface and deck edge.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-x95-gen1-2020_deck_main"
+    },
+    {
+      "id": "princess-x95-gen1-2020_electrical",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "Electrical power",
+      "systemId": "electrical",
+      "assembly": "Electrical power",
+      "parentId": "princess-x95-gen1-2020_hull_shell",
+      "shape": "box",
+      "position": [
+        -0.8383679986000061,
+        -0.6029999852180481,
+        0
+      ],
+      "size": [
+        3.912384033203125,
+        0.2798739028238204,
+        1.689870028440926
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Batteries, distribution and generator family placeholder where details are unknown.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-x95-gen1-2020_engine_room",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "Engine room",
+      "systemId": "propulsion",
+      "assembly": "Engine room",
+      "parentId": "princess-x95-gen1-2020_deck_lower",
+      "shape": "cylinder",
+      "position": [
+        -8.38368034362793,
+        -0.30000001192092896,
+        0
+      ],
+      "size": [
+        4.191840171813965,
+        0.5500934702230917,
+        4.083453854697557
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-x95-gen1-2020_deck_lower",
+      "roomId": "princess-x95-gen1-2020_room_engine"
+    },
+    {
+      "id": "princess-x95-gen1-2020_family_signature",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "Family-specific exterior details",
+      "systemId": "structure",
+      "assembly": "Family-specific exterior details",
+      "parentId": "princess-x95-gen1-2020_deck_main",
+      "shape": "box",
+      "position": [
+        0.8383679986000061,
+        4.562000274658203,
+        0
+      ],
+      "size": [
+        9.501503944396973,
+        0.15461292603220933,
+        3.660893194311709
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.28
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.28
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed family signature details; small joinery and offsets are reconstructed where public references do not expose them.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-x95-gen1-2020_deck_main"
+    },
+    {
+      "id": "princess-x95-gen1-2020_flybridge",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "Flybridge and upper deck",
+      "systemId": "accommodation",
+      "assembly": "Flybridge and upper deck",
+      "parentId": "princess-x95-gen1-2020_superstructure",
+      "shape": "deck",
+      "position": [
+        -0.43595123291015625,
+        4.128434445081219,
+        0
+      ],
+      "size": [
+        21.79756736755371,
+        0.8359712958081662,
+        5.844039104097395
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        1
+      ],
+      "localExplode": [
+        0,
+        0,
+        1
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed upper helm, seating and deck volume.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-x95-gen1-2020_deck_main"
+    },
+    {
+      "id": "princess-x95-gen1-2020_freshwater",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "Freshwater and sanitation",
+      "systemId": "utilities",
+      "assembly": "Freshwater and sanitation",
+      "parentId": "princess-x95-gen1-2020_hull_shell",
+      "shape": "box",
+      "position": [
+        2.794559955596924,
+        -0.9045000076293945,
+        0
+      ],
+      "size": [
+        5.030208110809326,
+        0.2198326979790325,
+        1.8306598627094703
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Freshwater and sanitation service envelope.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-x95-gen1-2020_fuel",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "Fuel system",
+      "systemId": "fuel",
+      "assembly": "Fuel system",
+      "parentId": "princess-x95-gen1-2020_hull_shell",
+      "shape": "box",
+      "position": [
+        -3.3534719944000244,
+        -0.9648000001907349,
+        0
+      ],
+      "size": [
+        6.986400127410889,
+        0.23965311878444284,
+        2.253464245936634
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Fuel tank and service system envelope.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-x95-gen1-2020_glazing",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "Glazing",
+      "systemId": "structure",
+      "assembly": "Glazing",
+      "parentId": "princess-x95-gen1-2020_superstructure",
+      "shape": "chamferedBox",
+      "position": [
+        7.54531192779541,
+        2.174999952316284,
+        0
+      ],
+      "size": [
+        0.040276116358842984,
+        0.8520100155519161,
+        4.646927833557129
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Windshield, side glazing and hull windows.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "shell",
+      "deckId": "princess-x95-gen1-2020_deck_main"
+    },
+    {
+      "id": "princess-x95-gen1-2020_helm",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "Helm station",
+      "systemId": "navigation",
+      "assembly": "Helm station",
+      "parentId": "princess-x95-gen1-2020_superstructure",
+      "shape": "box",
+      "position": [
+        3.912384033203125,
+        1.5549999475479126,
+        -1.196936011314392
+      ],
+      "size": [
+        4.4712958335876465,
+        0.6506010199148955,
+        0.7390526515918667
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Helm console, steering position and displays.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-x95-gen1-2020_deck_main"
+    },
+    {
+      "id": "princess-x95-gen1-2020_hull_shell",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "Hull shell",
+      "systemId": "structure",
+      "assembly": "Hull shell",
+      "parentId": null,
+      "shape": "hull",
+      "position": [
+        -0.0006375312805175781,
+        -0.38407599925994873,
+        0.000152587890625
+      ],
+      "size": [
+        27.943459510803223,
+        3.093932038489764,
+        6.777996648819361
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.9
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.9
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed hull form and underwater volume.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "shell"
+    },
+    {
+      "id": "princess-x95-gen1-2020_lower_partitions",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "Lower partitions",
+      "systemId": "structure",
+      "assembly": "Lower partitions",
+      "parentId": "princess-x95-gen1-2020_deck_lower",
+      "shape": "box",
+      "position": [
+        -7.26585578918457,
+        -0.17000000178813934,
+        0
+      ],
+      "size": [
+        0.059958643605778406,
+        0.5198249376831184,
+        4.506112098693848
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Low room-divider partitions; exact joinery is reconstructed.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-x95-gen1-2020_deck_lower"
+    },
+    {
+      "id": "princess-x95-gen1-2020_mooring",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "Mooring equipment",
+      "systemId": "mooring",
+      "assembly": "Mooring equipment",
+      "parentId": "princess-x95-gen1-2020_deck_main",
+      "shape": "box",
+      "position": [
+        10.481745958328247,
+        1.1984991005063321,
+        -1.6554526686668396
+      ],
+      "size": [
+        6.437808513641357,
+        0.19855492061329638,
+        2.2085453505613124
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Anchor, windlass, cleats and rails.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-x95-gen1-2020_deck_main"
+    },
+    {
+      "id": "princess-x95-gen1-2020_propulsion",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "Propulsion",
+      "systemId": "propulsion",
+      "assembly": "Propulsion",
+      "parentId": "princess-x95-gen1-2020_hull_shell",
+      "shape": "cylinder",
+      "position": [
+        -6.148032188415527,
+        -0.3215999901294708,
+        0
+      ],
+      "size": [
+        5.589119911193848,
+        0.639984676863897,
+        4.224729717758267
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -1.2
+      ],
+      "localExplode": [
+        0,
+        0,
+        -1.2
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Documented propulsion family represented as authored machinery and drives.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-x95-gen1-2020_room_main_deck_galley_dining_or_optional_master_s_1",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "main-deck galley/dining or optional master",
+      "systemId": "accommodation",
+      "assembly": "main-deck galley/dining or optional master",
+      "parentId": "princess-x95-gen1-2020_deck_lower",
+      "shape": "box",
+      "position": [
+        0,
+        -0.36000001430511475,
+        -1.126528024673462
+      ],
+      "size": [
+        3.4876108169555664,
+        0.2001009654797956,
+        2.0701934992457582
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored main-deck galley/dining or optional master arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-x95-gen1-2020_deck_lower",
+      "roomId": "princess-x95-gen1-2020_room_main_deck_galley_dining_or_optional_master_s_1"
+    },
+    {
+      "id": "princess-x95-gen1-2020_room_main_deck_saloon_0",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "main-deck saloon",
+      "systemId": "accommodation",
+      "assembly": "main-deck saloon",
+      "parentId": "princess-x95-gen1-2020_deck_lower",
+      "shape": "box",
+      "position": [
+        -5.775424003601074,
+        -0.23000000417232513,
+        1.126528024673462
+      ],
+      "size": [
+        3.687030792236328,
+        0.3798765817618288,
+        2.5428557769639646
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored main-deck saloon arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-x95-gen1-2020_deck_lower",
+      "roomId": "princess-x95-gen1-2020_room_main_deck_saloon_0"
+    },
+    {
+      "id": "princess-x95-gen1-2020_room_port_and_starboard_twin_double_guest_cabins_2",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "port and starboard twin/double guest cabin",
+      "systemId": "accommodation",
+      "assembly": "port and starboard twin/double guest cabin",
+      "parentId": "princess-x95-gen1-2020_deck_lower",
+      "shape": "box",
+      "position": [
+        5.775424003601074,
+        -0.36000001430511475,
+        1.126528024673462
+      ],
+      "size": [
+        3.4876108169555664,
+        0.2001009654797956,
+        2.0701934992457582
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored port and starboard twin/double guest cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-x95-gen1-2020_deck_lower",
+      "roomId": "princess-x95-gen1-2020_room_port_and_starboard_twin_double_guest_cabins_2"
+    },
+    {
+      "id": "princess-x95-gen1-2020_safety",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "Safety equipment",
+      "systemId": "safety",
+      "assembly": "Safety equipment",
+      "parentId": "princess-x95-gen1-2020_deck_main",
+      "shape": "box",
+      "position": [
+        -10.619327545166016,
+        1.4310001134872437,
+        2.8163199424743652
+      ],
+      "size": [
+        3.912384033203125,
+        0.24799406070059815,
+        0.7741904376747666
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Liferaft, extinguisher and navigation safety equipment.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-x95-gen1-2020_deck_main"
+    },
+    {
+      "id": "princess-x95-gen1-2020_sky_lounge",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "Enclosed sky lounge",
+      "systemId": "accommodation",
+      "assembly": "Enclosed sky lounge",
+      "parentId": "princess-x95-gen1-2020_flybridge",
+      "shape": "chamferedBox",
+      "position": [
+        1.397279977798462,
+        4.995999813079834,
+        0
+      ],
+      "size": [
+        7.54531192779541,
+        1.1164491477799245,
+        3.3796973529542904
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        1.25
+      ],
+      "localExplode": [
+        0,
+        0,
+        1.25
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed enclosed super-flybridge lounge and raised pilothouse.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "shell",
+      "deckId": "princess-x95-gen1-2020_deck_main"
+    },
+    {
+      "id": "princess-x95-gen1-2020_superstructure",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "Superstructure",
+      "systemId": "structure",
+      "assembly": "Superstructure",
+      "parentId": "princess-x95-gen1-2020_deck_main",
+      "shape": "chamferedBox",
+      "position": [
+        2.2356481552124023,
+        2.092642100850206,
+        -1.1920928955078125e-7
+      ],
+      "size": [
+        13.633888244628906,
+        2.2710032445935453,
+        5.744077248150848
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.8
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.8
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed wheelhouse and superstructure.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "shell",
+      "deckId": "princess-x95-gen1-2020_deck_main"
+    },
+    {
+      "id": "princess-x95-gen1-2020_swim_platform",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "Swim platform",
+      "systemId": "structure",
+      "assembly": "Swim platform",
+      "parentId": "princess-x95-gen1-2020_hull_shell",
+      "shape": "box",
+      "position": [
+        -13.413887977600098,
+        0.18000000715255737,
+        0
+      ],
+      "size": [
+        3.3537217701715107,
+        0.09989096326947622,
+        5.491824150085449
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Aft bathing platform or transom step.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-x95-gen1-2020_deck_main"
+    },
+    {
+      "id": "princess-x95-gen1-2020_ventilation",
+      "vesselId": "princess-x95-gen1-2020",
+      "name": "Ventilation and HVAC",
+      "systemId": "utilities",
+      "assembly": "Ventilation and HVAC",
+      "parentId": "princess-x95-gen1-2020_superstructure",
+      "shape": "box",
+      "position": [
+        1.3972799777984621,
+        -1.3013399839401245,
+        0
+      ],
+      "size": [
+        6.49735295418791,
+        0.11001958180339688,
+        0.11001869404461836
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Ventilation and HVAC service equipment envelope.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ],
+      "enclosure": "equipment"
+    }
+  ],
+  "meaningfulCount": 21,
+  "lods": [],
+  "assets": [
+    {
+      "id": "exterior-lod0",
+      "kind": "exterior",
+      "level": 0,
+      "path": "models/princess-x95-gen1-2020/exterior.lod0.glb",
+      "bytes": 327680,
+      "sha256": "35ce445e50bb9c38a7b2f81924baa4eb7d37534b3e793e6cb8f0ed33ac56ef5e",
+      "componentIds": [
+        "princess-x95-gen1-2020_cockpit",
+        "princess-x95-gen1-2020_deck_main",
+        "princess-x95-gen1-2020_electrical",
+        "princess-x95-gen1-2020_family_signature",
+        "princess-x95-gen1-2020_flybridge",
+        "princess-x95-gen1-2020_freshwater",
+        "princess-x95-gen1-2020_fuel",
+        "princess-x95-gen1-2020_glazing",
+        "princess-x95-gen1-2020_helm",
+        "princess-x95-gen1-2020_hull_shell",
+        "princess-x95-gen1-2020_mooring",
+        "princess-x95-gen1-2020_propulsion",
+        "princess-x95-gen1-2020_safety",
+        "princess-x95-gen1-2020_sky_lounge",
+        "princess-x95-gen1-2020_superstructure",
+        "princess-x95-gen1-2020_swim_platform",
+        "princess-x95-gen1-2020_ventilation"
+      ]
+    },
+    {
+      "id": "exterior-lod1",
+      "kind": "exterior",
+      "level": 1,
+      "path": "models/princess-x95-gen1-2020/exterior.lod1.glb",
+      "bytes": 173000,
+      "sha256": "38e13b50f2c3280488ee32d676d362cb9633ca65be152f50615dfb71b6674d2c",
+      "componentIds": [
+        "princess-x95-gen1-2020_cockpit",
+        "princess-x95-gen1-2020_deck_main",
+        "princess-x95-gen1-2020_electrical",
+        "princess-x95-gen1-2020_family_signature",
+        "princess-x95-gen1-2020_flybridge",
+        "princess-x95-gen1-2020_freshwater",
+        "princess-x95-gen1-2020_fuel",
+        "princess-x95-gen1-2020_glazing",
+        "princess-x95-gen1-2020_helm",
+        "princess-x95-gen1-2020_hull_shell",
+        "princess-x95-gen1-2020_mooring",
+        "princess-x95-gen1-2020_propulsion",
+        "princess-x95-gen1-2020_safety",
+        "princess-x95-gen1-2020_sky_lounge",
+        "princess-x95-gen1-2020_superstructure",
+        "princess-x95-gen1-2020_swim_platform",
+        "princess-x95-gen1-2020_ventilation"
+      ]
+    },
+    {
+      "id": "interior-princess-x95-gen1-2020_deck_lower-lod0",
+      "kind": "interior",
+      "level": 0,
+      "path": "models/princess-x95-gen1-2020/interior-princess-x95-gen1-2020_deck_lower.lod0.glb",
+      "bytes": 226568,
+      "sha256": "dfaff7cc0fc7292e0a588448c7bf99a24a501795da47993d564660cb9b1ccc2f",
+      "componentIds": [
+        "princess-x95-gen1-2020_deck_lower",
+        "princess-x95-gen1-2020_engine_room",
+        "princess-x95-gen1-2020_lower_partitions",
+        "princess-x95-gen1-2020_room_main_deck_galley_dining_or_optional_master_s_1",
+        "princess-x95-gen1-2020_room_main_deck_saloon_0",
+        "princess-x95-gen1-2020_room_port_and_starboard_twin_double_guest_cabins_2"
+      ],
+      "deckId": "princess-x95-gen1-2020_deck_lower"
+    },
+    {
+      "id": "interior-princess-x95-gen1-2020_deck_lower-lod1",
+      "kind": "interior",
+      "level": 1,
+      "path": "models/princess-x95-gen1-2020/interior-princess-x95-gen1-2020_deck_lower.lod1.glb",
+      "bytes": 57148,
+      "sha256": "013cce5b4b99425a7d89b50b6dcfa7f75306e6e7ce294bd191c9e028dc8f448d",
+      "componentIds": [
+        "princess-x95-gen1-2020_deck_lower",
+        "princess-x95-gen1-2020_engine_room",
+        "princess-x95-gen1-2020_lower_partitions",
+        "princess-x95-gen1-2020_room_main_deck_galley_dining_or_optional_master_s_1",
+        "princess-x95-gen1-2020_room_main_deck_saloon_0",
+        "princess-x95-gen1-2020_room_port_and_starboard_twin_double_guest_cabins_2"
+      ],
+      "deckId": "princess-x95-gen1-2020_deck_lower"
+    }
+  ],
+  "decks": [
+    {
+      "id": "princess-x95-gen1-2020_deck_main",
+      "name": "Main deck",
+      "componentId": "princess-x95-gen1-2020_deck_main"
+    },
+    {
+      "id": "princess-x95-gen1-2020_cockpit",
+      "name": "Aft cockpit",
+      "componentId": "princess-x95-gen1-2020_cockpit"
+    },
+    {
+      "id": "princess-x95-gen1-2020_deck_lower",
+      "name": "Lower accommodation deck",
+      "componentId": "princess-x95-gen1-2020_deck_lower"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "princess-x95-gen1-2020_room_main_deck_saloon_0",
+      "name": "main-deck saloon",
+      "deckId": "princess-x95-gen1-2020_deck_lower",
+      "componentId": "princess-x95-gen1-2020_room_main_deck_saloon_0",
+      "fidelity": "reference-informed",
+      "note": "Authored main-deck saloon arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ]
+    },
+    {
+      "id": "princess-x95-gen1-2020_room_main_deck_galley_dining_or_optional_master_s_1",
+      "name": "main-deck galley/dining or optional master",
+      "deckId": "princess-x95-gen1-2020_deck_lower",
+      "componentId": "princess-x95-gen1-2020_room_main_deck_galley_dining_or_optional_master_s_1",
+      "fidelity": "reference-informed",
+      "note": "Authored main-deck galley/dining or optional master arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ]
+    },
+    {
+      "id": "princess-x95-gen1-2020_room_port_and_starboard_twin_double_guest_cabins_2",
+      "name": "port and starboard twin/double guest cabin",
+      "deckId": "princess-x95-gen1-2020_deck_lower",
+      "componentId": "princess-x95-gen1-2020_room_port_and_starboard_twin_double_guest_cabins_2",
+      "fidelity": "reference-informed",
+      "note": "Authored port and starboard twin/double guest cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ]
+    },
+    {
+      "id": "princess-x95-gen1-2020_room_engine",
+      "name": "Engine room",
+      "deckId": "princess-x95-gen1-2020_deck_lower",
+      "componentId": "princess-x95-gen1-2020_engine_room",
+      "fidelity": "reconstructed",
+      "note": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-1a13ae46b23e45f5",
+        "source-00c45dd118d4da43",
+        "source-b9bfc7823487971f",
+        "source-fb0b28d874987630",
+        "source-d85fd6d4744d96b4",
+        "source-061c523a98c59d18"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "id": "exterior_bow",
+      "name": "Review | Bow quarter",
+      "position": [
+        31.4388,
+        5.2398,
+        26.781200000000002
+      ],
+      "target": [
+        0,
+        0.62,
+        0
+      ],
+      "deckId": "princess-x95-gen1-2020_deck_main"
+    },
+    {
+      "id": "exterior_port_profile",
+      "name": "Review | Port profile",
+      "position": [
+        0,
+        4.0754,
+        43.0828
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "princess-x95-gen1-2020_deck_main"
+    },
+    {
+      "id": "exterior_starboard_profile",
+      "name": "Review | Starboard profile",
+      "position": [
+        0,
+        4.0754,
+        -43.0828
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "princess-x95-gen1-2020_deck_main"
+    },
+    {
+      "id": "exterior_stern",
+      "name": "Review | Stern quarter",
+      "position": [
+        -31.4388,
+        5.2398,
+        -26.781200000000002
+      ],
+      "target": [
+        0,
+        0.66,
+        0
+      ],
+      "deckId": "princess-x95-gen1-2020_cockpit"
+    },
+    {
+      "id": "exterior_high",
+      "name": "Review | High bow",
+      "position": [
+        19.212600000000002,
+        39.007400000000004,
+        0
+      ],
+      "target": [
+        0,
+        0.25,
+        0
+      ],
+      "deckId": "princess-x95-gen1-2020_deck_main"
+    },
+    {
+      "id": "exterior_above",
+      "name": "Review | Above plan",
+      "position": [
+        2.0377,
+        60.5488,
+        2.0377
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "deckId": "princess-x95-gen1-2020_deck_main"
+    },
+    {
+      "id": "exterior_below",
+      "name": "Review | Below hull",
+      "position": [
+        -31.4388,
+        -18.048199999999998,
+        -24.452399999999997
+      ],
+      "target": [
+        0,
+        -0.35,
+        0
+      ],
+      "deckId": "princess-x95-gen1-2020_deck_lower"
+    },
+    {
+      "id": "exterior_three_quarter",
+      "name": "Review | Starboard three-quarter",
+      "position": [
+        33.767599999999995,
+        5.2398,
+        -32.6032
+      ],
+      "target": [
+        0,
+        0.58,
+        0
+      ],
+      "deckId": "princess-x95-gen1-2020_deck_main"
+    },
+    {
+      "id": "room_0",
+      "name": "Room | main-deck saloon",
+      "position": [
+        -11.619431159999998,
+        0.92,
+        4.722752
+      ],
+      "target": [
+        -6.768075,
+        -0.18,
+        1.0832
+      ],
+      "roomId": "princess-x95-gen1-2020_room_main_deck_saloon_0",
+      "deckId": "princess-x95-gen1-2020_deck_lower"
+    },
+    {
+      "id": "room_1",
+      "name": "Room | main-deck galley/dining or optional master",
+      "position": [
+        -7.107381159999998,
+        0.92,
+        2.5563520000000004
+      ],
+      "target": [
+        -2.2560249999999993,
+        -0.18,
+        -1.0832
+      ],
+      "roomId": "princess-x95-gen1-2020_room_main_deck_galley_dining_or_optional_master_s_1",
+      "deckId": "princess-x95-gen1-2020_deck_lower"
+    },
+    {
+      "id": "room_2",
+      "name": "Room | port and starboard twin/double guest cabin",
+      "position": [
+        -2.5953311599999997,
+        0.92,
+        4.722752
+      ],
+      "target": [
+        2.2560249999999993,
+        -0.18,
+        1.0832
+      ],
+      "roomId": "princess-x95-gen1-2020_room_port_and_starboard_twin_double_guest_cabins_2",
+      "deckId": "princess-x95-gen1-2020_deck_lower"
+    },
+    {
+      "id": "room_3",
+      "name": "Room | Engine room",
+      "position": [
+        -16.930376,
+        0.72,
+        6.3800479999999995
+      ],
+      "target": [
+        -8.732999999999999,
+        -0.18,
+        1.354
+      ],
+      "roomId": "princess-x95-gen1-2020_room_engine",
+      "deckId": "princess-x95-gen1-2020_deck_lower"
+    }
+  ],
+  "fidelity": "Original reference-informed reconstruction of Princess X95 (Gen 1 / original X95 introduced 2020; excludes X95 Vista Gen 2). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them."
+}

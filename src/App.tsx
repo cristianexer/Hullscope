@@ -72,6 +72,23 @@ export default function App(){
   const observer=new ResizeObserver(measure);observer.observe(controls);observer.observe(stage);measure();
   return()=>observer.disconnect();
  },[state.drive]);
+ useLayoutEffect(()=>{
+  if(manifest?.version!==2)return;
+  const stage=stageRef.current;
+  const navigator=stage?.querySelector<HTMLElement>('.interior-navigator');
+  const toolbar=stage?.querySelector<HTMLElement>('.stage-top');
+  const heading=stage?.querySelector<HTMLElement>('.mobile-vessel-title');
+  if(!stage||!navigator||!toolbar||!heading)return;
+  const measure=()=>{
+   const origin=stage.getBoundingClientRect().top;
+   const top=Math.max(toolbar.getBoundingClientRect().bottom,heading.getBoundingClientRect().bottom)-origin+8;
+   stage.style.setProperty('--yacht-nav-top',`${top}px`);
+   stage.style.setProperty('--yacht-scene-top',`${top+navigator.getBoundingClientRect().height+26}px`);
+  };
+  const observer=new ResizeObserver(measure);
+  [stage,navigator,toolbar,heading].forEach(element=>observer.observe(element));measure();
+  return()=>{observer.disconnect();stage.style.removeProperty('--yacht-nav-top');stage.style.removeProperty('--yacht-scene-top');};
+ },[manifest]);
  useThunder(state.water&&state.seaState==='storm'&&state.stormSound);
  const parts=manifest?.components??[];const systems=systemsForVessel(vessel).filter(system=>!manifest||parts.some(part=>part.systemId===system.id&&!part.decorative));const selected=parts.find(c=>c.id===state.selected);const filtered=useMemo(()=>parts.filter(c=>!c.decorative&&`${c.name} ${c.assembly}`.toLowerCase().includes(search.toLowerCase())),[parts,search]);
  useEffect(()=>{if(manifest&&state.selected&&!manifest.components.some(c=>c.id===state.selected))clearSelection();},[manifest,state.selected]);

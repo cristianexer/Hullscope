@@ -5,13 +5,14 @@ import { buildModel } from '../src/model/build';
 import { componentBounds, modelPosition } from '../src/viewer/positions';
 import { componentSurface } from '../src/viewer/materials';
 import { canPickComponent, enclosureClass } from '../src/viewer/visibility';
-import { fleet } from '../src/data/fleet';
+import { fleet, legacyFleet } from '../src/data/fleet';
 import { parseRoute, serializeRoute } from '../src/state';
 
 describe('fictional bonus vessel catalogue',()=>{
  it('preserves the 28 real families while adding a disclosed fictional sailing vessel',()=>{
-  const modern=fleet.filter(v=>!v.fictional),pearl=fleet.find(v=>v.id==='black-pearl')!;
+  const modern=legacyFleet.filter(v=>!v.fictional),pearl=fleet.find(v=>v.id==='black-pearl')!;
   expect(modern).toHaveLength(28);expect(new Set(modern.map(v=>v.family.id)).size).toBe(28);
+  expect(modern.every(vessel=>fleet.some(current=>current.id===vessel.id))).toBe(true);
   expect(pearl.fictional).toBe(true);expect(pearl.kind).toBe('pirate');expect(pearl.family.group).toBe('Special');
   expect(pearl.dimensionStatus).toBe('inferred');expect(pearl.modelNote).toMatch(/not verified film canon/);
   expect(pearl.facts.filter(f=>/length|beam|depth/i.test(f.label)).every(f=>f.status!=='verified')).toBe(true);

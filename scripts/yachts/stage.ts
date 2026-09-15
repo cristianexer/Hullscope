@@ -89,7 +89,9 @@ export async function stageDataset(options: { allowDraft?: boolean } = {}) {
  await copyFile('output/yachts/seed-audit.json',`${stage}/provenance/seed-dispositions.json`);
  await copyFile('output/yachts/release-selection.json',`${stage}/provenance/release-selection.json`);
  await writeFile(`${stage}/provenance/sources.json`,JSON.stringify(models.map(model=>({id:model.id,sources:model.sources,uncertainties:model.uncertainties})),null,2));
- await copyFile('docs/yachts/DATASET_CARD.md',`${stage}/README.md`);
+ const datasetCard=await readFile('docs/yachts/DATASET_CARD.md','utf8');
+ const draftNotice='\n\n## Draft release\n\nThese 20 yachts (10 Princess and 10 Sunseeker) are published as-is at the project owner\'s request. Independent visual review requires changes for all 20: exteriors remain simplified, interiors are sparse, and some fittings, materials, seams and camera views need correction. Structural/export checks do not establish visual accuracy. This release has not passed the full visual acceptance criteria. See each generation\'s quality record for the recorded defects.\n';
+ await writeFile(`${stage}/README.md`,allowDraft?datasetCard.replace('# Hullscope Yachts','# Hullscope Yachts'+draftNotice):datasetCard);
  await copyFile('docs/yachts/ASSET_LICENSE.md',`${stage}/LICENSE.md`);
  await copyFile('docs/yachts/DATASET_USAGE.md',`${stage}/USAGE.md`);
  await mkdir(`${stage}/authoring`,{recursive:true});

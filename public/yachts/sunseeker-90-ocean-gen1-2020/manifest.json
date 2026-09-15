@@ -1,0 +1,1499 @@
+{
+  "vesselId": "sunseeker-90-ocean-gen1-2020",
+  "version": 2,
+  "units": "metres",
+  "components": [
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_cockpit",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "Cockpit and social deck",
+      "systemId": "accommodation",
+      "assembly": "Cockpit and social deck",
+      "parentId": "sunseeker-90-ocean-gen1-2020_deck_main",
+      "shape": "deck",
+      "position": [
+        -7.024320125579834,
+        1.0399804778528283,
+        0
+      ],
+      "size": [
+        8.845439910888672,
+        0.5003822748849568,
+        6.311962523160465
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Open aft cockpit, seating and social equipment.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_main"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_deck_lower",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "Lower accommodation deck",
+      "systemId": "structure",
+      "assembly": "Lower accommodation deck",
+      "parentId": "sunseeker-90-ocean-gen1-2020_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        -0.5799999833106995,
+        0
+      ],
+      "size": [
+        18.73151969909668,
+        0.0800321286011394,
+        5.136347682008839
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.7
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.7
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Lower accommodation deck and room boundaries.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_lower"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_deck_main",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "Main deck",
+      "systemId": "structure",
+      "assembly": "Main deck",
+      "parentId": "sunseeker-90-ocean-gen1-2020_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        0.8715769052505493,
+        0
+      ],
+      "size": [
+        26.016000747680664,
+        0.7399796349021388,
+        6.825756353276487
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Main deck surface and deck edge.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_main"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_electrical",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "Electrical power",
+      "systemId": "electrical",
+      "assembly": "Electrical power",
+      "parentId": "sunseeker-90-ocean-gen1-2020_hull_shell",
+      "shape": "box",
+      "position": [
+        -0.7804800271987915,
+        -0.5820000171661377,
+        0
+      ],
+      "size": [
+        3.642240047454834,
+        0.2801124582533092,
+        1.7612626591363825
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Batteries, distribution and generator family placeholder where details are unknown.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_engine_room",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "Engine room",
+      "systemId": "propulsion",
+      "assembly": "Engine room",
+      "parentId": "sunseeker-90-ocean-gen1-2020_deck_lower",
+      "shape": "cylinder",
+      "position": [
+        -7.804800033569336,
+        -0.30000001192092896,
+        0
+      ],
+      "size": [
+        3.902400016784668,
+        0.5497445136105847,
+        4.256725668314157
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_lower",
+      "roomId": "sunseeker-90-ocean-gen1-2020_room_engine"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_family_signature",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "Family-specific exterior details",
+      "systemId": "structure",
+      "assembly": "Family-specific exterior details",
+      "parentId": "sunseeker-90-ocean-gen1-2020_deck_main",
+      "shape": "box",
+      "position": [
+        -10.146240234375,
+        0.9606666564941406,
+        0
+      ],
+      "size": [
+        0.029994777398059114,
+        0.6623291018446142,
+        4.550179958343506
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.28
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.28
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed family signature details; small joinery and offsets are reconstructed where public references do not expose them.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_main"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_flybridge",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "Flybridge and upper deck",
+      "systemId": "accommodation",
+      "assembly": "Flybridge and upper deck",
+      "parentId": "sunseeker-90-ocean-gen1-2020_superstructure",
+      "shape": "deck",
+      "position": [
+        -0.24975371360778809,
+        4.137611930117984,
+        0
+      ],
+      "size": [
+        12.487679958343506,
+        0.9338382977663082,
+        5.944672180880348
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        1
+      ],
+      "localExplode": [
+        0,
+        0,
+        1
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed upper helm, seating and deck volume.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_main"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_freshwater",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "Freshwater and sanitation",
+      "systemId": "utilities",
+      "assembly": "Freshwater and sanitation",
+      "parentId": "sunseeker-90-ocean-gen1-2020_hull_shell",
+      "shape": "box",
+      "position": [
+        2.601599931716919,
+        -0.8730000257492065,
+        0
+      ],
+      "size": [
+        4.68287992477417,
+        0.2200883536531335,
+        1.9083375235910975
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Freshwater and sanitation service envelope.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_fuel",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "Fuel system",
+      "systemId": "fuel",
+      "assembly": "Fuel system",
+      "parentId": "sunseeker-90-ocean-gen1-2020_hull_shell",
+      "shape": "box",
+      "position": [
+        -3.121920108795166,
+        -0.9312000274658203,
+        0
+      ],
+      "size": [
+        6.504000186920166,
+        0.23977880873438406,
+        2.3487604666837467
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Fuel tank and service system envelope.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_glazing",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "Glazing",
+      "systemId": "structure",
+      "assembly": "Glazing",
+      "parentId": "sunseeker-90-ocean-gen1-2020_superstructure",
+      "shape": "chamferedBox",
+      "position": [
+        7.024320125579834,
+        2.134999990463257,
+        0
+      ],
+      "size": [
+        0.04020805311155051,
+        0.8279113825640201,
+        4.843739986419678
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Windshield, side glazing and hull windows.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "shell",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_main"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_helm",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "Helm station",
+      "systemId": "navigation",
+      "assembly": "Helm station",
+      "parentId": "sunseeker-90-ocean-gen1-2020_superstructure",
+      "shape": "box",
+      "position": [
+        3.642240047454834,
+        1.5327777862548828,
+        -1.247630000114441
+      ],
+      "size": [
+        4.162559986114502,
+        0.6319178677601358,
+        0.770341006372214
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Helm console, steering position and displays.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_main"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_hull_shell",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "Hull shell",
+      "systemId": "structure",
+      "assembly": "Hull shell",
+      "parentId": null,
+      "shape": "hull",
+      "position": [
+        -0.0006351470947265625,
+        -0.3424273729324341,
+        1.1920928955078125e-7
+      ],
+      "size": [
+        26.013883590698242,
+        3.0517706388330956,
+        7.152289720407742
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.9
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.9
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed hull form and underwater volume.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "shell"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_lower_partitions",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "Lower partitions",
+      "systemId": "structure",
+      "assembly": "Lower partitions",
+      "parentId": "sunseeker-90-ocean-gen1-2020_deck_lower",
+      "shape": "box",
+      "position": [
+        -6.76416015625,
+        -0.17000000178813934,
+        0
+      ],
+      "size": [
+        0.06020457131871382,
+        0.5200528208197398,
+        4.696959972381592
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Low room-divider partitions; exact joinery is reconstructed.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_lower"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_mooring",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "Mooring equipment",
+      "systemId": "mooring",
+      "assembly": "Mooring equipment",
+      "parentId": "sunseeker-90-ocean-gen1-2020_deck_main",
+      "shape": "box",
+      "position": [
+        9.758277893066406,
+        1.1864990738365648,
+        -1.7256859242916107
+      ],
+      "size": [
+        5.994945526123047,
+        0.1928161348457036,
+        2.300315869623251
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Anchor, windlass, cleats and rails.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_main"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_propulsion",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "Propulsion",
+      "systemId": "propulsion",
+      "assembly": "Propulsion",
+      "parentId": "sunseeker-90-ocean-gen1-2020_hull_shell",
+      "shape": "cylinder",
+      "position": [
+        -5.723519802093506,
+        -0.31040000915527344,
+        0
+      ],
+      "size": [
+        5.203199863433838,
+        0.6402570222896582,
+        4.403649687945295
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -1.2
+      ],
+      "localExplode": [
+        0,
+        0,
+        -1.2
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Documented propulsion family represented as authored machinery and drives.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_room_four_en_suites_dayhead_3",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "four en-suites/dayhead",
+      "systemId": "accommodation",
+      "assembly": "four en-suites/dayhead",
+      "parentId": "sunseeker-90-ocean-gen1-2020_deck_lower",
+      "shape": "box",
+      "position": [
+        6.048719882965088,
+        -0.18000000715255737,
+        -1.6987226009368896
+      ],
+      "size": [
+        0.983404815196991,
+        0.41995860405442964,
+        0.21992829632751087
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored four en-suites/dayhead arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_lower",
+      "roomId": "sunseeker-90-ocean-gen1-2020_room_four_en_suites_dayhead_3"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_room_main_deck_galley_1",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "main-deck galley",
+      "systemId": "accommodation",
+      "assembly": "main-deck galley",
+      "parentId": "sunseeker-90-ocean-gen1-2020_deck_lower",
+      "shape": "box",
+      "position": [
+        -2.016239881515503,
+        -0.18000000715255737,
+        -1.931825876235962
+      ],
+      "size": [
+        2.299814462661743,
+        0.5499846226208508,
+        0.2799053949734498
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored main-deck galley arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_lower",
+      "roomId": "sunseeker-90-ocean-gen1-2020_room_main_deck_galley_1"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_room_main_deck_saloon_0",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "main-deck saloon",
+      "systemId": "accommodation",
+      "assembly": "main-deck saloon",
+      "parentId": "sunseeker-90-ocean-gen1-2020_deck_lower",
+      "shape": "box",
+      "position": [
+        -6.048719882965088,
+        -0.23000000417232513,
+        1.174239993095398
+      ],
+      "size": [
+        2.5743353366851807,
+        0.3799397469469141,
+        2.3304004016079567
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored main-deck saloon arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_lower",
+      "roomId": "sunseeker-90-ocean-gen1-2020_room_main_deck_saloon_0"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_room_vip_and_guest_cabins_2",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "VIP and guest cabins",
+      "systemId": "accommodation",
+      "assembly": "VIP and guest cabins",
+      "parentId": "sunseeker-90-ocean-gen1-2020_deck_lower",
+      "shape": "box",
+      "position": [
+        2.016239881515503,
+        -0.36000001430511475,
+        1.174239993095398
+      ],
+      "size": [
+        2.642080783843994,
+        0.19996827124647076,
+        1.8969570763485768
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored VIP and guest cabins arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_lower",
+      "roomId": "sunseeker-90-ocean-gen1-2020_room_vip_and_guest_cabins_2"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_safety",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "Safety equipment",
+      "systemId": "safety",
+      "assembly": "Safety equipment",
+      "parentId": "sunseeker-90-ocean-gen1-2020_deck_main",
+      "shape": "box",
+      "position": [
+        -9.886079788208008,
+        1.412333369255066,
+        2.9356000423431396
+      ],
+      "size": [
+        3.642240047454834,
+        0.24098563147933438,
+        0.8074352764889037
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Liferaft, extinguisher and navigation safety equipment.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_main"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_superstructure",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "Superstructure",
+      "systemId": "structure",
+      "assembly": "Superstructure",
+      "parentId": "sunseeker-90-ocean-gen1-2020_deck_main",
+      "shape": "chamferedBox",
+      "position": [
+        2.081279754638672,
+        2.0216641889737494,
+        0
+      ],
+      "size": [
+        12.707679748535156,
+        2.1401490333167876,
+        5.987593112831699
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.8
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.8
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed wheelhouse and superstructure.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "shell",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_main"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_swim_platform",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "Swim platform",
+      "systemId": "structure",
+      "assembly": "Swim platform",
+      "parentId": "sunseeker-90-ocean-gen1-2020_hull_shell",
+      "shape": "box",
+      "position": [
+        -12.487680435180664,
+        0.18000000715255737,
+        0
+      ],
+      "size": [
+        3.1219027272097897,
+        0.09992883939362063,
+        5.724420070648193
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Aft bathing platform or transom step.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_main"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_ventilation",
+      "vesselId": "sunseeker-90-ocean-gen1-2020",
+      "name": "Ventilation and HVAC",
+      "systemId": "utilities",
+      "assembly": "Ventilation and HVAC",
+      "parentId": "sunseeker-90-ocean-gen1-2020_superstructure",
+      "shape": "box",
+      "position": [
+        1.3007999658584595,
+        -1.2121511697769165,
+        0
+      ],
+      "size": [
+        5.8752806537084385,
+        0.1100449832489212,
+        0.11004417906763003
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Ventilation and HVAC service equipment envelope.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ],
+      "enclosure": "equipment"
+    }
+  ],
+  "meaningfulCount": 21,
+  "lods": [],
+  "assets": [
+    {
+      "id": "exterior-lod0",
+      "kind": "exterior",
+      "level": 0,
+      "path": "models/sunseeker-90-ocean-gen1-2020/exterior.lod0.glb",
+      "bytes": 321028,
+      "sha256": "761257d3629bead51ea9ef93a6e506d24d217ec21bfc5f267ef23d7cc321489f",
+      "componentIds": [
+        "sunseeker-90-ocean-gen1-2020_cockpit",
+        "sunseeker-90-ocean-gen1-2020_deck_main",
+        "sunseeker-90-ocean-gen1-2020_electrical",
+        "sunseeker-90-ocean-gen1-2020_family_signature",
+        "sunseeker-90-ocean-gen1-2020_flybridge",
+        "sunseeker-90-ocean-gen1-2020_freshwater",
+        "sunseeker-90-ocean-gen1-2020_fuel",
+        "sunseeker-90-ocean-gen1-2020_glazing",
+        "sunseeker-90-ocean-gen1-2020_helm",
+        "sunseeker-90-ocean-gen1-2020_hull_shell",
+        "sunseeker-90-ocean-gen1-2020_mooring",
+        "sunseeker-90-ocean-gen1-2020_propulsion",
+        "sunseeker-90-ocean-gen1-2020_safety",
+        "sunseeker-90-ocean-gen1-2020_superstructure",
+        "sunseeker-90-ocean-gen1-2020_swim_platform",
+        "sunseeker-90-ocean-gen1-2020_ventilation"
+      ]
+    },
+    {
+      "id": "exterior-lod1",
+      "kind": "exterior",
+      "level": 1,
+      "path": "models/sunseeker-90-ocean-gen1-2020/exterior.lod1.glb",
+      "bytes": 177640,
+      "sha256": "df0dc234a164568f5e44dbd618d959b272f10afeb1acc81e133a4c76ee29ef0c",
+      "componentIds": [
+        "sunseeker-90-ocean-gen1-2020_cockpit",
+        "sunseeker-90-ocean-gen1-2020_deck_main",
+        "sunseeker-90-ocean-gen1-2020_electrical",
+        "sunseeker-90-ocean-gen1-2020_family_signature",
+        "sunseeker-90-ocean-gen1-2020_flybridge",
+        "sunseeker-90-ocean-gen1-2020_freshwater",
+        "sunseeker-90-ocean-gen1-2020_fuel",
+        "sunseeker-90-ocean-gen1-2020_glazing",
+        "sunseeker-90-ocean-gen1-2020_helm",
+        "sunseeker-90-ocean-gen1-2020_hull_shell",
+        "sunseeker-90-ocean-gen1-2020_mooring",
+        "sunseeker-90-ocean-gen1-2020_propulsion",
+        "sunseeker-90-ocean-gen1-2020_safety",
+        "sunseeker-90-ocean-gen1-2020_superstructure",
+        "sunseeker-90-ocean-gen1-2020_swim_platform",
+        "sunseeker-90-ocean-gen1-2020_ventilation"
+      ]
+    },
+    {
+      "id": "interior-sunseeker-90-ocean-gen1-2020_deck_lower-lod0",
+      "kind": "interior",
+      "level": 0,
+      "path": "models/sunseeker-90-ocean-gen1-2020/interior-sunseeker-90-ocean-gen1-2020_deck_lower.lod0.glb",
+      "bytes": 300824,
+      "sha256": "409920df4d775f61f1fa32860432aff0c5a627b8a97a64948909ab7a8082228b",
+      "componentIds": [
+        "sunseeker-90-ocean-gen1-2020_deck_lower",
+        "sunseeker-90-ocean-gen1-2020_engine_room",
+        "sunseeker-90-ocean-gen1-2020_lower_partitions",
+        "sunseeker-90-ocean-gen1-2020_room_four_en_suites_dayhead_3",
+        "sunseeker-90-ocean-gen1-2020_room_main_deck_galley_1",
+        "sunseeker-90-ocean-gen1-2020_room_main_deck_saloon_0",
+        "sunseeker-90-ocean-gen1-2020_room_vip_and_guest_cabins_2"
+      ],
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_lower"
+    },
+    {
+      "id": "interior-sunseeker-90-ocean-gen1-2020_deck_lower-lod1",
+      "kind": "interior",
+      "level": 1,
+      "path": "models/sunseeker-90-ocean-gen1-2020/interior-sunseeker-90-ocean-gen1-2020_deck_lower.lod1.glb",
+      "bytes": 66900,
+      "sha256": "6880e8a4af563a5f6e5ebd7028198d52008fa19c46ce37ebda8f4910777a616d",
+      "componentIds": [
+        "sunseeker-90-ocean-gen1-2020_deck_lower",
+        "sunseeker-90-ocean-gen1-2020_engine_room",
+        "sunseeker-90-ocean-gen1-2020_lower_partitions",
+        "sunseeker-90-ocean-gen1-2020_room_four_en_suites_dayhead_3",
+        "sunseeker-90-ocean-gen1-2020_room_main_deck_galley_1",
+        "sunseeker-90-ocean-gen1-2020_room_main_deck_saloon_0",
+        "sunseeker-90-ocean-gen1-2020_room_vip_and_guest_cabins_2"
+      ],
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_lower"
+    }
+  ],
+  "decks": [
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_deck_main",
+      "name": "Main deck",
+      "componentId": "sunseeker-90-ocean-gen1-2020_deck_main"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_cockpit",
+      "name": "Aft cockpit",
+      "componentId": "sunseeker-90-ocean-gen1-2020_cockpit"
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_deck_lower",
+      "name": "Lower accommodation deck",
+      "componentId": "sunseeker-90-ocean-gen1-2020_deck_lower"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_room_main_deck_saloon_0",
+      "name": "main-deck saloon",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_lower",
+      "componentId": "sunseeker-90-ocean-gen1-2020_room_main_deck_saloon_0",
+      "fidelity": "reference-informed",
+      "note": "Authored main-deck saloon arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ]
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_room_main_deck_galley_1",
+      "name": "main-deck galley",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_lower",
+      "componentId": "sunseeker-90-ocean-gen1-2020_room_main_deck_galley_1",
+      "fidelity": "reference-informed",
+      "note": "Authored main-deck galley arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ]
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_room_vip_and_guest_cabins_2",
+      "name": "VIP and guest cabins",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_lower",
+      "componentId": "sunseeker-90-ocean-gen1-2020_room_vip_and_guest_cabins_2",
+      "fidelity": "reference-informed",
+      "note": "Authored VIP and guest cabins arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ]
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_room_four_en_suites_dayhead_3",
+      "name": "four en-suites/dayhead",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_lower",
+      "componentId": "sunseeker-90-ocean-gen1-2020_room_four_en_suites_dayhead_3",
+      "fidelity": "reference-informed",
+      "note": "Authored four en-suites/dayhead arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ]
+    },
+    {
+      "id": "sunseeker-90-ocean-gen1-2020_room_engine",
+      "name": "Engine room",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_lower",
+      "componentId": "sunseeker-90-ocean-gen1-2020_engine_room",
+      "fidelity": "reconstructed",
+      "note": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-fc95d1705c094f6d",
+        "source-bf8bbca0ff3afff1",
+        "source-efd77a9ea276e9d8",
+        "source-cb0da4a404d50928",
+        "source-4352ba52b7460f9b"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "id": "exterior_bow",
+      "name": "Review | Bow quarter",
+      "position": [
+        29.268000000000004,
+        4.878,
+        24.932000000000002
+      ],
+      "target": [
+        0,
+        0.62,
+        0
+      ],
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_main"
+    },
+    {
+      "id": "exterior_port_profile",
+      "name": "Review | Port profile",
+      "position": [
+        0,
+        3.7940000000000005,
+        40.108000000000004
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_main"
+    },
+    {
+      "id": "exterior_starboard_profile",
+      "name": "Review | Starboard profile",
+      "position": [
+        0,
+        3.7940000000000005,
+        -40.108000000000004
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_main"
+    },
+    {
+      "id": "exterior_stern",
+      "name": "Review | Stern quarter",
+      "position": [
+        -29.268000000000004,
+        4.878,
+        -24.932000000000002
+      ],
+      "target": [
+        0,
+        0.66,
+        0
+      ],
+      "deckId": "sunseeker-90-ocean-gen1-2020_cockpit"
+    },
+    {
+      "id": "exterior_high",
+      "name": "Review | High bow",
+      "position": [
+        17.886000000000003,
+        36.31400000000001,
+        0
+      ],
+      "target": [
+        0,
+        0.25,
+        0
+      ],
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_main"
+    },
+    {
+      "id": "exterior_above",
+      "name": "Review | Above plan",
+      "position": [
+        1.8970000000000002,
+        56.368,
+        1.8970000000000002
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_main"
+    },
+    {
+      "id": "exterior_below",
+      "name": "Review | Below hull",
+      "position": [
+        -29.268000000000004,
+        -16.802,
+        -22.764
+      ],
+      "target": [
+        0,
+        -0.35,
+        0
+      ],
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_lower"
+    },
+    {
+      "id": "exterior_three_quarter",
+      "name": "Review | Starboard three-quarter",
+      "position": [
+        31.436,
+        4.878,
+        -30.352000000000004
+      ],
+      "target": [
+        0,
+        0.58,
+        0
+      ],
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_main"
+    },
+    {
+      "id": "room_0",
+      "name": "Room | main-deck saloon",
+      "position": [
+        -10.33390208,
+        0.92,
+        4.036081664
+      ],
+      "target": [
+        -6.7208,
+        -0.18,
+        1.1456
+      ],
+      "roomId": "sunseeker-90-ocean-gen1-2020_room_main_deck_saloon_0",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_lower"
+    },
+    {
+      "id": "room_1",
+      "name": "Room | main-deck galley",
+      "position": [
+        -6.97350208,
+        0.92,
+        1.7448816640000002
+      ],
+      "target": [
+        -3.3604000000000003,
+        -0.18,
+        -1.1456
+      ],
+      "roomId": "sunseeker-90-ocean-gen1-2020_room_main_deck_galley_1",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_lower"
+    },
+    {
+      "id": "room_2",
+      "name": "Room | VIP and guest cabins",
+      "position": [
+        -3.61310208,
+        0.92,
+        4.036081664
+      ],
+      "target": [
+        0,
+        -0.18,
+        1.1456
+      ],
+      "roomId": "sunseeker-90-ocean-gen1-2020_room_vip_and_guest_cabins_2",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_lower"
+    },
+    {
+      "id": "room_3",
+      "name": "Room | four en-suites/dayhead",
+      "position": [
+        0.23848000000000003,
+        0.92,
+        1.3519360000000002
+      ],
+      "target": [
+        3.3604000000000003,
+        -0.18,
+        -1.1456
+      ],
+      "roomId": "sunseeker-90-ocean-gen1-2020_room_four_en_suites_dayhead_3",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_lower"
+    },
+    {
+      "id": "room_4",
+      "name": "Room | Engine room",
+      "position": [
+        -15.761360000000002,
+        0.72,
+        6.747584000000001
+      ],
+      "target": [
+        -8.13,
+        -0.18,
+        1.4320000000000002
+      ],
+      "roomId": "sunseeker-90-ocean-gen1-2020_room_engine",
+      "deckId": "sunseeker-90-ocean-gen1-2020_deck_lower"
+    }
+  ],
+  "fidelity": "Original reference-informed reconstruction of Sunseeker 90 Ocean (first 90 Ocean generation; Ocean range introduced in 2020 and first launch/model year commonly reported as 2021). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them."
+}

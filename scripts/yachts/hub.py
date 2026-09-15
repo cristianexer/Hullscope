@@ -10,6 +10,10 @@ import re
 import subprocess
 import sys
 
+# Disable credential-bearing HTTP debug output before the Hub client is imported.
+os.environ["HF_DEBUG"] = "0"
+os.environ["HF_HUB_VERBOSITY"] = "error"
+
 from huggingface_hub import HfApi, hf_hub_download
 from huggingface_hub.errors import RepositoryNotFoundError, HfHubHTTPError
 
@@ -21,7 +25,7 @@ def load_credential(path: Path) -> str:
     return token
 
 
-def preflight(token: str) -> dict:
+def preflight(token: str | None) -> dict:
     api = HfApi(endpoint="https://huggingface.co", token=token)
     account = api.whoami(cache=False)
     owner = account.get("name", "")
@@ -35,11 +39,15 @@ def preflight(token: str) -> dict:
     except RepositoryNotFoundError:
         pass
     auth = account.get("auth", {}).get("accessToken", {})
+    repos = list(api.list_user_repos())
     # Only explicitly whitelisted account metadata is printed. Never dump whoami/auth.
     return {
         "owner": owner,
         "repository": repository,
         "tokenRole": auth.get("role", "unknown"),
+        "isPro": account.get("isPro", False),
+        "accountRepositoryBytes": sum(repo.storage for repo in repos),
+        "accountRepositoryCount": len(repos),
         "existingRepository": existing,
         "storageAllowance": "unverified; check account capacity against staged release size before publication",
         "published": False,
@@ -79,7 +87,7 @@ def inspect_release(stage: Path, allow_draft: bool = False) -> dict:
     return {"bytes": size, "files": len(files), "checksumsSha256": hashlib.sha256((stage / "checksums.txt").read_bytes()).hexdigest()}
 
 
-def publish(token: str, stage: Path, storage_review: Path, allow_draft: bool = False) -> dict:
+def publish(token: str | None, stage: Path, storage_review: Path, allow_draft: bool = False) -> dict:
     inspected = inspect_release(stage, allow_draft=allow_draft)
     identity = preflight(token)
     storage = json.loads(storage_review.read_text(encoding="utf-8"))
@@ -102,7 +110,9 @@ def publish(token: str, stage: Path, storage_review: Path, allow_draft: bool = F
     cli = Path(sys.executable).parent / "hf"
     if not cli.is_file():
         raise ValueError("Use the version-locked publishing environment.")
-    environment = {**os.environ, "HF_TOKEN": token, "HF_ENDPOINT": "https://huggingface.co", "HF_HUB_DISABLE_TELEMETRY": "1", "HF_HUB_VERBOSITY": "error", "HF_HUB_DISABLE_PROGRESS_BARS": "1"}
+    environment = {**os.environ, "HF_ENDPOINT": "https://huggingface.co", "HF_HUB_DISABLE_TELEMETRY": "1", "HF_HUB_VERBOSITY": "error", "HF_HUB_DISABLE_PROGRESS_BARS": "1"}
+    if token is not None:
+        environment["HF_TOKEN"] = token
     def run(arguments):
         completed = subprocess.run([str(cli), *arguments], env=environment, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, check=False)
         if completed.returncode:
@@ -110,8 +120,9 @@ def publish(token: str, stage: Path, storage_review: Path, allow_draft: bool = F
             raise ValueError("Hugging Face CLI failed; no application release has been promoted.")
     if not existing:
         run(["repos", "create", repository, "--repo-type", "dataset", "--public"])
-    # A single metadata commit is used. Never delete paths, squash history, or upload the workspace.
-    run(["upload", repository, str(stage.resolve()), ".", "--repo-type", "dataset", "--revision", "main", "--commit-message", f"Validated Hullscope yacht collection {inspected['checksumsSha256'][:12]}"])
+    # The CLI may split a large upload. Verify its final revision before any promotion.
+    status = json.loads((stage / "release.json").read_text(encoding="utf-8"))["status"]
+    run(["upload", repository, str(stage.resolve()), ".", "--repo-type", "dataset", "--revision", "main", "--commit-message", f"{status.capitalize()} Hullscope yacht collection {inspected['checksumsSha256'][:12]}"])
     revision = api.dataset_info(repository, files_metadata=False).sha
     if not revision or not re.fullmatch(r"[a-f0-9]{40}", revision):
         raise ValueError("Could not identify the uploaded immutable revision.")
@@ -122,19 +133,25 @@ def publish(token: str, stage: Path, storage_review: Path, allow_draft: bool = F
     checksum_path = hf_hub_download(repository, "checksums.txt", repo_type="dataset", revision=revision, token=False)
     if hashlib.sha256(Path(checksum_path).read_bytes()).hexdigest() != inspected["checksumsSha256"]:
         raise ValueError("Anonymous revision does not match the staged collection.")
-    return {"repository": repository, "revision": revision, **inspected, "published": True, "applicationPromoted": False, "releaseStatus": "draft" if allow_draft else "validated", "browserVerification": "required before promotion"}
+    return {"repository": repository, "revision": revision, **inspected, "published": True, "applicationPromoted": False, "releaseStatus": status, "browserVerification": "required before promotion"}
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--token-file", type=Path, default=Path("/Users/cristianexer/.HF_TOKEN"))
+    parser.add_argument("--token-file", type=Path, help="Optional credential file for an explicitly authorized publishing environment.")
+    parser.add_argument("--use-cli-auth", action="store_true", help="Use the version-locked hf CLI's existing login session; never reads a token file.")
     parser.add_argument("--publish", type=Path, help="Explicit validated stage to upload. Omit for read-only account preflight.")
     parser.add_argument("--storage-review", type=Path, help="Local size-specific storage/redistribution assessment; not uploaded.")
     parser.add_argument("--allow-draft", action="store_true", help="Publish a clearly marked draft without promoting it into the application.")
     args = parser.parse_args()
     try:
-        token = load_credential(args.token_file)
-        os.environ["HF_TOKEN"] = token
+        if args.use_cli_auth and args.token_file:
+            raise ValueError("Choose either --use-cli-auth or --token-file, not both.")
+        if not args.use_cli_auth and not args.token_file:
+            raise ValueError("Publication requires --use-cli-auth or an explicitly supplied --token-file.")
+        token = None if args.use_cli_auth else load_credential(args.token_file)
+        if token is not None:
+            os.environ["HF_TOKEN"] = token
         os.environ["HF_ENDPOINT"] = "https://huggingface.co"
         if args.publish and not args.storage_review:
             raise ValueError("Publication requires a reviewed storage assessment.")

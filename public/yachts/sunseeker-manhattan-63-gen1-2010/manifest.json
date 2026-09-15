@@ -1,0 +1,1551 @@
+{
+  "vesselId": "sunseeker-manhattan-63-gen1-2010",
+  "version": 2,
+  "units": "metres",
+  "components": [
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_cockpit",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "Cockpit and social deck",
+      "systemId": "accommodation",
+      "assembly": "Cockpit and social deck",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_deck_main",
+      "shape": "deck",
+      "position": [
+        -5.461343765258789,
+        1.0399899254627913,
+        0
+      ],
+      "size": [
+        6.8772478103637695,
+        0.49988437915308914,
+        4.588469851685316
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Open aft cockpit, seating and social equipment.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "Lower accommodation deck",
+      "systemId": "structure",
+      "assembly": "Lower accommodation deck",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        -0.5799999833106995,
+        0
+      ],
+      "size": [
+        14.563584327697754,
+        0.08000259953567901,
+        3.733899103884665
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.7
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.7
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Lower accommodation deck and room boundaries.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_deck_main",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "Main deck",
+      "systemId": "structure",
+      "assembly": "Main deck",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        0.8116606771945953,
+        0
+      ],
+      "size": [
+        20.22719955444336,
+        0.8173104712083196,
+        4.960654793527232
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Main deck surface and deck edge.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_electrical",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "Electrical power",
+      "systemId": "electrical",
+      "assembly": "Electrical power",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_hull_shell",
+      "shape": "box",
+      "position": [
+        -0.6068159937858582,
+        -0.47999998927116394,
+        0
+      ],
+      "size": [
+        2.831808090209961,
+        0.2800091009943015,
+        1.2805231016767173
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Batteries, distribution and generator family placeholder where details are unknown.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_engine_room",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "Engine room",
+      "systemId": "propulsion",
+      "assembly": "Engine room",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "shape": "cylinder",
+      "position": [
+        -6.068160057067871,
+        -0.30000001192092896,
+        0
+      ],
+      "size": [
+        3.0340800285339355,
+        0.5500178646043756,
+        3.0945740930219228
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "roomId": "sunseeker-manhattan-63-gen1-2010_room_engine"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_family_signature",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "Family-specific exterior details",
+      "systemId": "structure",
+      "assembly": "Family-specific exterior details",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_deck_main",
+      "shape": "box",
+      "position": [
+        -6.068160057067871,
+        1.131166696548462,
+        -1.8139679431915283
+      ],
+      "size": [
+        1.618175983428955,
+        0.11700155186103789,
+        0.4802625030929466
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.28
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.28
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed family signature details; small joinery and offsets are reconstructed where public references do not expose them.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_flybridge",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "Flybridge and upper deck",
+      "systemId": "accommodation",
+      "assembly": "Flybridge and upper deck",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_superstructure",
+      "shape": "deck",
+      "position": [
+        -0.19418096542358398,
+        3.304854806929735,
+        0
+      ],
+      "size": [
+        9.70905590057373,
+        0.7259007446192398,
+        4.318806998267742
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        1
+      ],
+      "localExplode": [
+        0,
+        0,
+        1
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed upper helm, seating and deck volume.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_freshwater",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "Freshwater and sanitation",
+      "systemId": "utilities",
+      "assembly": "Freshwater and sanitation",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_hull_shell",
+      "shape": "box",
+      "position": [
+        2.0227200984954834,
+        -0.7200000286102295,
+        0
+      ],
+      "size": [
+        3.6408960819244385,
+        0.22000714872311744,
+        1.3872672988929904
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Freshwater and sanitation service envelope.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_fuel",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "Fuel system",
+      "systemId": "fuel",
+      "assembly": "Fuel system",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_hull_shell",
+      "shape": "box",
+      "position": [
+        -2.4272639751434326,
+        -0.7680000066757202,
+        0
+      ],
+      "size": [
+        5.05679988861084,
+        0.24013124871603964,
+        1.7069998342211523
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Fuel tank and service system envelope.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_glazing",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "Glazing",
+      "systemId": "structure",
+      "assembly": "Glazing",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_superstructure",
+      "shape": "chamferedBox",
+      "position": [
+        5.461343765258789,
+        1.8334999084472656,
+        0
+      ],
+      "size": [
+        0.03997614255127502,
+        0.6435473775296803,
+        3.5212318897247314
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Windshield, side glazing and hull windows.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "shell",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_helm",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "Helm station",
+      "systemId": "navigation",
+      "assembly": "Helm station",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_superstructure",
+      "shape": "box",
+      "position": [
+        2.831808090209961,
+        1.3652777671813965,
+        -0.9069839715957642
+      ],
+      "size": [
+        3.23635196685791,
+        0.49159150050704836,
+        0.5602157156901172
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Helm console, steering position and displays.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_hull_shell",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "Hull shell",
+      "systemId": "structure",
+      "assembly": "Hull shell",
+      "parentId": null,
+      "shape": "hull",
+      "position": [
+        -0.0006389617919921875,
+        -0.1874902844429016,
+        1.1920928955078125e-7
+      ],
+      "size": [
+        20.225065231323242,
+        2.7010371853471637,
+        5.128637562397071
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.9
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.9
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed hull form and underwater volume.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "shell"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_lower_partitions",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "Lower partitions",
+      "systemId": "structure",
+      "assembly": "Lower partitions",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "shape": "box",
+      "position": [
+        -5.2590718269348145,
+        -0.17000000178813934,
+        0
+      ],
+      "size": [
+        0.06002282987170737,
+        0.519781033680692,
+        3.4145278930664062
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Low room-divider partitions; exact joinery is reconstructed.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_mooring",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "Mooring equipment",
+      "systemId": "mooring",
+      "assembly": "Mooring equipment",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_deck_main",
+      "shape": "box",
+      "position": [
+        7.587400436401367,
+        1.0960488289230028,
+        -1.2546978294849396
+      ],
+      "size": [
+        4.662954330444336,
+        0.14991981378579222,
+        1.6793580142696494
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Anchor, windlass, cleats and rails.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_propulsion",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "Propulsion",
+      "systemId": "propulsion",
+      "assembly": "Propulsion",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_hull_shell",
+      "shape": "cylinder",
+      "position": [
+        -4.449984073638916,
+        -0.25600001215934753,
+        0
+      ],
+      "size": [
+        4.045440196990967,
+        0.6400208130497504,
+        3.200904749054408
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -1.2
+      ],
+      "localExplode": [
+        0,
+        0,
+        -1.2
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Documented propulsion family represented as authored machinery and drives.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_room_aft_galley_1",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "aft galley",
+      "systemId": "accommodation",
+      "assembly": "aft galley",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "shape": "box",
+      "position": [
+        -2.5081727504730225,
+        -0.18000000715255737,
+        -1.325569748878479
+      ],
+      "size": [
+        1.4326683282852173,
+        0.5500778294673397,
+        0.28000146410530524
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored aft galley arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "roomId": "sunseeker-manhattan-63-gen1-2010_room_aft_galley_1"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_room_crew_cabin_4",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "crew cabin",
+      "systemId": "accommodation",
+      "assembly": "crew cabin",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "shape": "box",
+      "position": [
+        5.016345500946045,
+        -0.36000001430511475,
+        0.8536319732666016
+      ],
+      "size": [
+        1.6433547735214233,
+        0.20000912005381744,
+        1.1798933195551928
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored crew cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "roomId": "sunseeker-manhattan-63-gen1-2010_room_crew_cabin_4"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_room_main_saloon_0",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "main saloon",
+      "systemId": "accommodation",
+      "assembly": "main saloon",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "shape": "box",
+      "position": [
+        -5.016345500946045,
+        -0.23000000417232513,
+        0.8536320179700851
+      ],
+      "size": [
+        1.60121750831604,
+        0.37998801674445404,
+        1.4494918790293827
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored main saloon arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "roomId": "sunseeker-manhattan-63-gen1-2010_room_main_saloon_0"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_room_port_guest_cabin_2",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "port guest cabin",
+      "systemId": "accommodation",
+      "assembly": "port guest cabin",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "shape": "box",
+      "position": [
+        0,
+        -0.36000001430511475,
+        0.8536319732666016
+      ],
+      "size": [
+        1.6433547735214233,
+        0.20000912005381744,
+        1.1798933195551928
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored port guest cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "roomId": "sunseeker-manhattan-63-gen1-2010_room_port_guest_cabin_2"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_room_starboard_guest_cabin_3",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "starboard guest cabin",
+      "systemId": "accommodation",
+      "assembly": "starboard guest cabin",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "shape": "box",
+      "position": [
+        2.5081727504730225,
+        -0.36000001430511475,
+        -0.8536319732666016
+      ],
+      "size": [
+        1.6433547735214233,
+        0.20000912005381744,
+        1.1798933195551928
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored starboard guest cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "roomId": "sunseeker-manhattan-63-gen1-2010_room_starboard_guest_cabin_3"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_safety",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "Safety equipment",
+      "systemId": "safety",
+      "assembly": "Safety equipment",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_deck_main",
+      "shape": "box",
+      "position": [
+        -7.686336040496826,
+        1.2716333866119385,
+        2.134079933166504
+      ],
+      "size": [
+        2.831808090209961,
+        0.1873527893007476,
+        0.5869820413436093
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Liferaft, extinguisher and navigation safety equipment.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_superstructure",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "Superstructure",
+      "systemId": "structure",
+      "assembly": "Superstructure",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_deck_main",
+      "shape": "chamferedBox",
+      "position": [
+        1.618175983428955,
+        1.6676862608469063,
+        1.1920928955078125e-7
+      ],
+      "size": [
+        9.929056167602539,
+        1.5083051307520896,
+        4.35058475133719
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.8
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.8
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed wheelhouse and superstructure.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "shell",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_swim_platform",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "Swim platform",
+      "systemId": "structure",
+      "assembly": "Swim platform",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_hull_shell",
+      "shape": "box",
+      "position": [
+        -9.70905590057373,
+        0.18000000715255737,
+        0
+      ],
+      "size": [
+        2.4275054796012654,
+        0.10007713288300701,
+        4.161456108093262
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Aft bathing platform or transom step.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_ventilation",
+      "vesselId": "sunseeker-manhattan-63-gen1-2010",
+      "name": "Ventilation and HVAC",
+      "systemId": "utilities",
+      "assembly": "Ventilation and HVAC",
+      "parentId": "sunseeker-manhattan-63-gen1-2010_superstructure",
+      "shape": "box",
+      "position": [
+        1.0113600492477417,
+        -0.6574422121047974,
+        0
+      ],
+      "size": [
+        3.551559834674878,
+        0.11000406488428172,
+        0.11000357292087515
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Ventilation and HVAC service equipment envelope.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ],
+      "enclosure": "equipment"
+    }
+  ],
+  "meaningfulCount": 22,
+  "lods": [],
+  "assets": [
+    {
+      "id": "exterior-lod0",
+      "kind": "exterior",
+      "level": 0,
+      "path": "models/sunseeker-manhattan-63-gen1-2010/exterior.lod0.glb",
+      "bytes": 330544,
+      "sha256": "4f10380c88d6e9fa68082add4454539edaaf0b05b38b21db0940cfe14584e965",
+      "componentIds": [
+        "sunseeker-manhattan-63-gen1-2010_cockpit",
+        "sunseeker-manhattan-63-gen1-2010_deck_main",
+        "sunseeker-manhattan-63-gen1-2010_electrical",
+        "sunseeker-manhattan-63-gen1-2010_family_signature",
+        "sunseeker-manhattan-63-gen1-2010_flybridge",
+        "sunseeker-manhattan-63-gen1-2010_freshwater",
+        "sunseeker-manhattan-63-gen1-2010_fuel",
+        "sunseeker-manhattan-63-gen1-2010_glazing",
+        "sunseeker-manhattan-63-gen1-2010_helm",
+        "sunseeker-manhattan-63-gen1-2010_hull_shell",
+        "sunseeker-manhattan-63-gen1-2010_mooring",
+        "sunseeker-manhattan-63-gen1-2010_propulsion",
+        "sunseeker-manhattan-63-gen1-2010_safety",
+        "sunseeker-manhattan-63-gen1-2010_superstructure",
+        "sunseeker-manhattan-63-gen1-2010_swim_platform",
+        "sunseeker-manhattan-63-gen1-2010_ventilation"
+      ]
+    },
+    {
+      "id": "exterior-lod1",
+      "kind": "exterior",
+      "level": 1,
+      "path": "models/sunseeker-manhattan-63-gen1-2010/exterior.lod1.glb",
+      "bytes": 183056,
+      "sha256": "c9739af0a2b5a09de8675414515bb94295164a1e74a036161e818cdb865f102f",
+      "componentIds": [
+        "sunseeker-manhattan-63-gen1-2010_cockpit",
+        "sunseeker-manhattan-63-gen1-2010_deck_main",
+        "sunseeker-manhattan-63-gen1-2010_electrical",
+        "sunseeker-manhattan-63-gen1-2010_family_signature",
+        "sunseeker-manhattan-63-gen1-2010_flybridge",
+        "sunseeker-manhattan-63-gen1-2010_freshwater",
+        "sunseeker-manhattan-63-gen1-2010_fuel",
+        "sunseeker-manhattan-63-gen1-2010_glazing",
+        "sunseeker-manhattan-63-gen1-2010_helm",
+        "sunseeker-manhattan-63-gen1-2010_hull_shell",
+        "sunseeker-manhattan-63-gen1-2010_mooring",
+        "sunseeker-manhattan-63-gen1-2010_propulsion",
+        "sunseeker-manhattan-63-gen1-2010_safety",
+        "sunseeker-manhattan-63-gen1-2010_superstructure",
+        "sunseeker-manhattan-63-gen1-2010_swim_platform",
+        "sunseeker-manhattan-63-gen1-2010_ventilation"
+      ]
+    },
+    {
+      "id": "interior-sunseeker-manhattan-63-gen1-2010_deck_lower-lod0",
+      "kind": "interior",
+      "level": 0,
+      "path": "models/sunseeker-manhattan-63-gen1-2010/interior-sunseeker-manhattan-63-gen1-2010_deck_lower.lod0.glb",
+      "bytes": 268488,
+      "sha256": "8fa5d0916cd5b02573cdabafb9ce4d37f2d807b8f6d92fe6efa3c7fc1da905ad",
+      "componentIds": [
+        "sunseeker-manhattan-63-gen1-2010_deck_lower",
+        "sunseeker-manhattan-63-gen1-2010_engine_room",
+        "sunseeker-manhattan-63-gen1-2010_lower_partitions",
+        "sunseeker-manhattan-63-gen1-2010_room_aft_galley_1",
+        "sunseeker-manhattan-63-gen1-2010_room_crew_cabin_4",
+        "sunseeker-manhattan-63-gen1-2010_room_main_saloon_0",
+        "sunseeker-manhattan-63-gen1-2010_room_port_guest_cabin_2",
+        "sunseeker-manhattan-63-gen1-2010_room_starboard_guest_cabin_3"
+      ],
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower"
+    },
+    {
+      "id": "interior-sunseeker-manhattan-63-gen1-2010_deck_lower-lod1",
+      "kind": "interior",
+      "level": 1,
+      "path": "models/sunseeker-manhattan-63-gen1-2010/interior-sunseeker-manhattan-63-gen1-2010_deck_lower.lod1.glb",
+      "bytes": 64216,
+      "sha256": "3e16a0a9558eb75f6135edd2dd089db5a12503ce814149f3c6b51d9703943e38",
+      "componentIds": [
+        "sunseeker-manhattan-63-gen1-2010_deck_lower",
+        "sunseeker-manhattan-63-gen1-2010_engine_room",
+        "sunseeker-manhattan-63-gen1-2010_lower_partitions",
+        "sunseeker-manhattan-63-gen1-2010_room_aft_galley_1",
+        "sunseeker-manhattan-63-gen1-2010_room_crew_cabin_4",
+        "sunseeker-manhattan-63-gen1-2010_room_main_saloon_0",
+        "sunseeker-manhattan-63-gen1-2010_room_port_guest_cabin_2",
+        "sunseeker-manhattan-63-gen1-2010_room_starboard_guest_cabin_3"
+      ],
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower"
+    }
+  ],
+  "decks": [
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_deck_main",
+      "name": "Main deck",
+      "componentId": "sunseeker-manhattan-63-gen1-2010_deck_main"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_cockpit",
+      "name": "Aft cockpit",
+      "componentId": "sunseeker-manhattan-63-gen1-2010_cockpit"
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "name": "Lower accommodation deck",
+      "componentId": "sunseeker-manhattan-63-gen1-2010_deck_lower"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_room_main_saloon_0",
+      "name": "main saloon",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "componentId": "sunseeker-manhattan-63-gen1-2010_room_main_saloon_0",
+      "fidelity": "reference-informed",
+      "note": "Authored main saloon arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ]
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_room_aft_galley_1",
+      "name": "aft galley",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "componentId": "sunseeker-manhattan-63-gen1-2010_room_aft_galley_1",
+      "fidelity": "reference-informed",
+      "note": "Authored aft galley arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ]
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_room_port_guest_cabin_2",
+      "name": "port guest cabin",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "componentId": "sunseeker-manhattan-63-gen1-2010_room_port_guest_cabin_2",
+      "fidelity": "reference-informed",
+      "note": "Authored port guest cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ]
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_room_starboard_guest_cabin_3",
+      "name": "starboard guest cabin",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "componentId": "sunseeker-manhattan-63-gen1-2010_room_starboard_guest_cabin_3",
+      "fidelity": "reference-informed",
+      "note": "Authored starboard guest cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ]
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_room_crew_cabin_4",
+      "name": "crew cabin",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "componentId": "sunseeker-manhattan-63-gen1-2010_room_crew_cabin_4",
+      "fidelity": "reference-informed",
+      "note": "Authored crew cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ]
+    },
+    {
+      "id": "sunseeker-manhattan-63-gen1-2010_room_engine",
+      "name": "Engine room",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower",
+      "componentId": "sunseeker-manhattan-63-gen1-2010_engine_room",
+      "fidelity": "reconstructed",
+      "note": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-8b592323db36f003",
+        "source-95b7c7e36399c78b",
+        "source-19991cb4914f999f",
+        "source-3be0ef82d5a1e983"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "id": "exterior_bow",
+      "name": "Review | Bow quarter",
+      "position": [
+        22.7556,
+        3.7925999999999997,
+        19.3844
+      ],
+      "target": [
+        0,
+        0.62,
+        0
+      ],
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_main"
+    },
+    {
+      "id": "exterior_port_profile",
+      "name": "Review | Port profile",
+      "position": [
+        0,
+        2.9498,
+        31.1836
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_main"
+    },
+    {
+      "id": "exterior_starboard_profile",
+      "name": "Review | Starboard profile",
+      "position": [
+        0,
+        2.9498,
+        -31.1836
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_main"
+    },
+    {
+      "id": "exterior_stern",
+      "name": "Review | Stern quarter",
+      "position": [
+        -22.7556,
+        3.7925999999999997,
+        -19.3844
+      ],
+      "target": [
+        0,
+        0.66,
+        0
+      ],
+      "deckId": "sunseeker-manhattan-63-gen1-2010_cockpit"
+    },
+    {
+      "id": "exterior_high",
+      "name": "Review | High bow",
+      "position": [
+        13.9062,
+        28.233800000000002,
+        0
+      ],
+      "target": [
+        0,
+        0.25,
+        0
+      ],
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_main"
+    },
+    {
+      "id": "exterior_above",
+      "name": "Review | Above plan",
+      "position": [
+        1.4749,
+        43.8256,
+        1.4749
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_main"
+    },
+    {
+      "id": "exterior_below",
+      "name": "Review | Below hull",
+      "position": [
+        -22.7556,
+        -13.0634,
+        -17.6988
+      ],
+      "target": [
+        0,
+        -0.35,
+        0
+      ],
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower"
+    },
+    {
+      "id": "exterior_three_quarter",
+      "name": "Review | Starboard three-quarter",
+      "position": [
+        24.4412,
+        3.7925999999999997,
+        -23.5984
+      ],
+      "target": [
+        0,
+        0.58,
+        0
+      ],
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_main"
+    },
+    {
+      "id": "room_0",
+      "name": "Room | main saloon",
+      "position": [
+        -7.784044613333332,
+        0.92,
+        2.693569024
+      ],
+      "target": [
+        -5.443083333333333,
+        -0.18,
+        0.8208
+      ],
+      "roomId": "sunseeker-manhattan-63-gen1-2010_room_main_saloon_0",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower"
+    },
+    {
+      "id": "room_1",
+      "name": "Room | aft galley",
+      "position": [
+        -5.6068112800000005,
+        0.92,
+        1.051969024
+      ],
+      "target": [
+        -3.2658500000000004,
+        -0.18,
+        -0.8208
+      ],
+      "roomId": "sunseeker-manhattan-63-gen1-2010_room_aft_galley_1",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower"
+    },
+    {
+      "id": "room_2",
+      "name": "Room | port guest cabin",
+      "position": [
+        -3.4295779466666665,
+        0.92,
+        2.693569024
+      ],
+      "target": [
+        -1.0886166666666668,
+        -0.18,
+        0.8208
+      ],
+      "roomId": "sunseeker-manhattan-63-gen1-2010_room_port_guest_cabin_2",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower"
+    },
+    {
+      "id": "room_3",
+      "name": "Room | starboard guest cabin",
+      "position": [
+        -1.2523446133333338,
+        0.92,
+        1.051969024
+      ],
+      "target": [
+        1.088616666666666,
+        -0.18,
+        -0.8208
+      ],
+      "roomId": "sunseeker-manhattan-63-gen1-2010_room_starboard_guest_cabin_3",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower"
+    },
+    {
+      "id": "room_4",
+      "name": "Room | crew cabin",
+      "position": [
+        0.9248887199999998,
+        0.92,
+        2.693569024
+      ],
+      "target": [
+        3.2658499999999995,
+        -0.18,
+        0.8208
+      ],
+      "roomId": "sunseeker-manhattan-63-gen1-2010_room_crew_cabin_4",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower"
+    },
+    {
+      "id": "room_5",
+      "name": "Room | Engine room",
+      "position": [
+        -12.254311999999999,
+        0.72,
+        4.834511999999999
+      ],
+      "target": [
+        -6.321,
+        -0.18,
+        1.026
+      ],
+      "roomId": "sunseeker-manhattan-63-gen1-2010_room_engine",
+      "deckId": "sunseeker-manhattan-63-gen1-2010_deck_lower"
+    }
+  ],
+  "fidelity": "Original reference-informed reconstruction of Sunseeker Manhattan 63 (Gen 1 / introduced 2010). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them."
+}

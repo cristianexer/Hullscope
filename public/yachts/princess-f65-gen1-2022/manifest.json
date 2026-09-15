@@ -1,0 +1,1641 @@
+{
+  "vesselId": "princess-f65-gen1-2022",
+  "version": 2,
+  "units": "metres",
+  "components": [
+    {
+      "id": "princess-f65-gen1-2022_cockpit",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "Cockpit and social deck",
+      "systemId": "accommodation",
+      "assembly": "Cockpit and social deck",
+      "parentId": "princess-f65-gen1-2022_deck_main",
+      "shape": "deck",
+      "position": [
+        -5.261760234832764,
+        1.039846822785426,
+        0
+      ],
+      "size": [
+        6.625919818878174,
+        0.4999914436256364,
+        4.552627912296615
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Open aft cockpit, seating and social equipment.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-f65-gen1-2022_deck_main"
+    },
+    {
+      "id": "princess-f65-gen1-2022_deck_lower",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "Lower accommodation deck",
+      "systemId": "structure",
+      "assembly": "Lower accommodation deck",
+      "parentId": "princess-f65-gen1-2022_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        -0.5799999833106995,
+        0
+      ],
+      "size": [
+        14.031359672546387,
+        0.08050464242801358,
+        3.705354632604263
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.7
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.7
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Lower accommodation deck and room boundaries.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-f65-gen1-2022_deck_lower"
+    },
+    {
+      "id": "princess-f65-gen1-2022_deck_main",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "Main deck",
+      "systemId": "structure",
+      "assembly": "Main deck",
+      "parentId": "princess-f65-gen1-2022_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        0.8116327375173569,
+        0
+      ],
+      "size": [
+        19.488000869750977,
+        0.8183687611553498,
+        4.922702206455544
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Main deck surface and deck edge.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-f65-gen1-2022_deck_main"
+    },
+    {
+      "id": "princess-f65-gen1-2022_electrical",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "Electrical power",
+      "systemId": "electrical",
+      "assembly": "Electrical power",
+      "parentId": "princess-f65-gen1-2022_hull_shell",
+      "shape": "box",
+      "position": [
+        -0.5846400260925293,
+        -0.48899999260902405,
+        0
+      ],
+      "size": [
+        2.7283198833465576,
+        0.28010095790209105,
+        1.270362757048812
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Batteries, distribution and generator family placeholder where details are unknown.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-f65-gen1-2022_engine_room",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "Engine room",
+      "systemId": "propulsion",
+      "assembly": "Engine room",
+      "parentId": "princess-f65-gen1-2022_deck_lower",
+      "shape": "cylinder",
+      "position": [
+        -5.846399784088135,
+        -0.30000001192092896,
+        0
+      ],
+      "size": [
+        2.9231998920440674,
+        0.5499009410248004,
+        3.0703101914864774
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-f65-gen1-2022_deck_lower",
+      "roomId": "princess-f65-gen1-2022_room_engine"
+    },
+    {
+      "id": "princess-f65-gen1-2022_family_signature",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "Family-specific exterior details",
+      "systemId": "structure",
+      "assembly": "Family-specific exterior details",
+      "parentId": "princess-f65-gen1-2022_deck_main",
+      "shape": "box",
+      "position": [
+        -3.5078399181365967,
+        3.0894973278045654,
+        0
+      ],
+      "size": [
+        5.331916809082031,
+        0.11304489189127143,
+        3.1760109951983115
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.28
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.28
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed family signature details; small joinery and offsets are reconstructed where public references do not expose them.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-f65-gen1-2022_deck_main"
+    },
+    {
+      "id": "princess-f65-gen1-2022_flybridge",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "Flybridge and upper deck",
+      "systemId": "accommodation",
+      "assembly": "Flybridge and upper deck",
+      "parentId": "princess-f65-gen1-2022_superstructure",
+      "shape": "deck",
+      "position": [
+        -0.16369926929473877,
+        3.2023497134674175,
+        0
+      ],
+      "size": [
+        8.184960126876831,
+        0.6992733136089582,
+        4.2851593445592115
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        1
+      ],
+      "localExplode": [
+        0,
+        0,
+        1
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed upper helm, seating and deck volume.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-f65-gen1-2022_deck_main"
+    },
+    {
+      "id": "princess-f65-gen1-2022_freshwater",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "Freshwater and sanitation",
+      "systemId": "utilities",
+      "assembly": "Freshwater and sanitation",
+      "parentId": "princess-f65-gen1-2022_hull_shell",
+      "shape": "box",
+      "position": [
+        1.948799967765808,
+        -0.7335000038146973,
+        0
+      ],
+      "size": [
+        3.5078399181365967,
+        0.22010311812765426,
+        1.3763938666183118
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Freshwater and sanitation service envelope.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-f65-gen1-2022_fuel",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "Fuel system",
+      "systemId": "fuel",
+      "assembly": "Fuel system",
+      "parentId": "princess-f65-gen1-2022_hull_shell",
+      "shape": "box",
+      "position": [
+        -2.338560104370117,
+        -0.7824000120162964,
+        0
+      ],
+      "size": [
+        4.872000217437744,
+        0.23968212990232995,
+        1.693981703459829
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Fuel tank and service system envelope.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-f65-gen1-2022_glazing",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "Glazing",
+      "systemId": "structure",
+      "assembly": "Glazing",
+      "parentId": "princess-f65-gen1-2022_superstructure",
+      "shape": "chamferedBox",
+      "position": [
+        5.261760234832764,
+        1.7949999570846558,
+        0
+      ],
+      "size": [
+        0.040090939274428194,
+        0.6200045007153996,
+        3.4937760829925537
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Windshield, side glazing and hull windows.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "shell",
+      "deckId": "princess-f65-gen1-2022_deck_main"
+    },
+    {
+      "id": "princess-f65-gen1-2022_helm",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "Helm station",
+      "systemId": "navigation",
+      "assembly": "Helm station",
+      "parentId": "princess-f65-gen1-2022_superstructure",
+      "shape": "box",
+      "position": [
+        2.7283198833465576,
+        1.3438888788223267,
+        -0.8999119997024536
+      ],
+      "size": [
+        3.118079900741577,
+        0.47348868980957404,
+        0.5557294418265575
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Helm console, steering position and displays.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-f65-gen1-2022_deck_main"
+    },
+    {
+      "id": "princess-f65-gen1-2022_hull_shell",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "Hull shell",
+      "systemId": "structure",
+      "assembly": "Hull shell",
+      "parentId": null,
+      "shape": "hull",
+      "position": [
+        -0.0006375312805175781,
+        -0.20195120573043823,
+        0.0006955862045288086
+      ],
+      "size": [
+        19.48587131500244,
+        2.7283906855443343,
+        5.091053325838066
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.9
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.9
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed hull form and underwater volume.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "shell"
+    },
+    {
+      "id": "princess-f65-gen1-2022_lower_partitions",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "Lower partitions",
+      "systemId": "structure",
+      "assembly": "Lower partitions",
+      "parentId": "princess-f65-gen1-2022_deck_lower",
+      "shape": "box",
+      "position": [
+        -5.066880226135254,
+        -0.17000000178813934,
+        0
+      ],
+      "size": [
+        0.059968391329046966,
+        0.5198639165559482,
+        3.387903928756714
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Low room-divider partitions; exact joinery is reconstructed.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-f65-gen1-2022_deck_lower"
+    },
+    {
+      "id": "princess-f65-gen1-2022_mooring",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "Mooring equipment",
+      "systemId": "mooring",
+      "assembly": "Mooring equipment",
+      "parentId": "princess-f65-gen1-2022_deck_main",
+      "shape": "box",
+      "position": [
+        7.310234785079956,
+        1.084498839113408,
+        -1.2449625879526138
+      ],
+      "size": [
+        4.493183612823486,
+        0.14413084891766337,
+        1.6664833657839848
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Anchor, windlass, cleats and rails.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-f65-gen1-2022_deck_main"
+    },
+    {
+      "id": "princess-f65-gen1-2022_propulsion",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "Propulsion",
+      "systemId": "propulsion",
+      "assembly": "Propulsion",
+      "parentId": "princess-f65-gen1-2022_hull_shell",
+      "shape": "cylinder",
+      "position": [
+        -4.287360191345215,
+        -0.26080000400543213,
+        0
+      ],
+      "size": [
+        3.897599935531616,
+        0.6399453002459821,
+        3.176204505254727
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -1.2
+      ],
+      "localExplode": [
+        0,
+        0,
+        -1.2
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Documented propulsion family represented as authored machinery and drives.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "princess-f65-gen1-2022_room_aft_galley_and_dinette_0",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "aft galley and dinette",
+      "systemId": "accommodation",
+      "assembly": "aft galley and dinette",
+      "parentId": "princess-f65-gen1-2022_deck_lower",
+      "shape": "box",
+      "position": [
+        -4.833024024963379,
+        -0.18000000715255737,
+        0.3922851085662842
+      ],
+      "size": [
+        1.3803116083145142,
+        0.5500268156914765,
+        0.2800473516670703
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored aft galley and dinette arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-f65-gen1-2022_deck_lower",
+      "roomId": "princess-f65-gen1-2022_room_aft_galley_and_dinette_0"
+    },
+    {
+      "id": "princess-f65-gen1-2022_room_convertible_twin_cabin_4",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "convertible twin cabin",
+      "systemId": "accommodation",
+      "assembly": "convertible twin cabin",
+      "parentId": "princess-f65-gen1-2022_deck_lower",
+      "shape": "box",
+      "position": [
+        4.833024024963379,
+        -0.36000001430511475,
+        0.8469759821891785
+      ],
+      "size": [
+        1.583298683166504,
+        0.20004445168338036,
+        1.1367743406529485
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored convertible twin cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-f65-gen1-2022_deck_lower",
+      "roomId": "princess-f65-gen1-2022_room_convertible_twin_cabin_4"
+    },
+    {
+      "id": "princess-f65-gen1-2022_room_forward_vip_cabin_3",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "forward VIP cabin",
+      "systemId": "accommodation",
+      "assembly": "forward VIP cabin",
+      "parentId": "princess-f65-gen1-2022_deck_lower",
+      "shape": "box",
+      "position": [
+        2.4165120124816895,
+        -0.36000001430511475,
+        -0.8469759821891785
+      ],
+      "size": [
+        1.583298683166504,
+        0.20004445168338036,
+        1.1367743406529485
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored forward VIP cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-f65-gen1-2022_deck_lower",
+      "roomId": "princess-f65-gen1-2022_room_forward_vip_cabin_3"
+    },
+    {
+      "id": "princess-f65-gen1-2022_room_full_beam_owner_cabin_2",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "full-beam owner cabin",
+      "systemId": "accommodation",
+      "assembly": "full-beam owner cabin",
+      "parentId": "princess-f65-gen1-2022_deck_lower",
+      "shape": "box",
+      "position": [
+        0,
+        -0.36000001430511475,
+        0.8469759821891785
+      ],
+      "size": [
+        1.583298683166504,
+        0.20004445168338036,
+        1.1367743406529485
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored full-beam owner cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-f65-gen1-2022_deck_lower",
+      "roomId": "princess-f65-gen1-2022_room_full_beam_owner_cabin_2"
+    },
+    {
+      "id": "princess-f65-gen1-2022_room_main_saloon_1",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "main saloon",
+      "systemId": "accommodation",
+      "assembly": "main saloon",
+      "parentId": "princess-f65-gen1-2022_deck_lower",
+      "shape": "box",
+      "position": [
+        -2.4165120124816895,
+        -0.23000000417232513,
+        -0.846976026892662
+      ],
+      "size": [
+        1.542701244354248,
+        0.38003736821886314,
+        1.3965204140916025
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored main saloon arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-f65-gen1-2022_deck_lower",
+      "roomId": "princess-f65-gen1-2022_room_main_saloon_1"
+    },
+    {
+      "id": "princess-f65-gen1-2022_safety",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "Safety equipment",
+      "systemId": "safety",
+      "assembly": "Safety equipment",
+      "parentId": "princess-f65-gen1-2022_deck_main",
+      "shape": "box",
+      "position": [
+        -7.405439853668213,
+        1.2536667585372925,
+        2.1174399852752686
+      ],
+      "size": [
+        2.7283198833465576,
+        0.18029487538327427,
+        0.5821836794445368
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Liferaft, extinguisher and navigation safety equipment.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "equipment",
+      "deckId": "princess-f65-gen1-2022_deck_main"
+    },
+    {
+      "id": "princess-f65-gen1-2022_superstructure",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "Superstructure",
+      "systemId": "structure",
+      "assembly": "Superstructure",
+      "parentId": "princess-f65-gen1-2022_deck_main",
+      "shape": "chamferedBox",
+      "position": [
+        1.5590399503707886,
+        1.625518850525678,
+        -1.1920928955078125e-7
+      ],
+      "size": [
+        9.57423996925354,
+        1.4345694517794625,
+        4.316017582392742
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.8
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.8
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed wheelhouse and superstructure.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "shell",
+      "deckId": "princess-f65-gen1-2022_deck_main"
+    },
+    {
+      "id": "princess-f65-gen1-2022_swim_platform",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "Swim platform",
+      "systemId": "structure",
+      "assembly": "Swim platform",
+      "parentId": "princess-f65-gen1-2022_hull_shell",
+      "shape": "box",
+      "position": [
+        -9.354240417480469,
+        0.18000000715255737,
+        0
+      ],
+      "size": [
+        2.3385151846421124,
+        0.0998008420215839,
+        4.129007816314697
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Aft bathing platform or transom step.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "envelope",
+      "deckId": "princess-f65-gen1-2022_deck_main"
+    },
+    {
+      "id": "princess-f65-gen1-2022_ventilation",
+      "vesselId": "princess-f65-gen1-2022",
+      "name": "Ventilation and HVAC",
+      "systemId": "utilities",
+      "assembly": "Ventilation and HVAC",
+      "parentId": "princess-f65-gen1-2022_superstructure",
+      "shape": "box",
+      "position": [
+        0.974399983882904,
+        -0.6143844723701477,
+        0
+      ],
+      "size": [
+        3.2967204443741407,
+        0.10990927655282579,
+        0.1099088188420756
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Ventilation and HVAC service equipment envelope.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ],
+      "enclosure": "equipment"
+    }
+  ],
+  "meaningfulCount": 22,
+  "lods": [],
+  "assets": [
+    {
+      "id": "exterior-lod0",
+      "kind": "exterior",
+      "level": 0,
+      "path": "models/princess-f65-gen1-2022/exterior.lod0.glb",
+      "bytes": 321072,
+      "sha256": "56ed324a6c0ce9026857e609cbfda65462c12b4c47e93e992a10de819b9e8538",
+      "componentIds": [
+        "princess-f65-gen1-2022_cockpit",
+        "princess-f65-gen1-2022_deck_main",
+        "princess-f65-gen1-2022_electrical",
+        "princess-f65-gen1-2022_family_signature",
+        "princess-f65-gen1-2022_flybridge",
+        "princess-f65-gen1-2022_freshwater",
+        "princess-f65-gen1-2022_fuel",
+        "princess-f65-gen1-2022_glazing",
+        "princess-f65-gen1-2022_helm",
+        "princess-f65-gen1-2022_hull_shell",
+        "princess-f65-gen1-2022_mooring",
+        "princess-f65-gen1-2022_propulsion",
+        "princess-f65-gen1-2022_safety",
+        "princess-f65-gen1-2022_superstructure",
+        "princess-f65-gen1-2022_swim_platform",
+        "princess-f65-gen1-2022_ventilation"
+      ]
+    },
+    {
+      "id": "exterior-lod1",
+      "kind": "exterior",
+      "level": 1,
+      "path": "models/princess-f65-gen1-2022/exterior.lod1.glb",
+      "bytes": 183760,
+      "sha256": "48a857c76e75f1899a4e01645b2506b33e3a94d1e09d311e12af9fcdbe629eed",
+      "componentIds": [
+        "princess-f65-gen1-2022_cockpit",
+        "princess-f65-gen1-2022_deck_main",
+        "princess-f65-gen1-2022_electrical",
+        "princess-f65-gen1-2022_family_signature",
+        "princess-f65-gen1-2022_flybridge",
+        "princess-f65-gen1-2022_freshwater",
+        "princess-f65-gen1-2022_fuel",
+        "princess-f65-gen1-2022_glazing",
+        "princess-f65-gen1-2022_helm",
+        "princess-f65-gen1-2022_hull_shell",
+        "princess-f65-gen1-2022_mooring",
+        "princess-f65-gen1-2022_propulsion",
+        "princess-f65-gen1-2022_safety",
+        "princess-f65-gen1-2022_superstructure",
+        "princess-f65-gen1-2022_swim_platform",
+        "princess-f65-gen1-2022_ventilation"
+      ]
+    },
+    {
+      "id": "interior-princess-f65-gen1-2022_deck_lower-lod0",
+      "kind": "interior",
+      "level": 0,
+      "path": "models/princess-f65-gen1-2022/interior-princess-f65-gen1-2022_deck_lower.lod0.glb",
+      "bytes": 267244,
+      "sha256": "4fcf3726cd06f32c8ec1affacd6757b44d7ff2072c44916590d464b6c1dd379a",
+      "componentIds": [
+        "princess-f65-gen1-2022_deck_lower",
+        "princess-f65-gen1-2022_engine_room",
+        "princess-f65-gen1-2022_lower_partitions",
+        "princess-f65-gen1-2022_room_aft_galley_and_dinette_0",
+        "princess-f65-gen1-2022_room_convertible_twin_cabin_4",
+        "princess-f65-gen1-2022_room_forward_vip_cabin_3",
+        "princess-f65-gen1-2022_room_full_beam_owner_cabin_2",
+        "princess-f65-gen1-2022_room_main_saloon_1"
+      ],
+      "deckId": "princess-f65-gen1-2022_deck_lower"
+    },
+    {
+      "id": "interior-princess-f65-gen1-2022_deck_lower-lod1",
+      "kind": "interior",
+      "level": 1,
+      "path": "models/princess-f65-gen1-2022/interior-princess-f65-gen1-2022_deck_lower.lod1.glb",
+      "bytes": 68004,
+      "sha256": "ba9d68247fd4d1ac7d74b2fc629501274b37da39ff443469f8d3c91c6b847259",
+      "componentIds": [
+        "princess-f65-gen1-2022_deck_lower",
+        "princess-f65-gen1-2022_engine_room",
+        "princess-f65-gen1-2022_lower_partitions",
+        "princess-f65-gen1-2022_room_aft_galley_and_dinette_0",
+        "princess-f65-gen1-2022_room_convertible_twin_cabin_4",
+        "princess-f65-gen1-2022_room_forward_vip_cabin_3",
+        "princess-f65-gen1-2022_room_full_beam_owner_cabin_2",
+        "princess-f65-gen1-2022_room_main_saloon_1"
+      ],
+      "deckId": "princess-f65-gen1-2022_deck_lower"
+    }
+  ],
+  "decks": [
+    {
+      "id": "princess-f65-gen1-2022_deck_main",
+      "name": "Main deck",
+      "componentId": "princess-f65-gen1-2022_deck_main"
+    },
+    {
+      "id": "princess-f65-gen1-2022_cockpit",
+      "name": "Aft cockpit",
+      "componentId": "princess-f65-gen1-2022_cockpit"
+    },
+    {
+      "id": "princess-f65-gen1-2022_deck_lower",
+      "name": "Lower accommodation deck",
+      "componentId": "princess-f65-gen1-2022_deck_lower"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "princess-f65-gen1-2022_room_aft_galley_and_dinette_0",
+      "name": "aft galley and dinette",
+      "deckId": "princess-f65-gen1-2022_deck_lower",
+      "componentId": "princess-f65-gen1-2022_room_aft_galley_and_dinette_0",
+      "fidelity": "reference-informed",
+      "note": "Authored aft galley and dinette arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ]
+    },
+    {
+      "id": "princess-f65-gen1-2022_room_main_saloon_1",
+      "name": "main saloon",
+      "deckId": "princess-f65-gen1-2022_deck_lower",
+      "componentId": "princess-f65-gen1-2022_room_main_saloon_1",
+      "fidelity": "reference-informed",
+      "note": "Authored main saloon arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ]
+    },
+    {
+      "id": "princess-f65-gen1-2022_room_full_beam_owner_cabin_2",
+      "name": "full-beam owner cabin",
+      "deckId": "princess-f65-gen1-2022_deck_lower",
+      "componentId": "princess-f65-gen1-2022_room_full_beam_owner_cabin_2",
+      "fidelity": "reference-informed",
+      "note": "Authored full-beam owner cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ]
+    },
+    {
+      "id": "princess-f65-gen1-2022_room_forward_vip_cabin_3",
+      "name": "forward VIP cabin",
+      "deckId": "princess-f65-gen1-2022_deck_lower",
+      "componentId": "princess-f65-gen1-2022_room_forward_vip_cabin_3",
+      "fidelity": "reference-informed",
+      "note": "Authored forward VIP cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ]
+    },
+    {
+      "id": "princess-f65-gen1-2022_room_convertible_twin_cabin_4",
+      "name": "convertible twin cabin",
+      "deckId": "princess-f65-gen1-2022_deck_lower",
+      "componentId": "princess-f65-gen1-2022_room_convertible_twin_cabin_4",
+      "fidelity": "reference-informed",
+      "note": "Authored convertible twin cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ]
+    },
+    {
+      "id": "princess-f65-gen1-2022_room_engine",
+      "name": "Engine room",
+      "deckId": "princess-f65-gen1-2022_deck_lower",
+      "componentId": "princess-f65-gen1-2022_engine_room",
+      "fidelity": "reconstructed",
+      "note": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-9e79eb652c8ddef6",
+        "source-6433c57d29997646",
+        "source-2a32b5ed65d2a35f",
+        "source-5766516a49767854",
+        "source-23b2567bc365541d",
+        "source-23738e226b9b7d98",
+        "source-04aea5c25e8ea2db"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "id": "exterior_bow",
+      "name": "Review | Bow quarter",
+      "position": [
+        21.924000000000003,
+        3.654,
+        18.676000000000002
+      ],
+      "target": [
+        0,
+        0.62,
+        0
+      ],
+      "deckId": "princess-f65-gen1-2022_deck_main"
+    },
+    {
+      "id": "exterior_port_profile",
+      "name": "Review | Port profile",
+      "position": [
+        0,
+        2.8420000000000005,
+        30.044
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "princess-f65-gen1-2022_deck_main"
+    },
+    {
+      "id": "exterior_starboard_profile",
+      "name": "Review | Starboard profile",
+      "position": [
+        0,
+        2.8420000000000005,
+        -30.044
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "princess-f65-gen1-2022_deck_main"
+    },
+    {
+      "id": "exterior_stern",
+      "name": "Review | Stern quarter",
+      "position": [
+        -21.924000000000003,
+        3.654,
+        -18.676000000000002
+      ],
+      "target": [
+        0,
+        0.66,
+        0
+      ],
+      "deckId": "princess-f65-gen1-2022_cockpit"
+    },
+    {
+      "id": "exterior_high",
+      "name": "Review | High bow",
+      "position": [
+        13.398000000000001,
+        27.202,
+        0
+      ],
+      "target": [
+        0,
+        0.25,
+        0
+      ],
+      "deckId": "princess-f65-gen1-2022_deck_main"
+    },
+    {
+      "id": "exterior_above",
+      "name": "Review | Above plan",
+      "position": [
+        1.4210000000000003,
+        42.224000000000004,
+        1.4210000000000003
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "deckId": "princess-f65-gen1-2022_deck_main"
+    },
+    {
+      "id": "exterior_below",
+      "name": "Review | Below hull",
+      "position": [
+        -21.924000000000003,
+        -12.586,
+        -17.052
+      ],
+      "target": [
+        0,
+        -0.35,
+        0
+      ],
+      "deckId": "princess-f65-gen1-2022_deck_lower"
+    },
+    {
+      "id": "exterior_three_quarter",
+      "name": "Review | Starboard three-quarter",
+      "position": [
+        23.548,
+        3.654,
+        -22.736000000000004
+      ],
+      "target": [
+        0,
+        0.58,
+        0
+      ],
+      "deckId": "princess-f65-gen1-2022_deck_main"
+    },
+    {
+      "id": "room_0",
+      "name": "Room | aft galley and dinette",
+      "position": [
+        -7.499577866666666,
+        0.92,
+        2.6187289600000003
+      ],
+      "target": [
+        -5.244166666666667,
+        -0.18,
+        0.8144
+      ],
+      "roomId": "princess-f65-gen1-2022_room_aft_galley_and_dinette_0",
+      "deckId": "princess-f65-gen1-2022_deck_lower"
+    },
+    {
+      "id": "room_1",
+      "name": "Room | main saloon",
+      "position": [
+        -5.401911200000001,
+        0.92,
+        0.9899289600000001
+      ],
+      "target": [
+        -3.1465000000000005,
+        -0.18,
+        -0.8144
+      ],
+      "roomId": "princess-f65-gen1-2022_room_main_saloon_1",
+      "deckId": "princess-f65-gen1-2022_deck_lower"
+    },
+    {
+      "id": "room_2",
+      "name": "Room | full-beam owner cabin",
+      "position": [
+        -3.3042445333333332,
+        0.92,
+        2.6187289600000003
+      ],
+      "target": [
+        -1.0488333333333335,
+        -0.18,
+        0.8144
+      ],
+      "roomId": "princess-f65-gen1-2022_room_full_beam_owner_cabin_2",
+      "deckId": "princess-f65-gen1-2022_deck_lower"
+    },
+    {
+      "id": "room_3",
+      "name": "Room | forward VIP cabin",
+      "position": [
+        -1.206577866666667,
+        0.92,
+        0.9899289600000001
+      ],
+      "target": [
+        1.0488333333333326,
+        -0.18,
+        -0.8144
+      ],
+      "roomId": "princess-f65-gen1-2022_room_forward_vip_cabin_3",
+      "deckId": "princess-f65-gen1-2022_deck_lower"
+    },
+    {
+      "id": "room_4",
+      "name": "Room | convertible twin cabin",
+      "position": [
+        0.891088799999999,
+        0.92,
+        2.6187289600000003
+      ],
+      "target": [
+        3.1464999999999987,
+        -0.18,
+        0.8144
+      ],
+      "roomId": "princess-f65-gen1-2022_room_convertible_twin_cabin_4",
+      "deckId": "princess-f65-gen1-2022_deck_lower"
+    },
+    {
+      "id": "room_5",
+      "name": "Room | Engine room",
+      "position": [
+        -11.80648,
+        0.72,
+        4.796816
+      ],
+      "target": [
+        -6.09,
+        -0.18,
+        1.018
+      ],
+      "roomId": "princess-f65-gen1-2022_room_engine",
+      "deckId": "princess-f65-gen1-2022_deck_lower"
+    }
+  ],
+  "fidelity": "Original reference-informed reconstruction of Princess F65 (Gen 1 / current F65 introduced 2022). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them."
+}

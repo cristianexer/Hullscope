@@ -1,0 +1,1581 @@
+{
+  "vesselId": "sunseeker-predator-74-gen2-2018",
+  "version": 2,
+  "units": "metres",
+  "components": [
+    {
+      "id": "sunseeker-predator-74-gen2-2018_cockpit",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "Cockpit and social deck",
+      "systemId": "accommodation",
+      "assembly": "Cockpit and social deck",
+      "parentId": "sunseeker-predator-74-gen2-2018_deck_main",
+      "shape": "deck",
+      "position": [
+        -5.914944171905518,
+        1.039986440507436,
+        0
+      ],
+      "size": [
+        7.448448181152344,
+        0.4999917694820667,
+        4.857733012824658
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Open aft cockpit, seating and social equipment.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "Lower accommodation deck",
+      "systemId": "structure",
+      "assembly": "Lower accommodation deck",
+      "parentId": "sunseeker-predator-74-gen2-2018_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        -0.5799999833106995,
+        0
+      ],
+      "size": [
+        15.773183822631836,
+        0.08087084207288275,
+        3.9535251544320587
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.7
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.7
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Lower accommodation deck and room boundaries.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_deck_main",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "Main deck",
+      "systemId": "structure",
+      "assembly": "Main deck",
+      "parentId": "sunseeker-predator-74-gen2-2018_hull_shell",
+      "shape": "deck",
+      "position": [
+        0,
+        0.7321044951677322,
+        0
+      ],
+      "size": [
+        21.90719985961914,
+        0.8584504110767228,
+        5.252325879609606
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Main deck surface and deck edge.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_electrical",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "Electrical power",
+      "systemId": "electrical",
+      "assembly": "Electrical power",
+      "parentId": "sunseeker-predator-74-gen2-2018_hull_shell",
+      "shape": "box",
+      "position": [
+        -0.6572160124778748,
+        -0.5490000247955322,
+        0
+      ],
+      "size": [
+        3.0670080184936523,
+        0.28005273571987077,
+        1.3558034347935592
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Batteries, distribution and generator family placeholder where details are unknown.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_engine_room",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "Engine room",
+      "systemId": "propulsion",
+      "assembly": "Engine room",
+      "parentId": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "shape": "cylinder",
+      "position": [
+        -6.572159767150879,
+        -0.30000001192092896,
+        0
+      ],
+      "size": [
+        3.2860798835754395,
+        0.5499698502007417,
+        3.276602887414607
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "roomId": "sunseeker-predator-74-gen2-2018_room_engine"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_family_signature",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "Family-specific exterior details",
+      "systemId": "structure",
+      "assembly": "Family-specific exterior details",
+      "parentId": "sunseeker-predator-74-gen2-2018_deck_main",
+      "shape": "box",
+      "position": [
+        -7.886591911315918,
+        1.2871110439300537,
+        0
+      ],
+      "size": [
+        5.038656234741211,
+        0.15206028274988093,
+        2.937358055239314
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.28
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.28
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed family signature details; small joinery and offsets are reconstructed where public references do not expose them.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_freshwater",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "Freshwater and sanitation",
+      "systemId": "utilities",
+      "assembly": "Freshwater and sanitation",
+      "parentId": "sunseeker-predator-74-gen2-2018_hull_shell",
+      "shape": "box",
+      "position": [
+        2.1907200813293457,
+        -0.8234999775886536,
+        0
+      ],
+      "size": [
+        3.943295955657959,
+        0.21998794540063926,
+        1.4687926004457348
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Freshwater and sanitation service envelope.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_fuel",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "Fuel system",
+      "systemId": "fuel",
+      "assembly": "Fuel system",
+      "parentId": "sunseeker-predator-74-gen2-2018_hull_shell",
+      "shape": "box",
+      "position": [
+        -2.628864049911499,
+        -0.8784000277519226,
+        0
+      ],
+      "size": [
+        5.476799964904785,
+        0.24001845605649796,
+        1.8079941776902084
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Fuel tank and service system envelope.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_glazing",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "Glazing",
+      "systemId": "structure",
+      "assembly": "Glazing",
+      "parentId": "sunseeker-predator-74-gen2-2018_superstructure",
+      "shape": "chamferedBox",
+      "position": [
+        -1.3144320249557495,
+        1.3124667406082153,
+        0
+      ],
+      "size": [
+        0.03479702751291702,
+        0.608481365604848,
+        3.2764201164245605
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Windshield, side glazing and hull windows.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "shell",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_helm",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "Helm station",
+      "systemId": "navigation",
+      "assembly": "Helm station",
+      "parentId": "sunseeker-predator-74-gen2-2018_superstructure",
+      "shape": "box",
+      "position": [
+        3.0670080184936523,
+        1.4138888120651245,
+        -1.694700002670288
+      ],
+      "size": [
+        3.5051519870758057,
+        0.5321601065882389,
+        0.9038065474045069
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Helm console, steering position and displays.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_hull_shell",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "Hull shell",
+      "systemId": "structure",
+      "assembly": "Hull shell",
+      "parentId": null,
+      "shape": "hull",
+      "position": [
+        -0.0006384849548339844,
+        -0.34101277589797974,
+        1.1920928955078125e-7
+      ],
+      "size": [
+        21.905037879943848,
+        2.8959814476734747,
+        5.380161285982485
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.9
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.9
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed hull form and underwater volume.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "shell"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_lower_partitions",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "Lower partitions",
+      "systemId": "structure",
+      "assembly": "Lower partitions",
+      "parentId": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "shape": "box",
+      "position": [
+        -5.695871829986572,
+        -0.17000000178813934,
+        0
+      ],
+      "size": [
+        0.060022457098471094,
+        0.5199004004558754,
+        3.6153600215911865
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Low room-divider partitions; exact joinery is reconstructed.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_mooring",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "Mooring equipment",
+      "systemId": "mooring",
+      "assembly": "Mooring equipment",
+      "parentId": "sunseeker-predator-74-gen2-2018_deck_main",
+      "shape": "box",
+      "position": [
+        8.217373132705688,
+        1.1222989014916749,
+        -1.328410193324089
+      ],
+      "size": [
+        5.04916524887085,
+        0.16253592696145658,
+        1.7765381681030314
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Anchor, windlass, cleats and rails.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_propulsion",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "Propulsion",
+      "systemId": "propulsion",
+      "assembly": "Propulsion",
+      "parentId": "sunseeker-predator-74-gen2-2018_hull_shell",
+      "shape": "cylinder",
+      "position": [
+        -4.819583892822266,
+        -0.29280000925064087,
+        0
+      ],
+      "size": [
+        4.381440162658691,
+        0.6396926706185853,
+        3.3893581544504894
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -1.2
+      ],
+      "localExplode": [
+        0,
+        0,
+        -1.2
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Documented propulsion family represented as authored machinery and drives.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "equipment"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_room_galley_down_1",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "galley down",
+      "systemId": "accommodation",
+      "assembly": "galley down",
+      "parentId": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "shape": "box",
+      "position": [
+        -2.7164928913116455,
+        -0.18000000715255737,
+        -1.4149752855300903
+      ],
+      "size": [
+        1.5516606569290161,
+        0.5499263041754406,
+        0.2799590381714636
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored galley down arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "roomId": "sunseeker-predator-74-gen2-2018_room_galley_down_1"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_room_main_deck_saloon_0",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "main-deck saloon",
+      "systemId": "accommodation",
+      "assembly": "main-deck saloon",
+      "parentId": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "shape": "box",
+      "position": [
+        -5.432985782623291,
+        -0.23000000417232513,
+        0.9038400202989578
+      ],
+      "size": [
+        1.7342090606689453,
+        0.3800049151769471,
+        1.5698816011012533
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored main-deck saloon arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "roomId": "sunseeker-predator-74-gen2-2018_room_main_deck_saloon_0"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_room_three_guest_heads_3",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "three guest heads",
+      "systemId": "accommodation",
+      "assembly": "three guest heads",
+      "parentId": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "shape": "box",
+      "position": [
+        2.7164928913116455,
+        -0.18000000715255737,
+        -1.3454891443252563
+      ],
+      "size": [
+        0.8280921578407288,
+        0.41997239536720576,
+        0.21999396447656316
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored three guest heads arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "roomId": "sunseeker-predator-74-gen2-2018_room_three_guest_heads_3"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_room_twin_guest_cabin_2",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "twin guest cabin",
+      "systemId": "accommodation",
+      "assembly": "twin guest cabin",
+      "parentId": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "shape": "box",
+      "position": [
+        0,
+        -0.36000001430511475,
+        0.9038400053977966
+      ],
+      "size": [
+        1.7798460721969604,
+        0.19989115713018624,
+        1.277891131153468
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored twin guest cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "roomId": "sunseeker-predator-74-gen2-2018_room_twin_guest_cabin_2"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_room_two_berth_crew_cabin_4",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "two-berth crew cabin",
+      "systemId": "accommodation",
+      "assembly": "two-berth crew cabin",
+      "parentId": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "shape": "box",
+      "position": [
+        5.432985782623291,
+        -0.36000001430511475,
+        0.9038400053977966
+      ],
+      "size": [
+        1.7798460721969604,
+        0.19989115713018624,
+        1.277891131153468
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": true,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Authored two-berth crew cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "roomId": "sunseeker-predator-74-gen2-2018_room_two_berth_crew_cabin_4"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_safety",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "Safety equipment",
+      "systemId": "safety",
+      "assembly": "Safety equipment",
+      "parentId": "sunseeker-predator-74-gen2-2018_deck_main",
+      "shape": "box",
+      "position": [
+        -8.324735641479492,
+        1.3124667406082153,
+        2.2595999240875244
+      ],
+      "size": [
+        3.0670080184936523,
+        0.20267922707039654,
+        0.6215074081483767
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Liferaft, extinguisher and navigation safety equipment.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_superstructure",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "Superstructure",
+      "systemId": "structure",
+      "assembly": "Superstructure",
+      "parentId": "sunseeker-predator-74-gen2-2018_deck_main",
+      "shape": "chamferedBox",
+      "position": [
+        1.971648097038269,
+        1.5277013483118345,
+        0
+      ],
+      "size": [
+        9.321024179458618,
+        1.2072403440676105,
+        4.802317276455592
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0.8
+      ],
+      "localExplode": [
+        0,
+        0,
+        0.8
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed wheelhouse and superstructure.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "shell",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_swim_platform",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "Swim platform",
+      "systemId": "structure",
+      "assembly": "Swim platform",
+      "parentId": "sunseeker-predator-74-gen2-2018_hull_shell",
+      "shape": "box",
+      "position": [
+        -10.515456199645996,
+        0.18000000715255737,
+        0
+      ],
+      "size": [
+        2.628913242088508,
+        0.10004662159150124,
+        4.406219959259033
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": true,
+      "fidelity": "reference-informed",
+      "purpose": "Aft bathing platform or transom step.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "envelope",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_tender_garage",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "Tender garage and transom",
+      "systemId": "accommodation",
+      "assembly": "Tender garage and transom",
+      "parentId": "sunseeker-predator-74-gen2-2018_hull_shell",
+      "shape": "chamferedBox",
+      "position": [
+        -10.29638385772705,
+        0.3743111193180084,
+        0
+      ],
+      "size": [
+        0.04981643221443477,
+        0.7353531986866266,
+        3.163439989089966
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        -0.35
+      ],
+      "localExplode": [
+        0,
+        0,
+        -0.35
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reference-informed",
+      "purpose": "Reference-informed tender garage, lowering platform and bathing transom.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "equipment",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_ventilation",
+      "vesselId": "sunseeker-predator-74-gen2-2018",
+      "name": "Ventilation and HVAC",
+      "systemId": "utilities",
+      "assembly": "Ventilation and HVAC",
+      "parentId": "sunseeker-predator-74-gen2-2018_superstructure",
+      "shape": "box",
+      "position": [
+        1.0953600406646729,
+        -0.8584759831428528,
+        0
+      ],
+      "size": [
+        4.166019701773174,
+        0.10991431554154674,
+        0.10991374103209575
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b9298",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "localExplode": [
+        0,
+        0,
+        0
+      ],
+      "interior": false,
+      "decorative": false,
+      "fidelity": "reconstructed",
+      "purpose": "Ventilation and HVAC service equipment envelope.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ],
+      "enclosure": "equipment"
+    }
+  ],
+  "meaningfulCount": 22,
+  "lods": [],
+  "assets": [
+    {
+      "id": "exterior-lod0",
+      "kind": "exterior",
+      "level": 0,
+      "path": "models/sunseeker-predator-74-gen2-2018/exterior.lod0.glb",
+      "bytes": 276640,
+      "sha256": "fd838b880921b9dfea0f98e27faa192b57fc4b708eb54521e0abef10214efa59",
+      "componentIds": [
+        "sunseeker-predator-74-gen2-2018_cockpit",
+        "sunseeker-predator-74-gen2-2018_deck_main",
+        "sunseeker-predator-74-gen2-2018_electrical",
+        "sunseeker-predator-74-gen2-2018_family_signature",
+        "sunseeker-predator-74-gen2-2018_freshwater",
+        "sunseeker-predator-74-gen2-2018_fuel",
+        "sunseeker-predator-74-gen2-2018_glazing",
+        "sunseeker-predator-74-gen2-2018_helm",
+        "sunseeker-predator-74-gen2-2018_hull_shell",
+        "sunseeker-predator-74-gen2-2018_mooring",
+        "sunseeker-predator-74-gen2-2018_propulsion",
+        "sunseeker-predator-74-gen2-2018_safety",
+        "sunseeker-predator-74-gen2-2018_superstructure",
+        "sunseeker-predator-74-gen2-2018_swim_platform",
+        "sunseeker-predator-74-gen2-2018_tender_garage",
+        "sunseeker-predator-74-gen2-2018_ventilation"
+      ]
+    },
+    {
+      "id": "exterior-lod1",
+      "kind": "exterior",
+      "level": 1,
+      "path": "models/sunseeker-predator-74-gen2-2018/exterior.lod1.glb",
+      "bytes": 164124,
+      "sha256": "104caece07c26b14e16cd5455460b7a34b51d7dad3c4eb3855d7e6da65810dc0",
+      "componentIds": [
+        "sunseeker-predator-74-gen2-2018_cockpit",
+        "sunseeker-predator-74-gen2-2018_deck_main",
+        "sunseeker-predator-74-gen2-2018_electrical",
+        "sunseeker-predator-74-gen2-2018_family_signature",
+        "sunseeker-predator-74-gen2-2018_freshwater",
+        "sunseeker-predator-74-gen2-2018_fuel",
+        "sunseeker-predator-74-gen2-2018_glazing",
+        "sunseeker-predator-74-gen2-2018_helm",
+        "sunseeker-predator-74-gen2-2018_hull_shell",
+        "sunseeker-predator-74-gen2-2018_mooring",
+        "sunseeker-predator-74-gen2-2018_propulsion",
+        "sunseeker-predator-74-gen2-2018_safety",
+        "sunseeker-predator-74-gen2-2018_superstructure",
+        "sunseeker-predator-74-gen2-2018_swim_platform",
+        "sunseeker-predator-74-gen2-2018_tender_garage",
+        "sunseeker-predator-74-gen2-2018_ventilation"
+      ]
+    },
+    {
+      "id": "interior-sunseeker-predator-74-gen2-2018_deck_lower-lod0",
+      "kind": "interior",
+      "level": 0,
+      "path": "models/sunseeker-predator-74-gen2-2018/interior-sunseeker-predator-74-gen2-2018_deck_lower.lod0.glb",
+      "bytes": 304020,
+      "sha256": "8d152d9c0b51c1db244523f3d7ddf9e0a6fdd34209bd2fc93abe818d24bd4174",
+      "componentIds": [
+        "sunseeker-predator-74-gen2-2018_deck_lower",
+        "sunseeker-predator-74-gen2-2018_engine_room",
+        "sunseeker-predator-74-gen2-2018_lower_partitions",
+        "sunseeker-predator-74-gen2-2018_room_galley_down_1",
+        "sunseeker-predator-74-gen2-2018_room_main_deck_saloon_0",
+        "sunseeker-predator-74-gen2-2018_room_three_guest_heads_3",
+        "sunseeker-predator-74-gen2-2018_room_twin_guest_cabin_2",
+        "sunseeker-predator-74-gen2-2018_room_two_berth_crew_cabin_4"
+      ],
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower"
+    },
+    {
+      "id": "interior-sunseeker-predator-74-gen2-2018_deck_lower-lod1",
+      "kind": "interior",
+      "level": 1,
+      "path": "models/sunseeker-predator-74-gen2-2018/interior-sunseeker-predator-74-gen2-2018_deck_lower.lod1.glb",
+      "bytes": 70084,
+      "sha256": "5a012ccaca6dbf145fe738b6d96a8c56cfd61fa9b92e3033406938424530747c",
+      "componentIds": [
+        "sunseeker-predator-74-gen2-2018_deck_lower",
+        "sunseeker-predator-74-gen2-2018_engine_room",
+        "sunseeker-predator-74-gen2-2018_lower_partitions",
+        "sunseeker-predator-74-gen2-2018_room_galley_down_1",
+        "sunseeker-predator-74-gen2-2018_room_main_deck_saloon_0",
+        "sunseeker-predator-74-gen2-2018_room_three_guest_heads_3",
+        "sunseeker-predator-74-gen2-2018_room_twin_guest_cabin_2",
+        "sunseeker-predator-74-gen2-2018_room_two_berth_crew_cabin_4"
+      ],
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower"
+    }
+  ],
+  "decks": [
+    {
+      "id": "sunseeker-predator-74-gen2-2018_deck_main",
+      "name": "Main deck",
+      "componentId": "sunseeker-predator-74-gen2-2018_deck_main"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_cockpit",
+      "name": "Aft cockpit",
+      "componentId": "sunseeker-predator-74-gen2-2018_cockpit"
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "name": "Lower accommodation deck",
+      "componentId": "sunseeker-predator-74-gen2-2018_deck_lower"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "sunseeker-predator-74-gen2-2018_room_main_deck_saloon_0",
+      "name": "main-deck saloon",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "componentId": "sunseeker-predator-74-gen2-2018_room_main_deck_saloon_0",
+      "fidelity": "reference-informed",
+      "note": "Authored main-deck saloon arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ]
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_room_galley_down_1",
+      "name": "galley down",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "componentId": "sunseeker-predator-74-gen2-2018_room_galley_down_1",
+      "fidelity": "reference-informed",
+      "note": "Authored galley down arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ]
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_room_twin_guest_cabin_2",
+      "name": "twin guest cabin",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "componentId": "sunseeker-predator-74-gen2-2018_room_twin_guest_cabin_2",
+      "fidelity": "reference-informed",
+      "note": "Authored twin guest cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ]
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_room_three_guest_heads_3",
+      "name": "three guest heads",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "componentId": "sunseeker-predator-74-gen2-2018_room_three_guest_heads_3",
+      "fidelity": "reference-informed",
+      "note": "Authored three guest heads arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ]
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_room_two_berth_crew_cabin_4",
+      "name": "two-berth crew cabin",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "componentId": "sunseeker-predator-74-gen2-2018_room_two_berth_crew_cabin_4",
+      "fidelity": "reference-informed",
+      "note": "Authored two-berth crew cabin arrangement from the audited deck description.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ]
+    },
+    {
+      "id": "sunseeker-predator-74-gen2-2018_room_engine",
+      "name": "Engine room",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower",
+      "componentId": "sunseeker-predator-74-gen2-2018_engine_room",
+      "fidelity": "reconstructed",
+      "note": "Reference-informed machinery space with authored service details.",
+      "sourceIds": [
+        "source-4c94b5a4340c4580",
+        "source-19b4863d39a3495f",
+        "source-d0f3244560ca2209",
+        "source-3403dc577dc8d063",
+        "source-aa776cd637eb152c"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "id": "exterior_bow",
+      "name": "Review | Bow quarter",
+      "position": [
+        24.6456,
+        4.1076,
+        20.994400000000002
+      ],
+      "target": [
+        0,
+        0.62,
+        0
+      ],
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_main"
+    },
+    {
+      "id": "exterior_port_profile",
+      "name": "Review | Port profile",
+      "position": [
+        0,
+        3.1948000000000003,
+        33.7736
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_main"
+    },
+    {
+      "id": "exterior_starboard_profile",
+      "name": "Review | Starboard profile",
+      "position": [
+        0,
+        3.1948000000000003,
+        -33.7736
+      ],
+      "target": [
+        0,
+        0.5,
+        0
+      ],
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_main"
+    },
+    {
+      "id": "exterior_stern",
+      "name": "Review | Stern quarter",
+      "position": [
+        -24.6456,
+        4.1076,
+        -20.994400000000002
+      ],
+      "target": [
+        0,
+        0.66,
+        0
+      ],
+      "deckId": "sunseeker-predator-74-gen2-2018_cockpit"
+    },
+    {
+      "id": "exterior_high",
+      "name": "Review | High bow",
+      "position": [
+        15.061200000000001,
+        30.5788,
+        0
+      ],
+      "target": [
+        0,
+        0.25,
+        0
+      ],
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_main"
+    },
+    {
+      "id": "exterior_above",
+      "name": "Review | Above plan",
+      "position": [
+        1.5974000000000002,
+        47.4656,
+        1.5974000000000002
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_main"
+    },
+    {
+      "id": "exterior_below",
+      "name": "Review | Below hull",
+      "position": [
+        -24.6456,
+        -14.1484,
+        -19.1688
+      ],
+      "target": [
+        0,
+        -0.35,
+        0
+      ],
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower"
+    },
+    {
+      "id": "exterior_three_quarter",
+      "name": "Review | Starboard three-quarter",
+      "position": [
+        26.4712,
+        4.1076,
+        -25.558400000000002
+      ],
+      "target": [
+        0,
+        0.58,
+        0
+      ],
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_main"
+    },
+    {
+      "id": "room_0",
+      "name": "Room | main-deck saloon",
+      "position": [
+        -8.430559946666666,
+        0.92,
+        2.8891146240000003
+      ],
+      "target": [
+        -5.895166666666666,
+        -0.18,
+        0.8608
+      ],
+      "roomId": "sunseeker-predator-74-gen2-2018_room_main_deck_saloon_0",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower"
+    },
+    {
+      "id": "room_1",
+      "name": "Room | galley down",
+      "position": [
+        -6.07249328,
+        0.92,
+        1.167514624
+      ],
+      "target": [
+        -3.5371,
+        -0.18,
+        -0.8608
+      ],
+      "roomId": "sunseeker-predator-74-gen2-2018_room_galley_down_1",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower"
+    },
+    {
+      "id": "room_2",
+      "name": "Room | twin guest cabin",
+      "position": [
+        -3.714426613333334,
+        0.92,
+        2.8891146240000003
+      ],
+      "target": [
+        -1.1790333333333338,
+        -0.18,
+        0.8608
+      ],
+      "roomId": "sunseeker-predator-74-gen2-2018_room_twin_guest_cabin_2",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower"
+    },
+    {
+      "id": "room_3",
+      "name": "Room | three guest heads",
+      "position": [
+        -1.3563599466666663,
+        0.92,
+        1.167514624
+      ],
+      "target": [
+        1.1790333333333338,
+        -0.18,
+        -0.8608
+      ],
+      "roomId": "sunseeker-predator-74-gen2-2018_room_three_guest_heads_3",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower"
+    },
+    {
+      "id": "room_4",
+      "name": "Room | two-berth crew cabin",
+      "position": [
+        1.0017067199999996,
+        0.92,
+        2.8891146240000003
+      ],
+      "target": [
+        3.5370999999999997,
+        -0.18,
+        0.8608
+      ],
+      "roomId": "sunseeker-predator-74-gen2-2018_room_two_berth_crew_cabin_4",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower"
+    },
+    {
+      "id": "room_5",
+      "name": "Room | Engine room",
+      "position": [
+        -13.272112,
+        0.72,
+        5.070112
+      ],
+      "target": [
+        -6.846,
+        -0.18,
+        1.076
+      ],
+      "roomId": "sunseeker-predator-74-gen2-2018_room_engine",
+      "deckId": "sunseeker-predator-74-gen2-2018_deck_lower"
+    }
+  ],
+  "fidelity": "Original reference-informed reconstruction of Sunseeker Predator 74 (Predator 74 Gen 2, launched at Boot Düsseldorf in January 2018). Silhouette and published dimensions are anchored to the audited dossier; interior joinery, hull offsets and service equipment are reconstructed where the sources do not expose them."
+}
