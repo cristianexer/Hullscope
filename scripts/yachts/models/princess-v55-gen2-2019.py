@@ -269,8 +269,11 @@ def material_set(name: str) -> bpy.types.Material:
     palette = {
         "hull_white": ((0.88, 0.92, 0.95, 1), 0.0, 0.23, 0.55, 0.0, "paint"),
         "underwater_navy": ((0.015, 0.035, 0.062, 1), 0.05, 0.38, 0.14, 0.0, "paint"),
-        "glazing": ((0.006, 0.018, 0.027, 1), 0.38, 0.13, 0.32, 0.12, None),
-        "charcoal": ((0.035, 0.046, 0.058, 1), 0.62, 0.22, 0.48, 0.0, "paint"),
+        # Keep the V55's signature dark glazing and hardtop visibly separated
+        # under the app's neutral environment. The prior near-black values
+        # collapsed both into a single silhouette and hid the window breaks.
+        "glazing": ((0.035, 0.13, 0.23, 1), 0.08, 0.16, 0.26, 0.08, None),
+        "charcoal": ((0.075, 0.11, 0.15, 1), 0.18, 0.28, 0.35, 0.0, "paint"),
         "silver": ((0.42, 0.46, 0.49, 1), 0.82, 0.23, 0.42, 0.0, None),
         "stainless": ((0.53, 0.59, 0.62, 1), 0.9, 0.19, 0.35, 0.0, None),
         "teak": ((0.27, 0.10, 0.028, 1), 0.0, 0.4, 0.08, 0.0, "teak"),

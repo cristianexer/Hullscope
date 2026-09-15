@@ -650,10 +650,10 @@ def create_geometry() -> None:
     for index in range(7):
         x = -length * 0.28 + index * length * 0.085
         box(f"foredeck inlay {index}", (x, 0.0, 0.858), (0.018, beam * 0.70, 0.012), graphite, cid("deck_main"), deck, 0.002, True)
-    # A shaped transom and a short bow roller give the silhouette a readable
-    # front/back orientation in three-quarter views; these are grouped with
-    # the deck assembly because they are part of the visible shell transition.
-    box("aft transom cap", (-length * 0.47, 0.0, 0.46), (0.10, beam * 0.72, 0.62), white, cid("deck_main"), deck, 0.045, True)
+    # The station hull already supplies the transom. Keep only a slim fascia
+    # so the rounded stern remains visible instead of reading as a detached
+    # rectangular wall in profile and three-quarter views.
+    box("aft transom cap", (-length * 0.47, 0.0, 0.54), (0.06, beam * 0.70, 0.28), white, cid("deck_main"), deck, 0.028, True)
     box("bow roller", (length * 0.49, 0.0, 1.00), (0.26, 0.16, 0.10), steel, cid("mooring"), mooring, 0.025, True)
     for side in (-1, 1):
         add_curve_rail(f"foredeck guard {side}", [(length * 0.26, side * beam * 0.39, 1.00), (length * 0.42, side * beam * 0.25, 1.06), (length * 0.49, side * beam * 0.08, 1.10)], 0.014, steel, cid("mooring"), mooring)
@@ -734,6 +734,25 @@ def create_geometry() -> None:
         for side in (-1, 1):
             knife_window_band(f"hull side window {side}", -hull_window_length * 0.44, hull_window_length * 0.56, side * beam * 0.43, side * beam * 0.455, hull_window_z - hull_window_height * 0.50, hull_window_z + hull_window_height * 0.50, dark, cid("glazing"), glazing)
             box(f"hull window lower sill {side}", (length * 0.02, side * beam * 0.445, hull_window_z - hull_window_height * 0.53), (hull_window_length * 1.05, 0.04, 0.055), steel, cid("glazing"), glazing, 0.012, True)
+            if is_x_class:
+                # X-class identity is the almost continuous, floor-to-ceiling
+                # side glass running through the long main deck. The generic
+                # cabin band is deliberately retained at the bow, while this
+                # extended pane carries the distinctive aft window sweep.
+                window_band(
+                    f"X95 continuous main-deck glazing {side}",
+                    -length * 0.37,
+                    length * 0.36,
+                    side * beam * 0.425,
+                    side * beam * 0.452,
+                    1.38,
+                    1.93,
+                    dark,
+                    cid("glazing"),
+                    glazing,
+                )
+                for mullion in (-0.24, -0.05, 0.14, 0.30):
+                    box(f"X95 long-glass mullion {side} {mullion}", (length * mullion, side * beam * 0.445, 1.66), (0.025, 0.045, 0.52), steel, cid("glazing"), glazing, 0.008, True)
     else:
         for side in (-1, 1):
             box(f"side wind deflector {side}", (length * 0.06, side * beam * 0.40, 1.18), (length * 0.15, 0.035, 0.28), dark, cid("glazing"), glazing, 0.02, True)
@@ -757,23 +776,31 @@ def create_geometry() -> None:
     box("battery bank", (-length * 0.03, 0.0, -draft * 0.30), (length * 0.14, beam * 0.24, 0.28), graphite, cid("electrical"), electrical, 0.04)
     box("fuel tank", (-length * 0.12, 0.0, -draft * 0.48), (length * 0.25, beam * 0.32, 0.24), graphite, cid("fuel"), fuel, 0.05)
     box("freshwater tank", (length * 0.10, 0.0, -draft * 0.45), (length * 0.18, beam * 0.26, 0.22), white, cid("freshwater"), freshwater, 0.05)
-    # Keep the service trunk anchored to the deckhouse roof. The former fixed
-    # 1.95 m datum floated well above the low R35/Hawk/V40 profiles and was
-    # the most obvious “missing piece” in their browser screenshots.
-    vent_base = locals().get("cabin_top", 1.30)
-    vent_z = 0.65 if is_open_dayboat else vent_base + 0.12
+    # Keep the service trunk inside the below-deck service envelope. The
+    # former roof datum became a long floating bar after the proportional
+    # superstructure pass and was the most obvious “missing piece” in the
+    # browser screenshots. It remains selectable and appears in cutaway/
+    # systems views without polluting the exterior silhouette.
+    vent_z = -draft * 0.28
     vent_depth = length * (0.12 if is_open_dayboat else 0.15)
     cylinder("ventilation trunk", (length * 0.05, 0.0, vent_z), 0.055, vent_depth, steel, cid("ventilation"), ventilation, (0.0, math.pi / 2.0, 0.0), True)
     box("liferaft canister", (-length * 0.38, -beam * 0.40, 1.20), (length * 0.14, beam * 0.11, 0.16), orange, cid("safety"), safety, 0.04, True)
     box("anchor", (length * 0.49, 0.0, 0.48), (0.20, 0.12, 0.42), steel, cid("mooring"), mooring, 0.025, True)
     for side in (-1, 1):
         add_curve_rail(f"side rail {side}", [(length * 0.12, side * beam * 0.44, 0.96), (length * 0.32, side * beam * 0.42, 1.02), (length * 0.47, side * beam * 0.24, 0.84)], 0.018, steel, cid("mooring"), mooring)
+        for index, x in enumerate((0.16, 0.25, 0.34, 0.42)):
+            rail_z = 0.94 if x < 0.37 else 0.88
+            cylinder(f"side rail stanchion {side} {index}", (length * x, side * beam * (0.435 if x < 0.37 else 0.34), rail_z), 0.014, 0.22 if x < 0.37 else 0.16, steel, cid("mooring"), mooring, decorative=True)
     box("bathing platform", (-length * 0.48, 0.0, 0.18), (length * 0.12, beam * 0.78, 0.10), teak, cid("swim_platform"), swim, 0.025, True)
 
     if is_flybridge:
         flybridge = root_for("flybridge", "Flybridge and upper deck", "accommodation", "superstructure", purpose="Reference-informed upper helm, seating and deck volume.", enclosure="equipment", deck="deck_main", explode=(0.0, 0.0, 1.0))
         fly_z = 2.72 if is_super_flybridge else 2.42 + (0.22 if target_length > 20 else 0.0) + height_lift * 0.55
-        fly_len = 0.48 if is_super_flybridge else 0.34
+        # A long-range X95 carries an unusually long “super fly” deck. The
+        # ordinary F/Y/S/Manhattan/Ocean families still need a substantial
+        # aft flybridge so their upper deck reads as a supported volume rather
+        # than a short floating slab.
+        fly_len = 0.78 if is_super_flybridge else 0.48 if (is_manhattan or is_ocean or target_length > 24.0) else 0.42
         fly_beam = 0.82 if is_super_flybridge else 0.70
         canopy_shell(
             "flybridge deck shell",

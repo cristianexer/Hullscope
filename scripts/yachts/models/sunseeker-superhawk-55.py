@@ -148,10 +148,10 @@ def materials() -> dict[str, bpy.types.Material]:
     return {
         "hull": pbr_material("Paint / pearl white", (0.78, 0.82, 0.84, 1), roughness=0.22, coat=0.35),
         "hull_lower": pbr_material("Paint / silver lower chine", (0.28, 0.34, 0.38, 1), metallic=0.42, roughness=0.28, coat=0.25),
-        # Lift the dark surfaces enough for browser/environment lighting to
-        # separate glazing, canopy and hull shoulders at a glance.
-        "navy": pbr_material("Paint / midnight navy", (0.060, 0.14, 0.22, 1), roughness=0.22, coat=0.30),
-        "glass": pbr_material("Glass / blue-black solar", (0.085, 0.25, 0.40, 1), roughness=0.10, transmission=0.20, ior=1.46, coat=0.18),
+        # Preserve the Superhawk's dark palette while keeping the cabin and
+        # glass legible in the browser's environment lighting.
+        "navy": pbr_material("Paint / midnight navy", (0.085, 0.19, 0.29, 1), roughness=0.24, coat=0.26),
+        "glass": pbr_material("Glass / blue-black solar", (0.12, 0.32, 0.50, 1), roughness=0.13, transmission=0.16, ior=1.46, coat=0.16),
         "teak": pbr_material("Teak / warm deck", (0.34, 0.15, 0.055, 1), roughness=0.62),
         "teak_dark": pbr_material("Teak / dark furniture", (0.10, 0.045, 0.018, 1), roughness=0.55),
         "cloth": pbr_material("Cloth / warm ivory", (0.58, 0.54, 0.46, 1), roughness=0.88),
