@@ -620,7 +620,9 @@ def create_geometry() -> None:
     glazing_color = (0.14, 0.36, 0.58, 1) if is_sunseeker else (0.15, 0.39, 0.62, 1)
     white = material(f"{brand_prefix} gelcoat ivory", gelcoat_color, roughness=0.24)
     dark = material(f"{brand_prefix} glazing deep blue", glazing_color, metallic=0.02, roughness=0.12)
-    carbon = material("R35 carbon composite", (0.045, 0.10, 0.14, 1), metallic=0.08, roughness=0.30)
+    # R35 carbon remains dark and technical, but it must still expose the
+    # hull chine and sheer under the browser's neutral environment lighting.
+    carbon = material("R35 carbon composite", (0.13, 0.22, 0.28, 1), metallic=0.06, roughness=0.34)
     teak = material("teak", (0.38, 0.16, 0.055, 1), roughness=0.58)
     graphite = material("graphite", (0.12, 0.19, 0.25, 1), metallic=0.12, roughness=0.28)
     steel = material("stainless steel", (0.32, 0.38, 0.42, 1), metallic=0.85, roughness=0.2)
@@ -682,18 +684,37 @@ def create_geometry() -> None:
         cabin_top_half = beam * (0.32 if is_sportscruiser else 0.36)
         curved_cabin("sloped wheelhouse volume", cabin_front, cabin_aft, 0.88, cabin_top, cabin_bottom_half, cabin_top_half, white, cid("superstructure"), super_root)
         roof_z = cabin_top + 0.07
-        canopy_shell(
-            "integrated hardtop canopy",
-            cabin_front + 0.06,
-            cabin_aft - 0.06,
-            roof_z - 0.08,
-            roof_z + 0.05,
-            beam * (0.42 if is_sportscruiser else 0.46),
-            beam * (0.34 if is_sportscruiser else 0.38),
-            graphite if is_sunseeker else white,
-            cid("superstructure"),
-            super_root,
-        )
+        # Flybridge yachts read more cleanly when the wheelhouse roof is a
+        # shallow cap tucked under the upper deck. A full-width second canopy
+        # here created three visually separate horizontal slabs: cabin roof,
+        # flybridge deck, and flybridge hardtop. Sportscruisers retain the
+        # larger integrated hardtop because it is part of their identity.
+        if not is_flybridge:
+            canopy_shell(
+                "integrated hardtop canopy",
+                cabin_front + 0.06,
+                cabin_aft - 0.06,
+                roof_z - 0.08,
+                roof_z + 0.05,
+                beam * (0.42 if is_sportscruiser else 0.46),
+                beam * (0.34 if is_sportscruiser else 0.38),
+                graphite if is_sunseeker else white,
+                cid("superstructure"),
+                super_root,
+            )
+        else:
+            canopy_shell(
+                "wheelhouse roof cap",
+                cabin_front + 0.11,
+                cabin_aft - 0.11,
+                roof_z - 0.025,
+                roof_z + 0.025,
+                beam * 0.36,
+                beam * 0.30,
+                graphite if is_sunseeker else white,
+                cid("superstructure"),
+                super_root,
+            )
         if is_opening_roof:
             box("opening roof aperture", (length * 0.13, 0.0, roof_z + 0.052), (length * 0.18, beam * 0.42, 0.018), dark, cid("glazing"), glazing, 0.01, True)
         screen_z = 1.42 if is_sportscruiser else 1.65
@@ -824,6 +845,38 @@ def create_geometry() -> None:
         box("flybridge port coaming", (-length * 0.02, -beam * fly_beam * 0.43, fly_z + 0.10), (length * fly_len * 0.88, beam * 0.06, 0.22), white, cid("flybridge"), flybridge, 0.035, True)
         box("flybridge starboard coaming", (-length * 0.02, beam * fly_beam * 0.43, fly_z + 0.10), (length * fly_len * 0.88, beam * 0.06, 0.22), white, cid("flybridge"), flybridge, 0.035, True)
         box("flybridge aft fascia", (-length * 0.02 - length * fly_len * 0.44, 0.0, fly_z + 0.10), (0.12, beam * fly_beam * 0.86, 0.22), white, cid("flybridge"), flybridge, 0.035, True)
+        # A substantial side fascia visually joins the upper deck to its
+        # supports. The previous narrow coamings left only several horizontal
+        # lines in a three-quarter browser view, making the flybridge appear
+        # to float above the wheelhouse.
+        for side in (-1, 1):
+            box(
+                f"flybridge continuous side fascia {side}",
+                (-length * 0.02, side * beam * fly_beam * 0.41, fly_z + 0.23),
+                (length * fly_len * 0.78, 0.11, 0.34),
+                white,
+                cid("flybridge"),
+                flybridge,
+                0.035,
+                True,
+            )
+            if not is_super_flybridge:
+                # A low tinted windscreen closes the open social deck without
+                # turning it into a second solid cabin. It gives the upper
+                # helm a readable enclosure and visually bridges the fascia
+                # to the hardtop in profile views.
+                window_band(
+                    f"flybridge side windscreen {side}",
+                    length * 0.18,
+                    -length * 0.18,
+                    side * beam * 0.385,
+                    side * beam * 0.405,
+                    fly_z + 0.24,
+                    fly_z + 0.52,
+                    dark,
+                    cid("glazing"),
+                    glazing,
+                )
         box("flybridge wetbar", (-length * 0.12, beam * 0.10, fly_z + 0.23), (length * 0.12, beam * 0.20, 0.30), wood, cid("flybridge"), flybridge, 0.045, True)
         box("flybridge barbecue worktop", (-length * 0.12, beam * 0.10, fly_z + 0.40), (length * 0.14, beam * 0.22, 0.06), steel, cid("flybridge"), flybridge, 0.018, True)
         box("flybridge port aft sunpad", (-length * 0.18, -beam * 0.19, fly_z + 0.25), (length * 0.16, beam * 0.15, 0.22), cushion, cid("flybridge"), flybridge, 0.05, True)
@@ -849,7 +902,7 @@ def create_geometry() -> None:
             # hardtop. Adding the canopy and its four narrow legs closes the
             # visual gap above the seating without turning the deck into an
             # enclosed box or adding another selectable assembly.
-            fly_canopy_z = fly_z + 0.72
+            fly_canopy_z = fly_z + 0.52
             canopy_shell(
                 "flybridge hardtop canopy",
                 length * 0.18,
@@ -919,14 +972,10 @@ def create_geometry() -> None:
             # one repeated upper box.
             scale = {"f45": 0.86, "f55": 1.0, "f65": 1.14}[model_name]
             box(f"{model_name} flybridge aft landing", (-length * 0.18, 0.0, fly_z + 0.16), (length * 0.24 * scale, beam * 0.60, 0.10), teak, signature_id, signature, 0.025, True)
-            box(f"{model_name} flybridge brow extension", (length * 0.03, 0.0, fly_z + 0.68), (length * 0.34 * scale, beam * 0.80, 0.09), white, signature_id, signature, 0.035, True)
-            for side in (-1, 1):
-                box(f"{model_name} flybridge brow support {side}", (length * 0.07, side * beam * 0.29, fly_z + 0.39), (0.06, 0.07, 0.60), steel, signature_id, signature, 0.018, True)
-                box(f"{model_name} flybridge aft canopy support {side}", (-length * 0.15, side * beam * 0.29, fly_z + 0.39), (0.06, 0.07, 0.60), steel, signature_id, signature, 0.018, True)
             for side in (-1, 1):
                 box(f"{model_name} flybridge coaming {side}", (-length * 0.12, side * beam * 0.31, fly_z + 0.26), (length * 0.28 * scale, beam * 0.07, 0.18), teak, signature_id, signature, 0.025, True)
         elif model_name == "y85":
-            box("Y85 raised pilothouse brow", (length * 0.02, 0.0, fly_z + 0.72), (length * 0.38, beam * 0.84, 0.10), white, signature_id, signature, 0.04, True)
+            box("Y85 raised pilothouse brow", (length * 0.02, 0.0, fly_z + 0.55), (length * 0.38, beam * 0.84, 0.10), white, signature_id, signature, 0.04, True)
             for side in (-1, 1):
                 box(f"Y85 wraparound side glass {side}", (length * 0.00, side * beam * 0.34, 1.76), (length * 0.40, 0.035, 0.30), dark, signature_id, signature, 0.02, True)
                 box(f"Y85 pilothouse mullion {side}", (length * 0.12, side * beam * 0.36, 1.78), (0.025, 0.045, 0.32), steel, signature_id, signature, 0.008, True)
@@ -973,7 +1022,7 @@ def create_geometry() -> None:
             # low-profile sports ranges; add a hardtop eyebrow, supports and
             # the aft stair/seat rhythm visible in profile.
             upper_z = fly_z if is_flybridge else 2.45
-            box("manhattan flybridge eyebrow", (length * 0.02, 0.0, upper_z + 0.68), (length * 0.30, beam * 0.76, 0.10), graphite, signature_id, signature, 0.04, True)
+            box("manhattan flybridge eyebrow", (length * 0.02, 0.0, upper_z + 0.50), (length * 0.30, beam * 0.76, 0.10), graphite, signature_id, signature, 0.04, True)
             for side in (-1, 1):
                 box(f"manhattan hardtop support {side}", (length * 0.12, side * beam * 0.30, upper_z + 0.38), (0.06, 0.06, 0.68), steel, signature_id, signature, 0.02, True)
                 box(f"manhattan aft step {side}", (-length * 0.30, side * beam * 0.34, 1.08), (length * 0.08, beam * 0.09, 0.10), teak, signature_id, signature, 0.02, True)
@@ -1022,7 +1071,7 @@ def create_geometry() -> None:
             # The Princess F/Y/S and smaller Manhattan-style silhouettes get
             # a family-specific flybridge brow and upright screen so they do
             # not collapse into one rectangular generic cabin.
-            box("flybridge signature brow", (length * 0.08, 0.0, fly_z + 0.58), (length * 0.22, beam * 0.72, 0.08), graphite if is_sunseeker else white, signature_id, signature, 0.035, True)
+            box("flybridge signature brow", (length * 0.08, 0.0, fly_z + 0.47), (length * 0.22, beam * 0.72, 0.08), graphite if is_sunseeker else white, signature_id, signature, 0.035, True)
             box("flybridge signature screen", (length * 0.18, 0.0, fly_z + 0.33), (0.035, beam * 0.48, 0.36), dark, signature_id, signature, 0.02, True)
             for side in (-1, 1):
                 box(f"flybridge signature console wing {side}", (length * 0.02, side * beam * 0.26, fly_z + 0.28), (length * 0.12, beam * 0.08, 0.12), teak, signature_id, signature, 0.02, True)
