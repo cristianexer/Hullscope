@@ -46,13 +46,14 @@ def preflight(token: str) -> dict:
     }
 
 
-def inspect_release(stage: Path) -> dict:
+def inspect_release(stage: Path, allow_draft: bool = False) -> dict:
     """Recheck exact staged bytes immediately before giving the CLI the folder."""
     root = Path(__file__).resolve().parents[2] / ".tools" / "yachts" / "stages"
     if not stage.is_dir() or stage.is_symlink() or root.resolve() not in stage.resolve().parents:
         raise ValueError("Publication requires an explicitly staged release directory.")
     release = json.loads((stage / "release.json").read_text(encoding="utf-8"))
-    if release.get("project") != "hullscope-yachts" or release.get("status") != "validated" or release.get("unresolvedSeedRows") != 0 or not release.get("models"):
+    allowed_statuses = {"validated", "draft"} if allow_draft else {"validated"}
+    if release.get("project") != "hullscope-yachts" or release.get("status") not in allowed_statuses or release.get("unresolvedSeedRows") != 0 or not release.get("models"):
         raise ValueError("The collection has not passed the staging gate.")
     checksums = {}
     for line in (stage / "checksums.txt").read_text(encoding="utf-8").splitlines():
@@ -78,8 +79,8 @@ def inspect_release(stage: Path) -> dict:
     return {"bytes": size, "files": len(files), "checksumsSha256": hashlib.sha256((stage / "checksums.txt").read_bytes()).hexdigest()}
 
 
-def publish(token: str, stage: Path, storage_review: Path) -> dict:
-    inspected = inspect_release(stage)
+def publish(token: str, stage: Path, storage_review: Path, allow_draft: bool = False) -> dict:
+    inspected = inspect_release(stage, allow_draft=allow_draft)
     identity = preflight(token)
     storage = json.loads(storage_review.read_text(encoding="utf-8"))
     if storage.get("repository") != identity["repository"] or storage.get("checksumsSha256") != inspected["checksumsSha256"] or storage.get("stagedBytes") != inspected["bytes"] or storage.get("approved") is not True or storage.get("paidUpgrade") is not False or not storage.get("evidence"):
@@ -95,7 +96,8 @@ def publish(token: str, stage: Path, storage_review: Path) -> dict:
             marker = json.loads(Path(marker_path).read_text(encoding="utf-8"))
         except Exception:
             raise ValueError("Refusing to overwrite an existing repository without a verified Hullscope release marker.") from None
-        if marker.get("project") != "hullscope-yachts" or marker.get("status") != "validated":
+        allowed_statuses = {"validated", "draft"} if allow_draft else {"validated"}
+        if marker.get("project") != "hullscope-yachts" or marker.get("status") not in allowed_statuses:
             raise ValueError("Existing repository is unrelated; it will not be overwritten.")
     cli = Path(sys.executable).parent / "hf"
     if not cli.is_file():
@@ -120,7 +122,7 @@ def publish(token: str, stage: Path, storage_review: Path) -> dict:
     checksum_path = hf_hub_download(repository, "checksums.txt", repo_type="dataset", revision=revision, token=False)
     if hashlib.sha256(Path(checksum_path).read_bytes()).hexdigest() != inspected["checksumsSha256"]:
         raise ValueError("Anonymous revision does not match the staged collection.")
-    return {"repository": repository, "revision": revision, **inspected, "published": True, "applicationPromoted": False, "browserVerification": "required before promotion"}
+    return {"repository": repository, "revision": revision, **inspected, "published": True, "applicationPromoted": False, "releaseStatus": "draft" if allow_draft else "validated", "browserVerification": "required before promotion"}
 
 
 def main() -> int:
@@ -128,6 +130,7 @@ def main() -> int:
     parser.add_argument("--token-file", type=Path, default=Path("/Users/cristianexer/.HF_TOKEN"))
     parser.add_argument("--publish", type=Path, help="Explicit validated stage to upload. Omit for read-only account preflight.")
     parser.add_argument("--storage-review", type=Path, help="Local size-specific storage/redistribution assessment; not uploaded.")
+    parser.add_argument("--allow-draft", action="store_true", help="Publish a clearly marked draft without promoting it into the application.")
     args = parser.parse_args()
     try:
         token = load_credential(args.token_file)
@@ -135,7 +138,7 @@ def main() -> int:
         os.environ["HF_ENDPOINT"] = "https://huggingface.co"
         if args.publish and not args.storage_review:
             raise ValueError("Publication requires a reviewed storage assessment.")
-        result = publish(token, args.publish.resolve(), args.storage_review) if args.publish else preflight(token)
+        result = publish(token, args.publish.resolve(), args.storage_review, allow_draft=args.allow_draft) if args.publish else preflight(token)
         print(json.dumps(result, indent=2))
         return 0
     except HfHubHTTPError as error:

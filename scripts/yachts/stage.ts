@@ -31,7 +31,8 @@ export async function inspectStage(directory:string) {
  return files.sort((a,b)=>a.path.localeCompare(b.path));
 }
 
-export async function stageDataset() {
+export async function stageDataset(options: { allowDraft?: boolean } = {}) {
+ const allowDraft = options.allowDraft === true;
  const audit=await auditCatalog(),models=await readReleaseResearch(),selection=await readReleaseSelection();
  const seed=JSON.parse(await readFile('output/yachts/seed-audit.json','utf8')) as {rows:YachtSeedRow[]};
  const selectedIds=new Set(selection.ids);
@@ -40,7 +41,7 @@ export async function stageDataset() {
   return Boolean(id&&selectedIds.has(id));
  });
  const errors=collectionFailures(selectedRows,models,models.filter(model=>model.productionStatus!=='announced').map(model=>model.id));
- if(errors.length)throw new Error(`Collection is incomplete; nothing staged.\n${errors.slice(0,30).join('\n')}\n${errors.length} release blockers in total.`);
+ if(errors.length && !allowDraft)throw new Error(`Collection is incomplete; nothing staged.\n${errors.slice(0,30).join('\n')}\n${errors.length} release blockers in total.`);
  const production=models.filter(model=>model.productionStatus!=='announced');
  const authoringIndex=JSON.parse(await readFile('scripts/yachts/authoring-index.json','utf8')) as Record<string,string>;
  const inputs:{source:string;path:string}[]=[];
@@ -51,6 +52,7 @@ export async function stageDataset() {
   const master=resolve(root,'masters',`${model.id}.blend`),masterHash=sha256(await readFile(master));
   const reviewPath=resolve(root,'review',model.id,'quality.json'),review=qualityReviewSchema.parse(JSON.parse(await readFile(reviewPath,'utf8')));
   const failures=reviewFailures(manifest,review);
+  if(allowDraft)failures.length=0;
   if(review.masterSha256!==masterHash||review.manifestSha256!==sha256(manifestBytes))failures.push('Review no longer matches authored master/manifest.');
   const technical=JSON.parse(await readFile(`${source}/technical-review.json`,'utf8'));
   if(technical.masterSha256!==masterHash||technical.dimensions.withinOnePercent!==true)failures.push('Export dimensions or master checksum failed.');
@@ -94,11 +96,11 @@ export async function stageDataset() {
  await copyFile('scripts/yachts/export_blender.py',`${stage}/authoring/export_blender.py`);
  await copyFile('scripts/yachts/authoring-index.json',`${stage}/authoring/index.json`);
  await copyFile('docs/yachts/AUTHORING.md',`${stage}/authoring/README.md`);
- await writeFile(`${stage}/release.json`,JSON.stringify({schemaVersion:1,project:'hullscope-yachts',status:'validated',catalogGenerations:models.length,productionGenerations:production.length,availableResearchedGenerations:audit.availableGenerations,seedRows:audit.seedRows,unresolvedSeedRows:audit.unresolvedSeedRows,scope:selection,models:production.map(model=>model.id),createdAt:new Date().toISOString()},null,2));
+ await writeFile(`${stage}/release.json`,JSON.stringify({schemaVersion:1,project:'hullscope-yachts',status:allowDraft?'draft':'validated',catalogGenerations:models.length,productionGenerations:production.length,availableResearchedGenerations:audit.availableGenerations,seedRows:audit.seedRows,unresolvedSeedRows:audit.unresolvedSeedRows,scope:selection,models:production.map(model=>model.id),visualReview:allowDraft?'pending':'required',publicationReady:allowDraft?false:true,draftNote:allowDraft?'Published as-is at the user\'s request; independent visual QA remains changes-required.':undefined,createdAt:new Date().toISOString()},null,2));
  const files=await inspectStage(stage);
  await writeFile(`${stage}/checksums.txt`,files.map(file=>`${file.sha256}  ${file.path}`).join('\n')+'\n');
  const checksumBytes=await readFile(`${stage}/checksums.txt`);
  const result={stage,files:files.length+1,bytes:files.reduce((sum,file)=>sum+file.bytes,0)+checksumBytes.length,checksumsSha256:sha256(checksumBytes),published:false};
  console.log(JSON.stringify(result,null,2));return result;
 }
-if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url))await stageDataset();
+if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url))await stageDataset({allowDraft:process.argv.includes('--draft')});
