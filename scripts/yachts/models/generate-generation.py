@@ -277,6 +277,41 @@ def tapered_prism(name: str, x_front: float, x_aft: float, z_bottom: float, z_to
     return create_mesh(name, vertices, faces, mat, component_id, root, bevel=0.10)
 
 
+def canopy_shell(name: str, x_front: float, x_aft: float, z_bottom: float, z_top: float, bottom_half_beam: float, top_half_beam: float, mat: bpy.types.Material, component_id: str, root: bpy.types.Object) -> bpy.types.Object:
+    """Create a shallow, overhanging canopy with a tapered plan and soft stations.
+
+    A cube is a poor stand-in for a yacht hardtop: it reads as a floating slab
+    as soon as the camera sees the underside. This deliberately shallow shell
+    keeps a readable underside, a smaller upper footprint, and a slightly
+    curved leading/trailing edge while remaining one inexpensive render mesh.
+    """
+    stations = [
+        (x_front, bottom_half_beam * 0.90, top_half_beam * 0.78, z_bottom + 0.02, z_top - 0.015),
+        ((x_front + x_aft) * 0.50, bottom_half_beam, top_half_beam, z_bottom, z_top),
+        (x_aft, bottom_half_beam * 0.94, top_half_beam * 0.82, z_bottom + 0.012, z_top - 0.02),
+    ]
+    vertices: list[tuple[float, float, float]] = []
+    for x, bottom, top, low, high in stations:
+        chamfer = min(0.08, max(0.028, (high - low) * 0.28))
+        vertices.extend([
+            (x, -bottom, low), (x, bottom, low),
+            (x, bottom * 1.015, low + chamfer),
+            (x, top, high - chamfer), (x, top, high),
+            (x, -top, high), (x, -top, high - chamfer),
+            (x, -bottom * 1.015, low + chamfer),
+        ])
+    faces: list[tuple[int, ...]] = []
+    for index in range(len(stations) - 1):
+        a = index * 8
+        b = (index + 1) * 8
+        for side in range(8):
+            nxt = (side + 1) % 8
+            faces.append((a + side, b + side, b + nxt, a + nxt))
+    faces.append(tuple(range(7, -1, -1)))
+    faces.append(tuple((len(stations) - 1) * 8 + side for side in range(8)))
+    return create_mesh(name, vertices, faces, mat, component_id, root, bevel=0.035)
+
+
 def curved_cabin(name: str, x_front: float, x_aft: float, z_bottom: float, z_top: float, bottom_half_beam: float, top_half_beam: float, mat: bpy.types.Material, component_id: str, root: bpy.types.Object) -> bpy.types.Object:
     """Create a three-station, chamfered wheelhouse instead of a single box.
 
@@ -341,6 +376,24 @@ def window_band(name: str, x_aft: float, x_front: float, y_aft: float, y_front: 
     return create_mesh(name, vertices, faces, mat, component_id, root, bevel=0.012, decorative=True)
 
 
+def knife_window_band(name: str, x_aft: float, x_front: float, y_aft: float, y_front: float, z_bottom: float, z_top: float, mat: bpy.types.Material, component_id: str, root: bpy.types.Object) -> bpy.types.Object:
+    """Create a rising, tapered hull window instead of a rectangular strip."""
+    inset = 0.008 if y_front >= 0 else -0.008
+    y0, y1 = y_aft + inset, y_front + inset
+    thickness = -0.028 if y0 >= 0 else 0.028
+    rise = min(0.16, max(0.06, (z_top - z_bottom) * 0.28))
+    front = [
+        (x_aft, y0, z_bottom + 0.035),
+        (x_front, y1, z_bottom + rise),
+        (x_front, y1, z_top + rise * 0.45),
+        (x_aft, y0, z_top - 0.025),
+    ]
+    back = [(x, y + thickness, z) for x, y, z in front]
+    vertices = front + back
+    faces = [(0, 1, 2, 3), (7, 6, 5, 4), (0, 4, 5, 1), (1, 5, 6, 2), (2, 6, 7, 3), (3, 7, 4, 0)]
+    return create_mesh(name, vertices, faces, mat, component_id, root, bevel=0.012, decorative=True)
+
+
 def hull_stations(profile: str = "flybridge") -> list[tuple[float, float, float]]:
     """Return normalized longitudinal stations shared by hull and deck shells."""
     stations = [
@@ -385,13 +438,19 @@ def hull_mesh(length: float, beam: float, draft: float, mat: bpy.types.Material,
     for xn, width, top in stations:
         x = xn * length
         half = beam * width / 2.0
+        # Real planing and flybridge hulls carry rocker: the keel is deepest
+        # around midships and rises toward the transom and bow. A constant
+        # bottom line was one of the reasons the side view read as a plate.
+        end_fraction = min(1.0, abs(xn) / 0.50)
+        keel = -draft * (0.86 + 0.14 * (1.0 - end_fraction))
+        chine = keel * 0.62
         verts.extend([
             (x, -half, top),
             (x, -half * 0.95, top - draft * 0.23),
-            (x, -half * 0.68, -draft * 0.62),
-            (x, -half * 0.25, -draft),
-            (x, half * 0.25, -draft),
-            (x, half * 0.68, -draft * 0.62),
+            (x, -half * 0.68, chine),
+            (x, -half * 0.25, keel),
+            (x, half * 0.25, keel),
+            (x, half * 0.68, chine),
             (x, half * 0.95, top - draft * 0.23),
             (x, half, top),
         ])
@@ -618,9 +677,20 @@ def create_geometry() -> None:
         cabin_top_half = beam * (0.32 if is_sportscruiser else 0.36)
         curved_cabin("sloped wheelhouse volume", cabin_front, cabin_aft, 0.88, cabin_top, cabin_bottom_half, cabin_top_half, white, cid("superstructure"), super_root)
         roof_z = cabin_top + 0.07
-        box("hardtop", (length * 0.10, 0.0, roof_z), (length * (0.32 if is_sportscruiser else 0.35), beam * 0.78, 0.12), graphite if is_sunseeker else white, cid("superstructure"), super_root, 0.05)
+        canopy_shell(
+            "integrated hardtop canopy",
+            cabin_front + 0.06,
+            cabin_aft - 0.06,
+            roof_z - 0.08,
+            roof_z + 0.05,
+            beam * (0.42 if is_sportscruiser else 0.46),
+            beam * (0.34 if is_sportscruiser else 0.38),
+            graphite if is_sunseeker else white,
+            cid("superstructure"),
+            super_root,
+        )
         if is_opening_roof:
-            box("opening roof aperture", (length * 0.13, 0.0, roof_z + 0.065), (length * 0.18, beam * 0.42, 0.025), dark, cid("glazing"), glazing, 0.01, True)
+            box("opening roof aperture", (length * 0.13, 0.0, roof_z + 0.052), (length * 0.18, beam * 0.42, 0.018), dark, cid("glazing"), glazing, 0.01, True)
         screen_z = 1.42 if is_sportscruiser else 1.65
         screen_h = 0.40 if is_sportscruiser else 0.55
         box("port windshield", (length * 0.20, -beam * 0.37, screen_z), (length * 0.22, 0.035, screen_h), dark, cid("glazing"), glazing, 0.02, True)
@@ -657,7 +727,7 @@ def create_geometry() -> None:
         hull_window_height = 0.62 if is_sportscruiser else 0.46
         hull_window_z = 0.60 if is_sportscruiser else 0.48
         for side in (-1, 1):
-            window_band(f"hull side window {side}", -hull_window_length * 0.44, hull_window_length * 0.56, side * beam * 0.43, side * beam * 0.455, hull_window_z - hull_window_height * 0.50, hull_window_z + hull_window_height * 0.50, dark, cid("glazing"), glazing)
+            knife_window_band(f"hull side window {side}", -hull_window_length * 0.44, hull_window_length * 0.56, side * beam * 0.43, side * beam * 0.455, hull_window_z - hull_window_height * 0.50, hull_window_z + hull_window_height * 0.50, dark, cid("glazing"), glazing)
             box(f"hull window lower sill {side}", (length * 0.02, side * beam * 0.445, hull_window_z - hull_window_height * 0.53), (hull_window_length * 1.05, 0.04, 0.055), steel, cid("glazing"), glazing, 0.012, True)
     else:
         for side in (-1, 1):
@@ -694,7 +764,18 @@ def create_geometry() -> None:
         fly_z = 2.72 if is_super_flybridge else 2.42 + (0.22 if target_length > 20 else 0.0) + height_lift * 0.55
         fly_len = 0.48 if is_super_flybridge else 0.34
         fly_beam = 0.82 if is_super_flybridge else 0.70
-        box("flybridge deck", (-length * 0.02, 0.0, fly_z), (length * fly_len, beam * fly_beam, 0.10), teak, cid("flybridge"), flybridge, 0.04)
+        canopy_shell(
+            "flybridge deck shell",
+            length * fly_len * 0.48,
+            -length * fly_len * 0.52,
+            fly_z - 0.05,
+            fly_z + 0.055,
+            beam * fly_beam * 0.50,
+            beam * fly_beam * 0.43,
+            teak,
+            cid("flybridge"),
+            flybridge,
+        )
         box("flybridge helm console", (length * 0.10, beam * 0.18, fly_z + 0.30), (length * 0.12, beam * 0.16, 0.38), graphite, cid("flybridge"), flybridge, 0.05)
         box("flybridge port settee", (-length * 0.04, -beam * 0.22, fly_z + 0.30), (length * 0.20, beam * 0.16, 0.30), cushion, cid("flybridge"), flybridge, 0.06)
         box("flybridge starboard settee", (-length * 0.04, beam * 0.22, fly_z + 0.30), (length * 0.20, beam * 0.16, 0.30), cushion, cid("flybridge"), flybridge, 0.06)
@@ -716,15 +797,38 @@ def create_geometry() -> None:
         support_height = max(0.28, fly_z - bridge_base - 0.04)
         support_z = bridge_base + 0.04 + support_height * 0.5
         for side in (-1, 1):
-            box(f"flybridge forward support {side}", (length * 0.16, side * beam * 0.285, support_z), (0.38, 0.28, support_height), white, cid("flybridge"), flybridge, 0.055, True)
-            box(f"flybridge aft support {side}", (-length * 0.12, side * beam * 0.285, support_z), (0.38, 0.28, support_height), white, cid("flybridge"), flybridge, 0.055, True)
+            box(f"flybridge forward support {side}", (length * 0.16, side * beam * 0.285, support_z), (0.18, 0.14, support_height), white, cid("flybridge"), flybridge, 0.035, True)
+            box(f"flybridge aft support {side}", (-length * 0.12, side * beam * 0.285, support_z), (0.18, 0.14, support_height), white, cid("flybridge"), flybridge, 0.035, True)
             # Side cheeks visually tie the supports into the cabin shoulder;
             # these are grouped with the flybridge and remain independently
             # inspectable without adding another selectable assembly.
             box(f"flybridge side cheek {side}", (length * 0.02, side * beam * 0.30, bridge_base + support_height * 0.30), (length * 0.28, 0.10, 0.12), white, cid("flybridge"), flybridge, 0.025, True)
-        box("flybridge stair housing", (-length * 0.14, 0.0, bridge_base + support_height * 0.34), (0.58, beam * 0.24, support_height * 0.68), white, cid("flybridge"), flybridge, 0.06, True)
+        box("flybridge stair housing", (-length * 0.14, 0.0, bridge_base + support_height * 0.34), (0.42, beam * 0.20, support_height * 0.62), white, cid("flybridge"), flybridge, 0.05, True)
         for side in (-1, 1):
             add_curve_rail(f"flybridge rail {side}", [(-length * 0.20, side * beam * 0.33, fly_z + 0.15), (length * 0.08, side * beam * 0.36, fly_z + 0.15), (length * 0.20, side * beam * 0.27, fly_z + 0.15)], 0.018, steel, cid("flybridge"), flybridge)
+        if not is_super_flybridge:
+            # Current F/Manhattan/S flybridges are usually shaded by a slim
+            # hardtop. Adding the canopy and its four narrow legs closes the
+            # visual gap above the seating without turning the deck into an
+            # enclosed box or adding another selectable assembly.
+            fly_canopy_z = fly_z + 0.72
+            canopy_shell(
+                "flybridge hardtop canopy",
+                length * 0.18,
+                -length * 0.18,
+                fly_canopy_z - 0.08,
+                fly_canopy_z + 0.05,
+                beam * 0.40,
+                beam * 0.33,
+                graphite if is_sunseeker else white,
+                cid("flybridge"),
+                flybridge,
+            )
+            canopy_support_height = fly_canopy_z - fly_z - 0.09
+            canopy_support_z = fly_z + 0.09 + canopy_support_height * 0.50
+            for side in (-1, 1):
+                box(f"flybridge canopy forward leg {side}", (length * 0.15, side * beam * 0.285, canopy_support_z), (0.10, 0.08, canopy_support_height), steel, cid("flybridge"), flybridge, 0.018, True)
+                box(f"flybridge canopy aft leg {side}", (-length * 0.14, side * beam * 0.285, canopy_support_z), (0.10, 0.08, canopy_support_height), steel, cid("flybridge"), flybridge, 0.018, True)
         # Radar and antenna hardware gives the larger flybridge families a
         # recognizable navigation profile and anchors the otherwise light
         # canopy silhouette. It remains decorative within the flybridge
@@ -1134,17 +1238,20 @@ def add_cameras() -> None:
     # preserving a useful high/above pair for inspection.
     eye_z = max(2.10, length * 0.18)
     profile_z = max(1.85, length * 0.14)
-    add_camera("exterior_bow", "Review | Bow quarter", (length * 0.88, -length * 0.70, eye_z), (0, 0, 0.62), "deck_main", lens=50)
-    add_camera("exterior_port_profile", "Review | Port profile", (0, -length * 1.25, profile_z), (0, 0, 0.50), "deck_main", lens=55)
-    add_camera("exterior_starboard_profile", "Review | Starboard profile", (0, length * 1.25, profile_z), (0, 0, 0.50), "deck_main", lens=55)
-    add_camera("exterior_stern", "Review | Stern quarter", (-length * 0.88, length * 0.70, eye_z), (0, 0, 0.66), "cockpit", lens=50)
-    add_camera("exterior_high", "Review | High bow", (length * 0.50, 0, length * 1.18), (0, 0, 0.25), "deck_main", lens=50)
-    add_camera("exterior_above", "Review | Above plan", (length * 0.05, -length * 0.05, length * 1.85), (0, 0, 0.0), "deck_main", lens=52)
+    # Leave a deliberate margin around every review view. Tight cameras made
+    # complete hulls look truncated in the app, especially on the long X/Y,
+    # Manhattan and Ocean generations.
+    add_camera("exterior_bow", "Review | Bow quarter", (length * 1.08, -length * 0.92, eye_z), (0, 0, 0.62), "deck_main", lens=48)
+    add_camera("exterior_port_profile", "Review | Port profile", (0, -length * 1.48, profile_z), (0, 0, 0.50), "deck_main", lens=48)
+    add_camera("exterior_starboard_profile", "Review | Starboard profile", (0, length * 1.48, profile_z), (0, 0, 0.50), "deck_main", lens=48)
+    add_camera("exterior_stern", "Review | Stern quarter", (-length * 1.08, length * 0.92, eye_z), (0, 0, 0.66), "cockpit", lens=48)
+    add_camera("exterior_high", "Review | High bow", (length * 0.66, 0, length * 1.34), (0, 0, 0.25), "deck_main", lens=48)
+    add_camera("exterior_above", "Review | Above plan", (length * 0.07, -length * 0.07, length * 2.08), (0, 0, 0.0), "deck_main", lens=50)
     # Keep the under-hull inspection camera close enough to read the keel and
     # running gear. A vessel-length offset made this state mostly black and
     # visually useless on the larger generations.
-    add_camera("exterior_below", "Review | Below hull", (-length * 0.85, length * 0.65, -length * 0.55), (0, 0, -0.35), "deck_lower", lens=44)
-    add_camera("exterior_three_quarter", "Review | Starboard three-quarter", (length * 0.95, length * 0.92, eye_z), (0, 0, 0.58), "deck_main", lens=52)
+    add_camera("exterior_below", "Review | Below hull", (-length * 1.08, length * 0.84, -length * 0.62), (0, 0, -0.35), "deck_lower", lens=42)
+    add_camera("exterior_three_quarter", "Review | Starboard three-quarter", (length * 1.16, length * 1.12, eye_z), (0, 0, 0.58), "deck_main", lens=48)
     rooms = [key for key, value in COMPONENTS.items() if value.get("roomId") and value["interior"]]
     usable_start = -length * 0.31
     room_segment = length * 0.62 / max(1, len(rooms))

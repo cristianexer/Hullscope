@@ -120,6 +120,11 @@ def set_render_visibility(scene: bpy.types.Scene, interior: bool, room_id: str |
             room_wall = is_selected_room and (
                 (" port wall" in object_name and camera_side == "port")
                 or (" starboard wall" in object_name and camera_side == "starboard")
+                # Review cameras approach the authored room from aft. Remove
+                # that near bulkhead as well; otherwise the camera sees a
+                # full-height brown/white panel and the furnished room reads
+                # like an empty tray even though the asset is complete.
+                or " aft bulkhead" in object_name
             )
             context_wall = is_shared_lower_shell and any(token in object_name for token in ("wall", "partition", "bulkhead"))
             # A room cutaway must expose the furniture from above. The authored
