@@ -723,8 +723,12 @@ def create_geometry() -> None:
             # deck and the panoramic glass. It is intentionally not a full
             # hull shell: the authored cabin remains inspectable as one
             # selectable superstructure assembly.
-            shoulder_y = 0.37 if is_sportscruiser else 0.405
-            glass_y = 0.36 if is_sportscruiser else 0.415
+            # Keep the glazing on the curved cabin station rather than just
+            # outside its maximum beam. The previous offsets were a few
+            # centimetres too far out on the larger boats, which made the
+            # exported blue panes read as detached slabs in the browser.
+            shoulder_y = 0.365 if is_sportscruiser else 0.405
+            glass_y = 0.335 if is_sportscruiser else 0.370
             box(f"saloon painted lower shoulder {side}", (length * 0.05, side * beam * shoulder_y, 1.08), (length * 0.34, 0.10, 0.27), white, cid("superstructure"), super_root, 0.035, True)
             # The side of the curved cabin tapers inward toward the roof. Put
             # the solid pane on that outer slope; the earlier 0.31 offset
@@ -734,13 +738,13 @@ def create_geometry() -> None:
             # Slender mullions separate the broad glazed band into real panes;
             # they are visually important but intentionally non-selectable.
             for mullion in (-0.09, 0.02, 0.13):
-                box(f"saloon glazing mullion {side} {mullion}", (length * mullion, side * beam * (0.332 if is_sportscruiser else 0.354), 1.52 if is_sportscruiser else 1.60), (0.022, 0.040, 0.38 if is_sportscruiser else 0.48), steel, cid("glazing"), glazing, 0.006, True)
+                box(f"saloon glazing mullion {side} {mullion}", (length * mullion, side * beam * (0.334 if is_sportscruiser else 0.368), 1.52 if is_sportscruiser else 1.60), (0.022, 0.040, 0.38 if is_sportscruiser else 0.48), steel, cid("glazing"), glazing, 0.006, True)
             # White upper fascia and front/rear jambs keep the large panes
             # visually seated in the cabin shell; the earlier pane-only
             # treatment made the glass look like a loose blue board.
-            box(f"saloon glazing upper fascia {side}", (length * 0.05, side * beam * (0.395 if is_sportscruiser else 0.445), (1.76 if is_sportscruiser else 1.92) + height_lift * 0.35), (length * 0.34, 0.09, 0.11), white, cid("superstructure"), super_root, 0.025, True)
-            box(f"saloon glazing aft jamb {side}", (cabin_aft + 0.07, side * beam * (0.398 if is_sportscruiser else 0.445), 1.58 if is_sportscruiser else 1.69), (0.10, 0.09, 0.55 if is_sportscruiser else 0.68), white, cid("superstructure"), super_root, 0.022, True)
-            box(f"saloon glazing forward jamb {side}", (cabin_front - 0.07, side * beam * (0.398 if is_sportscruiser else 0.445), 1.58 if is_sportscruiser else 1.69), (0.10, 0.09, 0.55 if is_sportscruiser else 0.68), white, cid("superstructure"), super_root, 0.022, True)
+            box(f"saloon glazing upper fascia {side}", (length * 0.05, side * beam * (0.365 if is_sportscruiser else 0.390), (1.76 if is_sportscruiser else 1.92) + height_lift * 0.35), (length * 0.34, 0.09, 0.11), white, cid("superstructure"), super_root, 0.025, True)
+            box(f"saloon glazing aft jamb {side}", (cabin_aft + 0.07, side * beam * (0.368 if is_sportscruiser else 0.390), 1.58 if is_sportscruiser else 1.69), (0.10, 0.09, 0.55 if is_sportscruiser else 0.68), white, cid("superstructure"), super_root, 0.022, True)
+            box(f"saloon glazing forward jamb {side}", (cabin_front - 0.07, side * beam * (0.368 if is_sportscruiser else 0.390), 1.58 if is_sportscruiser else 1.69), (0.10, 0.09, 0.55 if is_sportscruiser else 0.68), white, cid("superstructure"), super_root, 0.022, True)
         if is_sportscruiser or is_large_predator:
             box("aft patio glass", (-length * 0.06, 0.0, 1.20), (0.035, beam * 0.58, 0.48), dark, cid("glazing"), glazing, 0.02, True)
     if length > 12 and not is_open_dayboat:
