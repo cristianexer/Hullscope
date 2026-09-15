@@ -1327,6 +1327,16 @@ def add_cameras() -> None:
         room_length = min(room_length, room_segment * 0.84)
         room_width = max(1.35, min(beam * 0.42, room_length * 0.80))
         room_z = 0.92
+        if any(word in room_name for word in ("engine", "machinery", "technical")):
+            # Engine-room geometry is authored at the aft service datum rather
+            # than in the accommodation bay sequence. The old indexed camera
+            # therefore looked into empty hull space and produced blank QA
+            # images even though the engines were present in the GLB.
+            x = -length * 0.30
+            y = -beam * 0.20
+            room_length = max(2.40, length * 0.22)
+            room_width = max(1.50, min(beam * 0.58, room_length * 0.80))
+            room_z = 0.72
         add_camera(
             f"room_{index}",
             f"Room | {comp['name']}",

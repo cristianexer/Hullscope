@@ -1112,7 +1112,10 @@ def create_cameras() -> None:
     create_camera("room_galley", "Room | Aft Galley", (-2.3, 0.35, 2.65), (-0.65, 1.15, 1.95), deck_id=cid("deck_main"), room_id=cid("room_galley"), lens=32)
     create_camera("room_helm", "Room | Starboard Helm", (4.5, 2.65, 2.85), (3.0, 1.2, 1.9), deck_id=cid("deck_main"), room_id=cid("room_helm"), lens=32)
     create_camera("room_head_0", "Room | Guest Head Forward", (1.8, -2.05, 0.72), (1.8, -1.15, -0.05), deck_id=cid("deck_lower"), room_id=cid("room_head_0"), lens=28)
-    create_camera("room_head_1", "Room | Guest Head Aft", (0.2, -2.05, 0.72), (0.2, -1.15, -0.05), deck_id=cid("deck_lower"), room_id=cid("room_head_1"), lens=28)
+    # The aft port head is the second head at x=3.0.  The former x=0.2
+    # target sat in the companionway void, so its dedicated review image was
+    # a valid render of empty space rather than evidence of the room.
+    create_camera("room_head_1", "Room | Guest Head Aft", (3.0, -2.05, 0.72), (3.0, -1.15, -0.05), deck_id=cid("deck_lower"), room_id=cid("room_head_1"), lens=28)
     create_camera("room_companionway", "Room | Central Companionway", (2.95, -1.85, 0.82), (2.6, -0.25, -0.40), deck_id=cid("deck_lower"), room_id=cid("room_companionway"), lens=28)
     create_camera("room_engine", "Room | Engine Space", (-7.65, -1.75, 0.62), (-5.55, 0.0, -0.22), deck_id=cid("deck_lower"), room_id=cid("room_engine"), lens=28)
 
