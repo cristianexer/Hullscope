@@ -70,7 +70,9 @@ test('representative Princess and Sunseeker authored assets load in the viewer',
   for (const id of ['princess-r35-gen1-2018', 'sunseeker-superhawk-55-gen1-2023']) {
     await page.goto(`#/vessel/${id}`);
     await expect(page.locator('[data-scene-status]')).toHaveAttribute('data-loaded', id);
-    await expect(page.locator('[data-scene-status]')).toHaveAttribute('data-loaded-lod', '0');
+    const tier=await page.locator('[data-scene-status]').getAttribute('data-renderer-tier');
+    expect(['enhanced','mobile','compatibility']).toContain(tier);
+    await expect(page.locator('[data-scene-status]')).toHaveAttribute('data-loaded-lod',tier==='enhanced'?'0':'1');
     await expect(page.locator('[data-scene-status]')).not.toHaveClass(/scene-error/);
   }
 });

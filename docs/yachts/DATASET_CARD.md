@@ -41,7 +41,7 @@ Dimensions are in metres. Original specification units and measurement condition
 - `provenance/`: source links, row dispositions, and unresolved factual uncertainties.
 - `checksums.txt`: SHA-256 integrity list for the release.
 
-LOD 1 preserves authored detail; LOD 0 reduces geometry conservatively while preserving semantic ownership. One selectable assembly can contain many render meshes. Teak seams, trim, fasteners and similar repetition are not inflated into selectable-part quotas.
+For these authored yacht assets, LOD 0 preserves the full exported detail and LOD 1 reduces geometry for mobile and compatibility rendering while preserving semantic ownership. This differs from Hullscope's legacy procedural-vessel convention. One selectable assembly can contain many render meshes. Teak seams, trim, fasteners and similar repetition are not inflated into selectable-part quotas.
 
 ## Provenance and limitations
 

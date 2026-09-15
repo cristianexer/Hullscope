@@ -4,7 +4,7 @@ Baseline: `8e73fd4273df9fa0ef45f0db9c7eea5bba8097cb`.
 
 ## Current release — 15 September 2026
 
-The user capped the collection at 20 generations (10 Princess and 10 Sunseeker) and subsequently authorized publication as-is. The public draft is now available at [cristianexer/hullscope-yachts](https://huggingface.co/datasets/cristianexer/hullscope-yachts), revision `1712ee395a615106ea6465f3bbc08b2c29521470`. All 569 staged files were anonymously downloaded and verified against the release checksums. The app is pinned to that revision and identifies the yachts as draft reconstructions.
+The user capped the collection at 20 generations (10 Princess and 10 Sunseeker) and subsequently authorized publication as-is. The public draft is now available at [cristianexer/hullscope-yachts](https://huggingface.co/datasets/cristianexer/hullscope-yachts), revision `962dabe349121eed93a593634e5c6aa0e7c8ec38`. All 569 staged files were anonymously verified against the release checksums and remote content identities. The app is pinned to that revision and identifies the yachts as draft reconstructions.
 
 See [the release report](yachts/RELEASE_2026-09-15.md) for scope, integrity evidence, checks and outstanding visual defects. The checkpoints below describe earlier work; they are retained as history and are superseded by this release report. Publication as a draft does not establish the original finished-model quality criteria.
 
