@@ -835,62 +835,12 @@ def create_geometry() -> None:
             cid("flybridge"),
             flybridge,
         )
-        if not is_super_flybridge:
-            # The open flybridge still needs a continuous built shoulder below
-            # its windscreen and furniture. Previously only thin coamings and
-            # four posts were present, so the upper deck read as loose slabs
-            # floating over the wheelhouse in profile. This tapered volume is
-            # deliberately shallow and open above; the side panes keep it
-            # legible as a deckhouse rather than a featureless solid block.
-            tapered_prism(
-                "flybridge deckhouse shoulder",
-                length * 0.23,
-                -length * 0.32,
-                fly_z - 0.015,
-                fly_z + 0.34,
-                beam * 0.36,
-                beam * 0.29,
-                white,
-                cid("flybridge"),
-                flybridge,
-            )
-            for side in (-1, 1):
-                window_band(
-                    f"flybridge shoulder side glazing {side}",
-                    -length * 0.25,
-                    length * 0.18,
-                    side * beam * 0.295,
-                    side * beam * 0.34,
-                    fly_z + 0.10,
-                    fly_z + 0.30,
-                    dark,
-                    cid("glazing"),
-                    glazing,
-                )
         box("flybridge helm console", (length * 0.10, beam * 0.18, fly_z + 0.30), (length * 0.12, beam * 0.16, 0.38), graphite, cid("flybridge"), flybridge, 0.05)
         box("flybridge port settee", (-length * 0.04, -beam * 0.22, fly_z + 0.30), (length * 0.20, beam * 0.16, 0.30), cushion, cid("flybridge"), flybridge, 0.06)
         box("flybridge starboard settee", (-length * 0.04, beam * 0.22, fly_z + 0.30), (length * 0.20, beam * 0.16, 0.30), cushion, cid("flybridge"), flybridge, 0.06)
         box("flybridge windscreen", (length * 0.19, 0.0, fly_z + 0.34), (0.035, beam * 0.54, 0.42), dark, cid("flybridge"), flybridge, 0.02, True)
         # Keep the upper glazing grouped under the single flybridge assembly;
-        # the shoulder below it supplies the physical continuity.
-        if not is_super_flybridge:
-            for side in (-1, 1):
-                # A low tinted windscreen closes the open social deck without
-                # turning it into a second solid cabin. It gives the upper
-                # helm a readable enclosure and visually bridges the shoulder
-                # to the hardtop in profile views.
-                window_band(
-                    f"flybridge side windscreen {side}",
-                    length * 0.18,
-                    -length * 0.18,
-                    side * beam * 0.385,
-                    side * beam * 0.405,
-                    fly_z + 0.24,
-                    fly_z + 0.52,
-                    dark,
-                    cid("glazing"),
-                    glazing,
-                )
+        # the authored supports supply physical continuity below the deck.
         box("flybridge wetbar", (-length * 0.12, beam * 0.10, fly_z + 0.23), (length * 0.12, beam * 0.20, 0.30), wood, cid("flybridge"), flybridge, 0.045, True)
         box("flybridge barbecue worktop", (-length * 0.12, beam * 0.10, fly_z + 0.40), (length * 0.14, beam * 0.22, 0.06), steel, cid("flybridge"), flybridge, 0.018, True)
         box("flybridge port aft sunpad", (-length * 0.18, -beam * 0.19, fly_z + 0.25), (length * 0.16, beam * 0.15, 0.22), cushion, cid("flybridge"), flybridge, 0.05, True)
