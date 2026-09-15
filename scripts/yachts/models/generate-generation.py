@@ -638,20 +638,15 @@ def create_geometry() -> None:
     hull_surface = carbon if model_name == "r35" else white
     hull_mesh(length, beam * 0.987, draft, hull_surface, cid("hull_shell"), hull, hull_profile)
     for side in (-1, 1):
-        box(f"hull boot stripe {side}", (-length * 0.06, side * beam * 0.46, 0.25), (length * 0.60, 0.035, 0.12), graphite, cid("hull_shell"), hull, 0.02, True)
+        # Keep the upper sheer rail as the single continuous edge cue. Thin
+        # parallel bars outside the shell read as floating trim in three-quarter
+        # views, so hullside windows provide the needed visual contrast.
         box(f"upper sheer rail {side}", (-length * 0.02, side * beam * 0.475, 0.66), (length * 0.74, 0.028, 0.055), steel, cid("hull_shell"), hull, 0.012, True)
-        box(f"lower chine highlight {side}", (-length * 0.08, side * beam * 0.39, -draft * 0.28), (length * 0.48, 0.022, 0.045), graphite, cid("hull_shell"), hull, 0.01, True)
-        # A continuous shoulder below the windows makes the freeboard read as
-        # one built hull side instead of a thin floating window strip.
-        box(f"painted hull shoulder {side}", (length * 0.02, side * beam * 0.455, 0.82), (length * 0.52, 0.035, 0.20), hull_surface, cid("hull_shell"), hull, 0.025, True)
     deck_shell("continuous sheer-following main deck", length, beam, teak if model_name != "r35" else carbon, cid("deck_main"), deck, hull_profile)
     box("foredeck cap", (length * 0.27, 0.0, 0.80), (length * 0.28, beam * 0.72, 0.10), hull_surface, cid("deck_main"), deck, 0.035, True)
-    # Narrow inlaid deck lines make the teak treatment read as a built deck
-    # rather than a single colored slab while remaining one selectable deck
-    # assembly.
-    for index in range(7):
-        x = -length * 0.28 + index * length * 0.085
-        box(f"foredeck inlay {index}", (x, 0.0, 0.858), (0.018, beam * 0.70, 0.012), graphite, cid("deck_main"), deck, 0.002, True)
+    # Deck grain is carried by the authored teak material. Keep the surface
+    # continuous here; raised strips made the foredeck read as loose bars in
+    # the browser instead of a finished walking surface.
     # The station hull already supplies the transom. Keep only a slim fascia
     # so the rounded stern remains visible instead of reading as a detached
     # rectangular wall in profile and three-quarter views.
@@ -778,8 +773,6 @@ def create_geometry() -> None:
         for side in (-1, 1):
             box(f"side wind deflector {side}", (length * 0.06, side * beam * 0.40, 1.18), (length * 0.15, 0.035, 0.28), dark, cid("glazing"), glazing, 0.02, True)
     box("aft cockpit deck", (-length * 0.27, 0.0, 0.84), (length * 0.34, beam * 0.86, 0.10), teak, cid("cockpit"), cockpit, 0.03)
-    for index in range(5):
-        box(f"cockpit deck inlay {index}", (-length * 0.39 + index * length * 0.06, 0.0, 0.895), (0.016, beam * 0.80, 0.012), graphite, cid("cockpit"), cockpit, 0.002, True)
     box("port cockpit settee", (-length * 0.28, -beam * 0.28, 1.10), (length * 0.24, beam * 0.22, 0.38), cushion, cid("cockpit"), cockpit, 0.08)
     box("starboard cockpit settee", (-length * 0.28, beam * 0.28, 1.10), (length * 0.24, beam * 0.22, 0.38), cushion, cid("cockpit"), cockpit, 0.08)
     box("cockpit table", (-length * 0.28, 0.0, 1.34), (length * 0.16, beam * 0.23, 0.08), wood, cid("cockpit"), cockpit, 0.025, True)
@@ -1352,7 +1345,20 @@ def scale_upper_superstructure(target_length: float, is_open_dayboat: bool) -> N
     """
     if is_open_dayboat:
         return
-    scale = max(1.0, min(2.25, target_length / 12.0))
+    range_name = str(MODEL.get("range", "")).lower()
+    model_type = str(MODEL.get("type", "")).lower()
+    is_sportscruiser = range_name in {"v class", "predator", "portofino"} or "sportscruiser" in model_type
+    if is_sportscruiser:
+        # Predator and Portofino generations grow in length without becoming
+        # proportionally taller. The old length/12 rule stretched every
+        # upper mesh nearly 2x on the Predator 84, producing a tower of
+        # disconnected plates instead of the low, fast Sunseeker profile.
+        scale = max(1.0, min(1.35, target_length / 18.0))
+    else:
+        # Flybridge families do gain height, but the audited references show a
+        # restrained increase. Cap the multiplier so the F/Y/Manhattan/X
+        # silhouettes stay broad and yacht-like rather than becoming towers.
+        scale = max(1.0, min(1.55, target_length / 18.0))
     base = 0.78
     fixed = {
         "hull_shell", "deck_main", "cockpit", "swim_platform", "deck_lower",
