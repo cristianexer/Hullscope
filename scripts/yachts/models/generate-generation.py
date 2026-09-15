@@ -835,35 +835,49 @@ def create_geometry() -> None:
             cid("flybridge"),
             flybridge,
         )
+        if not is_super_flybridge:
+            # The open flybridge still needs a continuous built shoulder below
+            # its windscreen and furniture. Previously only thin coamings and
+            # four posts were present, so the upper deck read as loose slabs
+            # floating over the wheelhouse in profile. This tapered volume is
+            # deliberately shallow and open above; the side panes keep it
+            # legible as a deckhouse rather than a featureless solid block.
+            tapered_prism(
+                "flybridge deckhouse shoulder",
+                length * 0.23,
+                -length * 0.32,
+                fly_z - 0.015,
+                fly_z + 0.34,
+                beam * 0.36,
+                beam * 0.29,
+                white,
+                cid("flybridge"),
+                flybridge,
+            )
+            for side in (-1, 1):
+                window_band(
+                    f"flybridge shoulder side glazing {side}",
+                    -length * 0.25,
+                    length * 0.18,
+                    side * beam * 0.295,
+                    side * beam * 0.34,
+                    fly_z + 0.10,
+                    fly_z + 0.30,
+                    dark,
+                    cid("glazing"),
+                    glazing,
+                )
         box("flybridge helm console", (length * 0.10, beam * 0.18, fly_z + 0.30), (length * 0.12, beam * 0.16, 0.38), graphite, cid("flybridge"), flybridge, 0.05)
         box("flybridge port settee", (-length * 0.04, -beam * 0.22, fly_z + 0.30), (length * 0.20, beam * 0.16, 0.30), cushion, cid("flybridge"), flybridge, 0.06)
         box("flybridge starboard settee", (-length * 0.04, beam * 0.22, fly_z + 0.30), (length * 0.20, beam * 0.16, 0.30), cushion, cid("flybridge"), flybridge, 0.06)
         box("flybridge windscreen", (length * 0.19, 0.0, fly_z + 0.34), (0.035, beam * 0.54, 0.42), dark, cid("flybridge"), flybridge, 0.02, True)
-        # Continuous coamings and a transom fascia make the upper deck read
-        # as a supported deckhouse, while all of these pieces remain grouped
-        # under the single flybridge assembly for efficient interaction.
-        box("flybridge port coaming", (-length * 0.02, -beam * fly_beam * 0.43, fly_z + 0.10), (length * fly_len * 0.88, beam * 0.06, 0.22), white, cid("flybridge"), flybridge, 0.035, True)
-        box("flybridge starboard coaming", (-length * 0.02, beam * fly_beam * 0.43, fly_z + 0.10), (length * fly_len * 0.88, beam * 0.06, 0.22), white, cid("flybridge"), flybridge, 0.035, True)
-        box("flybridge aft fascia", (-length * 0.02 - length * fly_len * 0.44, 0.0, fly_z + 0.10), (0.12, beam * fly_beam * 0.86, 0.22), white, cid("flybridge"), flybridge, 0.035, True)
-        # A substantial side fascia visually joins the upper deck to its
-        # supports. The previous narrow coamings left only several horizontal
-        # lines in a three-quarter browser view, making the flybridge appear
-        # to float above the wheelhouse.
-        for side in (-1, 1):
-            box(
-                f"flybridge continuous side fascia {side}",
-                (-length * 0.02, side * beam * fly_beam * 0.41, fly_z + 0.23),
-                (length * fly_len * 0.78, 0.11, 0.34),
-                white,
-                cid("flybridge"),
-                flybridge,
-                0.035,
-                True,
-            )
-            if not is_super_flybridge:
+        # Keep the upper glazing grouped under the single flybridge assembly;
+        # the shoulder below it supplies the physical continuity.
+        if not is_super_flybridge:
+            for side in (-1, 1):
                 # A low tinted windscreen closes the open social deck without
                 # turning it into a second solid cabin. It gives the upper
-                # helm a readable enclosure and visually bridges the fascia
+                # helm a readable enclosure and visually bridges the shoulder
                 # to the hardtop in profile views.
                 window_band(
                     f"flybridge side windscreen {side}",
@@ -895,8 +909,6 @@ def create_geometry() -> None:
             # inspectable without adding another selectable assembly.
             box(f"flybridge side cheek {side}", (length * 0.02, side * beam * 0.30, bridge_base + support_height * 0.30), (length * 0.28, 0.10, 0.12), white, cid("flybridge"), flybridge, 0.025, True)
         box("flybridge stair housing", (-length * 0.14, 0.0, bridge_base + support_height * 0.34), (0.42, beam * 0.20, support_height * 0.62), white, cid("flybridge"), flybridge, 0.05, True)
-        for side in (-1, 1):
-            add_curve_rail(f"flybridge rail {side}", [(-length * 0.20, side * beam * 0.33, fly_z + 0.15), (length * 0.08, side * beam * 0.36, fly_z + 0.15), (length * 0.20, side * beam * 0.27, fly_z + 0.15)], 0.018, steel, cid("flybridge"), flybridge)
         if not is_super_flybridge:
             # Current F/Manhattan/S flybridges are usually shaded by a slim
             # hardtop. Adding the canopy and its four narrow legs closes the
