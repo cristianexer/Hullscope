@@ -13,7 +13,7 @@ export function yachtVessel(model:YachtResearch,manifest:AuthoredManifest,thumbn
  const sources=model.sources.map(source=>({...source,id:sourceId(source.url),published:null}));
  return yachtVesselSchema.parse({
   id:model.id,name:`${model.brand} ${model.name}`,family:{id:`${model.brand.toLowerCase()}-${model.range.toLowerCase().replace(/[^a-z0-9]+/g,'-')}`,name:`${model.brand} ${model.range}`,group:'Yachts',description:model.visual.superstructureDescription,subtypes:[model.type]},
-  yacht:{brand:model.brand,range:model.range,type:model.type,generation:model.generation,productionStart:model.productionStart,productionEnd:model.productionEnd,productionStatus:model.productionStatus,aliases:model.aliases,thumbnail,manifest:preview?`yacht-assets/models/${model.id}/manifest.json`:`yachts/${model.id}/manifest.json`},
+  yacht:{brand:model.brand,range:model.range,type:model.type,generation:model.generation,productionStart:model.productionStart,productionEnd:model.productionEnd,productionStatus:model.productionStatus,aliases:model.aliases,thumbnail,manifest:preview?`models/${model.id}/manifest.json`:`yachts/${model.id}/manifest.json`},
   subtitle:model.type,purpose:'Explore the documented configuration and reference-informed exterior and interior arrangement.',length:model.dimensions.lengthM,beam:model.dimensions.beamM,depth:maxY-minY,year:model.productionStart,hullColor:'#f4f1e9',deckColor:'#a48a68',kind:'yacht',configuration:model.referenceConfiguration,dimensionStatus:'verified',
   facts:model.facts.map(fact=>({label:fact.label,value:fact.value,unit:fact.unit,status:fact.status,sourceId:fact.status==='unknown'?null:fact.sourceUrl?sourceId(fact.sourceUrl):null,effective:null,note:fact.note})),sources,
   signature:model.visual.distinctiveFeatures.join(' · '),operation:'Room and deck cameras inspect the representative configuration. Equipment arrangements marked reconstructed are illustrative, not a factory survey.',efficiency:'Recorded performance depends on propulsion option, loading and conditions; no design or fuel-consumption simulation is implied.',risk:'Do not use this educational reconstruction for navigation, vessel operation, emergency planning or engineering.',modelNote:`${preview?'DRAFT — NOT RELEASE-APPROVED. ':''}${manifest.fidelity} ${model.uncertainties.join(' ')}`,
@@ -27,7 +27,10 @@ export async function preparePreview(ids:string[]){
  for(const model of models){
   const manifest=JSON.parse(await readFile(`.tools/yachts/assets/models/${model.id}/manifest.json`,'utf8')) as AuthoredManifest;
   // No reference image is used as a preview thumbnail. Authors/exporters supply original renders.
-  const thumbnail=`yacht-assets/thumbnails/${model.id}.png`;
+  // Resolver adapters add the local/HF dataset root. Keep catalog paths
+  // dataset-relative so local preview URLs do not become
+  // /yacht-assets/yacht-assets/… .
+  const thumbnail=`thumbnails/${model.id}.png`;
   vessels.push(yachtVessel(model,manifest,thumbnail,true));
  }
  await mkdir('.tools/yachts/preview',{recursive:true});

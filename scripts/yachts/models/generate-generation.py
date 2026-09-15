@@ -661,8 +661,13 @@ def create_geometry() -> None:
     if is_open_dayboat:
         # The R35/Hawk 38 are open performance boats, not miniature flybridge
         # yachts. Keep the center console low and let the hull/deck dominate.
-        box("low console cowl", (length * 0.08, 0.0, 1.06), (length * 0.20, beam * 0.52, 0.18), white, cid("superstructure"), super_root, 0.07)
-        box("central helm screen", (length * 0.15, 0.0, 1.28), (0.035, beam * 0.43, 0.30), dark, cid("glazing"), glazing, 0.025, True)
+        # A tapered console and sloping windscreen provide the actual visual
+        # center of an open boat; the previous low cube was easy to lose behind
+        # the gunwales in a three-quarter browser view.
+        tapered_prism("low center-console body", length * 0.18, -length * 0.02, 0.88, 1.38, beam * 0.27, beam * 0.20, hull_surface, cid("superstructure"), super_root)
+        tapered_prism("sloping center-console windscreen", length * 0.18, length * 0.02, 1.34, 1.62, beam * 0.21, beam * 0.15, dark, cid("glazing"), glazing)
+        box("low console cowl", (length * 0.08, 0.0, 1.08), (length * 0.20, beam * 0.52, 0.16), white, cid("superstructure"), super_root, 0.06)
+        box("central helm screen", (length * 0.15, 0.0, 1.47), (0.035, beam * 0.31, 0.16), dark, cid("glazing"), glazing, 0.018, True)
         box("port wind deflector", (length * 0.10, -beam * 0.32, 1.20), (length * 0.16, 0.035, 0.22), dark, cid("glazing"), glazing, 0.02, True)
         box("starboard wind deflector", (length * 0.10, beam * 0.32, 1.20), (length * 0.16, 0.035, 0.22), dark, cid("glazing"), glazing, 0.02, True)
     else:
@@ -752,7 +757,13 @@ def create_geometry() -> None:
     box("battery bank", (-length * 0.03, 0.0, -draft * 0.30), (length * 0.14, beam * 0.24, 0.28), graphite, cid("electrical"), electrical, 0.04)
     box("fuel tank", (-length * 0.12, 0.0, -draft * 0.48), (length * 0.25, beam * 0.32, 0.24), graphite, cid("fuel"), fuel, 0.05)
     box("freshwater tank", (length * 0.10, 0.0, -draft * 0.45), (length * 0.18, beam * 0.26, 0.22), white, cid("freshwater"), freshwater, 0.05)
-    cylinder("ventilation trunk", (length * 0.05, beam * 0.25, 1.95), 0.07, length * 0.20, steel, cid("ventilation"), ventilation, (0.0, math.pi / 2.0, 0.0), True)
+    # Keep the service trunk anchored to the deckhouse roof. The former fixed
+    # 1.95 m datum floated well above the low R35/Hawk/V40 profiles and was
+    # the most obvious “missing piece” in their browser screenshots.
+    vent_base = locals().get("cabin_top", 1.30)
+    vent_z = 0.65 if is_open_dayboat else vent_base + 0.12
+    vent_depth = length * (0.12 if is_open_dayboat else 0.15)
+    cylinder("ventilation trunk", (length * 0.05, 0.0, vent_z), 0.055, vent_depth, steel, cid("ventilation"), ventilation, (0.0, math.pi / 2.0, 0.0), True)
     box("liferaft canister", (-length * 0.38, -beam * 0.40, 1.20), (length * 0.14, beam * 0.11, 0.16), orange, cid("safety"), safety, 0.04, True)
     box("anchor", (length * 0.49, 0.0, 0.48), (0.20, 0.12, 0.42), steel, cid("mooring"), mooring, 0.025, True)
     for side in (-1, 1):

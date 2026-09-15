@@ -718,3 +718,25 @@ input::placeholder { color: #92afc5; }
 .interior-navigator{display:flex;align-items:start;gap:12px;flex-wrap:wrap;max-width:min(720px,100%);padding:10px 14px;background:var(--panel,#17232b);border:1px solid var(--line,#34434d);border-radius:6px;position:relative;z-index:2;margin:8px 20px}
 .interior-navigator label{display:grid;gap:5px;min-width:160px;font-size:11px}.interior-evidence{flex-basis:100%;font-size:11px;line-height:1.5;margin:0;color:var(--muted,#a7b5be)}
 @media(max-width:700px){.interior-navigator{margin:6px 10px;gap:8px}.interior-navigator label{min-width:0;flex:1}.interior-evidence{max-height:3em;overflow:auto}}
+
+/* Keep the view toolbar below the compact vessel heading on short screens.
+   Several legacy responsive rules target this same breakpoint; this final
+   block makes the stacking contract explicit and prevents the controls from
+   covering the title card or each other. */
+@media (max-width:900px) and (max-height:600px) {
+ .stage-top { top: 76px; left: 8px; right: 8px; display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: flex-start; gap: 6px; }
+ .view-switch { min-width: 0; max-width: 100%; flex: 1 1 360px; overflow-x: auto; }
+ .view-switch button { flex: 0 0 auto; }
+ .stage-actions { position: static; flex: 0 1 auto; margin-left: auto; }
+ .stage-actions .camera-select { display: none; }
+ .canvas-wrap { top: 116px; }
+ .scene-caption { top: 105px; }
+}
+
+@media (max-width:600px) and (max-height:520px) {
+ .stage-top { top: 72px; }
+ .view-switch { flex-basis: 100%; }
+ .stage-actions { width: 100%; justify-content: flex-end; }
+ .canvas-wrap { top: 132px; }
+ .scene-caption { top: 121px; }
+}
